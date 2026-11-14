@@ -30,6 +30,7 @@ interface Props {
     editTypes: string[];
     targetDepartments?: string[];
     shifts?: string[];
+    storeDepartments?: string[];
     userBranch?: string | null;
     canChangeBranch?: boolean;
 }
@@ -40,6 +41,7 @@ export default function EditRequestCreate({
     editTypes = [],
     targetDepartments = ['Finance', 'F&B'],
     shifts = ['shft 1', 'shft 2'],
+    storeDepartments = [],
     userBranch = null,
     canChangeBranch = false,
 }: Props) {
@@ -63,6 +65,7 @@ export default function EditRequestCreate({
         edit_type: editTypes[0] || 'Date Change',
         store_user: '',
         shift: shifts[0] || 'shft 1',
+        store_departments: [] as string[],
         incorrect_date: '',
         correct_date: '',
         reason: '',
@@ -88,6 +91,25 @@ export default function EditRequestCreate({
         }
     };
 
+    const toggleStoreDepartment = (dept: string) => {
+        setData((prev) => {
+            const current = prev.store_departments || [];
+            if (current.includes(dept)) {
+                return { ...prev, store_departments: current.filter((d) => d !== dept) };
+            } else {
+                return { ...prev, store_departments: [...current, dept] };
+            }
+        });
+    };
+
+    const selectAllStoreDepartments = () => {
+        setData('store_departments', [...storeDepartments]);
+    };
+
+    const clearStoreDepartments = () => {
+        setData('store_departments', []);
+    };
+
     const addVoucherCode = () => {
         setVoucherCodes((prev) => [...prev, '']);
     };
@@ -106,12 +128,19 @@ export default function EditRequestCreate({
     const submit = (e: React.FormEvent) => {
         e.preventDefault();
 
-        // Synchronize voucher codes array if in voucher mode
-        const cleanedCodes = voucherCodes.map((c) => c.trim()).filter(Boolean);
-        const codeString = cleanedCodes.join(', ');
+        if (isOHD) {
+            if (!data.store_departments || data.store_departments.length === 0) {
+                alert('Please select at least one Department Store.');
+                return;
+            }
+        } else {
+            // Synchronize voucher codes array if in voucher mode
+            const cleanedCodes = voucherCodes.map((c) => c.trim()).filter(Boolean);
+            const codeString = cleanedCodes.join(', ');
 
-        data.voucher_codes = cleanedCodes;
-        data.voucher_code = codeString || data.voucher_code;
+            data.voucher_codes = cleanedCodes;
+            data.voucher_code = codeString || data.voucher_code;
+        }
 
         post(route('edit-requests.store'));
     };
@@ -463,6 +492,67 @@ export default function EditRequestCreate({
                                                 searchPlaceholder="Search shift (shft 1, shft 2)..."
                                             />
                                         </div>
+                                    </div>
+
+                                    {/* Department Stores (Select one or more) */}
+                                    <div className="space-y-2 pt-1">
+                                        <div className="flex items-center justify-between">
+                                            <Label className="text-xs font-semibold flex items-center gap-1.5">
+                                                <span>Department Stores (Select one or more) 🏢</span>
+                                                <span className="text-destructive">*</span>
+                                                {data.store_departments.length > 0 && (
+                                                    <Badge variant="secondary" className="text-[10px] h-5 px-1.5">
+                                                        {data.store_departments.length} Selected
+                                                    </Badge>
+                                                )}
+                                            </Label>
+                                            <div className="flex items-center gap-2">
+                                                <button
+                                                    type="button"
+                                                    onClick={selectAllStoreDepartments}
+                                                    className="text-[11px] text-primary hover:underline font-medium"
+                                                >
+                                                    Select All
+                                                </button>
+                                                <span className="text-muted-foreground text-[10px]">•</span>
+                                                <button
+                                                    type="button"
+                                                    onClick={clearStoreDepartments}
+                                                    className="text-[11px] text-muted-foreground hover:text-foreground"
+                                                >
+                                                    Clear
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 p-3 rounded-xl bg-muted/20 border border-border/50 max-h-56 overflow-y-auto">
+                                            {storeDepartments.map((dept) => {
+                                                const isChecked = data.store_departments.includes(dept);
+                                                return (
+                                                    <label
+                                                        key={dept}
+                                                        className={`flex items-center gap-2 p-2 rounded-lg border text-xs cursor-pointer transition-colors ${
+                                                            isChecked
+                                                                ? 'bg-primary/10 border-primary/40 font-medium text-foreground'
+                                                                : 'bg-background hover:bg-muted/50 border-border/60 text-muted-foreground'
+                                                        }`}
+                                                    >
+                                                        <input
+                                                            type="checkbox"
+                                                            checked={isChecked}
+                                                            onChange={() => toggleStoreDepartment(dept)}
+                                                            className="h-4 w-4 rounded border-input text-primary focus:ring-primary"
+                                                        />
+                                                        <span className="truncate" title={dept}>
+                                                            {dept}
+                                                        </span>
+                                                    </label>
+                                                );
+                                            })}
+                                        </div>
+                                        {errors.store_departments && (
+                                            <p className="text-xs text-destructive">{errors.store_departments}</p>
+                                        )}
                                     </div>
                                 </div>
                             )}

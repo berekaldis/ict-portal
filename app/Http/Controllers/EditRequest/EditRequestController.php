@@ -174,6 +174,35 @@ class EditRequestController extends Controller
             'shft 2',
         ];
 
+        // Store Departments from edit_request folder & settings table
+        $defaultStoreDepts = [
+            "Hot Kitchen",
+            "Bottle & Can Bar",
+            "Pastry",
+            "Food Store",
+            "Juice & Smoothie Bar",
+            "Steward",
+            "Cup Store",
+            "Ice Cream & Shake Bar",
+            "Coffee Bar",
+            "Milk Store",
+            "Super Market Store",
+            "Staff Canteen",
+        ];
+
+        $storeDepartments = $defaultStoreDepts;
+        try {
+            $settingVal = DB::table('settings')->where('setting_key', 'store_departments')->value('setting_value');
+            if ($settingVal) {
+                $decoded = json_decode($settingVal, true);
+                if (is_array($decoded) && !empty($decoded)) {
+                    $storeDepartments = array_values(array_unique(array_filter($decoded)));
+                }
+            }
+        } catch (\Throwable $e) {
+            // fallback to default list
+        }
+
         $currentUser = auth()->user();
         $userBranch = $currentUser?->branch;
 
@@ -183,6 +212,7 @@ class EditRequestController extends Controller
             'editTypes' => $editTypes,
             'targetDepartments' => $targetDepartments,
             'shifts' => $shifts,
+            'storeDepartments' => $storeDepartments,
             'userBranch' => $userBranch,
             'canChangeBranch' => empty($userBranch) || ($currentUser && $currentUser->hasRole(['Super Admin', 'superadmin'])),
         ]);
@@ -194,13 +224,15 @@ class EditRequestController extends Controller
             'branch' => 'nullable|string|max:200',
             'user_name' => 'required|string|max:100',
             'action_type' => 'required|in:Edit,Void,On Hand Delete',
-            'target_dept' => 'required|string|in:Finance,F&B',
+            'target_dept' => 'required|string|max:100',
             'reason' => 'nullable|string',
             'voucher_code' => 'nullable|string|max:255',
             'voucher_codes' => 'nullable|array',
             'voucher_type' => 'nullable|required_unless:action_type,On Hand Delete|string|max:100',
             'edit_type' => 'nullable|string|max:100',
             'store_user' => 'nullable|string|max:150',
+            'store_departments' => 'nullable|array',
+            'departments' => 'nullable|array',
             'incorrect_date' => 'nullable|string|max:50',
             'correct_date' => 'nullable|string|max:50',
             'shift' => 'nullable|string|max:50',
@@ -216,7 +248,32 @@ class EditRequestController extends Controller
         }
 
         $actionType = $validated['action_type'];
-        $targetDept = $validated['target_dept'];
+        $baseTargetDept = $validated['target_dept'];
+
+        // On Hand Delete specifics (Store User and Department Stores)
+        if ($actionType === 'On Hand Delete') {
+            if (empty(trim($validated['store_user'] ?? ''))) {
+                return back()->withErrors(['store_user' => 'Department Store User is required for On Hand Delete requests.']);
+            }
+
+            if (empty($validated['correct_date'])) {
+                return back()->withErrors(['correct_date' => 'On Hand Delete Date is required.']);
+            }
+
+            $selectedStoreDepts = $request->input('store_departments', $request->input('departments', []));
+            if (empty($selectedStoreDepts) || !is_array($selectedStoreDepts)) {
+                return back()->withErrors(['store_departments' => 'Please select at least one Department Store.']);
+            }
+
+            $cleanedStoreDepts = array_values(array_filter(array_map('trim', $selectedStoreDepts)));
+            if (empty($cleanedStoreDepts)) {
+                return back()->withErrors(['store_departments' => 'Please select at least one Department Store.']);
+            }
+
+            $targetDept = $baseTargetDept . ' (' . implode(', ', $cleanedStoreDepts) . ')';
+        } else {
+            $targetDept = $baseTargetDept;
+        }
 
         // Voucher code resolution
         $voucherCode = null;

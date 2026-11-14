@@ -226,6 +226,22 @@ export default function EditRequestShow({ requestItem, logs }: Props) {
                                         <span className="text-muted-foreground">Deletion Date</span>
                                         <div className="font-semibold text-foreground text-sm">{requestItem.correct_date || '-'}</div>
                                     </div>
+
+                                    {requestItem.target_dept && requestItem.target_dept.includes('(') && (
+                                        <div className="space-y-1.5 col-span-2 sm:col-span-4 pt-1 border-t border-border/40">
+                                            <span className="text-muted-foreground font-medium">Department Stores</span>
+                                            <div className="flex flex-wrap gap-1.5">
+                                                {requestItem.target_dept
+                                                    .replace(/^[^(]*\((.*)\)[^)]*$/, '$1')
+                                                    .split(',')
+                                                    .map((s, idx) => (
+                                                        <Badge key={idx} variant="outline" className="text-xs bg-muted/30">
+                                                            🏢 {s.trim()}
+                                                        </Badge>
+                                                    ))}
+                                            </div>
+                                        </div>
+                                    )}
                                 </>
                             ) : (
                                 <>

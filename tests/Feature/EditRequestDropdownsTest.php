@@ -4,10 +4,18 @@ namespace Tests\Feature;
 
 use App\Models\User;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Http;
 use Tests\TestCase;
 
 class EditRequestDropdownsTest extends TestCase
 {
+    protected function setUp(): void
+    {
+        parent::setUp();
+        Http::fake([
+            'api.telegram.org/*' => Http::response(['ok' => true], 200),
+        ]);
+    }
     public function test_create_page_contains_active_branches_and_exact_edit_request_dropdowns(): void
     {
         $user = User::where('username', 'bole_branch')->first();
@@ -65,6 +73,7 @@ class EditRequestDropdownsTest extends TestCase
                 'shft 1',
                 'shft 2',
             ])
+            ->has('storeDepartments')
             ->where('userBranch', $user->branch)
         );
     }
@@ -82,6 +91,7 @@ class EditRequestDropdownsTest extends TestCase
             'user_name' => 'Bole Requester',
             'store_user' => 'Abebech (Kitchen Store)',
             'target_dept' => 'F&B',
+            'store_departments' => ['Hot Kitchen', 'Pastry'],
             'correct_date' => '2026-11-13',
             'shift' => 'shft 1',
             'reason' => 'Inventory on-hand balance adjustment',
@@ -92,6 +102,7 @@ class EditRequestDropdownsTest extends TestCase
             'action_type' => 'On Hand Delete',
             'branch' => $user->branch ?: 'Bole',
             'store_user' => 'Abebech (Kitchen Store)',
+            'target_dept' => 'F&B (Hot Kitchen, Pastry)',
             'shift' => 'shft 1',
         ]);
     }
