@@ -1,0 +1,78 @@
+{
+    "bot_token": "8989019561:AAGZey9AIifl27hM2swv_FhpG31wh5ogPWQ",
+    "region_groups": {
+        "Region 1": -1003724420241,
+        "Region 2": 0
+    },
+    "groups": {
+        "Region 1": -1003724420241,
+        "Region 2": 0
+    },
+    "operations_director_user_id": 12345678,
+    "database": "kaldis.db",
+    "anti_link_protection": false,
+    "auto_welcome": false,
+    "welcome_message": "Welcome {name} to {group}! Please follow group rules.",
+    "standard_topics": [
+        {
+            "name": "Announcements",
+            "department": "Operations",
+            "emoji": "📢"
+        },
+        {
+            "name": "Operations",
+            "department": "Operations",
+            "emoji": "⚙️"
+        },
+        {
+            "name": "HR",
+            "department": "HR",
+            "emoji": "💼"
+        },
+        {
+            "name": "Finance",
+            "department": "Finance",
+            "emoji": "💰"
+        },
+        {
+            "name": "Supply Chain",
+            "department": "Supply Chain",
+            "emoji": "📦"
+        },
+        {
+            "name": "IT",
+            "department": "IT",
+            "emoji": "💻"
+        },
+        {
+            "name": "Maintenance",
+            "department": "Maintenance",
+            "emoji": "🔧"
+        },
+        {
+            "name": "F&B",
+            "department": "F&B",
+            "emoji": "☕"
+        },
+        {
+            "name": "T&D",
+            "department": "T&D",
+            "emoji": "🎓"
+        },
+        {
+            "name": "QA",
+            "department": "QA",
+            "emoji": "🛡️"
+        },
+        {
+            "name": "BI",
+            "department": "BI",
+            "emoji": "📊"
+        },
+        {
+            "name": "BIt",
+            "department": "Bar Tender",
+            "emoji": "📢"
+        }
+    ]
+}

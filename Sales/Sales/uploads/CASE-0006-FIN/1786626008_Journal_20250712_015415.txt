@@ -1,0 +1,5877 @@
+JOURNAL NUMBER 540 CLEARED
+SIGNATURE:      B9C2DB410BD099F57080
+                B084F689EDA98C456396
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+   S E S S I O N   Z   R E P O R T
+
+Z:2039
+11/07/2025                     20:08
+
+SALES                             93
+DISCOUNTS (0)                  *0.00
+SURCHARGES (44)              *449.07
+VOID (0)                       *0.00
+CASH                       *12722.54
+
+CASH DEPOSIT (0)               *0.00
+CASH DEDUCTED (0)              *0.00
+CASH AVAILABLE             *12722.54
+
+ACCU.EJ                     00000540
+SESSION.EJ                         1
+SIGNATURE:      B9C2DB410BD099F57080
+                B084F689EDA98C456396
+------------------------------------
+TXBL1                      *11063.09
+TXBL2                          *0.00
+TXBL3                          *0.00
+NOTXBL                         *0.00
+TAX1  15.00%                *1659.46
+TAX2   0.00%                   *0.00
+TAX3   0.00%                   *0.00
+ - - - - - - - - - - - - - - - - - -
+SALES TL                   *11063.09
+TXBL TL                    *11063.09
+TAX TL                      *1659.46
+------------------------------------
+RFD TXBL1                      *0.00
+RFD TXBL2                      *0.00
+RFD TXBL3                      *0.00
+RFD NOTXBL                     *0.00
+RFD TAX1  15.00%               *0.00
+RFD TAX2   0.00%               *0.00
+RFD TAX3   0.00%               *0.00
+ - - - - - - - - - - - - - - - - - -
+RFD SALES TL                   *0.00
+RFD TXBL TL                    *0.00
+RFD TAX TL                     *0.00
+------------------------------------
+ACCU.FS                     00097470
+11/07/2025                     19:57
+SESSION.FS                        48
+ACCU.NF                     00136527
+SESSION.NF                        86
+ACCU.RFD                    00000000
+SESSION.RFD                        0
+SESSION RESET                      0
+
+           @@@@ FGB0010201
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136528
+12/07/2025                     06:17
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00352-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 6:59:1
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  WHITE FOREST CAKEÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097471
+12/07/2025                     06:17
+
+Ref: CS1-00348-SEF
+Order: COV-00352-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *105.00
+White Forest Cake            *210.00
+SUBTOTAL                     *210.00
+SURCHARGE                      *9.14
+------------------------------------
+TXBL1                        *219.14
+TAX1  15.00%                  *32.87
+------------------------------------
+ T O T A L             * 2 5 2 . 0 1
+CASH                         *252.01
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136529
+12/07/2025                     07:02
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00353-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 7:43:38
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097472
+12/07/2025                     07:02
+
+Ref: CS1-00349-SEF
+Order: COV-00353-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *60.00
+Coffee Short                  *60.00
+SUBTOTAL                      *60.00
+SURCHARGE                      *2.61
+------------------------------------
+TXBL1                         *62.61
+TAX1  15.00%                   *9.39
+------------------------------------
+ T O T A L               * 7 2 . 0 0
+CASH                          *72.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136530
+12/07/2025                     07:19
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00354-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 8:0:11
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHOCOLATE MILLEFOGLIE
+1  TAKE AWAY PASTRY
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097473
+12/07/2025                     07:19
+
+Ref: CS1-00350-SEF
+Order: COV-00354-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *105.00
+Chocolate Millefoglie        *105.00
+                           1 x *8.70
+Take Away pastry               *8.70
+SUBTOTAL                     *113.70
+SURCHARGE                      *4.57
+------------------------------------
+TXBL1                        *118.27
+TAX1  15.00%                  *17.74
+------------------------------------
+ T O T A L             * 1 3 6 . 0 1
+CASH                         *136.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136531
+12/07/2025                     07:40
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00355-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 8:22:0
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 4
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097474
+12/07/2025                     07:55
+
+Ref: CS1-00351-SEF
+Order: COV-00355-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 4
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *60.00
+Coffee Short                  *60.00
+SUBTOTAL                      *60.00
+SURCHARGE                      *2.61
+------------------------------------
+TXBL1                         *62.61
+TAX1  15.00%                   *9.39
+------------------------------------
+ T O T A L               * 7 2 . 0 0
+CASH                          *72.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136532
+12/07/2025                     08:01
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00356-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 8:42:23
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 111
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHICKEN PESTO WRAP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136533
+12/07/2025                     08:15
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00357-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 8:56:10
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097475
+12/07/2025                     08:15
+
+Ref: CS1-00352-SEF
+Order: COV-00357-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *31.67
+Bottled Water 600Ml           *31.67
+SUBTOTAL                      *31.67
+SURCHARGE                      *1.38
+------------------------------------
+TXBL1                         *33.05
+TAX1  15.00%                   *4.96
+------------------------------------
+ T O T A L               * 3 8 . 0 1
+CASH                          *38.01
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136534
+12/07/2025                     08:18
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00356-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 8:42:23
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 111
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136535
+12/07/2025                     08:21
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00356-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 8:42:23
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 111
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  FREE SOFT DRINK
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097476
+12/07/2025                     08:21
+
+Ref: CS1-00353-SEF
+Order: COV-00356-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 111
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *382.49
+Chicken Pesto Wrap           *382.49
+                          1 x *58.33
+Macchiato Short               *58.33
+                           1 x *0.01
+Free Soft Drink                *0.01
+SUBTOTAL                     *440.83
+SURCHARGE                     *19.18
+------------------------------------
+TXBL1                        *460.01
+TAX1  15.00%                  *69.00
+------------------------------------
+ T O T A L             * 5 2 9 . 0 1
+CASH                         *529.01
+ITEM #                             3
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136536
+12/07/2025                     08:23
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00358-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 9:4:41
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 15
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097477
+12/07/2025                     08:59
+
+Ref: CS1-00354-SEF
+Order: COV-00358-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 15
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *102.50
+Cafe Latte Tall              *102.50
+SUBTOTAL                     *102.50
+SURCHARGE                      *4.46
+------------------------------------
+TXBL1                        *106.96
+TAX1  15.00%                  *16.04
+------------------------------------
+ T O T A L             * 1 2 3 . 0 0
+CASH                         *123.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136537
+12/07/2025                     09:06
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00359-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 9:47:21
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 25
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136538
+12/07/2025                     09:06
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00359-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 9:47:21
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 25
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  EGG SANDWICH
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136539
+12/07/2025                     09:07
+
+         Kaldis Coffee 2018
+   *** Ice Cream-Semit ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00360-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 9:48:52
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MILKSHAKE STROBERRY
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136540
+12/07/2025                     09:13
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00361-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 9:54:25
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 7
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136541
+12/07/2025                     09:13
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00361-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 9:54:25
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 7
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MILLEFOGLIE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136542
+12/07/2025                     09:15
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00360-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 9:48:52
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MILLEFOGLIE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097478
+12/07/2025                     09:22
+
+Ref: CS1-00355-SEF
+Order: COV-00361-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 7
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *95.00
+Macchiato Tall                *95.00
+                         1 x *105.00
+Millefoglie                  *105.00
+SUBTOTAL                     *200.00
+SURCHARGE                      *8.70
+------------------------------------
+TXBL1                        *208.70
+TAX1  15.00%                  *31.31
+------------------------------------
+ T O T A L             * 2 4 0 . 0 1
+CASH                         *240.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136543
+12/07/2025                     09:23
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00362-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:4:14
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 14
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136544
+12/07/2025                     09:26
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00363-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:7:48
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+3  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136545
+12/07/2025                     09:26
+
+         Kaldis Coffee 2018
+    *** Cup-Semit Figa ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00363-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:7:48
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+3  HOT CUP4OZ
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097479
+12/07/2025                     09:29
+
+Ref: CS1-00356-SEF
+Order: COV-00363-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          3 x *58.33
+Macchiato Short              *174.99
+                           3 x *7.83
+Hot Cup4Oz                    *23.49
+SUBTOTAL                     *198.48
+SURCHARGE                      *7.61
+------------------------------------
+TXBL1                        *206.09
+TAX1  15.00%                  *30.91
+------------------------------------
+ T O T A L             * 2 3 7 . 0 0
+CASH                         *237.00
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097480
+12/07/2025                     09:32
+
+Ref: CS1-00357-SEF
+Order: COV-00360-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *115.00
+Milkshake Stroberry          *115.00
+                         1 x *105.00
+Millefoglie                  *105.00
+SUBTOTAL                     *220.00
+SURCHARGE                      *9.57
+------------------------------------
+TXBL1                        *229.57
+TAX1  15.00%                  *34.44
+------------------------------------
+ T O T A L             * 2 6 4 . 0 1
+CASH                         *264.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136546
+12/07/2025                     09:34
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00364-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:15:49
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CARAMEL FROSTING TORTA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097481
+12/07/2025                     09:34
+
+Ref: CS1-00358-SEF
+Order: COV-00364-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        1 x *1633.30
+Caramel Frosting Torta      *1633.30
+SUBTOTAL                    *1633.30
+SURCHARGE                     *71.05
+------------------------------------
+TXBL1                       *1704.35
+TAX1  15.00%                 *255.65
+------------------------------------
+ T O T A L           * 1 9 6 0 . 0 0
+CASH                        *1960.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097482
+12/07/2025                     09:35
+
+Ref: CS1-00359-SEF
+Order: COV-00362-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 14
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Macchiato Short               *58.33
+SUBTOTAL                      *58.33
+SURCHARGE                      *2.54
+------------------------------------
+TXBL1                         *60.87
+TAX1  15.00%                   *9.13
+------------------------------------
+ T O T A L               * 7 0 . 0 0
+CASH                          *70.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136547
+12/07/2025                     09:38
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00365-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:19:29
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 4
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  OMELETTE WITH CHEESE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136548
+12/07/2025                     09:38
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00366-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:19:48
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097483
+12/07/2025                     09:43
+
+Ref: CS1-00360-SEF
+Order: COV-00366-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 3
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Macchiato Short               *58.33
+SUBTOTAL                      *58.33
+SURCHARGE                      *2.54
+------------------------------------
+TXBL1                         *60.87
+TAX1  15.00%                   *9.13
+------------------------------------
+ T O T A L               * 7 0 . 0 0
+CASH                          *70.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136549
+12/07/2025                     09:46
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00365-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:19:29
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 4
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136550
+12/07/2025                     09:47
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00367-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:28:25
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 7
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136551
+12/07/2025                     09:49
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00368-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:30:40
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 8
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136552
+12/07/2025                     09:49
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00368-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:30:40
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 8
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BANANA CAKEÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136553
+12/07/2025                     09:49
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00369-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:30:59
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136554
+12/07/2025                     09:52
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00370-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:33:58
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 50
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136555
+12/07/2025                     09:58
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00371-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:39:19
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136556
+12/07/2025                     09:58
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00372-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:39:41
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BABY CAKE
+1  TAKE AWAY PASTRY
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097484
+12/07/2025                     09:58
+
+Ref: CS1-00361-SEF
+Order: COV-00372-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *105.00
+Baby Cake                    *105.00
+                           1 x *8.70
+Take Away pastry               *8.70
+SUBTOTAL                     *113.70
+SURCHARGE                      *4.57
+------------------------------------
+TXBL1                        *118.27
+TAX1  15.00%                  *17.74
+------------------------------------
+ T O T A L             * 1 3 6 . 0 1
+CASH                         *136.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136557
+12/07/2025                     10:01
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00373-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:42:17
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 50
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136558
+12/07/2025                     10:01
+
+         Kaldis Coffee 2018
+    *** Cup-Semit Figa ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00373-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:42:17
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 50
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HOT CUP8OZ
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136559
+12/07/2025                     10:01
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00374-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:42:42
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136560
+12/07/2025                     10:02
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00375-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:43:17
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 18
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136561
+12/07/2025                     10:02
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00374-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:42:42
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097485
+12/07/2025                     10:03
+
+Ref: CS1-00362-SEF
+Order: COV-00373-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 50
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *95.00
+Macchiato Tall                *95.00
+                          1 x *17.39
+Hot Cup8Oz                    *17.39
+SUBTOTAL                     *112.39
+SURCHARGE                      *4.13
+------------------------------------
+TXBL1                        *116.52
+TAX1  15.00%                  *17.48
+------------------------------------
+ T O T A L             * 1 3 4 . 0 0
+CASH                         *134.00
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136562
+12/07/2025                     10:04
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00376-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:45:44
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 11
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136563
+12/07/2025                     10:05
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00377-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:46:14
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136564
+12/07/2025                     10:05
+
+         Kaldis Coffee 2018
+    *** Cup-Semit Figa ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00377-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:46:14
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HOT CUP8OZ
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097486
+12/07/2025                     10:05
+
+Ref: CS1-00363-SEF
+Order: COV-00377-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *95.00
+Macchiato Tall                *95.00
+                          1 x *17.39
+Hot Cup8Oz                    *17.39
+SUBTOTAL                     *112.39
+SURCHARGE                      *4.13
+------------------------------------
+TXBL1                        *116.52
+TAX1  15.00%                  *17.48
+------------------------------------
+ T O T A L             * 1 3 4 . 0 0
+CASH                         *134.00
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136565
+12/07/2025                     10:06
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00378-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:47:47
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+3  BIGNE 3PCS
+1  TAKE AWAY PASTRY
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097487
+12/07/2025                     10:06
+
+Ref: CS1-00364-SEF
+Order: COV-00378-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          3 x *63.33
+Bigne 3Pcs                   *189.99
+                           1 x *8.70
+Take Away pastry               *8.70
+SUBTOTAL                     *198.69
+SURCHARGE                      *8.26
+------------------------------------
+TXBL1                        *206.95
+TAX1  15.00%                  *31.04
+------------------------------------
+ T O T A L             * 2 3 7 . 9 9
+CASH                         *237.99
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136566
+12/07/2025                     10:10
+
+         Kaldis Coffee 2018
+   *** Ice Cream-Semit ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00379-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:51:45
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 9
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MILKSHAKES VANILLA
+1  MILKSHAKE CHOCOCALTE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136567
+12/07/2025                     10:11
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00376-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:45:44
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 11
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136568
+12/07/2025                     10:14
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00380-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:55:45
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 11
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097488
+12/07/2025                     10:17
+
+Ref: CS1-00365-SEF
+Order: COV-00367-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 7
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *95.00
+Macchiato Tall                *95.00
+SUBTOTAL                      *95.00
+SURCHARGE                      *4.13
+------------------------------------
+TXBL1                         *99.13
+TAX1  15.00%                  *14.87
+------------------------------------
+ T O T A L             * 1 1 4 . 0 0
+CASH                         *114.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097489
+12/07/2025                     10:21
+
+Ref: CS1-00366-SEF
+Order: COV-00375-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 18
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Macchiato Short               *58.33
+SUBTOTAL                      *58.33
+SURCHARGE                      *2.54
+------------------------------------
+TXBL1                         *60.87
+TAX1  15.00%                   *9.13
+------------------------------------
+ T O T A L               * 7 0 . 0 0
+CASH                          *70.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136569
+12/07/2025                     10:22
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00381-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:3:28
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  MILLEFOGLIE
+1  TAKE AWAY PASTRY
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097490
+12/07/2025                     10:22
+
+Ref: CS1-00367-SEF
+Order: COV-00381-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *105.00
+Millefoglie                  *210.00
+                           1 x *8.70
+Take Away pastry               *8.70
+SUBTOTAL                     *218.70
+SURCHARGE                      *9.14
+------------------------------------
+TXBL1                        *227.84
+TAX1  15.00%                  *34.18
+------------------------------------
+ T O T A L             * 2 6 2 . 0 2
+CASH                         *262.02
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097491
+12/07/2025                     10:25
+
+Ref: CS1-00368-SEF
+Order: COV-00379-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 9
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *115.00
+Milkshakes Vanilla           *115.00
+                         1 x *115.00
+Milkshake Chococalte         *115.00
+SUBTOTAL                     *230.00
+SURCHARGE                     *10.00
+------------------------------------
+TXBL1                        *240.00
+TAX1  15.00%                  *36.00
+------------------------------------
+ T O T A L             * 2 7 6 . 0 0
+CASH                         *276.00
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097492
+12/07/2025                     10:25
+
+Ref: CS1-00369-SEF
+Order: COV-00370-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 50
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Macchiato Short               *58.33
+SUBTOTAL                      *58.33
+SURCHARGE                      *2.54
+------------------------------------
+TXBL1                         *60.87
+TAX1  15.00%                   *9.13
+------------------------------------
+ T O T A L               * 7 0 . 0 0
+CASH                          *70.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136570
+12/07/2025                     10:28
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00382-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:9:19
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 12
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BIGNE 3PCS
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136571
+12/07/2025                     10:28
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00382-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:9:19
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 12
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136572
+12/07/2025                     10:28
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00368-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 10:30:40
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 8
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136573
+12/07/2025                     10:30
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00382-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:9:19
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 12
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ASSORTED CAKEÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136574
+12/07/2025                     10:33
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00382-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:9:19
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 12
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BANANA CAKEÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136575
+12/07/2025                     10:34
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00382-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:9:19
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 12
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136576
+12/07/2025                     10:49
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00383-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:30:24
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 18
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097493
+12/07/2025                     10:50
+
+Ref: CS1-00370-SEF
+Order: COV-00382-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 12
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *63.33
+Bigne 3Pcs                    *63.33
+                          1 x *58.33
+Macchiato Short               *58.33
+                         1 x *105.00
+Assorted Cake                *105.00
+                          1 x *73.33
+Banana Cake                   *73.33
+                          1 x *31.67
+Bottled Water 600Ml           *31.67
+SUBTOTAL                     *331.66
+SURCHARGE                     *14.43
+------------------------------------
+TXBL1                        *346.09
+TAX1  15.00%                  *51.91
+------------------------------------
+ T O T A L             * 3 9 8 . 0 0
+CASH                         *398.00
+ITEM #                             5
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097494
+12/07/2025                     10:51
+
+Ref: CS1-00371-SEF
+Order: COV-00371-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *60.00
+Coffee Short                  *60.00
+SUBTOTAL                      *60.00
+SURCHARGE                      *2.61
+------------------------------------
+TXBL1                         *62.61
+TAX1  15.00%                   *9.39
+------------------------------------
+ T O T A L               * 7 2 . 0 0
+CASH                          *72.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097495
+12/07/2025                     10:57
+
+Ref: CS1-00372-SEF
+Order: COV-00368-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 8
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *102.50
+Cafe Latte Tall              *102.50
+                          1 x *73.33
+Banana Cake                   *73.33
+                          1 x *31.67
+Bottled Water 600Ml           *31.67
+SUBTOTAL                     *207.50
+SURCHARGE                      *9.03
+------------------------------------
+TXBL1                        *216.53
+TAX1  15.00%                  *32.48
+------------------------------------
+ T O T A L             * 2 4 9 . 0 1
+CASH                         *249.01
+ITEM #                             3
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097496
+12/07/2025                     10:57
+
+Ref: CS1-00373-SEF
+Order: COV-00383-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 18
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *95.00
+Macchiato Tall                *95.00
+SUBTOTAL                      *95.00
+SURCHARGE                      *4.13
+------------------------------------
+TXBL1                         *99.13
+TAX1  15.00%                  *14.87
+------------------------------------
+ T O T A L             * 1 1 4 . 0 0
+CASH                         *114.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136577
+12/07/2025                     10:58
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00384-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:39:52
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 7
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136578
+12/07/2025                     11:01
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00385-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:42:7
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 11
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MILLEFOGLIE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136579
+12/07/2025                     11:04
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00386-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:45:46
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+1  SOFT DRINKÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136580
+12/07/2025                     11:05
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00387-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:46:33
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 12
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097497
+12/07/2025                     11:05
+
+Ref: CS1-00374-SEF
+Order: COV-00374-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *60.00
+Coffee Short                  *60.00
+                          1 x *31.67
+Bottled Water 600Ml           *31.67
+SUBTOTAL                      *91.67
+SURCHARGE                      *3.99
+------------------------------------
+TXBL1                         *95.66
+TAX1  15.00%                  *14.35
+------------------------------------
+ T O T A L             * 1 1 0 . 0 1
+CASH                         *110.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136581
+12/07/2025                     11:06
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00388-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:47:59
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136582
+12/07/2025                     11:06
+
+         Kaldis Coffee 2018
+    *** Cup-Semit Figa ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00388-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:47:59
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HOT CUP4OZ
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097498
+12/07/2025                     11:07
+
+Ref: CS1-00375-SEF
+Order: COV-00388-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *60.00
+Coffee Short                  *60.00
+                           1 x *7.83
+Hot Cup4Oz                     *7.83
+SUBTOTAL                      *67.83
+SURCHARGE                      *2.61
+------------------------------------
+TXBL1                         *70.44
+TAX1  15.00%                  *10.57
+------------------------------------
+ T O T A L               * 8 1 . 0 1
+CASH                          *81.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136583
+12/07/2025                     11:07
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00384-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:39:52
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 7
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097499
+12/07/2025                     11:08
+
+Ref: CS1-00376-SEF
+Order: COV-00365-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 4
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *175.00
+Omelette With Cheese         *175.00
+                          1 x *95.00
+Macchiato Tall                *95.00
+SUBTOTAL                     *270.00
+SURCHARGE                     *11.74
+------------------------------------
+TXBL1                        *281.74
+TAX1  15.00%                  *42.26
+------------------------------------
+ T O T A L             * 3 2 4 . 0 0
+CASH                         *324.00
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097500
+12/07/2025                     11:09
+
+Ref: CS1-00377-SEF
+Order: COV-00369-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 3
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          2 x *58.33
+Macchiato Short              *116.66
+SUBTOTAL                     *116.66
+SURCHARGE                      *5.07
+------------------------------------
+TXBL1                        *121.73
+TAX1  15.00%                  *18.26
+------------------------------------
+ T O T A L             * 1 3 9 . 9 9
+CASH                         *139.99
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097501
+12/07/2025                     11:10
+
+Ref: CS1-00378-SEF
+Order: COV-00387-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 12
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *60.00
+Coffee Short                  *60.00
+SUBTOTAL                      *60.00
+SURCHARGE                      *2.61
+------------------------------------
+TXBL1                         *62.61
+TAX1  15.00%                   *9.39
+------------------------------------
+ T O T A L               * 7 2 . 0 0
+CASH                          *72.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097502
+12/07/2025                     11:13
+
+Ref: CS1-00379-SEF
+Order: COV-00380-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 11
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *60.00
+Coffee Short                  *60.00
+SUBTOTAL                      *60.00
+SURCHARGE                      *2.61
+------------------------------------
+TXBL1                         *62.61
+TAX1  15.00%                   *9.39
+------------------------------------
+ T O T A L               * 7 2 . 0 0
+CASH                          *72.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097503
+12/07/2025                     11:13
+
+Ref: CS1-00380-SEF
+Order: COV-00385-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 11
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *105.00
+Millefoglie                  *105.00
+SUBTOTAL                     *105.00
+SURCHARGE                      *4.57
+------------------------------------
+TXBL1                        *109.57
+TAX1  15.00%                  *16.44
+------------------------------------
+ T O T A L             * 1 2 6 . 0 1
+CASH                         *126.01
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136584
+12/07/2025                     11:14
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00389-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:55:28
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 4
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136585
+12/07/2025                     11:18
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00390-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:59:12
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHOCOLATE  CAKE
+1  TAKE AWAY PASTRY
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097504
+12/07/2025                     11:18
+
+Ref: CS1-00381-SEF
+Order: COV-00390-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *105.00
+chocolate  Cake              *105.00
+                           1 x *8.70
+Take Away pastry               *8.70
+SUBTOTAL                     *113.70
+SURCHARGE                      *4.57
+------------------------------------
+TXBL1                        *118.27
+TAX1  15.00%                  *17.74
+------------------------------------
+ T O T A L             * 1 3 6 . 0 1
+CASH                         *136.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136586
+12/07/2025                     11:18
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00391-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 11:59:58
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 5
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097505
+12/07/2025                     11:19
+
+Ref: CS1-00382-SEF
+Order: COV-00376-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 11
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Macchiato Short               *58.33
+                          1 x *31.67
+Bottled Water 600Ml           *31.67
+SUBTOTAL                      *90.00
+SURCHARGE                      *3.92
+------------------------------------
+TXBL1                         *93.92
+TAX1  15.00%                  *14.09
+------------------------------------
+ T O T A L             * 1 0 8 . 0 1
+CASH                         *108.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097506
+12/07/2025                     11:24
+
+Ref: CS1-00383-SEF
+Order: COV-00386-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *31.67
+Bottled Water 600Ml           *31.67
+                          1 x *57.50
+Soft Drink                    *57.50
+SUBTOTAL                      *89.17
+SURCHARGE                      *3.88
+------------------------------------
+TXBL1                         *93.05
+TAX1  15.00%                  *13.96
+------------------------------------
+ T O T A L             * 1 0 7 . 0 1
+CASH                         *107.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136587
+12/07/2025                     11:35
+
+         Kaldis Coffee 2018
+    *** Juice-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00392-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:16:10
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 8
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  KALIDI'S TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136588
+12/07/2025                     11:36
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00393-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:17:46
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136589
+12/07/2025                     11:39
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00394-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:20:17
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 5
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136590
+12/07/2025                     11:39
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00394-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:20:17
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 5
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHOCOLATE  CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097507
+12/07/2025                     11:43
+
+Ref: CS1-00384-SEF
+Order: COV-00384-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 7
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Macchiato Short               *58.33
+                          1 x *51.67
+Tea                           *51.67
+SUBTOTAL                     *110.00
+SURCHARGE                      *4.79
+------------------------------------
+TXBL1                        *114.79
+TAX1  15.00%                  *17.22
+------------------------------------
+ T O T A L             * 1 3 2 . 0 1
+CASH                         *132.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136591
+12/07/2025                     11:45
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00395-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:26:24
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 10
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136592
+12/07/2025                     11:45
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00395-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:26:24
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 10
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ASSORTED CAKEÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136593
+12/07/2025                     11:48
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00396-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:29:11
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  BIGNE 3PCS
+2  BANANA CAKEÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136594
+12/07/2025                     11:48
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00396-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:29:11
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+3  CAFE LATTE SHORT
+2  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097508
+12/07/2025                     11:52
+
+Ref: CS1-00385-SEF
+Order: COV-00393-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *60.00
+Coffee Short                  *60.00
+                          1 x *81.67
+Cafe Latte Short              *81.67
+SUBTOTAL                     *141.67
+SURCHARGE                      *6.16
+------------------------------------
+TXBL1                        *147.83
+TAX1  15.00%                  *22.17
+------------------------------------
+ T O T A L             * 1 7 0 . 0 0
+CASH                         *170.00
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097509
+12/07/2025                     12:00
+
+Ref: CS1-00386-SEF
+Order: COV-00389-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 4
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Macchiato Short               *58.33
+SUBTOTAL                      *58.33
+SURCHARGE                      *2.54
+------------------------------------
+TXBL1                         *60.87
+TAX1  15.00%                   *9.13
+------------------------------------
+ T O T A L               * 7 0 . 0 0
+CASH                          *70.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097510
+12/07/2025                     12:01
+
+Ref: CS1-00387-SEF
+Order: COV-00391-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 5
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Macchiato Short               *58.33
+SUBTOTAL                      *58.33
+SURCHARGE                      *2.54
+------------------------------------
+TXBL1                         *60.87
+TAX1  15.00%                   *9.13
+------------------------------------
+ T O T A L               * 7 0 . 0 0
+CASH                          *70.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136595
+12/07/2025                     12:03
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00397-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:44:20
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136596
+12/07/2025                     12:03
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00397-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:44:20
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  BABY CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097511
+12/07/2025                     12:03
+
+Ref: CS1-00388-SEF
+Order: COV-00396-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          2 x *63.33
+Bigne 3Pcs                   *126.66
+                          2 x *73.33
+Banana Cake                  *146.66
+                          3 x *81.67
+Cafe Latte Short             *245.01
+                          2 x *95.00
+Macchiato Tall               *190.00
+SUBTOTAL                     *708.33
+SURCHARGE                     *30.82
+------------------------------------
+TXBL1                        *739.15
+TAX1  15.00%                 *110.87
+------------------------------------
+ T O T A L             * 8 5 0 . 0 2
+CASH                         *850.02
+ITEM #                             4
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097512
+12/07/2025                     12:03
+
+Ref: CS1-00389-SEF
+Order: COV-00395-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          2 x *58.33
+Macchiato Short              *116.66
+                         1 x *105.00
+Assorted Cake                *105.00
+SUBTOTAL                     *221.66
+SURCHARGE                      *9.64
+------------------------------------
+TXBL1                        *231.30
+TAX1  15.00%                  *34.70
+------------------------------------
+ T O T A L             * 2 6 6 . 0 0
+CASH                         *266.00
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136597
+12/07/2025                     12:04
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00398-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:45:44
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CARAMEL FROSTING TORTA
+1  COOKIES BIG
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097513
+12/07/2025                     12:04
+
+Ref: CS1-00390-SEF
+Order: COV-00398-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        1 x *1633.30
+Caramel Frosting Torta      *1633.30
+                         1 x *475.00
+Cookies Big                  *475.00
+SUBTOTAL                    *2108.30
+SURCHARGE                     *91.71
+------------------------------------
+TXBL1                       *2200.01
+TAX1  15.00%                 *330.00
+------------------------------------
+ T O T A L           * 2 5 3 0 . 0 1
+CASH                        *2530.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136598
+12/07/2025                     12:05
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00399-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:46:38
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 15
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136599
+12/07/2025                     12:06
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00397-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:44:20
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STEAMED MILK SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136600
+12/07/2025                     12:06
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00397-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:44:20
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  OMELETTE WITH CHEESE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097514
+12/07/2025                     12:07
+
+Ref: CS1-00391-SEF
+Order: COV-00392-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 8
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *133.33
+Kalidi'S Tea                 *133.33
+SUBTOTAL                     *133.33
+SURCHARGE                      *5.80
+------------------------------------
+TXBL1                        *139.13
+TAX1  15.00%                  *20.87
+------------------------------------
+ T O T A L             * 1 6 0 . 0 0
+CASH                         *160.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136601
+12/07/2025                     12:08
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00397-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:44:20
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1.0000  BABY CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136602
+12/07/2025                     12:08
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00397-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:44:20
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1.0000  STEAMED MILK SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136603
+12/07/2025                     12:09
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00394-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:20:17
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 5
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097515
+12/07/2025                     12:09
+
+Ref: CS1-00392-SEF
+Order: COV-00394-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 5
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *95.00
+Macchiato Tall                *95.00
+                         1 x *105.00
+chocolate  Cake              *105.00
+                          1 x *31.67
+Bottled Water 600Ml           *31.67
+SUBTOTAL                     *231.67
+SURCHARGE                     *10.08
+------------------------------------
+TXBL1                        *241.75
+TAX1  15.00%                  *36.26
+------------------------------------
+ T O T A L             * 2 7 8 . 0 1
+CASH                         *278.01
+ITEM #                             3
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097516
+12/07/2025                     12:14
+
+Ref: CS1-00393-SEF
+Order: COV-00399-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 15
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *95.00
+Macchiato Tall                *95.00
+SUBTOTAL                      *95.00
+SURCHARGE                      *4.13
+------------------------------------
+TXBL1                         *99.13
+TAX1  15.00%                  *14.87
+------------------------------------
+ T O T A L             * 1 1 4 . 0 0
+CASH                         *114.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097517
+12/07/2025                     12:14
+
+Ref: CS1-00394-SEF
+Order: COV-00359-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 25
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *51.67
+Tea                           *51.67
+                         1 x *120.83
+Egg Sandwich                 *120.83
+SUBTOTAL                     *172.50
+SURCHARGE                      *7.51
+------------------------------------
+TXBL1                        *180.01
+TAX1  15.00%                  *27.00
+------------------------------------
+ T O T A L             * 2 0 7 . 0 1
+CASH                         *207.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097518
+12/07/2025                     12:14
+
+Ref: CS1-00395-SEF
+Order: COV-00397-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 3
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *81.67
+Cafe Latte Short              *81.67
+                         3 x *105.00
+Baby Cake                    *315.00
+                          2 x *74.17
+Steamed Milk Short           *148.34
+                         1 x *175.00
+Omelette With Cheese         *175.00
+SUBTOTAL                     *720.01
+SURCHARGE                     *31.31
+------------------------------------
+TXBL1                        *751.32
+TAX1  15.00%                 *112.70
+------------------------------------
+ T O T A L             * 8 6 4 . 0 2
+CASH                         *864.02
+ITEM #                             4
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136604
+12/07/2025                     12:15
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00400-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:56:12
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  OMELETTE WITH CHEESE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097519
+12/07/2025                     12:15
+
+Ref: CS1-00396-SEF
+Order: COV-00400-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 3
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *175.00
+Omelette With Cheese         *175.00
+SUBTOTAL                     *175.00
+SURCHARGE                      *7.61
+------------------------------------
+TXBL1                        *182.61
+TAX1  15.00%                  *27.39
+------------------------------------
+ T O T A L             * 2 1 0 . 0 0
+CASH                         *210.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136605
+12/07/2025                     12:15
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00401-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 12:56:41
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 12
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ASSORTED CAKEÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097520
+12/07/2025                     12:15
+
+Ref: CS1-00397-SEF
+Order: COV-00401-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 12
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *105.00
+Assorted Cake                *105.00
+SUBTOTAL                     *105.00
+SURCHARGE                      *4.57
+------------------------------------
+TXBL1                        *109.57
+TAX1  15.00%                  *16.44
+------------------------------------
+ T O T A L             * 1 2 6 . 0 1
+CASH                         *126.01
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136606
+12/07/2025                     12:25
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00402-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:6:13
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136607
+12/07/2025                     12:31
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00403-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:12:11
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BLACK FOREST TORTA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097521
+12/07/2025                     12:31
+
+Ref: CS1-00398-SEF
+Order: COV-00403-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        1 x *1475.80
+Black Forest Torta          *1475.80
+SUBTOTAL                    *1475.80
+SURCHARGE                     *64.20
+------------------------------------
+TXBL1                       *1540.00
+TAX1  15.00%                 *231.00
+------------------------------------
+ T O T A L           * 1 7 7 1 . 0 0
+CASH                        *1771.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097522
+12/07/2025                     12:34
+
+Ref: CS1-00399-SEF
+Order: COV-00402-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 3
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          2 x *31.67
+Bottled Water 600Ml           *63.34
+SUBTOTAL                      *63.34
+SURCHARGE                      *2.76
+------------------------------------
+TXBL1                         *66.10
+TAX1  15.00%                   *9.92
+------------------------------------
+ T O T A L               * 7 6 . 0 2
+CASH                          *76.02
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136608
+12/07/2025                     12:37
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00404-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:19:2
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  CARAMEL SPECIAL TORTA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097523
+12/07/2025                     12:38
+
+Ref: CS1-00400-SEF
+Order: COV-00404-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        2 x *1633.30
+Caramel Special Torta       *3266.60
+SUBTOTAL                    *3266.60
+SURCHARGE                    *142.10
+------------------------------------
+TXBL1                       *3408.70
+TAX1  15.00%                 *511.31
+------------------------------------
+ T O T A L           * 3 9 2 0 . 0 1
+CASH                        *3920.01
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136609
+12/07/2025                     12:38
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00405-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:19:29
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 5
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136610
+12/07/2025                     12:38
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00405-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:19:29
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 5
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SOFT CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136611
+12/07/2025                     12:42
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00406-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:23:5
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  WHITE FOREST CAKEÂ 
+1  CARAMEL FROSTING CAKE
+2  BABY CAKE
+2  CHOCOLATE MILLEFOGLIE
+         N O N - F I S C A L
+2  MILLEFOGLIE
+1  TAKE AWAY PASTRY
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136612
+12/07/2025                     12:42
+
+         Kaldis Coffee 2018
+   *** Ice Cream-Semit ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00406-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:23:5
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  STROWBERRY ICE CREAM
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136613
+12/07/2025                     12:42
+
+         Kaldis Coffee 2018
+    *** Cup-Semit Figa ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00406-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:23:5
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  ICE CREAM NEW CUP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097524
+12/07/2025                     12:42
+
+Ref: CS1-00401-SEF
+Order: COV-00406-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *105.00
+White Forest Cake            *105.00
+                         1 x *120.83
+Caramel Frosting Cake        *120.83
+                         2 x *105.00
+Baby Cake                    *210.00
+                         2 x *105.00
+Chocolate Millefoglie        *210.00
+                         2 x *105.00
+Millefoglie                  *210.00
+                           1 x *8.70
+Take Away pastry               *8.70
+                          2 x *67.50
+Strowberry Ice Cream         *135.00
+                          2 x *15.65
+Ice Cream New Cup             *31.30
+SUBTOTAL                    *1030.83
+SURCHARGE                     *43.12
+------------------------------------
+TXBL1                       *1073.95
+TAX1  15.00%                 *161.09
+------------------------------------
+ T O T A L           * 1 2 3 5 . 0 4
+CASH                        *1235.04
+ITEM #                             8
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097525
+12/07/2025                     12:43
+
+Ref: CS1-00402-SEF
+Order: COV-00405-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 5
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Macchiato Short               *58.33
+                         1 x *105.00
+Soft Cake                    *105.00
+SUBTOTAL                     *163.33
+SURCHARGE                      *7.11
+------------------------------------
+TXBL1                        *170.44
+TAX1  15.00%                  *25.57
+------------------------------------
+ T O T A L             * 1 9 6 . 0 1
+CASH                         *196.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136614
+12/07/2025                     12:48
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00407-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:29:35
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 14
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097526
+12/07/2025                     12:48
+
+Ref: CS1-00403-SEF
+Order: COV-00407-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 14
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *60.00
+Coffee Short                  *60.00
+SUBTOTAL                      *60.00
+SURCHARGE                      *2.61
+------------------------------------
+TXBL1                         *62.61
+TAX1  15.00%                   *9.39
+------------------------------------
+ T O T A L               * 7 2 . 0 0
+CASH                          *72.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136615
+12/07/2025                     12:49
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00408-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:30:28
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 14
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136616
+12/07/2025                     12:53
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00409-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:35:3
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHOCOLATE  CAKE
+1  ASSORTED CAKEÂ 
+1  SOFT CAKE
+====================================
+         N O N - F I S C A L
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136617
+12/07/2025                     12:54
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00409-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:35:3
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136618
+12/07/2025                     12:54
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00409-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:35:3
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  SOFT DRINKÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136619
+12/07/2025                     12:56
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00410-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:37:11
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 8
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136620
+12/07/2025                     12:56
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00410-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:37:11
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 8
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHOCOLATE MILLEFOGLIE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097527
+12/07/2025                     12:56
+
+Ref: CS1-00404-SEF
+Order: COV-00410-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 8
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Macchiato Short               *58.33
+                         1 x *105.00
+Chocolate Millefoglie        *105.00
+SUBTOTAL                     *163.33
+SURCHARGE                      *7.11
+------------------------------------
+TXBL1                        *170.44
+TAX1  15.00%                  *25.57
+------------------------------------
+ T O T A L             * 1 9 6 . 0 1
+CASH                         *196.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097528
+12/07/2025                     12:56
+
+Ref: CS1-00405-SEF
+Order: COV-00408-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 14
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Macchiato Short               *58.33
+SUBTOTAL                      *58.33
+SURCHARGE                      *2.54
+------------------------------------
+TXBL1                         *60.87
+TAX1  15.00%                   *9.13
+------------------------------------
+ T O T A L               * 7 0 . 0 0
+CASH                          *70.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136621
+12/07/2025                     12:57
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00411-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:38:12
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 25
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097529
+12/07/2025                     12:57
+
+Ref: CS1-00406-SEF
+Order: COV-00411-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 25
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Macchiato Short               *58.33
+SUBTOTAL                      *58.33
+SURCHARGE                      *2.54
+------------------------------------
+TXBL1                         *60.87
+TAX1  15.00%                   *9.13
+------------------------------------
+ T O T A L               * 7 0 . 0 0
+CASH                          *70.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136622
+12/07/2025                     13:04
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00412-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:45:30
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 7
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097530
+12/07/2025                     13:04
+
+Ref: CS1-00407-SEF
+Order: COV-00412-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 7
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *81.67
+Cafe Latte Short              *81.67
+SUBTOTAL                      *81.67
+SURCHARGE                      *3.55
+------------------------------------
+TXBL1                         *85.22
+TAX1  15.00%                  *12.78
+------------------------------------
+ T O T A L               * 9 8 . 0 0
+CASH                          *98.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136623
+12/07/2025                     13:04
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00413-SEF
+Order By:Marta Teferi
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 12/7/2025 13:45:47
+No Guest: 1
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 1
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+5  ASSORTED CAKEÂ 
+1  TAKE AWAY PASTRY
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097531
+12/07/2025                     13:04
+
+Ref: CS1-00408-SEF
+Order: COV-00413-SEF
+Operator: Marta Teferi
+Waiter: Temeche Wnetu Stotaw
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         5 x *105.00
+Assorted Cake                *525.00
+                           1 x *8.70
+Take Away pastry               *8.70
+SUBTOTAL                     *533.70
+SURCHARGE                     *22.84
+------------------------------------
+TXBL1                        *556.54
+TAX1  15.00%                  *83.48
+------------------------------------
+ T O T A L             * 6 4 0 . 0 2
+CASH                         *640.02
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097532
+12/07/2025                     13:08
+
+Ref: CS1-00409-SEF
+Order: COV-00409-SEF
+Operator: Marta Teferi
+Waiter: Eheteye Bekele Molla
+Table: 3
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *105.00
+chocolate  Cake              *105.00
+                         1 x *105.00
+Assorted Cake                *105.00
+                         1 x *105.00
+Soft Cake                    *105.00
+                          1 x *58.33
+Macchiato Short               *58.33
+                          2 x *57.50
+Soft Drink                   *115.00
+SUBTOTAL                     *488.33
+SURCHARGE                     *21.25
+------------------------------------
+TXBL1                        *509.58
+TAX1  15.00%                  *76.44
+------------------------------------
+ T O T A L             * 5 8 6 . 0 2
+CASH                         *586.02
+ITEM #                             5
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+

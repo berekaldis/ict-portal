@@ -1,0 +1,5049 @@
+JOURNAL NUMBER 537 CLEARED
+SIGNATURE:      4A2D22482074062ED5CF
+                23BCDEA5A2DAB0E1E8F8
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+   S E S S I O N   Z   R E P O R T
+
+Z:2036
+10/07/2025                     13:10
+
+SALES                            103
+DISCOUNTS (0)                  *0.00
+SURCHARGES (51)              *482.66
+VOID (0)                       *0.00
+CASH                       *13747.46
+
+CASH DEPOSIT (0)               *0.00
+CASH DEDUCTED (0)              *0.00
+CASH AVAILABLE             *13747.46
+
+ACCU.EJ                     00000537
+SESSION.EJ                         1
+SIGNATURE:      4A2D22482074062ED5CF
+                23BCDEA5A2DAB0E1E8F8
+------------------------------------
+TXBL1                      *11954.31
+TXBL2                          *0.00
+TXBL3                          *0.00
+NOTXBL                         *0.00
+TAX1  15.00%                *1793.15
+TAX2   0.00%                   *0.00
+TAX3   0.00%                   *0.00
+ - - - - - - - - - - - - - - - - - -
+SALES TL                   *11954.31
+TXBL TL                    *11954.31
+TAX TL                      *1793.15
+------------------------------------
+RFD TXBL1                      *0.00
+RFD TXBL2                      *0.00
+RFD TXBL3                      *0.00
+RFD NOTXBL                     *0.00
+RFD TAX1  15.00%               *0.00
+RFD TAX2   0.00%               *0.00
+RFD TAX3   0.00%               *0.00
+ - - - - - - - - - - - - - - - - - -
+RFD SALES TL                   *0.00
+RFD TXBL TL                    *0.00
+RFD TAX TL                     *0.00
+------------------------------------
+ACCU.FS                     00097354
+10/07/2025                     13:05
+SESSION.FS                        51
+ACCU.NF                     00136308
+SESSION.NF                        87
+ACCU.RFD                    00000000
+SESSION.RFD                        0
+SESSION RESET                      0
+
+           @@@@ FGB0010201
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136309
+10/07/2025                     13:15
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00236-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 13:56:11
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 25
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  LENTIL SAMBUSA WITH FRIES
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136310
+10/07/2025                     13:15
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00236-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 13:56:11
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 25
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  GREEN TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136311
+10/07/2025                     13:24
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00237-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 14:5:33
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  JIGGER TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136312
+10/07/2025                     13:28
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00236-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 13:56:11
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 25
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+-2.0000  GREEN TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136313
+10/07/2025                     13:29
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00236-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 13:56:11
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 25
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  JIGGER TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+   S E S S I O N   X   R E P O R T
+
+No. NF 00136314
+10/07/2025                     13:38
+
+SALES                              0
+         N O N - F I S C A L
+DISCOUNTS (0)                  *0.00
+SURCHARGES (0)                 *0.00
+VOID (0)                       *0.00
+CASH                           *0.00
+
+         N O N - F I S C A L
+CASH DEPOSIT (0)               *0.00
+CASH DEDUCTED (0)              *0.00
+CASH AVAILABLE                 *0.00
+
+------------------------------------
+         N O N - F I S C A L
+TXBL1                          *0.00
+TXBL2                          *0.00
+TXBL3                          *0.00
+NOTXBL                         *0.00
+         N O N - F I S C A L
+TAX1  15.00%                   *0.00
+TAX2   0.00%                   *0.00
+TAX3   0.00%                   *0.00
+ - - - - - - - - - - - - - - - - - -
+         N O N - F I S C A L
+SALES TL                       *0.00
+TXBL TL                        *0.00
+TAX TL                         *0.00
+------------------------------------
+         N O N - F I S C A L
+RFD TXBL1                      *0.00
+RFD TXBL2                      *0.00
+RFD TXBL3                      *0.00
+RFD NOTXBL                     *0.00
+         N O N - F I S C A L
+RFD TAX1  15.00%               *0.00
+RFD TAX2   0.00%               *0.00
+RFD TAX3   0.00%               *0.00
+ - - - - - - - - - - - - - - - - - -
+         N O N - F I S C A L
+RFD SALES TL                   *0.00
+RFD TXBL TL                    *0.00
+RFD TAX TL                     *0.00
+------------------------------------
+         N O N - F I S C A L
+ACCU.FS                     00097354
+10/07/2025                     13:05
+SESSION.FS                         0
+ACCU.NF                     00136313
+         N O N - F I S C A L
+SESSION.NF                         5
+ACCU.RFD                    00000000
+SESSION.RFD                        0
+SESSION RESET                      0
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136315
+10/07/2025                     13:45
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00236-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 13:56:11
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 25
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  LENTIL SAMBUSA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097355
+10/07/2025                     13:52
+
+Ref: CS1-00232-SEF
+Order: COV-00237-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Jigger Tea                    *58.33
+------------------------------------
+TXBL1                         *58.33
+TAX1  15.00%                   *8.75
+------------------------------------
+ T O T A L               * 6 7 . 0 8
+CASH                          *67.08
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136316
+10/07/2025                     14:01
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00238-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 14:42:59
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136317
+10/07/2025                     14:01
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00238-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 14:42:59
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BANANA CAKE 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+   S E S S I O N   X   R E P O R T
+
+No. NF 00136318
+10/07/2025                     14:05
+
+SALES                              1
+         N O N - F I S C A L
+DISCOUNTS (0)                  *0.00
+SURCHARGES (0)                 *0.00
+VOID (0)                       *0.00
+CASH                          *67.08
+
+         N O N - F I S C A L
+CASH DEPOSIT (0)               *0.00
+CASH DEDUCTED (0)              *0.00
+CASH AVAILABLE                *67.08
+
+------------------------------------
+         N O N - F I S C A L
+TXBL1                         *58.33
+TXBL2                          *0.00
+TXBL3                          *0.00
+NOTXBL                         *0.00
+         N O N - F I S C A L
+TAX1  15.00%                   *8.75
+TAX2   0.00%                   *0.00
+TAX3   0.00%                   *0.00
+ - - - - - - - - - - - - - - - - - -
+         N O N - F I S C A L
+SALES TL                      *58.33
+TXBL TL                       *58.33
+TAX TL                         *8.75
+------------------------------------
+         N O N - F I S C A L
+RFD TXBL1                      *0.00
+RFD TXBL2                      *0.00
+RFD TXBL3                      *0.00
+RFD NOTXBL                     *0.00
+         N O N - F I S C A L
+RFD TAX1  15.00%               *0.00
+RFD TAX2   0.00%               *0.00
+RFD TAX3   0.00%               *0.00
+ - - - - - - - - - - - - - - - - - -
+         N O N - F I S C A L
+RFD SALES TL                   *0.00
+RFD TXBL TL                    *0.00
+RFD TAX TL                     *0.00
+------------------------------------
+         N O N - F I S C A L
+ACCU.FS                     00097355
+10/07/2025                     13:52
+SESSION.FS                         1
+ACCU.NF                     00136317
+         N O N - F I S C A L
+SESSION.NF                         9
+ACCU.RFD                    00000000
+SESSION.RFD                        0
+SESSION RESET                      0
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136319
+10/07/2025                     14:08
+
+         Kaldis Coffee 2018
+   *** Ice Cream-Semit ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00239-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 14:49:34
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  STROWBERRY ICE CREAM
+1  CHOCOLATE ICE CREAM
+1  VANILLA ICE CREAM
+====================================
+         N O N - F I S C A L
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136320
+10/07/2025                     14:08
+
+         Kaldis Coffee 2018
+    *** Cup-Semit Figa ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00239-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 14:49:34
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+4  ICE CREAM NEW CUP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097356
+10/07/2025                     14:08
+
+Ref: CS1-00233-SEF
+Order: COV-00239-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          2 x *67.50
+Strowberry Ice Cream         *135.00
+                          1 x *67.50
+Chocolate Ice Cream           *67.50
+                          1 x *67.50
+Vanilla Ice Cream             *67.50
+                          4 x *15.65
+Ice Cream New Cup             *62.60
+SUBTOTAL                     *332.60
+SURCHARGE                     *11.75
+------------------------------------
+TXBL1                        *344.35
+TAX1  15.00%                  *51.65
+------------------------------------
+ T O T A L             * 3 9 6 . 0 0
+CASH                         *396.00
+ITEM #                             4
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136321
+10/07/2025                     14:09
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00240-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 14:50:46
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 7
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  FREE TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136322
+10/07/2025                     14:09
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00240-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 14:50:46
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 7
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ANEBABERO SLICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136323
+10/07/2025                     14:10
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00236-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 13:56:11
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 25
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097357
+10/07/2025                     14:23
+
+Ref: CS1-00234-SEF
+Order: COV-00236-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 25
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *121.66
+Lentil Sambusa With Fries    *121.66
+                          2 x *58.33
+Jigger Tea                   *116.66
+                          1 x *55.83
+Lentil Sambusa                *55.83
+                          1 x *60.00
+Coffee Short                  *60.00
+SUBTOTAL                     *354.15
+SURCHARGE                     *10.33
+------------------------------------
+TXBL1                        *364.48
+TAX1  15.00%                  *54.67
+------------------------------------
+ T O T A L             * 4 1 9 . 1 5
+CASH                         *419.15
+ITEM #                             4
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136324
+10/07/2025                     14:34
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00241-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 15:14:56
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE MATE  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136325
+10/07/2025                     14:34
+
+         Kaldis Coffee 2018
+    *** Cup-Semit Figa ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00241-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 15:14:56
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HOT CUP4OZ
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097358
+10/07/2025                     14:34
+
+Ref: CS1-00235-SEF
+Order: COV-00241-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *95.00
+Coffee Mate  Macchiato Short  *95.00
+                           1 x *7.83
+Hot Cup4Oz                     *7.83
+SUBTOTAL                     *102.83
+SURCHARGE                      *4.13
+------------------------------------
+TXBL1                        *106.96
+TAX1  15.00%                  *16.04
+------------------------------------
+ T O T A L             * 1 2 3 . 0 0
+CASH                         *123.00
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136326
+10/07/2025                     14:40
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00242-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 15:21:11
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 15
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097359
+10/07/2025                     14:47
+
+Ref: CS1-00236-SEF
+Order: COV-00240-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 7
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                           1 x *0.01
+Free Tea                       *0.01
+                          1 x *64.17
+Anebabero Slice               *64.17
+SUBTOTAL                      *64.18
+SURCHARGE                      *2.79
+------------------------------------
+TXBL1                         *66.97
+TAX1  15.00%                  *10.05
+------------------------------------
+ T O T A L               * 7 7 . 0 2
+CASH                          *77.02
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136327
+10/07/2025                     14:55
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00243-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 15:36:45
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 15
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097360
+10/07/2025                     14:57
+
+Ref: CS1-00237-SEF
+Order: COV-00238-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *81.67
+Cafe Latte Short              *81.67
+                          1 x *73.33
+Banana Cake                   *73.33
+SUBTOTAL                     *155.00
+SURCHARGE                      *6.74
+------------------------------------
+TXBL1                        *161.74
+TAX1  15.00%                  *24.26
+------------------------------------
+ T O T A L             * 1 8 6 . 0 0
+CASH                         *186.00
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097361
+10/07/2025                     14:58
+
+Ref: CS1-00238-SEF
+Order: COV-00243-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 15
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *60.00
+Coffee Short                  *60.00
+SUBTOTAL                      *60.00
+SURCHARGE                      *2.61
+------------------------------------
+TXBL1                         *62.61
+TAX1  15.00%                   *9.39
+------------------------------------
+ T O T A L               * 7 2 . 0 0
+CASH                          *72.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097362
+10/07/2025                     15:01
+
+Ref: CS1-00239-SEF
+Order: COV-00242-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 15
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Macchiato Short               *58.33
+                          1 x *60.00
+Coffee Short                  *60.00
+SUBTOTAL                     *118.33
+SURCHARGE                      *5.15
+------------------------------------
+TXBL1                        *123.48
+TAX1  15.00%                  *18.52
+------------------------------------
+ T O T A L             * 1 4 2 . 0 0
+CASH                         *142.00
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136328
+10/07/2025                     15:05
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00244-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 15:46:27
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 4
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136329
+10/07/2025                     15:07
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00245-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 15:48:27
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  EGG SANDWICH
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136330
+10/07/2025                     15:13
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00245-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 15:48:27
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STEAMED MILK SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097363
+10/07/2025                     15:18
+
+Ref: CS1-00240-SEF
+Order: COV-00245-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *120.83
+Egg Sandwich                 *120.83
+                          1 x *74.17
+Steamed Milk Short            *74.17
+SUBTOTAL                     *195.00
+SURCHARGE                      *8.49
+------------------------------------
+TXBL1                        *203.49
+TAX1  15.00%                  *30.52
+------------------------------------
+ T O T A L             * 2 3 4 . 0 1
+CASH                         *234.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136331
+10/07/2025                     15:27
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00246-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 16:8:14
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 9
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136332
+10/07/2025                     15:27
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00246-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 16:8:14
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 9
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BANANA CAKEÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136333
+10/07/2025                     15:33
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00246-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 16:8:14
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 9
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  AMBO
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136334
+10/07/2025                     16:02
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00246-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 16:8:14
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 9
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136335
+10/07/2025                     16:03
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00247-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 16:44:24
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 14
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  JIGGER TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097364
+10/07/2025                     16:03
+
+Ref: CS1-00241-SEF
+Order: COV-00244-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 4
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *81.67
+Cafe Latte Short              *81.67
+SUBTOTAL                      *81.67
+SURCHARGE                      *3.55
+------------------------------------
+TXBL1                         *85.22
+TAX1  15.00%                  *12.78
+------------------------------------
+ T O T A L               * 9 8 . 0 0
+CASH                          *98.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136336
+10/07/2025                     16:04
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00248-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 16:45:59
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 8
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136337
+10/07/2025                     16:07
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00249-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 16:48:50
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BANANA CAKEÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136338
+10/07/2025                     16:07
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00249-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 16:48:50
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136339
+10/07/2025                     16:12
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00248-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 16:45:59
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 8
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  TEA ESPRESSO
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097365
+10/07/2025                     16:12
+
+Ref: CS1-00242-SEF
+Order: COV-00246-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 9
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *81.67
+Cafe Latte Short              *81.67
+                          1 x *73.33
+Banana Cake                   *73.33
+                          1 x *42.50
+Ambo                          *42.50
+                          1 x *31.67
+Bottled Water 600Ml           *31.67
+SUBTOTAL                     *229.17
+SURCHARGE                      *9.97
+------------------------------------
+TXBL1                        *239.14
+TAX1  15.00%                  *35.87
+------------------------------------
+ T O T A L             * 2 7 5 . 0 1
+CASH                         *275.01
+ITEM #                             4
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136340
+10/07/2025                     16:15
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00250-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 16:57:0
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 50
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  JIGGER TEA
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136341
+10/07/2025                     16:24
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00251-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:5:25
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136342
+10/07/2025                     16:24
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00251-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:5:25
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STEAK SANDWICH
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097366
+10/07/2025                     16:26
+
+Ref: CS1-00243-SEF
+Order: COV-00249-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *73.33
+Banana Cake                   *73.33
+                          1 x *58.33
+Macchiato Short               *58.33
+SUBTOTAL                     *131.66
+SURCHARGE                      *5.73
+------------------------------------
+TXBL1                        *137.39
+TAX1  15.00%                  *20.61
+------------------------------------
+ T O T A L             * 1 5 8 . 0 0
+CASH                         *158.00
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136343
+10/07/2025                     16:27
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00252-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:8:14
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 5
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136344
+10/07/2025                     16:27
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00253-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:8:42
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 18
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BANANA CAKEÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136345
+10/07/2025                     16:27
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00253-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:8:42
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 18
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136346
+10/07/2025                     16:28
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00250-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 16:57:0
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 50
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAROT CHEESE CAKE 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136347
+10/07/2025                     16:33
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00251-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:5:25
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAPPUCCINO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136348
+10/07/2025                     16:42
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00251-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:5:25
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SCRAMBLED EGGS
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136349
+10/07/2025                     16:44
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00254-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:25:22
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 15
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136350
+10/07/2025                     16:47
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00255-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:28:36
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 15
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136351
+10/07/2025                     16:48
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00251-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:5:25
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  EXTRA TOST
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097367
+10/07/2025                     16:51
+
+Ref: CS1-00244-SEF
+Order: COV-00248-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 8
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *95.00
+Macchiato Tall                *95.00
+                          1 x *60.00
+Tea Espresso                  *60.00
+SUBTOTAL                     *155.00
+SURCHARGE                      *6.74
+------------------------------------
+TXBL1                        *161.74
+TAX1  15.00%                  *24.26
+------------------------------------
+ T O T A L             * 1 8 6 . 0 0
+CASH                         *186.00
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136352
+10/07/2025                     16:51
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00251-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:5:25
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097368
+10/07/2025                     16:53
+
+Ref: CS1-00245-SEF
+Order: COV-00251-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 3
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          2 x *58.33
+Macchiato Short              *116.66
+                         1 x *388.33
+Steak Sandwich               *388.33
+                          1 x *95.00
+Cappuccino Short              *95.00
+                         1 x *139.16
+Scrambled Eggs               *139.16
+                          1 x *19.17
+Extra Tost                    *19.17
+                          1 x *31.67
+Bottled Water 600Ml           *31.67
+SUBTOTAL                     *789.99
+SURCHARGE                     *34.35
+------------------------------------
+TXBL1                        *824.34
+TAX1  15.00%                 *123.65
+------------------------------------
+ T O T A L             * 9 4 7 . 9 9
+CASH                         *947.99
+ITEM #                             6
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136353
+10/07/2025                     16:58
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00250-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 16:57:0
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 50
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136354
+10/07/2025                     17:01
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00256-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:42:11
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 4
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  FREE TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136355
+10/07/2025                     17:01
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00256-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:42:11
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 4
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ANEBABERO SLICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136356
+10/07/2025                     17:01
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00256-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:42:11
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 4
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136357
+10/07/2025                     17:05
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00257-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:47:6
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 9
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  LENTIL SAMBUSA WITH FRIES
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136358
+10/07/2025                     17:05
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00257-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:47:6
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 9
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  LEMON TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136359
+10/07/2025                     17:07
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00258-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:48:18
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  FREE TEA
+1  TEA ESPRESSO
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136360
+10/07/2025                     17:07
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00258-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:48:18
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ANEBABERO SLICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097369
+10/07/2025                     17:08
+
+Ref: CS1-00246-SEF
+Order: COV-00247-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 14
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Jigger Tea                    *58.33
+------------------------------------
+TXBL1                         *58.33
+TAX1  15.00%                   *8.75
+------------------------------------
+ T O T A L               * 6 7 . 0 8
+CASH                          *67.08
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136361
+10/07/2025                     17:09
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00259-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:50:23
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 16
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097370
+10/07/2025                     17:12
+
+Ref: CS1-00247-SEF
+Order: COV-00250-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 50
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Jigger Tea                    *58.33
+                          1 x *95.00
+Macchiato Tall                *95.00
+                         1 x *105.00
+Carot Cheese Cake            *105.00
+                          1 x *31.67
+Bottled Water 600Ml           *31.67
+SUBTOTAL                     *290.00
+SURCHARGE                     *10.08
+------------------------------------
+TXBL1                        *300.08
+TAX1  15.00%                  *45.01
+------------------------------------
+ T O T A L             * 3 4 5 . 0 9
+CASH                         *345.09
+ITEM #                             4
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097371
+10/07/2025                     17:13
+
+Ref: CS1-00248-SEF
+Order: COV-00255-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 15
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *95.00
+Macchiato Tall                *95.00
+SUBTOTAL                      *95.00
+SURCHARGE                      *4.13
+------------------------------------
+TXBL1                         *99.13
+TAX1  15.00%                  *14.87
+------------------------------------
+ T O T A L             * 1 1 4 . 0 0
+CASH                         *114.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136362
+10/07/2025                     17:18
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00260-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:59:13
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097372
+10/07/2025                     17:23
+
+Ref: CS1-00249-SEF
+Order: COV-00252-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 5
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          2 x *31.67
+Bottled Water 600Ml           *63.34
+SUBTOTAL                      *63.34
+SURCHARGE                      *2.76
+------------------------------------
+TXBL1                         *66.10
+TAX1  15.00%                   *9.92
+------------------------------------
+ T O T A L               * 7 6 . 0 2
+CASH                          *76.02
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136363
+10/07/2025                     17:35
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00261-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 18:16:37
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STEAK SANDWICH
+1  TAKE AWAY FAST FOOD
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136364
+10/07/2025                     17:35
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00261-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 18:16:37
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHOCOLATE BALLS
+1  TAKE AWAY PASTRY
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097373
+10/07/2025                     17:35
+
+Ref: CS1-00250-SEF
+Order: COV-00261-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *388.33
+Steak Sandwich               *388.33
+                           1 x *8.70
+Take Away Fast food            *8.70
+                          1 x *63.33
+chocolate balls               *63.33
+                           1 x *8.70
+Take Away pastry               *8.70
+SUBTOTAL                     *469.06
+SURCHARGE                     *19.64
+------------------------------------
+TXBL1                        *488.70
+TAX1  15.00%                  *73.31
+------------------------------------
+ T O T A L             * 5 6 2 . 0 1
+CASH                         *562.01
+ITEM #                             4
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136365
+10/07/2025                     17:40
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00254-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 17:25:22
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 11
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097374
+10/07/2025                     17:44
+
+Ref: CS1-00251-SEF
+Order: COV-00257-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 9
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *121.66
+Lentil Sambusa With Fries    *121.66
+                          1 x *58.33
+Lemon Tea                     *58.33
+SUBTOTAL                     *179.99
+SURCHARGE                      *5.29
+------------------------------------
+TXBL1                        *185.28
+TAX1  15.00%                  *27.79
+------------------------------------
+ T O T A L             * 2 1 3 . 0 7
+CASH                         *213.07
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136366
+10/07/2025                     17:47
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00262-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 18:28:56
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 9
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097375
+10/07/2025                     17:47
+
+Ref: CS1-00252-SEF
+Order: COV-00259-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 16
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *95.00
+Macchiato Tall                *95.00
+SUBTOTAL                      *95.00
+SURCHARGE                      *4.13
+------------------------------------
+TXBL1                         *99.13
+TAX1  15.00%                  *14.87
+------------------------------------
+ T O T A L             * 1 1 4 . 0 0
+CASH                         *114.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097376
+10/07/2025                     17:50
+
+Ref: CS1-00253-SEF
+Order: COV-00258-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                           1 x *0.01
+Free Tea                       *0.01
+                          1 x *60.00
+Tea Espresso                  *60.00
+                          1 x *64.17
+Anebabero Slice               *64.17
+SUBTOTAL                     *124.18
+SURCHARGE                      *5.40
+------------------------------------
+TXBL1                        *129.58
+TAX1  15.00%                  *19.44
+------------------------------------
+ T O T A L             * 1 4 9 . 0 2
+CASH                         *149.02
+ITEM #                             3
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097377
+10/07/2025                     17:51
+
+Ref: CS1-00254-SEF
+Order: COV-00253-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 18
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *73.33
+Banana Cake                   *73.33
+                          1 x *95.00
+Macchiato Tall                *95.00
+SUBTOTAL                     *168.33
+SURCHARGE                      *7.32
+------------------------------------
+TXBL1                        *175.65
+TAX1  15.00%                  *26.35
+------------------------------------
+ T O T A L             * 2 0 2 . 0 0
+CASH                         *202.00
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136367
+10/07/2025                     17:58
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00263-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 18:39:30
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  LEMON TEA
+1  JIGGER TEA
+1  STEAMED MILK SHORT
+====================================
+         N O N - F I S C A L
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097378
+10/07/2025                     17:58
+
+Ref: CS1-00255-SEF
+Order: COV-00262-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 9
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Macchiato Short               *58.33
+SUBTOTAL                      *58.33
+SURCHARGE                      *2.54
+------------------------------------
+TXBL1                         *60.87
+TAX1  15.00%                   *9.13
+------------------------------------
+ T O T A L               * 7 0 . 0 0
+CASH                          *70.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136368
+10/07/2025                     18:01
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00264-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 18:42:45
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 5
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136369
+10/07/2025                     18:02
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00265-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 18:43:21
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136370
+10/07/2025                     18:02
+
+         Kaldis Coffee 2018
+    *** Cup-Semit Figa ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00265-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 18:43:21
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  HOT CUP4OZ
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136371
+10/07/2025                     18:02
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00265-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 18:43:21
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAROT CHEESE CAKE 
+1  TAKE AWAY PASTRY
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097379
+10/07/2025                     18:02
+
+Ref: CS1-00256-SEF
+Order: COV-00265-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          2 x *58.33
+Macchiato Short              *116.66
+                           2 x *7.83
+Hot Cup4Oz                    *15.66
+                         1 x *105.00
+Carot Cheese Cake            *105.00
+                           1 x *8.70
+Take Away pastry               *8.70
+SUBTOTAL                     *246.02
+SURCHARGE                      *9.64
+------------------------------------
+TXBL1                        *255.66
+TAX1  15.00%                  *38.35
+------------------------------------
+ T O T A L             * 2 9 4 . 0 1
+CASH                         *294.01
+ITEM #                             4
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136372
+10/07/2025                     18:06
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00266-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 18:47:18
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 15
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHOCOLATE BALLS
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136373
+10/07/2025                     18:06
+
+         Kaldis Coffee 2018
+   *** Ice Cream-Semit ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00266-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 18:47:18
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 15
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MILKSHAKES VANILLA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097380
+10/07/2025                     18:06
+
+Ref: CS1-00257-SEF
+Order: COV-00256-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 4
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                           1 x *0.01
+Free Tea                       *0.01
+                          1 x *64.17
+Anebabero Slice               *64.17
+                          1 x *31.67
+Bottled Water 600Ml           *31.67
+SUBTOTAL                      *95.85
+SURCHARGE                      *4.17
+------------------------------------
+TXBL1                        *100.02
+TAX1  15.00%                  *15.00
+------------------------------------
+ T O T A L             * 1 1 5 . 0 2
+CASH                         *115.02
+ITEM #                             3
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097381
+10/07/2025                     18:06
+
+Ref: CS1-00258-SEF
+Order: COV-00264-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 5
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *81.67
+Cafe Latte Short              *81.67
+SUBTOTAL                      *81.67
+SURCHARGE                      *3.55
+------------------------------------
+TXBL1                         *85.22
+TAX1  15.00%                  *12.78
+------------------------------------
+ T O T A L               * 9 8 . 0 0
+CASH                          *98.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097382
+10/07/2025                     18:06
+
+Ref: CS1-00259-SEF
+Order: COV-00260-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 3
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *95.00
+Macchiato Tall                *95.00
+SUBTOTAL                      *95.00
+SURCHARGE                      *4.13
+------------------------------------
+TXBL1                         *99.13
+TAX1  15.00%                  *14.87
+------------------------------------
+ T O T A L             * 1 1 4 . 0 0
+CASH                         *114.00
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136374
+10/07/2025                     18:08
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00267-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 18:49:30
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 8
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097383
+10/07/2025                     18:08
+
+Ref: CS1-00260-SEF
+Order: COV-00267-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 8
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *31.67
+Bottled Water 600Ml           *31.67
+SUBTOTAL                      *31.67
+SURCHARGE                      *1.38
+------------------------------------
+TXBL1                         *33.05
+TAX1  15.00%                   *4.96
+------------------------------------
+ T O T A L               * 3 8 . 0 1
+CASH                          *38.01
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136375
+10/07/2025                     18:13
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00266-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 18:47:18
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 15
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+1  TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136376
+10/07/2025                     18:13
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00266-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 18:47:18
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 15
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BANANA CAKEÂ 
+1  BAKLAVA CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097384
+10/07/2025                     18:14
+
+Ref: CS1-00261-SEF
+Order: COV-00254-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 11
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Macchiato Short               *58.33
+                          1 x *51.67
+Tea                           *51.67
+SUBTOTAL                     *110.00
+SURCHARGE                      *4.79
+------------------------------------
+TXBL1                        *114.79
+TAX1  15.00%                  *17.22
+------------------------------------
+ T O T A L             * 1 3 2 . 0 1
+CASH                         *132.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136377
+10/07/2025                     18:24
+
+         Kaldis Coffee 2018
+     *** Bar2-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00268-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:5:32
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 5
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHOCOLATE BALLS
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136378
+10/07/2025                     18:24
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00268-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:5:32
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 5
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  LEMON TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136379
+10/07/2025                     18:26
+
+         Kaldis Coffee 2018
+    *** Juice-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00269-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:8:6
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 14
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  KALIDI'S TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136380
+10/07/2025                     18:26
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00269-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:8:6
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 14
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136381
+10/07/2025                     18:27
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00270-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:8:53
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 25
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  LENTIL SAMBUSA WITH FRIES
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136382
+10/07/2025                     18:27
+
+         Kaldis Coffee 2018
+    *** Juice-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00270-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:8:53
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 25
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  KALIDI'S TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136383
+10/07/2025                     18:27
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00270-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:8:53
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 25
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136384
+10/07/2025                     18:30
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00271-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:12:0
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+1  STEAMED MILK SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136385
+10/07/2025                     18:32
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00272-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:13:18
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 7
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  TUNA SANDWICH
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097385
+10/07/2025                     18:36
+
+Ref: CS1-00262-SEF
+Order: COV-00263-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Lemon Tea                     *58.33
+                          1 x *58.33
+Jigger Tea                    *58.33
+                          1 x *74.17
+Steamed Milk Short            *74.17
+SUBTOTAL                     *190.83
+SURCHARGE                      *3.23
+------------------------------------
+TXBL1                        *194.06
+TAX1  15.00%                  *29.11
+------------------------------------
+ T O T A L             * 2 2 3 . 1 7
+CASH                         *223.17
+ITEM #                             3
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136386
+10/07/2025                     18:36
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00273-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:17:42
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  LENTIL SAMBUSA WITH FRIES
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097386
+10/07/2025                     18:36
+
+Ref: CS1-00263-SEF
+Order: COV-00273-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *121.66
+Lentil Sambusa With Fries    *121.66
+SUBTOTAL                     *121.66
+SURCHARGE                      *5.29
+------------------------------------
+TXBL1                        *126.95
+TAX1  15.00%                  *19.04
+------------------------------------
+ T O T A L             * 1 4 5 . 9 9
+CASH                         *145.99
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136387
+10/07/2025                     18:37
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00274-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:18:49
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 18
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STEAMED MILK SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136388
+10/07/2025                     18:38
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00268-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:5:32
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 5
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136389
+10/07/2025                     18:38
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00266-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 18:47:18
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 15
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SOFT DRINKÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097387
+10/07/2025                     18:41
+
+Ref: CS1-00264-SEF
+Order: COV-00266-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 15
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *63.33
+chocolate balls               *63.33
+                         1 x *115.00
+Milkshakes Vanilla           *115.00
+                          1 x *58.33
+Macchiato Short               *58.33
+                          1 x *51.67
+Tea                           *51.67
+                          1 x *73.33
+Banana Cake                   *73.33
+                          1 x *74.17
+Baklava Cake                  *74.17
+                          1 x *57.50
+Soft Drink                    *57.50
+SUBTOTAL                     *493.33
+SURCHARGE                     *21.46
+------------------------------------
+TXBL1                        *514.79
+TAX1  15.00%                  *77.22
+------------------------------------
+ T O T A L             * 5 9 2 . 0 1
+CASH                         *592.01
+ITEM #                             7
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136390
+10/07/2025                     18:48
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00272-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:13:18
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 7
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SOFT DRINKÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136391
+10/07/2025                     18:48
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00275-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:29:45
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136392
+10/07/2025                     18:49
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00275-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:29:45
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  JIGGER TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097388
+10/07/2025                     18:52
+
+Ref: CS1-00265-SEF
+Order: COV-00270-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 25
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *121.66
+Lentil Sambusa With Fries    *121.66
+                         1 x *133.33
+Kalidi'S Tea                 *133.33
+                          1 x *51.67
+Tea                           *51.67
+SUBTOTAL                     *306.66
+SURCHARGE                     *13.34
+------------------------------------
+TXBL1                        *320.00
+TAX1  15.00%                  *48.00
+------------------------------------
+ T O T A L             * 3 6 8 . 0 0
+CASH                         *368.00
+ITEM #                             3
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136393
+10/07/2025                     18:53
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00276-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:35:6
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 8
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  LEMON TEA
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097389
+10/07/2025                     19:00
+
+Ref: CS1-00266-SEF
+Order: COV-00272-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 7
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *293.33
+Tuna Sandwich                *293.33
+                          1 x *57.50
+Soft Drink                    *57.50
+SUBTOTAL                     *350.83
+SURCHARGE                     *15.26
+------------------------------------
+TXBL1                        *366.09
+TAX1  15.00%                  *54.91
+------------------------------------
+ T O T A L             * 4 2 1 . 0 0
+CASH                         *421.00
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097390
+10/07/2025                     19:18
+
+Ref: CS1-00267-SEF
+Order: COV-00276-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 8
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Lemon Tea                     *58.33
+                          1 x *58.33
+Macchiato Short               *58.33
+SUBTOTAL                     *116.66
+SURCHARGE                      *2.54
+------------------------------------
+TXBL1                        *119.20
+TAX1  15.00%                  *17.88
+------------------------------------
+ T O T A L             * 1 3 7 . 0 8
+CASH                         *137.08
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136394
+10/07/2025                     19:19
+
+         Kaldis Coffee 2018
+     *** Bar1-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00268-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:5:32
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 5
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097391
+10/07/2025                     19:19
+
+Ref: CS1-00268-SEF
+Order: COV-00268-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 5
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *63.33
+chocolate balls               *63.33
+                          1 x *58.33
+Lemon Tea                     *58.33
+                          1 x *95.00
+Macchiato Tall                *95.00
+                          2 x *31.67
+Bottled Water 600Ml           *63.34
+SUBTOTAL                     *280.00
+SURCHARGE                      *9.64
+------------------------------------
+TXBL1                        *289.64
+TAX1  15.00%                  *43.45
+------------------------------------
+ T O T A L             * 3 3 3 . 0 9
+CASH                         *333.09
+ITEM #                             4
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097392
+10/07/2025                     19:31
+
+Ref: CS1-00269-SEF
+Order: COV-00274-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 18
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *74.17
+Steamed Milk Short            *74.17
+SUBTOTAL                      *74.17
+SURCHARGE                      *3.23
+------------------------------------
+TXBL1                         *77.40
+TAX1  15.00%                  *11.61
+------------------------------------
+ T O T A L               * 8 9 . 0 1
+CASH                          *89.01
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136395
+10/07/2025                     19:35
+
+         Kaldis Coffee 2018
+   *** Kitchen-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00277-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 20:16:44
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  LENTIL SAMBUSA WITH FRIES
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097393
+10/07/2025                     19:35
+
+Ref: CS1-00270-SEF
+Order: COV-00277-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *121.66
+Lentil Sambusa With Fries    *121.66
+SUBTOTAL                     *121.66
+SURCHARGE                      *5.29
+------------------------------------
+TXBL1                        *126.95
+TAX1  15.00%                  *19.04
+------------------------------------
+ T O T A L             * 1 4 5 . 9 9
+CASH                         *145.99
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097394
+10/07/2025                     19:40
+
+Ref: CS1-00271-SEF
+Order: COV-00269-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 14
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *133.33
+Kalidi'S Tea                 *133.33
+                          1 x *31.67
+Bottled Water 600Ml           *31.67
+SUBTOTAL                     *165.00
+SURCHARGE                      *7.18
+------------------------------------
+TXBL1                        *172.18
+TAX1  15.00%                  *25.83
+------------------------------------
+ T O T A L             * 1 9 8 . 0 1
+CASH                         *198.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136396
+10/07/2025                     19:42
+
+         Kaldis Coffee 2018
+     *** Bar3-SUMMIT2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00278-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 20:23:20
+No Guest: 1
+Waiter: Betelhem Lule Demse
+Table: 15
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  LEMON TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097395
+10/07/2025                     19:45
+
+Ref: CS1-00272-SEF
+Order: COV-00271-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *81.67
+Cafe Latte Short              *81.67
+                          1 x *74.17
+Steamed Milk Short            *74.17
+SUBTOTAL                     *155.84
+SURCHARGE                      *6.78
+------------------------------------
+TXBL1                        *162.62
+TAX1  15.00%                  *24.39
+------------------------------------
+ T O T A L             * 1 8 7 . 0 1
+CASH                         *187.01
+ITEM #                             2
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136397
+10/07/2025                     19:46
+
+         Kaldis Coffee 2018
+   *** Ice Cream-Semit ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00275-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:29:45
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STROWBERRY ICE CREAM
+1  CHOCOLATE ICE CREAM
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+         N O N - F I S C A L
+
+No. NF 00136398
+10/07/2025                     19:46
+
+         Kaldis Coffee 2018
+    *** Cup-Semit Figa ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-00275-SEF
+Order By:Kasalem Tesfaye
+Order Device:SUMMIT2-POS
+         N O N - F I S C A L
+Date: 10/7/2025 19:29:45
+No Guest: 1
+Waiter: Eheteye Bekele Molla
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ICE CREAM NEW CUP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097396
+10/07/2025                     19:53
+
+Ref: CS1-00273-SEF
+Order: COV-00275-SEF
+Operator: Kasalem Tesfaye
+Waiter: Eheteye Bekele Molla
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *95.00
+Macchiato Tall                *95.00
+                          1 x *58.33
+Jigger Tea                    *58.33
+                          1 x *67.50
+Strowberry Ice Cream          *67.50
+                          1 x *67.50
+Chocolate Ice Cream           *67.50
+                          1 x *15.65
+Ice Cream New Cup             *15.65
+SUBTOTAL                     *303.98
+SURCHARGE                     *10.01
+------------------------------------
+TXBL1                        *313.99
+TAX1  15.00%                  *47.10
+------------------------------------
+ T O T A L             * 3 6 1 . 0 9
+CASH                         *361.09
+ITEM #                             5
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+     CITY-A.A,SUBCITY-LEMI KURA
+           W/08, H.NO.-NEW
+             AROUND FIGA
+           TEL-0118-102538
+
+FS No. 00097397
+10/07/2025                     20:02
+
+Ref: CS1-00274-SEF
+Order: COV-00278-SEF
+Operator: Kasalem Tesfaye
+Waiter: Betelhem Lule Demse
+Table: 15
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *58.33
+Lemon Tea                     *58.33
+------------------------------------
+TXBL1                         *58.33
+TAX1  15.00%                   *8.75
+------------------------------------
+ T O T A L               * 6 7 . 0 8
+CASH                          *67.08
+ITEM #                             1
+           @@@@ FGB0010201
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+

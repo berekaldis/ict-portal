@@ -1,0 +1,66 @@
+JOURNAL NUMBER 775 CLEARED
+SIGNATURE:      F3CAE9BD59AA950C3ACF
+                246B3C59126400E5A38C
+
+           TIN: 0004346744
+          KALDIS COFFE PLC
+          A.A,SUBCITY-BOLE
+       W-01,H.N0-BOLE AIRPORT
+            BOLE AIRPORT
+           TEL-0112734618
+
+   S E S S I O N   Z   R E P O R T
+
+Z:0773
+24/07/2026                     06:28
+
+SALES                             82
+DISCOUNTS (0)                  *0.00
+SURCHARGES (61)             *2452.17
+VOID (0)                       *0.00
+CASH                       *69361.21
+
+CASH DEPOSIT (0)               *0.00
+CASH DEDUCTED (0)              *0.00
+CASH AVAILABLE             *69361.21
+
+ACCU.EJ                     00000775
+SESSION.EJ                         1
+SIGNATURE:      F3CAE9BD59AA950C3ACF
+                246B3C59126400E5A38C
+------------------------------------
+TXBL1                      *60314.09
+TXBL2                          *0.00
+TXBL3                          *0.00
+NOTXBL                         *0.00
+TAX1  15.00%                *9047.11
+TAX2   0.00%                   *0.00
+TAX3   0.00%                   *0.00
+ - - - - - - - - - - - - - - - - - -
+SALES TL                   *60314.09
+TXBL TL                    *60314.09
+TAX TL                      *9047.11
+------------------------------------
+RFD TXBL1                      *0.00
+RFD TXBL2                      *0.00
+RFD TXBL3                      *0.00
+RFD NOTXBL                     *0.00
+RFD TAX1  15.00%               *0.00
+RFD TAX2   0.00%               *0.00
+RFD TAX3   0.00%               *0.00
+ - - - - - - - - - - - - - - - - - -
+RFD SALES TL                   *0.00
+RFD TXBL TL                    *0.00
+RFD TAX TL                     *0.00
+------------------------------------
+ACCU.FS                     00039016
+24/07/2026                     01:10
+SESSION.FS                        61
+ACCU.NF                     00059677
+SESSION.NF                        82
+ACCU.RFD                    00000000
+SESSION.RFD                        0
+SESSION RESET                      0
+
+           @@@@ FGB0020762
+

@@ -1,0 +1,240 @@
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00048998
+29/10/2026                           12:06
+
+Invoice: CS_BETEL2-POS_MVTBCWAP
+Order: CO_BETEL2-POS_MVTBEW41
+Operator: Aberash Urgesa
+Waiter: Robel Haftu Berwo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Bottled Water 600ml      1 47.150   *47.15
+SUBTOTAL                         *47.15
+Service Chrg                       *2.05 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *49.20
+TAX1 15%                             *7.38
+------------------------------------------
+TOTAL                            *56.58
+------------------------------------------
+Cash                             *56.58
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00048999
+29/10/2026                           12:13
+
+Invoice: CS_BETEL2-POS_MVTBNF03
+Order: CO_BETEL2-POS_MVTBND2C
+Operator: Aberash Urgesa
+Waiter: Robel Haftu Berwo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Bottled Water 600ml      1 47.150   *47.15
+SUBTOTAL                         *47.15
+Service Chrg                       *2.05 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *49.20
+TAX1 15%                             *7.38
+------------------------------------------
+TOTAL                            *56.58
+------------------------------------------
+Cash                             *56.58
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00049000
+29/10/2026                           12:14
+
+Invoice: CS_BETEL2-POS_MVTBNUCC
+Order: CO_BETEL2-POS_MVTASUA5
+Operator: Aberash Urgesa
+Waiter: Robel Haftu Berwo
+Table: 12
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Medium         1 129.170 *129.17
+Steamed Milk Tall        1 124.200 *124.20
+SUBTOTAL                       *253.37
+Service Chrg                      *11.02 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *264.39
+TAX1 15%                            *39.66
+------------------------------------------
+TOTAL                          *304.05
+------------------------------------------
+Cash                           *304.05
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00049001
+29/10/2026                           12:52
+
+Invoice: CS_BETEL2-POS_MVTD1RXO
+Order: CO_BETEL2-POS_MVTD29IE
+Operator: Aberash Urgesa
+Waiter: Degnet Ayele Erjobo
+Table: 12
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Coffee Short             1 125.000 *125.00
+SUBTOTAL                       *125.00
+Service Chrg                       *5.44 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *130.44
+TAX1 15%                            *19.57
+------------------------------------------
+TOTAL                          *150.01
+------------------------------------------
+Cash                           *150.01
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00049002
+29/10/2026                           12:55
+
+Invoice: CS_BETEL2-POS_MVTD2R1H
+Order: CO_BETEL2-POS_MVTD60SB
+Operator: Aberash Urgesa
+Waiter: Degnet Ayele Erjobo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Steamed Milk Tall        1 124.200 *124.20
+SUBTOTAL                       *124.20
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+TOTAL                          *149.04
+------------------------------------------
+Cash                           *149.04
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00049003
+29/10/2026                           13:04
+
+Invoice: CS_BETEL2-POS_MVTDDSCQ
+Order: CO_BETEL2-POS_MVTD1O43
+Operator: Aberash Urgesa
+Waiter: Degnet Ayele Erjobo
+Table: 12
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Banana Cake              2 95.450  *190.90
+Cafe Latte Tall          2 152.950 *305.90
+SUBTOTAL                       *496.80
+Service Chrg                      *21.61 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *518.41
+TAX1 15%                            *77.76
+------------------------------------------
+TOTAL                          *596.17
+------------------------------------------
+Cash                           *596.17
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00049004
+29/10/2026                           13:06
+
+Invoice: CS_BETEL2-POS_MVTDK6JN
+Order: CO_BETEL2-POS_MVTARZ6G
+Operator: Aberash Urgesa
+Waiter: Robel Haftu Berwo
+Table: 2
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cafe Latte Short         2 137.500 *275.00
+SUBTOTAL                       *275.00
+Service Chrg                      *11.96 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *286.96
+TAX1 15%                            *43.04
+------------------------------------------
+TOTAL                          *330.00
+------------------------------------------
+Cash                           *330.00
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+

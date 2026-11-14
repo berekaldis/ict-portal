@@ -1,0 +1,5559 @@
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044153
+19/09/2026                           06:55
+
+Invoice: CS_BETEL2-POS_MU7ULRR1
+Order: COV-11318-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Test New                 1 0.010     *0.01
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                                *0.01
+TAX1 15%                             *0.00
+------------------------------------------
+^T^O^T^A^L                      ^*^0^.^0^1
+------------------------------------------
+^C^a^s^h                        ^*^0^.^0^1
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044154
+19/09/2026                           06:56
+
+Invoice: CS_BETEL2-POS_MU7UNIIS
+Order: COV-11316-BEA
+Operator: Melesech Tadele
+Waiter: Hagos G/jewrgis Wereta
+Table: 5
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Test New                 1 0.010     *0.01
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                                *0.01
+TAX1 15%                             *0.00
+------------------------------------------
+^T^O^T^A^L                      ^*^0^.^0^1
+------------------------------------------
+^C^a^s^h                        ^*^0^.^0^1
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044155
+19/09/2026                           06:57
+
+Invoice: CS_BETEL2-POS_MU7UOKY8
+Order: COV-11315-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 10
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Test New                 1 0.010     *0.01
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                                *0.01
+TAX1 15%                             *0.00
+------------------------------------------
+^T^O^T^A^L                      ^*^0^.^0^1
+------------------------------------------
+^C^a^s^h                        ^*^0^.^0^1
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044156
+19/09/2026                           06:57
+
+Invoice: CS_BETEL2-POS_MU7UP5ES
+Order: COV-11314-BEA
+Operator: Melesech Tadele
+Waiter: Degnet Ayele Erjobo
+Table: 3
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Assorted CakeÂ           4 128.800 *515.20
+Bigne 3pcs               1 95.450   *95.45
+Test New                 1 0.010     *0.01
+^S^U^B^T^O^T^A^L            ^*^6^1^0^.^6^6
+Service Chrg                      *26.56 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *637.22
+TAX1 15%                            *95.58
+------------------------------------------
+^T^O^T^A^L                  ^*^7^3^2^.^8^0
+------------------------------------------
+^C^a^s^h                    ^*^7^3^2^.^8^0
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044157
+19/09/2026                           06:58
+
+Invoice: CS_BETEL2-POS_MU7UPUYT
+Order: COV-11312-BEA
+Operator: Melesech Tadele
+Waiter: Degnet Ayele Erjobo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Test New                 1 0.010     *0.01
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                                *0.01
+TAX1 15%                             *0.00
+------------------------------------------
+^T^O^T^A^L                      ^*^0^.^0^1
+------------------------------------------
+^C^a^s^h                        ^*^0^.^0^1
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044158
+19/09/2026                           06:59
+
+Invoice: CS_BETEL2-POS_MU7UQU4A
+Order: COV-11310-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 11
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Test New                 1 0.010     *0.01
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                                *0.01
+TAX1 15%                             *0.00
+------------------------------------------
+^T^O^T^A^L                      ^*^0^.^0^1
+------------------------------------------
+^C^a^s^h                        ^*^0^.^0^1
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044159
+19/09/2026                           07:00
+
+Invoice: CS_BETEL2-POS_MU7USF85
+Order: COV-11308-BEA
+Operator: Melesech Tadele
+Waiter: Degnet Ayele Erjobo
+Table: 2
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chocolate Millefoglie    1 133.400 *133.40
+Test New                 1 0.010     *0.01
+^S^U^B^T^O^T^A^L            ^*^1^3^3^.^4^1
+Service Chrg                       *5.80 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *139.21
+TAX1 15%                            *20.88
+------------------------------------------
+^T^O^T^A^L                  ^*^1^6^0^.^0^9
+------------------------------------------
+^C^a^s^h                    ^*^1^6^0^.^0^9
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044160
+19/09/2026                           07:01
+
+Invoice: CS_BETEL2-POS_MU7UT0R3
+Order: COV-11297-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 10
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Test New                 1 0.010     *0.01
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                                *0.01
+TAX1 15%                             *0.00
+------------------------------------------
+^T^O^T^A^L                      ^*^0^.^0^1
+------------------------------------------
+^C^a^s^h                        ^*^0^.^0^1
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044161
+19/09/2026                           07:02
+
+Invoice: CS_BETEL2-POS_MU7UV74Z
+Order: COV-11307-BEA
+Operator: Melesech Tadele
+Waiter: Hagos G/jewrgis Wereta
+Table: 7
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Bottled Water 600ml      1 47.150   *47.15
+Test New                 1 0.010     *0.01
+Coffee Americano Short   1 95.450   *95.45
+^S^U^B^T^O^T^A^L            ^*^1^4^2^.^6^1
+Service Chrg                       *6.20 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *148.81
+TAX1 15%                            *22.32
+------------------------------------------
+^T^O^T^A^L                  ^*^1^7^1^.^1^3
+------------------------------------------
+^C^a^s^h                    ^*^1^7^1^.^1^3
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044162
+19/09/2026                           07:53
+
+Invoice: CS_BETEL2-POS_MU7WP1RT
+Order: COV-11319-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 13
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+Chocolate Millefoglie    1 133.400 *133.40
+Caramel Frosting Cake    1 152.950 *152.95
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^4^5^7^.^7^0
+Service Chrg                      *19.90 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *477.60
+TAX1 15%                            *71.64
+------------------------------------------
+^T^O^T^A^L                  ^*^5^4^9^.^2^4
+------------------------------------------
+^C^a^s^h                    ^*^5^4^9^.^2^4
+ITEM#                                    4
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044163
+19/09/2026                           08:22
+
+Invoice: CS_BETEL2-POS_MU7X11NX
+Order: COV-11320-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 5
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+Chocolate  Cake          1 143.750 *143.75
+^S^U^B^T^O^T^A^L            ^*^2^4^8^.^4^0
+Service Chrg                      *10.80 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *259.20
+TAX1 15%                            *38.88
+------------------------------------------
+^T^O^T^A^L                  ^*^2^9^8^.^0^8
+------------------------------------------
+^C^a^s^h                    ^*^2^9^8^.^0^8
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044164
+19/09/2026                           09:16
+
+Invoice: CS_BETEL2-POS_MU7ZOMCJ
+Order: COV-11321-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Carrot Cheese Cake       1 120.750 *120.75
+^S^U^B^T^O^T^A^L            ^*^1^2^0^.^7^5
+Service Chrg                       *5.25 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *126.00
+TAX1 15%                            *18.90
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^4^.^9^0
+------------------------------------------
+^C^a^s^h                    ^*^1^4^4^.^9^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044165
+19/09/2026                           09:38
+
+Invoice: CS_BETEL2-POS_MU80GNBQ
+Order: COV-11323-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 11
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+Assorted CakeÂ           3 128.800 *386.40
+^S^U^B^T^O^T^A^L            ^*^5^1^0^.^6^0
+Service Chrg                      *22.21 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *532.81
+TAX1 15%                            *79.92
+------------------------------------------
+^T^O^T^A^L                  ^*^6^1^2^.^7^3
+------------------------------------------
+^C^a^s^h                    ^*^6^1^2^.^7^3
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044166
+19/09/2026                           09:53
+
+Invoice: CS_BETEL2-POS_MU80JR1Y
+Order: COV-11324-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 8
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea                      1 62.100   *62.10
+^S^U^B^T^O^T^A^L              ^*^6^2^.^1^0
+Service Chrg                       *2.70 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *64.80
+TAX1 15%                             *9.72
+------------------------------------------
+^T^O^T^A^L                    ^*^7^4^.^5^2
+------------------------------------------
+^C^a^s^h                      ^*^7^4^.^5^2
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044167
+19/09/2026                           10:05
+
+Invoice: CS_BETEL2-POS_MU81DSP4
+Order: COV-11325-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 6
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cafe Latte Tall          1 152.950 *152.95
+^S^U^B^T^O^T^A^L            ^*^1^5^2^.^9^5
+Service Chrg                       *6.65 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *159.60
+TAX1 15%                            *23.94
+------------------------------------------
+^T^O^T^A^L                  ^*^1^8^3^.^5^4
+------------------------------------------
+^C^a^s^h                    ^*^1^8^3^.^5^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044168
+19/09/2026                           10:07
+
+Invoice: CS_BETEL2-POS_MU81ETYW
+Order: COV-11329-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Bigne 3pcs               2 95.450  *190.90
+Millefoglie              2 133.400 *266.80
+Ambo                     1 71.300   *71.30
+^S^U^B^T^O^T^A^L            ^*^5^2^9^.^0^0
+Service Chrg                      *23.01 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *552.01
+TAX1 15%                            *82.80
+------------------------------------------
+^T^O^T^A^L                  ^*^6^3^4^.^8^1
+------------------------------------------
+^C^a^s^h                    ^*^6^3^4^.^8^1
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044169
+19/09/2026                           10:07
+
+Invoice: CS_BETEL2-POS_MU81HH06
+Order: COV-11328-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 5
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Coffee Short             1 115.000 *115.00
+^S^U^B^T^O^T^A^L            ^*^1^1^5^.^0^0
+Service Chrg                       *5.00 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *120.00
+TAX1 15%                            *18.00
+------------------------------------------
+^T^O^T^A^L                  ^*^1^3^8^.^0^0
+------------------------------------------
+^C^a^s^h                    ^*^1^3^8^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044170
+19/09/2026                           10:07
+
+Invoice: CS_BETEL2-POS_MU81I1GS
+Order: COV-11327-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 8
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Vanilla Latte Short      1 172.500 *172.50
+^S^U^B^T^O^T^A^L            ^*^1^7^2^.^5^0
+Service Chrg                       *7.50 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *180.00
+TAX1 15%                            *27.00
+------------------------------------------
+^T^O^T^A^L                  ^*^2^0^7^.^0^0
+------------------------------------------
+^C^a^s^h                    ^*^2^0^7^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044171
+19/09/2026                           10:08
+
+Invoice: CS_BETEL2-POS_MU81I9ZH
+Order: COV-11326-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 12
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea                      1 62.100   *62.10
+^S^U^B^T^O^T^A^L              ^*^6^2^.^1^0
+Service Chrg                       *2.70 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *64.80
+TAX1 15%                             *9.72
+------------------------------------------
+^T^O^T^A^L                    ^*^7^4^.^5^2
+------------------------------------------
+^C^a^s^h                      ^*^7^4^.^5^2
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044172
+19/09/2026                           10:08
+
+Invoice: CS_BETEL2-POS_MU81IGSX
+Order: COV-11322-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 13
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea                      1 62.100   *62.10
+^S^U^B^T^O^T^A^L              ^*^6^2^.^1^0
+Service Chrg                       *2.70 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *64.80
+TAX1 15%                             *9.72
+------------------------------------------
+^T^O^T^A^L                    ^*^7^4^.^5^2
+------------------------------------------
+^C^a^s^h                      ^*^7^4^.^5^2
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044173
+19/09/2026                           10:37
+
+Invoice: CS_BETEL2-POS_MU82J37S
+Order: COV-11334-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 13
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           2 124.200 *248.40
+^S^U^B^T^O^T^A^L            ^*^2^4^8^.^4^0
+Service Chrg                      *10.81 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *259.21
+TAX1 15%                            *38.88
+------------------------------------------
+^T^O^T^A^L                  ^*^2^9^8^.^0^9
+------------------------------------------
+^C^a^s^h                    ^*^2^9^8^.^0^9
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044174
+19/09/2026                           10:40
+
+Invoice: CS_BETEL2-POS_MU82N0HM
+Order: COV-11331-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 19
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           2 124.200 *248.40
+^S^U^B^T^O^T^A^L            ^*^2^4^8^.^4^0
+Service Chrg                      *10.81 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *259.21
+TAX1 15%                            *38.88
+------------------------------------------
+^T^O^T^A^L                  ^*^2^9^8^.^0^9
+------------------------------------------
+^C^a^s^h                    ^*^2^9^8^.^0^9
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044175
+19/09/2026                           10:43
+
+Invoice: CS_BETEL2-POS_MU82QHR0
+Order: COV-11335-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 11
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^1^7^1^.^3^5
+Service Chrg                       *7.45 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *178.80
+TAX1 15%                            *26.82
+------------------------------------------
+^T^O^T^A^L                  ^*^2^0^5^.^6^2
+------------------------------------------
+^C^a^s^h                    ^*^2^0^5^.^6^2
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044176
+19/09/2026                           10:45
+
+Invoice: CS_BETEL2-POS_MU82T197
+Order: COV-11330-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 4
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea Espresso             1 115.000 *115.00
+^S^U^B^T^O^T^A^L            ^*^1^1^5^.^0^0
+Service Chrg                       *5.00 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *120.00
+TAX1 15%                            *18.00
+------------------------------------------
+^T^O^T^A^L                  ^*^1^3^8^.^0^0
+------------------------------------------
+^C^a^s^h                    ^*^1^3^8^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044177
+19/09/2026                           10:49
+
+Invoice: CS_BETEL2-POS_MU82WXT7
+Order: COV-11343-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Assorted CakeÂ           1 128.800 *128.80
+^S^U^B^T^O^T^A^L            ^*^1^2^8^.^8^0
+Service Chrg                       *5.60 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *134.40
+TAX1 15%                            *20.16
+------------------------------------------
+^T^O^T^A^L                  ^*^1^5^4^.^5^6
+------------------------------------------
+^C^a^s^h                    ^*^1^5^4^.^5^6
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044178
+19/09/2026                           10:49
+
+Invoice: CS_BETEL2-POS_MU82ZRT4
+Order: COV-11341-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 3
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Coffee Short             1 115.000 *115.00
+^S^U^B^T^O^T^A^L            ^*^1^1^5^.^0^0
+Service Chrg                       *5.00 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *120.00
+TAX1 15%                            *18.00
+------------------------------------------
+^T^O^T^A^L                  ^*^1^3^8^.^0^0
+------------------------------------------
+^C^a^s^h                    ^*^1^3^8^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044179
+19/09/2026                           10:50
+
+Invoice: CS_BETEL2-POS_MU830194
+Order: COV-11333-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 7
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+Assorted CakeÂ           1 128.800 *128.80
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^3^0^0^.^1^5
+Service Chrg                      *13.05 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *313.20
+TAX1 15%                            *46.98
+------------------------------------------
+^T^O^T^A^L                  ^*^3^6^0^.^1^8
+------------------------------------------
+^C^a^s^h                    ^*^3^6^0^.^1^8
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044180
+19/09/2026                           10:57
+
+Invoice: CS_BETEL2-POS_MU83A8GQ
+Order: COV-11336-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 8
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Bottled Water 600ml      2 47.150   *94.30
+Jigger Tea               1 62.100   *62.10
+^S^U^B^T^O^T^A^L            ^*^1^5^6^.^4^0
+Service Chrg                       *6.80 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *163.20
+TAX1 15%                            *24.48
+------------------------------------------
+^T^O^T^A^L                  ^*^1^8^7^.^6^8
+------------------------------------------
+^C^a^s^h                    ^*^1^8^7^.^6^8
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044181
+19/09/2026                           11:02
+
+Invoice: CS_BETEL2-POS_MU83ECOH
+Order: COV-11340-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 6
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea                      1 62.100   *62.10
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^1^0^9^.^2^5
+Service Chrg                       *4.75 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *114.00
+TAX1 15%                            *17.10
+------------------------------------------
+^T^O^T^A^L                  ^*^1^3^1^.^1^0
+------------------------------------------
+^C^a^s^h                    ^*^1^3^1^.^1^0
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044182
+19/09/2026                           11:07
+
+Invoice: CS_BETEL2-POS_MU83MSNC
+Order: COV-11342-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 9
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044183
+19/09/2026                           11:09
+
+Invoice: CS_BETEL2-POS_MU83NHCG
+Order: COV-11349-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L              ^*^4^7^.^1^5
+Service Chrg                       *2.05 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *49.20
+TAX1 15%                             *7.38
+------------------------------------------
+^T^O^T^A^L                    ^*^5^6^.^5^8
+------------------------------------------
+^C^a^s^h                      ^*^5^6^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044184
+19/09/2026                           11:11
+
+Invoice: CS_BETEL2-POS_MU83PUJ4
+Order: COV-11332-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 20
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044185
+19/09/2026                           11:14
+
+Invoice: CS_BETEL2-POS_MU83V3QL
+Order: COV-11345-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 19
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          2 104.650 *209.30
+^S^U^B^T^O^T^A^L            ^*^2^0^9^.^3^0
+Service Chrg                       *9.10 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *218.40
+TAX1 15%                            *32.76
+------------------------------------------
+^T^O^T^A^L                  ^*^2^5^1^.^1^6
+------------------------------------------
+^C^a^s^h                    ^*^2^5^1^.^1^6
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044186
+19/09/2026                           11:18
+
+Invoice: CS_BETEL2-POS_MU83Y832
+Order: COV-11337-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 12
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           2 124.200 *248.40
+Millefoglie              1 133.400 *133.40
+Bottled Water 600ml      2 47.150   *94.30
+^S^U^B^T^O^T^A^L            ^*^4^7^6^.^1^0
+Service Chrg                      *20.71 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *496.81
+TAX1 15%                            *74.52
+------------------------------------------
+^T^O^T^A^L                  ^*^5^7^1^.^3^3
+------------------------------------------
+^C^a^s^h                    ^*^5^7^1^.^3^3
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044187
+19/09/2026                           11:28
+
+Invoice: CS_BETEL2-POS_MU84DJEC
+Order: COV-11351-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Hot Chocolate  Short     1 239.200 *239.20
+Chocolate Millefoglie    1 133.400 *133.40
+Assorted CakeÂ           1 128.800 *128.80
+Millefoglie              2 133.400 *266.80
+^S^U^B^T^O^T^A^L            ^*^7^6^8^.^2^0
+Service Chrg                      *33.42 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *801.62
+TAX1 15%                           *120.24
+------------------------------------------
+^T^O^T^A^L                  ^*^9^2^1^.^8^6
+------------------------------------------
+^C^a^s^h                    ^*^9^2^1^.^8^6
+ITEM#                                    4
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044188
+19/09/2026                           11:29
+
+Invoice: CS_BETEL2-POS_MU84EIIW
+Order: COV-11344-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 2
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+Ambo                     1 71.300   *71.30
+^S^U^B^T^O^T^A^L            ^*^1^9^5^.^5^0
+Service Chrg                       *8.50 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *204.00
+TAX1 15%                            *30.60
+------------------------------------------
+^T^O^T^A^L                  ^*^2^3^4^.^6^0
+------------------------------------------
+^C^a^s^h                    ^*^2^3^4^.^6^0
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044189
+19/09/2026                           11:36
+
+Invoice: CS_BETEL2-POS_MU84FJ5B
+Order: COV-11350-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 20
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea                      1 62.100   *62.10
+^S^U^B^T^O^T^A^L              ^*^6^2^.^1^0
+Service Chrg                       *2.70 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *64.80
+TAX1 15%                             *9.72
+------------------------------------------
+^T^O^T^A^L                    ^*^7^4^.^5^2
+------------------------------------------
+^C^a^s^h                      ^*^7^4^.^5^2
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044190
+19/09/2026                           11:38
+
+Invoice: CS_BETEL2-POS_MU84O26O
+Order: COV-11347-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 7
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cappuccino Short         1 133.400 *133.40
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^1^8^0^.^5^5
+Service Chrg                       *7.85 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *188.40
+TAX1 15%                            *28.26
+------------------------------------------
+^T^O^T^A^L                  ^*^2^1^6^.^6^6
+------------------------------------------
+^C^a^s^h                    ^*^2^1^6^.^6^6
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044191
+19/09/2026                           11:38
+
+Invoice: CS_BETEL2-POS_MU84Q9VU
+Order: COV-11346-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 16
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Lemon Tea                1 66.700   *66.70
+^S^U^B^T^O^T^A^L              ^*^6^6^.^7^0
+Service Chrg                       *2.90 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *69.60
+TAX1 15%                            *10.44
+------------------------------------------
+^T^O^T^A^L                    ^*^8^0^.^0^4
+------------------------------------------
+^C^a^s^h                      ^*^8^0^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044192
+19/09/2026                           11:47
+
+Invoice: CS_BETEL2-POS_MU852D7D
+Order: COV-11338-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 10
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Caramel Frosting Cake    1 152.950 *152.95
+^S^U^B^T^O^T^A^L            ^*^1^5^2^.^9^5
+Service Chrg                       *6.65 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *159.60
+TAX1 15%                            *23.94
+------------------------------------------
+^T^O^T^A^L                  ^*^1^8^3^.^5^4
+------------------------------------------
+^C^a^s^h                    ^*^1^8^3^.^5^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044193
+19/09/2026                           11:51
+
+Invoice: CS_BETEL2-POS_MU8573GW
+Order: COV-11352-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 9
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cafe Latte Short         1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044194
+19/09/2026                           11:59
+
+Invoice: CS_BETEL2-POS_MU85HVJX
+Order: COV-11356-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 10
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Coffee Short             1 115.000 *115.00
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^1^6^2^.^1^5
+Service Chrg                       *7.05 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *169.20
+TAX1 15%                            *25.38
+------------------------------------------
+^T^O^T^A^L                  ^*^1^9^4^.^5^8
+------------------------------------------
+^C^a^s^h                    ^*^1^9^4^.^5^8
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044195
+19/09/2026                           12:03
+
+Invoice: CS_BETEL2-POS_MU85L9X2
+Order: COV-11360-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 15
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Soft Cake                1 128.800 *128.80
+^S^U^B^T^O^T^A^L            ^*^1^2^8^.^8^0
+Service Chrg                       *5.60 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *134.40
+TAX1 15%                            *20.16
+------------------------------------------
+^T^O^T^A^L                  ^*^1^5^4^.^5^6
+------------------------------------------
+^C^a^s^h                    ^*^1^5^4^.^5^6
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044196
+19/09/2026                           12:13
+
+Invoice: CS_BETEL2-POS_MU85ZGMZ
+Order: COV-11364-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L              ^*^4^7^.^1^5
+Service Chrg                       *2.05 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *49.20
+TAX1 15%                             *7.38
+------------------------------------------
+^T^O^T^A^L                    ^*^5^6^.^5^8
+------------------------------------------
+^C^a^s^h                      ^*^5^6^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044197
+19/09/2026                           12:14
+
+Invoice: CS_BETEL2-POS_MU860U1M
+Order: COV-11354-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 13
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Steamed Milk Tall        1 124.200 *124.20
+Avocado Juice            1 172.500 *172.50
+^S^U^B^T^O^T^A^L            ^*^2^9^6^.^7^0
+Service Chrg                      *12.90 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *309.60
+TAX1 15%                            *46.44
+------------------------------------------
+^T^O^T^A^L                  ^*^3^5^6^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^3^5^6^.^0^4
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044198
+19/09/2026                           12:15
+
+Invoice: CS_BETEL2-POS_MU861JSW
+Order: COV-11357-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 5
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Coffee Short             1 115.000 *115.00
+Caramel Frosting Cake    1 152.950 *152.95
+Ambo                     1 71.300   *71.30
+^S^U^B^T^O^T^A^L            ^*^3^3^9^.^2^5
+Service Chrg                      *14.75 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *354.00
+TAX1 15%                            *53.10
+------------------------------------------
+^T^O^T^A^L                  ^*^4^0^7^.^1^0
+------------------------------------------
+^C^a^s^h                    ^*^4^0^7^.^1^0
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044199
+19/09/2026                           12:15
+
+Invoice: CS_BETEL2-POS_MU861VUM
+Order: COV-11348-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 6
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044200
+19/09/2026                           12:18
+
+Invoice: CS_BETEL2-POS_MU864XLI
+Order: COV-11355-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 2
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Hot Chocolate  Short     1 239.200 *239.20
+Caramel Frosting Cake    1 152.950 *152.95
+Macchiato Short          1 104.650 *104.65
+Bottled Water 600ml      1 47.150   *47.15
+Macchiato Tall           1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^6^6^8^.^1^5
+Service Chrg                      *29.06 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *697.21
+TAX1 15%                           *104.58
+------------------------------------------
+^T^O^T^A^L                  ^*^8^0^1^.^7^9
+------------------------------------------
+^C^a^s^h                    ^*^8^0^1^.^7^9
+ITEM#                                    5
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044201
+19/09/2026                           12:18
+
+Invoice: CS_BETEL2-POS_MU865SC9
+Order: COV-11358-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 7
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cafe Latte Short         1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044202
+19/09/2026                           12:20
+
+Invoice: CS_BETEL2-POS_MU866LVT
+Order: COV-11361-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 16
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+^S^U^B^T^O^T^A^L            ^*^1^0^4^.^6^5
+Service Chrg                       *4.55 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *109.20
+TAX1 15%                            *16.38
+------------------------------------------
+^T^O^T^A^L                  ^*^1^2^5^.^5^8
+------------------------------------------
+^C^a^s^h                    ^*^1^2^5^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044203
+19/09/2026                           12:21
+
+Invoice: CS_BETEL2-POS_MU869K83
+Order: COV-11362-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 11
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Coffee Short             1 115.000 *115.00
+^S^U^B^T^O^T^A^L            ^*^1^1^5^.^0^0
+Service Chrg                       *5.00 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *120.00
+TAX1 15%                            *18.00
+------------------------------------------
+^T^O^T^A^L                  ^*^1^3^8^.^0^0
+------------------------------------------
+^C^a^s^h                    ^*^1^3^8^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044204
+19/09/2026                           12:46
+
+Invoice: CS_BETEL2-POS_MU874ZKU
+Order: COV-11339-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 18
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea                      1 62.100   *62.10
+Millefoglie              2 133.400 *266.80
+Bottled Water 600ml      2 47.150   *94.30
+^S^U^B^T^O^T^A^L            ^*^4^2^3^.^2^0
+Service Chrg                      *18.41 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *441.61
+TAX1 15%                            *66.24
+------------------------------------------
+^T^O^T^A^L                  ^*^5^0^7^.^8^5
+------------------------------------------
+^C^a^s^h                    ^*^5^0^7^.^8^5
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044205
+19/09/2026                           12:46
+
+Invoice: CS_BETEL2-POS_MU875XEP
+Order: COV-11363-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 9
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Coffee Short             1 115.000 *115.00
+^S^U^B^T^O^T^A^L            ^*^1^1^5^.^0^0
+Service Chrg                       *5.00 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *120.00
+TAX1 15%                            *18.00
+------------------------------------------
+^T^O^T^A^L                  ^*^1^3^8^.^0^0
+------------------------------------------
+^C^a^s^h                    ^*^1^3^8^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044206
+19/09/2026                           12:47
+
+Invoice: CS_BETEL2-POS_MU876FSQ
+Order: COV-11353-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 12
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea                      1 62.100   *62.10
+^S^U^B^T^O^T^A^L              ^*^6^2^.^1^0
+Service Chrg                       *2.70 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *64.80
+TAX1 15%                             *9.72
+------------------------------------------
+^T^O^T^A^L                    ^*^7^4^.^5^2
+------------------------------------------
+^C^a^s^h                      ^*^7^4^.^5^2
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044207
+19/09/2026                           12:56
+
+Invoice: CS_BETEL2-POS_MU87BJN9
+Order: COV-11367-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 2
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Millefoglie              1 133.400 *133.40
+Soft Cake                1 128.800 *128.80
+^S^U^B^T^O^T^A^L            ^*^2^6^2^.^2^0
+Service Chrg                      *11.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *273.60
+TAX1 15%                            *41.04
+------------------------------------------
+^T^O^T^A^L                  ^*^3^1^4^.^6^4
+------------------------------------------
+^C^a^s^h                    ^*^3^1^4^.^6^4
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044208
+19/09/2026                           12:58
+
+Invoice: CS_BETEL2-POS_MU87JQNR
+Order: COV-11365-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 15
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Coffee Short             1 115.000 *115.00
+^S^U^B^T^O^T^A^L            ^*^1^1^5^.^0^0
+Service Chrg                       *5.00 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *120.00
+TAX1 15%                            *18.00
+------------------------------------------
+^T^O^T^A^L                  ^*^1^3^8^.^0^0
+------------------------------------------
+^C^a^s^h                    ^*^1^3^8^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044209
+19/09/2026                           13:04
+
+Invoice: CS_BETEL2-POS_MU87OX1T
+Order: COV-11366-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 7
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea                      1 62.100   *62.10
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^1^0^9^.^2^5
+Service Chrg                       *4.75 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *114.00
+TAX1 15%                            *17.10
+------------------------------------------
+^T^O^T^A^L                  ^*^1^3^1^.^1^0
+------------------------------------------
+^C^a^s^h                    ^*^1^3^1^.^1^0
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044210
+19/09/2026                           13:07
+
+Invoice: CS_BETEL2-POS_MU87T86I
+Order: COV-11368-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chocolate Torta          1 2,395.450
+                                 *2,395.45
+Caramel Frosting Torta   1 2,395.450
+                                 *2,395.45
+Torta Box Holiday        2 0.010     *0.02
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L        ^*^4^,^8^3^8^.^0^7
+Service Chrg                     *210.45 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                            *5,048.52
+TAX1 15%                           *757.28
+------------------------------------------
+^T^O^T^A^L              ^*^5^,^8^0^5^.^8^0
+------------------------------------------
+^C^a^s^h                ^*^5^,^8^0^5^.^8^0
+ITEM#                                    4
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044211
+19/09/2026                           13:13
+
+Invoice: CS_BETEL2-POS_MU882Z67
+Order: COV-11359-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 19
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Bottled Water 600ml      4 47.150  *188.60
+^S^U^B^T^O^T^A^L            ^*^1^8^8^.^6^0
+Service Chrg                       *8.20 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *196.80
+TAX1 15%                            *29.52
+------------------------------------------
+^T^O^T^A^L                  ^*^2^2^6^.^3^2
+------------------------------------------
+^C^a^s^h                    ^*^2^2^6^.^3^2
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044212
+19/09/2026                           13:21
+
+Invoice: CS_BETEL2-POS_MU889P2H
+Order: COV-11371-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Take Away Pastry         1 14.950   *14.95
+Millefoglie              2 133.400 *266.80
+^S^U^B^T^O^T^A^L            ^*^2^8^1^.^7^5
+Service Chrg                      *11.61 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *293.36
+TAX1 15%                            *44.00
+------------------------------------------
+^T^O^T^A^L                  ^*^3^3^7^.^3^6
+------------------------------------------
+^C^a^s^h                    ^*^3^3^7^.^3^6
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044213
+19/09/2026                           13:23
+
+Invoice: CS_BETEL2-POS_MU88HHG2
+Order: COV-11372-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+Hot Cup8oz               1 18.400   *18.40
+Millefoglie              1 133.400 *133.40
+^S^U^B^T^O^T^A^L            ^*^2^7^6^.^0^0
+Service Chrg                      *11.20 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *287.20
+TAX1 15%                            *43.08
+------------------------------------------
+^T^O^T^A^L                  ^*^3^3^0^.^2^8
+------------------------------------------
+^C^a^s^h                    ^*^3^3^0^.^2^8
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044214
+19/09/2026                           13:29
+
+Invoice: CS_BETEL2-POS_MU88OH82
+Order: COV-11369-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 18
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Coffee Short             1 115.000 *115.00
+Kaldi's Tea              1 172.500 *172.50
+^S^U^B^T^O^T^A^L            ^*^2^8^7^.^5^0
+Service Chrg                      *12.50 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *300.00
+TAX1 15%                            *45.00
+------------------------------------------
+^T^O^T^A^L                  ^*^3^4^5^.^0^0
+------------------------------------------
+^C^a^s^h                    ^*^3^4^5^.^0^0
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044215
+19/09/2026                           13:37
+
+Invoice: CS_BETEL2-POS_MU88YNFZ
+Order: COV-11370-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Espresso Tall            1 104.650 *104.65
+Macchiato Tall           1 124.200 *124.20
+Millefoglie              2 133.400 *266.80
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^5^4^2^.^8^0
+Service Chrg                      *23.61 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *566.41
+TAX1 15%                            *84.96
+------------------------------------------
+^T^O^T^A^L                  ^*^6^5^1^.^3^7
+------------------------------------------
+^C^a^s^h                    ^*^6^5^1^.^3^7
+ITEM#                                    4
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044216
+19/09/2026                           13:43
+
+Invoice: CS_BETEL2-POS_MU893ZYY
+Order: COV-11376-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 12
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Caramel Macchiato  Short 1 152.950 *152.95
+^S^U^B^T^O^T^A^L            ^*^1^5^2^.^9^5
+Service Chrg                       *6.65 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *159.60
+TAX1 15%                            *23.94
+------------------------------------------
+^T^O^T^A^L                  ^*^1^8^3^.^5^4
+------------------------------------------
+^C^a^s^h                    ^*^1^8^3^.^5^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044217
+19/09/2026                           13:44
+
+Invoice: CS_BETEL2-POS_MU897V63
+Order: COV-11373-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 7
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cafe Latte Tall          2 152.950 *305.90
+^S^U^B^T^O^T^A^L            ^*^3^0^5^.^9^0
+Service Chrg                      *13.31 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *319.21
+TAX1 15%                            *47.88
+------------------------------------------
+^T^O^T^A^L                  ^*^3^6^7^.^0^9
+------------------------------------------
+^C^a^s^h                    ^*^3^6^7^.^0^9
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044218
+19/09/2026                           13:44
+
+Invoice: CS_BETEL2-POS_MU8995DE
+Order: COV-11375-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 5
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           2 124.200 *248.40
+Assorted CakeÂ           2 128.800 *257.60
+^S^U^B^T^O^T^A^L            ^*^5^0^6^.^0^0
+Service Chrg                      *22.02 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *528.02
+TAX1 15%                            *79.20
+------------------------------------------
+^T^O^T^A^L                  ^*^6^0^7^.^2^2
+------------------------------------------
+^C^a^s^h                    ^*^6^0^7^.^2^2
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044219
+19/09/2026                           13:45
+
+Invoice: CS_BETEL2-POS_MU899CPU
+Order: COV-11374-BEA
+Operator: Fatuma Bahru
+Waiter: Degnet Ayele Erjobo
+Table: 3
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Caramel Macchiato  Short 1 152.950 *152.95
+^S^U^B^T^O^T^A^L            ^*^1^5^2^.^9^5
+Service Chrg                       *6.65 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *159.60
+TAX1 15%                            *23.94
+------------------------------------------
+^T^O^T^A^L                  ^*^1^8^3^.^5^4
+------------------------------------------
+^C^a^s^h                    ^*^1^8^3^.^5^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044220
+19/09/2026                           13:45
+
+Invoice: CS_BETEL2-POS_MU89A2YH
+Order: COV-11378-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 10
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cafe Latte Tall          1 152.950 *152.95
+^S^U^B^T^O^T^A^L            ^*^1^5^2^.^9^5
+Service Chrg                       *6.65 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *159.60
+TAX1 15%                            *23.94
+------------------------------------------
+^T^O^T^A^L                  ^*^1^8^3^.^5^4
+------------------------------------------
+^C^a^s^h                    ^*^1^8^3^.^5^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044221
+19/09/2026                           13:45
+
+Invoice: CS_BETEL2-POS_MU89AA2D
+Order: COV-11377-BEA
+Operator: Fatuma Bahru
+Waiter: Hagos G/jewrgis Wereta
+Table: 19
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chocolate  Cake          1 143.750 *143.75
+^S^U^B^T^O^T^A^L            ^*^1^4^3^.^7^5
+Service Chrg                       *6.25 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *150.00
+TAX1 15%                            *22.50
+------------------------------------------
+^T^O^T^A^L                  ^*^1^7^2^.^5^0
+------------------------------------------
+^C^a^s^h                    ^*^1^7^2^.^5^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044222
+19/09/2026                           14:06
+
+Invoice: CS_BETEL2-POS_MU8A0E2G
+Order: COV-11382-BEA
+Operator: Melesech Tadele
+Waiter: Hagos G/jewrgis Wereta
+Table: 5
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+^S^U^B^T^O^T^A^L            ^*^1^0^4^.^6^5
+Service Chrg                       *4.55 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *109.20
+TAX1 15%                            *16.38
+------------------------------------------
+^T^O^T^A^L                  ^*^1^2^5^.^5^8
+------------------------------------------
+^C^a^s^h                    ^*^1^2^5^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044223
+19/09/2026                           14:08
+
+Invoice: CS_BETEL2-POS_MU8A2UCZ
+Order: COV-11381-BEA
+Operator: Melesech Tadele
+Waiter: Degnet Ayele Erjobo
+Table: 11
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Hot Chocolate Tall       1 277.150 *277.15
+^S^U^B^T^O^T^A^L            ^*^2^7^7^.^1^5
+Service Chrg                      *12.06 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *289.21
+TAX1 15%                            *43.38
+------------------------------------------
+^T^O^T^A^L                  ^*^3^3^2^.^5^9
+------------------------------------------
+^C^a^s^h                    ^*^3^3^2^.^5^9
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044224
+19/09/2026                           14:08
+
+Invoice: CS_BETEL2-POS_MU8A333G
+Order: COV-11380-BEA
+Operator: Melesech Tadele
+Waiter: Degnet Ayele Erjobo
+Table: 16
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044225
+19/09/2026                           14:13
+
+Invoice: CS_BETEL2-POS_MU8A76ID
+Order: COV-11384-BEA
+Operator: Melesech Tadele
+Waiter: Hagos G/jewrgis Wereta
+Table: 7
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+Macchiato Tall           1 124.200 *124.20
+Assorted CakeÂ           1 128.800 *128.80
+Black Forest Torta       1 2,155.100
+                                 *2,155.10
+Torta Box Holiday        1 0.010     *0.01
+^S^U^B^T^O^T^A^L        ^*^2^,^5^1^2^.^7^6
+Service Chrg                     *109.30 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                            *2,622.06
+TAX1 15%                           *393.31
+------------------------------------------
+^T^O^T^A^L              ^*^3^,^0^1^5^.^3^7
+------------------------------------------
+^C^a^s^h                ^*^3^,^0^1^5^.^3^7
+ITEM#                                    5
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044226
+19/09/2026                           14:23
+
+Invoice: CS_BETEL2-POS_MU8AM69W
+Order: COV-11388-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 6
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+^S^U^B^T^O^T^A^L            ^*^1^0^4^.^6^5
+Service Chrg                       *4.55 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *109.20
+TAX1 15%                            *16.38
+------------------------------------------
+^T^O^T^A^L                  ^*^1^2^5^.^5^8
+------------------------------------------
+^C^a^s^h                    ^*^1^2^5^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044227
+19/09/2026                           14:27
+
+Invoice: CS_BETEL2-POS_MU8AMER0
+Order: COV-11383-BEA
+Operator: Melesech Tadele
+Waiter: Degnet Ayele Erjobo
+Table: 2
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cafe Latte Tall          1 152.950 *152.95
+^S^U^B^T^O^T^A^L            ^*^1^5^2^.^9^5
+Service Chrg                       *6.65 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *159.60
+TAX1 15%                            *23.94
+------------------------------------------
+^T^O^T^A^L                  ^*^1^8^3^.^5^4
+------------------------------------------
+^C^a^s^h                    ^*^1^8^3^.^5^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044228
+19/09/2026                           14:29
+
+Invoice: CS_BETEL2-POS_MU8AS9YD
+Order: COV-11387-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 5
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cappuccino Tall          1 190.900 *190.90
+^S^U^B^T^O^T^A^L            ^*^1^9^0^.^9^0
+Service Chrg                       *8.30 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *199.20
+TAX1 15%                            *29.88
+------------------------------------------
+^T^O^T^A^L                  ^*^2^2^9^.^0^8
+------------------------------------------
+^C^a^s^h                    ^*^2^2^9^.^0^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044229
+19/09/2026                           14:30
+
+Invoice: CS_BETEL2-POS_MU8AU9DR
+Order: COV-11386-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 13
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+^S^U^B^T^O^T^A^L            ^*^1^0^4^.^6^5
+Service Chrg                       *4.55 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *109.20
+TAX1 15%                            *16.38
+------------------------------------------
+^T^O^T^A^L                  ^*^1^2^5^.^5^8
+------------------------------------------
+^C^a^s^h                    ^*^1^2^5^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044230
+19/09/2026                           14:30
+
+Invoice: CS_BETEL2-POS_MU8AVF8B
+Order: COV-11379-BEA
+Operator: Melesech Tadele
+Waiter: Degnet Ayele Erjobo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea Espresso             1 115.000 *115.00
+^S^U^B^T^O^T^A^L            ^*^1^1^5^.^0^0
+Service Chrg                       *5.00 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *120.00
+TAX1 15%                            *18.00
+------------------------------------------
+^T^O^T^A^L                  ^*^1^3^8^.^0^0
+------------------------------------------
+^C^a^s^h                    ^*^1^3^8^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044231
+19/09/2026                           14:40
+
+Invoice: CS_BETEL2-POS_MU8B5ST4
+Order: COV-11392-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 18
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea Espresso             1 115.000 *115.00
+^S^U^B^T^O^T^A^L            ^*^1^1^5^.^0^0
+Service Chrg                       *5.00 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *120.00
+TAX1 15%                            *18.00
+------------------------------------------
+^T^O^T^A^L                  ^*^1^3^8^.^0^0
+------------------------------------------
+^C^a^s^h                    ^*^1^3^8^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044232
+19/09/2026                           14:42
+
+Invoice: CS_BETEL2-POS_MU8B94KX
+Order: COV-11393-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 10
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Steamed Milk Short       1 95.450   *95.45
+^S^U^B^T^O^T^A^L              ^*^9^5^.^4^5
+Service Chrg                       *4.15 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *99.60
+TAX1 15%                            *14.94
+------------------------------------------
+^T^O^T^A^L                  ^*^1^1^4^.^5^4
+------------------------------------------
+^C^a^s^h                    ^*^1^1^4^.^5^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044233
+19/09/2026                           14:42
+
+Invoice: CS_BETEL2-POS_MU8BAW81
+Order: COV-11389-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 4
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^1^5^1^.^8^0
+Service Chrg                       *6.60 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *158.40
+TAX1 15%                            *23.76
+------------------------------------------
+^T^O^T^A^L                  ^*^1^8^2^.^1^6
+------------------------------------------
+^C^a^s^h                    ^*^1^8^2^.^1^6
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044234
+19/09/2026                           14:55
+
+Invoice: CS_BETEL2-POS_MU8BNJI2
+Order: COV-11399-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 11
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chocolate Millefoglie    2 133.400 *266.80
+Take Away Pastry         1 14.950   *14.95
+^S^U^B^T^O^T^A^L            ^*^2^8^1^.^7^5
+Service Chrg                      *11.61 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *293.36
+TAX1 15%                            *44.00
+------------------------------------------
+^T^O^T^A^L                  ^*^3^3^7^.^3^6
+------------------------------------------
+^C^a^s^h                    ^*^3^3^7^.^3^6
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044235
+19/09/2026                           14:58
+
+Invoice: CS_BETEL2-POS_MU8BS9PC
+Order: COV-11400-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Black Forest CakeÂ       1 124.200 *124.20
+Millefoglie              1 133.400 *133.40
+Take Away Pastry         1 14.950   *14.95
+^S^U^B^T^O^T^A^L            ^*^2^7^2^.^5^5
+Service Chrg                      *11.20 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *283.75
+TAX1 15%                            *42.56
+------------------------------------------
+^T^O^T^A^L                  ^*^3^2^6^.^3^1
+------------------------------------------
+^C^a^s^h                    ^*^3^2^6^.^3^1
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044236
+19/09/2026                           15:01
+
+Invoice: CS_BETEL2-POS_MU8BVL3T
+Order: COV-11391-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 2
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Hot Chocolate  Short     1 239.200 *239.20
+Millefoglie              1 133.400 *133.40
+^S^U^B^T^O^T^A^L            ^*^3^7^2^.^6^0
+Service Chrg                      *16.21 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *388.81
+TAX1 15%                            *58.32
+------------------------------------------
+^T^O^T^A^L                  ^*^4^4^7^.^1^3
+------------------------------------------
+^C^a^s^h                    ^*^4^4^7^.^1^3
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044237
+19/09/2026                           15:01
+
+Invoice: CS_BETEL2-POS_MU8BZVOR
+Order: COV-11401-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Assorted CakeÂ           1 128.800 *128.80
+^S^U^B^T^O^T^A^L            ^*^1^2^8^.^8^0
+Service Chrg                       *5.60 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *134.40
+TAX1 15%                            *20.16
+------------------------------------------
+^T^O^T^A^L                  ^*^1^5^4^.^5^6
+------------------------------------------
+^C^a^s^h                    ^*^1^5^4^.^5^6
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044238
+19/09/2026                           15:07
+
+Invoice: CS_BETEL2-POS_MU8C2XHQ
+Order: COV-11398-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cafe Latte Tall          2 152.950 *305.90
+^S^U^B^T^O^T^A^L            ^*^3^0^5^.^9^0
+Service Chrg                      *13.31 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *319.21
+TAX1 15%                            *47.88
+------------------------------------------
+^T^O^T^A^L                  ^*^3^6^7^.^0^9
+------------------------------------------
+^C^a^s^h                    ^*^3^6^7^.^0^9
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044239
+19/09/2026                           15:16
+
+Invoice: CS_BETEL2-POS_MU8CJGYG
+Order: COV-11394-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 11
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+^S^U^B^T^O^T^A^L            ^*^1^0^4^.^6^5
+Service Chrg                       *4.55 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *109.20
+TAX1 15%                            *16.38
+------------------------------------------
+^T^O^T^A^L                  ^*^1^2^5^.^5^8
+------------------------------------------
+^C^a^s^h                    ^*^1^2^5^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044240
+19/09/2026                           15:17
+
+Invoice: CS_BETEL2-POS_MU8CJP72
+Order: COV-11405-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L              ^*^4^7^.^1^5
+Service Chrg                       *2.05 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *49.20
+TAX1 15%                             *7.38
+------------------------------------------
+^T^O^T^A^L                    ^*^5^6^.^5^8
+------------------------------------------
+^C^a^s^h                      ^*^5^6^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044241
+19/09/2026                           15:20
+
+Invoice: CS_BETEL2-POS_MU8CK5QD
+Order: COV-11402-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 3
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044242
+19/09/2026                           15:21
+
+Invoice: CS_BETEL2-POS_MU8COW7H
+Order: COV-11395-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 12
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+^S^U^B^T^O^T^A^L            ^*^1^0^4^.^6^5
+Service Chrg                       *4.55 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *109.20
+TAX1 15%                            *16.38
+------------------------------------------
+^T^O^T^A^L                  ^*^1^2^5^.^5^8
+------------------------------------------
+^C^a^s^h                    ^*^1^2^5^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044243
+19/09/2026                           15:31
+
+Invoice: CS_BETEL2-POS_MU8CV4EH
+Order: COV-11407-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 13
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Kaldi's Tea              1 172.500 *172.50
+^S^U^B^T^O^T^A^L            ^*^1^7^2^.^5^0
+Service Chrg                       *7.50 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *180.00
+TAX1 15%                            *27.00
+------------------------------------------
+^T^O^T^A^L                  ^*^2^0^7^.^0^0
+------------------------------------------
+^C^a^s^h                    ^*^2^0^7^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044244
+19/09/2026                           15:36
+
+Invoice: CS_BETEL2-POS_MU8D8N2B
+Order: COV-11403-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 19
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea                      2 62.100  *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044245
+19/09/2026                           15:36
+
+Invoice: CS_BETEL2-POS_MU8D8VUJ
+Order: COV-11385-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 20
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Steamed Milk Tall        1 124.200 *124.20
+Macchiato Tall           2 124.200 *248.40
+^S^U^B^T^O^T^A^L            ^*^3^7^2^.^6^0
+Service Chrg                      *16.21 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *388.81
+TAX1 15%                            *58.32
+------------------------------------------
+^T^O^T^A^L                  ^*^4^4^7^.^1^3
+------------------------------------------
+^C^a^s^h                    ^*^4^4^7^.^1^3
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044246
+19/09/2026                           15:41
+
+Invoice: CS_BETEL2-POS_MU8DDQDA
+Order: COV-11404-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^1^5^1^.^8^0
+Service Chrg                       *6.60 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *158.40
+TAX1 15%                            *23.76
+------------------------------------------
+^T^O^T^A^L                  ^*^1^8^2^.^1^6
+------------------------------------------
+^C^a^s^h                    ^*^1^8^2^.^1^6
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044247
+19/09/2026                           15:43
+
+Invoice: CS_BETEL2-POS_MU8DFPMP
+Order: COV-11413-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 5
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Assorted CakeÂ           2 128.800 *257.60
+^S^U^B^T^O^T^A^L            ^*^2^5^7^.^6^0
+Service Chrg                      *11.21 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *268.81
+TAX1 15%                            *40.32
+------------------------------------------
+^T^O^T^A^L                  ^*^3^0^9^.^1^3
+------------------------------------------
+^C^a^s^h                    ^*^3^0^9^.^1^3
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044248
+19/09/2026                           15:43
+
+Invoice: CS_BETEL2-POS_MU8DHTDD
+Order: COV-11406-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 5
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Hot Chocolate  Short     1 239.200 *239.20
+Caramel Macchiato  Short 1 152.950 *152.95
+^S^U^B^T^O^T^A^L            ^*^3^9^2^.^1^5
+Service Chrg                      *17.06 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *409.21
+TAX1 15%                            *61.38
+------------------------------------------
+^T^O^T^A^L                  ^*^4^7^0^.^5^9
+------------------------------------------
+^C^a^s^h                    ^*^4^7^0^.^5^9
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044249
+19/09/2026                           17:07
+
+Invoice: CS_BETEL2-POS_MU8GHBZR
+Order: COV-11411-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 9
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044250
+19/09/2026                           17:07
+
+Invoice: CS_BETEL2-POS_MU8GI43U
+Order: COV-11410-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 12
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           2 124.200 *248.40
+^S^U^B^T^O^T^A^L            ^*^2^4^8^.^4^0
+Service Chrg                      *10.81 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *259.21
+TAX1 15%                            *38.88
+------------------------------------------
+^T^O^T^A^L                  ^*^2^9^8^.^0^9
+------------------------------------------
+^C^a^s^h                    ^*^2^9^8^.^0^9
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044251
+19/09/2026                           17:08
+
+Invoice: CS_BETEL2-POS_MU8GICTS
+Order: COV-11409-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 3
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^1^5^1^.^8^0
+Service Chrg                       *6.60 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *158.40
+TAX1 15%                            *23.76
+------------------------------------------
+^T^O^T^A^L                  ^*^1^8^2^.^1^6
+------------------------------------------
+^C^a^s^h                    ^*^1^8^2^.^1^6
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044252
+19/09/2026                           17:08
+
+Invoice: CS_BETEL2-POS_MU8GIPIX
+Order: COV-11396-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 18
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044253
+19/09/2026                           17:08
+
+Invoice: CS_BETEL2-POS_MU8GIXQV
+Order: COV-11415-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Hot Chocolate  Short     2 239.200 *478.40
+Bigne 3pcs               1 95.450   *95.45
+^S^U^B^T^O^T^A^L            ^*^5^7^3^.^8^5
+Service Chrg                      *24.96 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *598.81
+TAX1 15%                            *89.82
+------------------------------------------
+^T^O^T^A^L                  ^*^6^8^8^.^6^3
+------------------------------------------
+^C^a^s^h                    ^*^6^8^8^.^6^3
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044254
+19/09/2026                           17:09
+
+Invoice: CS_BETEL2-POS_MU8GJPB1
+Order: COV-11416-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chocolate  Cake          2 143.750 *287.50
+Black Forest CakeÂ       1 124.200 *124.20
+Bottled Water 600ml      2 47.150   *94.30
+^S^U^B^T^O^T^A^L            ^*^5^0^6^.^0^0
+Service Chrg                      *22.01 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *528.01
+TAX1 15%                            *79.20
+------------------------------------------
+^T^O^T^A^L                  ^*^6^0^7^.^2^1
+------------------------------------------
+^C^a^s^h                    ^*^6^0^7^.^2^1
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044255
+19/09/2026                           17:10
+
+Invoice: CS_BETEL2-POS_MU8GL352
+Order: COV-11417-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L              ^*^4^7^.^1^5
+Service Chrg                       *2.05 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *49.20
+TAX1 15%                             *7.38
+------------------------------------------
+^T^O^T^A^L                    ^*^5^6^.^5^8
+------------------------------------------
+^C^a^s^h                      ^*^5^6^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044256
+19/09/2026                           17:10
+
+Invoice: CS_BETEL2-POS_MU8GLM0K
+Order: COV-11414-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 6
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cappuccino Tall          1 190.900 *190.90
+^S^U^B^T^O^T^A^L            ^*^1^9^0^.^9^0
+Service Chrg                       *8.30 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *199.20
+TAX1 15%                            *29.88
+------------------------------------------
+^T^O^T^A^L                  ^*^2^2^9^.^0^8
+------------------------------------------
+^C^a^s^h                    ^*^2^2^9^.^0^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044257
+19/09/2026                           17:11
+
+Invoice: CS_BETEL2-POS_MU8GLY6Z
+Order: COV-11408-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 2
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+Soft Cake                1 128.800 *128.80
+^S^U^B^T^O^T^A^L            ^*^2^3^3^.^4^5
+Service Chrg                      *10.15 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *243.60
+TAX1 15%                            *36.54
+------------------------------------------
+^T^O^T^A^L                  ^*^2^8^0^.^1^4
+------------------------------------------
+^C^a^s^h                    ^*^2^8^0^.^1^4
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044258
+19/09/2026                           17:11
+
+Invoice: CS_BETEL2-POS_MU8GNA4M
+Order: COV-11397-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 10
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cappuccino Short         1 133.400 *133.40
+Steamed Milk Tall        1 124.200 *124.20
+Macchiato Short          1 104.650 *104.65
+Caramel Frosting Cake    1 152.950 *152.95
+Chocolate Millefoglie    1 133.400 *133.40
+^S^U^B^T^O^T^A^L            ^*^6^4^8^.^6^0
+Service Chrg                      *28.20 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *676.80
+TAX1 15%                           *101.52
+------------------------------------------
+^T^O^T^A^L                  ^*^7^7^8^.^3^2
+------------------------------------------
+^C^a^s^h                    ^*^7^7^8^.^3^2
+ITEM#                                    5
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044259
+19/09/2026                           17:12
+
+Invoice: CS_BETEL2-POS_MU8GNNQ6
+Order: COV-11390-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 7
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Anebabero Slice          1 75.900   *75.90
+Free Tea                 1 0.010     *0.01
+^S^U^B^T^O^T^A^L              ^*^7^5^.^9^1
+Service Chrg                       *3.30 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *79.21
+TAX1 15%                            *11.88
+------------------------------------------
+^T^O^T^A^L                    ^*^9^1^.^0^9
+------------------------------------------
+^C^a^s^h                      ^*^9^1^.^0^9
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044260
+19/09/2026                           17:26
+
+Invoice: CS_BETEL2-POS_MU8H578P
+Order: COV-11426-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 4
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Ambo                     1 71.300   *71.30
+^S^U^B^T^O^T^A^L              ^*^7^1^.^3^0
+Service Chrg                       *3.10 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *74.40
+TAX1 15%                            *11.16
+------------------------------------------
+^T^O^T^A^L                    ^*^8^5^.^5^6
+------------------------------------------
+^C^a^s^h                      ^*^8^5^.^5^6
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044261
+19/09/2026                           17:36
+
+Invoice: CS_BETEL2-POS_MU8HCICA
+Order: COV-11421-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 13
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044262
+19/09/2026                           17:39
+
+Invoice: CS_BETEL2-POS_MU8HM60S
+Order: COV-11424-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Hot Chocolate  Short     2 239.200 *478.40
+Hot Cup7oz               1 18.400   *18.40
+Chocolate Millefoglie    1 133.400 *133.40
+^S^U^B^T^O^T^A^L            ^*^6^3^0^.^2^0
+Service Chrg                      *26.61 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *656.81
+TAX1 15%                            *98.52
+------------------------------------------
+^T^O^T^A^L                  ^*^7^5^5^.^3^3
+------------------------------------------
+^C^a^s^h                    ^*^7^5^5^.^3^3
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044263
+19/09/2026                           17:42
+
+Invoice: CS_BETEL2-POS_MU8HQIMY
+Order: COV-11434-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Caramel Macchiato  Short 1 152.950 *152.95
+^S^U^B^T^O^T^A^L            ^*^1^5^2^.^9^5
+Service Chrg                       *6.65 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *159.60
+TAX1 15%                            *23.94
+------------------------------------------
+^T^O^T^A^L                  ^*^1^8^3^.^5^4
+------------------------------------------
+^C^a^s^h                    ^*^1^8^3^.^5^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044264
+19/09/2026                           17:51
+
+Invoice: CS_BETEL2-POS_MU8I1OAS
+Order: COV-11423-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 16
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+^S^U^B^T^O^T^A^L            ^*^1^0^4^.^6^5
+Service Chrg                       *4.55 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *109.20
+TAX1 15%                            *16.38
+------------------------------------------
+^T^O^T^A^L                  ^*^1^2^5^.^5^8
+------------------------------------------
+^C^a^s^h                    ^*^1^2^5^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044265
+19/09/2026                           17:55
+
+Invoice: CS_BETEL2-POS_MU8I6FJP
+Order: COV-11431-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 3
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           2 124.200 *248.40
+Hot Cup7oz               2 18.400   *36.80
+Assorted CakeÂ           1 128.800 *128.80
+Chocolate  Cake          1 143.750 *143.75
+^S^U^B^T^O^T^A^L            ^*^5^5^7^.^7^5
+Service Chrg                      *22.66 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *580.41
+TAX1 15%                            *87.06
+------------------------------------------
+^T^O^T^A^L                  ^*^6^6^7^.^4^7
+------------------------------------------
+^C^a^s^h                    ^*^6^6^7^.^4^7
+ITEM#                                    4
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044266
+19/09/2026                           17:56
+
+Invoice: CS_BETEL2-POS_MU8I81BA
+Order: COV-11420-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 11
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044267
+19/09/2026                           17:56
+
+Invoice: CS_BETEL2-POS_MU8I8ABG
+Order: COV-11439-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cookies Big              1 575.000 *575.00
+^S^U^B^T^O^T^A^L            ^*^5^7^5^.^0^0
+Service Chrg                      *25.01 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *600.01
+TAX1 15%                            *90.00
+------------------------------------------
+^T^O^T^A^L                  ^*^6^9^0^.^0^1
+------------------------------------------
+^C^a^s^h                    ^*^6^9^0^.^0^1
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044268
+19/09/2026                           17:59
+
+Invoice: CS_BETEL2-POS_MU8IBJXI
+Order: COV-11428-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 7
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^1^7^1^.^3^5
+Service Chrg                       *7.45 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *178.80
+TAX1 15%                            *26.82
+------------------------------------------
+^T^O^T^A^L                  ^*^2^0^5^.^6^2
+------------------------------------------
+^C^a^s^h                    ^*^2^0^5^.^6^2
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044269
+19/09/2026                           17:59
+
+Invoice: CS_BETEL2-POS_MU8IC60Q
+Order: COV-11433-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 20
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           2 124.200 *248.40
+^S^U^B^T^O^T^A^L            ^*^2^4^8^.^4^0
+Service Chrg                      *10.81 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *259.21
+TAX1 15%                            *38.88
+------------------------------------------
+^T^O^T^A^L                  ^*^2^9^8^.^0^9
+------------------------------------------
+^C^a^s^h                    ^*^2^9^8^.^0^9
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044270
+19/09/2026                           18:04
+
+Invoice: CS_BETEL2-POS_MU8IJG9W
+Order: COV-11436-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 66
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Millefoglie              1 133.400 *133.40
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^1^8^0^.^5^5
+Service Chrg                       *7.85 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *188.40
+TAX1 15%                            *28.26
+------------------------------------------
+^T^O^T^A^L                  ^*^2^1^6^.^6^6
+------------------------------------------
+^C^a^s^h                    ^*^2^1^6^.^6^6
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044271
+19/09/2026                           18:07
+
+Invoice: CS_BETEL2-POS_MU8IJOVO
+Order: COV-11429-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 2
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          2 104.650 *209.30
+Millefoglie              1 133.400 *133.40
+Chocolate Millefoglie    1 133.400 *133.40
+^S^U^B^T^O^T^A^L            ^*^4^7^6^.^1^0
+Service Chrg                      *20.70 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *496.80
+TAX1 15%                            *74.52
+------------------------------------------
+^T^O^T^A^L                  ^*^5^7^1^.^3^2
+------------------------------------------
+^C^a^s^h                    ^*^5^7^1^.^3^2
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044272
+19/09/2026                           18:08
+
+Invoice: CS_BETEL2-POS_MU8IN02I
+Order: COV-11441-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Caramel Frosting Torta   1 2,395.450
+                                 *2,395.45
+Torta Box Holiday        1 0.010     *0.01
+^S^U^B^T^O^T^A^L        ^*^2^,^3^9^5^.^4^6
+Service Chrg                     *104.20 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                            *2,499.66
+TAX1 15%                           *374.95
+------------------------------------------
+^T^O^T^A^L              ^*^2^,^8^7^4^.^6^1
+------------------------------------------
+^C^a^s^h                ^*^2^,^8^7^4^.^6^1
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044273
+19/09/2026                           18:08
+
+Invoice: CS_BETEL2-POS_MU8INXP2
+Order: COV-11430-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 33
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea                      1 62.100   *62.10
+Millefoglie              1 133.400 *133.40
+Black Forest CakeÂ       1 124.200 *124.20
+Bottled Water 600ml      2 47.150   *94.30
+^S^U^B^T^O^T^A^L            ^*^4^1^4^.^0^0
+Service Chrg                      *18.00 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *432.00
+TAX1 15%                            *64.80
+------------------------------------------
+^T^O^T^A^L                  ^*^4^9^6^.^8^0
+------------------------------------------
+^C^a^s^h                    ^*^4^9^6^.^8^0
+ITEM#                                    4
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044274
+19/09/2026                           18:11
+
+Invoice: CS_BETEL2-POS_MU8IRNNX
+Order: COV-11432-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 18
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Vanilla Latte Tall       2 201.250 *402.50
+^S^U^B^T^O^T^A^L            ^*^4^0^2^.^5^0
+Service Chrg                      *17.51 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *420.01
+TAX1 15%                            *63.00
+------------------------------------------
+^T^O^T^A^L                  ^*^4^8^3^.^0^1
+------------------------------------------
+^C^a^s^h                    ^*^4^8^3^.^0^1
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044275
+19/09/2026                           18:12
+
+Invoice: CS_BETEL2-POS_MU8ISLK6
+Order: COV-11427-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 8
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Jigger Tea               1 62.100   *62.10
+^S^U^B^T^O^T^A^L              ^*^6^2^.^1^0
+Service Chrg                       *2.70 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *64.80
+TAX1 15%                             *9.72
+------------------------------------------
+^T^O^T^A^L                    ^*^7^4^.^5^2
+------------------------------------------
+^C^a^s^h                      ^*^7^4^.^5^2
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044276
+19/09/2026                           18:23
+
+Invoice: CS_BETEL2-POS_MU8J49CO
+Order: COV-11425-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 12
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+Chocolate Millefoglie    1 133.400 *133.40
+Carrot Cheese Cake       1 120.750 *120.75
+^S^U^B^T^O^T^A^L            ^*^3^7^8^.^3^5
+Service Chrg                      *16.45 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *394.80
+TAX1 15%                            *59.22
+------------------------------------------
+^T^O^T^A^L                  ^*^4^5^4^.^0^2
+------------------------------------------
+^C^a^s^h                    ^*^4^5^4^.^0^2
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044277
+19/09/2026                           18:25
+
+Invoice: CS_BETEL2-POS_MU8J93SD
+Order: COV-11442-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 6
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cafe Latte Short         1 124.200 *124.20
+Assorted CakeÂ           1 128.800 *128.80
+^S^U^B^T^O^T^A^L            ^*^2^5^3^.^0^0
+Service Chrg                      *11.00 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *264.00
+TAX1 15%                            *39.60
+------------------------------------------
+^T^O^T^A^L                  ^*^3^0^3^.^6^0
+------------------------------------------
+^C^a^s^h                    ^*^3^0^3^.^6^0
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044278
+19/09/2026                           18:27
+
+Invoice: CS_BETEL2-POS_MU8JCNA0
+Order: COV-11443-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 20
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+Millefoglie              1 133.400 *133.40
+^S^U^B^T^O^T^A^L            ^*^2^3^8^.^0^5
+Service Chrg                      *10.35 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *248.40
+TAX1 15%                            *37.26
+------------------------------------------
+^T^O^T^A^L                  ^*^2^8^5^.^6^6
+------------------------------------------
+^C^a^s^h                    ^*^2^8^5^.^6^6
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044279
+19/09/2026                           18:28
+
+Invoice: CS_BETEL2-POS_MU8JD8RD
+Order: COV-11422-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 15
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Hot Chocolate Tall       2 277.150 *554.30
+^S^U^B^T^O^T^A^L            ^*^5^5^4^.^3^0
+Service Chrg                      *24.11 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *578.41
+TAX1 15%                            *86.76
+------------------------------------------
+^T^O^T^A^L                  ^*^6^6^5^.^1^7
+------------------------------------------
+^C^a^s^h                    ^*^6^6^5^.^1^7
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044280
+19/09/2026                           18:34
+
+Invoice: CS_BETEL2-POS_MU8JGV4N
+Order: COV-11446-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 8
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+Kaldi's Tea              1 172.500 *172.50
+Millefoglie              1 133.400 *133.40
+^S^U^B^T^O^T^A^L            ^*^4^3^0^.^1^0
+Service Chrg                      *18.70 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *448.80
+TAX1 15%                            *67.32
+------------------------------------------
+^T^O^T^A^L                  ^*^5^1^6^.^1^2
+------------------------------------------
+^C^a^s^h                    ^*^5^1^6^.^1^2
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044281
+19/09/2026                           18:35
+
+Invoice: CS_BETEL2-POS_MU8JNC9V
+Order: COV-11435-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Caramel Macchiato  Short 2 152.950 *305.90
+Caramel Frosting Cake    1 152.950 *152.95
+^S^U^B^T^O^T^A^L            ^*^4^5^8^.^8^5
+Service Chrg                      *19.96 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *478.81
+TAX1 15%                            *71.82
+------------------------------------------
+^T^O^T^A^L                  ^*^5^5^0^.^6^3
+------------------------------------------
+^C^a^s^h                    ^*^5^5^0^.^6^3
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044282
+19/09/2026                           18:36
+
+Invoice: CS_BETEL2-POS_MU8JNPGG
+Order: COV-11418-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 5
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Caramel Macchiato  Short 2 152.950 *305.90
+Assorted CakeÂ           1 128.800 *128.80
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^4^8^1^.^8^5
+Service Chrg                      *20.96 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *502.81
+TAX1 15%                            *75.42
+------------------------------------------
+^T^O^T^A^L                  ^*^5^7^8^.^2^3
+------------------------------------------
+^C^a^s^h                    ^*^5^7^8^.^2^3
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044283
+19/09/2026                           18:39
+
+Invoice: CS_BETEL2-POS_MU8JQAZG
+Order: COV-11437-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 16
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cafe Latte Tall          1 152.950 *152.95
+^S^U^B^T^O^T^A^L            ^*^1^5^2^.^9^5
+Service Chrg                       *6.65 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *159.60
+TAX1 15%                            *23.94
+------------------------------------------
+^T^O^T^A^L                  ^*^1^8^3^.^5^4
+------------------------------------------
+^C^a^s^h                    ^*^1^8^3^.^5^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044284
+19/09/2026                           18:40
+
+Invoice: CS_BETEL2-POS_MU8JSMH7
+Order: COV-11449-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 12
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Caramel Macchiato  Short 1 152.950 *152.95
+Black Forest CakeÂ       1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^2^7^7^.^1^5
+Service Chrg                      *12.05 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *289.20
+TAX1 15%                            *43.38
+------------------------------------------
+^T^O^T^A^L                  ^*^3^3^2^.^5^8
+------------------------------------------
+^C^a^s^h                    ^*^3^3^2^.^5^8
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044285
+19/09/2026                           18:45
+
+Invoice: CS_BETEL2-POS_MU8JYA98
+Order: COV-11447-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 18
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           2 124.200 *248.40
+Extra Honey              1 37.950   *37.95
+Black Forest CakeÂ       1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^4^1^0^.^5^5
+Service Chrg                      *17.86 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *428.41
+TAX1 15%                            *64.26
+------------------------------------------
+^T^O^T^A^L                  ^*^4^9^2^.^6^7
+------------------------------------------
+^C^a^s^h                    ^*^4^9^2^.^6^7
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044286
+19/09/2026                           18:48
+
+Invoice: CS_BETEL2-POS_MU8JZYPM
+Order: COV-11448-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 2
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Steamed Milk Tall        1 124.200 *124.20
+Macchiato Tall           2 124.200 *248.40
+Hot Chocolate  Short     1 239.200 *239.20
+Black Forest CakeÂ       3 124.200 *372.60
+^S^U^B^T^O^T^A^L            ^*^9^8^4^.^4^0
+Service Chrg                      *42.83 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                            *1,027.23
+TAX1 15%                           *154.08
+------------------------------------------
+^T^O^T^A^L              ^*^1^,^1^8^1^.^3^1
+------------------------------------------
+^C^a^s^h                ^*^1^,^1^8^1^.^3^1
+ITEM#                                    4
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044287
+19/09/2026                           18:49
+
+Invoice: CS_BETEL2-POS_MU8K498E
+Order: COV-11450-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 33
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+^S^U^B^T^O^T^A^L            ^*^1^0^4^.^6^5
+Service Chrg                       *4.55 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *109.20
+TAX1 15%                            *16.38
+------------------------------------------
+^T^O^T^A^L                  ^*^1^2^5^.^5^8
+------------------------------------------
+^C^a^s^h                    ^*^1^2^5^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044288
+19/09/2026                           18:51
+
+Invoice: CS_BETEL2-POS_MU8K57FN
+Order: COV-11451-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Free Tea                 1 0.010     *0.01
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                                *0.01
+TAX1 15%                             *0.00
+------------------------------------------
+^T^O^T^A^L                      ^*^0^.^0^1
+------------------------------------------
+^C^a^s^h                        ^*^0^.^0^1
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044289
+19/09/2026                           18:54
+
+Invoice: CS_BETEL2-POS_MU8KBG4W
+Order: COV-11438-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 19
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Caramel Macchiato  Short 1 152.950 *152.95
+^S^U^B^T^O^T^A^L            ^*^1^5^2^.^9^5
+Service Chrg                       *6.65 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *159.60
+TAX1 15%                            *23.94
+------------------------------------------
+^T^O^T^A^L                  ^*^1^8^3^.^5^4
+------------------------------------------
+^C^a^s^h                    ^*^1^8^3^.^5^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044290
+19/09/2026                           18:59
+
+Invoice: CS_BETEL2-POS_MU8KC2TG
+Order: COV-11453-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 13
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Black Forest CakeÂ       1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044291
+19/09/2026                           19:02
+
+Invoice: CS_BETEL2-POS_MU8KHT4A
+Order: COV-11419-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 10
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Hot Chocolate Tall       3 277.150 *831.45
+^S^U^B^T^O^T^A^L            ^*^8^3^1^.^4^5
+Service Chrg                      *36.17 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *867.62
+TAX1 15%                           *130.14
+------------------------------------------
+^T^O^T^A^L                  ^*^9^9^7^.^7^6
+------------------------------------------
+^C^a^s^h                    ^*^9^9^7^.^7^6
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044292
+19/09/2026                           19:04
+
+Invoice: CS_BETEL2-POS_MU8KLGU4
+Order: COV-11454-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Club Sandwich            1 491.050 *491.05
+Take Away Fast Food      1 14.950   *14.95
+Assorted CakeÂ           1 128.800 *128.80
+^S^U^B^T^O^T^A^L            ^*^6^3^4^.^8^0
+Service Chrg                      *26.96 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *661.76
+TAX1 15%                            *99.26
+------------------------------------------
+^T^O^T^A^L                  ^*^7^6^1^.^0^2
+------------------------------------------
+^C^a^s^h                    ^*^7^6^1^.^0^2
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044293
+19/09/2026                           19:04
+
+Invoice: CS_BETEL2-POS_MU8KNWOB
+Order: COV-11455-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           2 124.200 *248.40
+^S^U^B^T^O^T^A^L            ^*^2^4^8^.^4^0
+Service Chrg                      *10.81 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *259.21
+TAX1 15%                            *38.88
+------------------------------------------
+^T^O^T^A^L                  ^*^2^9^8^.^0^9
+------------------------------------------
+^C^a^s^h                    ^*^2^9^8^.^0^9
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044294
+19/09/2026                           19:11
+
+Invoice: CS_BETEL2-POS_MU8KXOG6
+Order: COV-11452-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 7
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Steamed Milk Short       1 95.450   *95.45
+Tea                      1 62.100   *62.10
+Carrot Cheese Cake       1 120.750 *120.75
+Chocolate Millefoglie    1 133.400 *133.40
+^S^U^B^T^O^T^A^L            ^*^4^1^1^.^7^0
+Service Chrg                      *17.90 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *429.60
+TAX1 15%                            *64.44
+------------------------------------------
+^T^O^T^A^L                  ^*^4^9^4^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^4^9^4^.^0^4
+ITEM#                                    4
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044295
+19/09/2026                           19:16
+
+Invoice: CS_BETEL2-POS_MU8L3OTT
+Order: COV-11459-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 33
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Assorted CakeÂ           1 128.800 *128.80
+^S^U^B^T^O^T^A^L            ^*^1^2^8^.^8^0
+Service Chrg                       *5.60 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *134.40
+TAX1 15%                            *20.16
+------------------------------------------
+^T^O^T^A^L                  ^*^1^5^4^.^5^6
+------------------------------------------
+^C^a^s^h                    ^*^1^5^4^.^5^6
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044296
+19/09/2026                           19:31
+
+Invoice: CS_BETEL2-POS_MU8L4652
+Order: COV-11457-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 12
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          2 104.650 *209.30
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^2^5^6^.^4^5
+Service Chrg                      *11.15 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *267.60
+TAX1 15%                            *40.14
+------------------------------------------
+^T^O^T^A^L                  ^*^3^0^7^.^7^4
+------------------------------------------
+^C^a^s^h                    ^*^3^0^7^.^7^4
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044297
+19/09/2026                           19:32
+
+Invoice: CS_BETEL2-POS_MU8LNIJ1
+Order: COV-11458-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 15
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044298
+19/09/2026                           19:32
+
+Invoice: CS_BETEL2-POS_MU8LNURG
+Order: COV-11456-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 11
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 124.200 *124.20
+Steamed Milk Tall        1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^2^4^8^.^4^0
+Service Chrg                      *10.80 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *259.20
+TAX1 15%                            *38.88
+------------------------------------------
+^T^O^T^A^L                  ^*^2^9^8^.^0^8
+------------------------------------------
+^C^a^s^h                    ^*^2^9^8^.^0^8
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044299
+19/09/2026                           19:32
+
+Invoice: CS_BETEL2-POS_MU8LO5H3
+Order: COV-11445-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 111
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Hot Cup7oz               1 18.400   *18.40
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *18.40
+TAX1 15%                             *2.76
+------------------------------------------
+^T^O^T^A^L                    ^*^2^1^.^1^6
+------------------------------------------
+^C^a^s^h                      ^*^2^1^.^1^6
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044300
+19/09/2026                           19:33
+
+Invoice: CS_BETEL2-POS_MU8LOM4D
+Order: COV-11444-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 3
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Steamed Milk Short       1 95.450   *95.45
+Bottled Water 600ml      1 47.150   *47.15
+Egg Sandwich             1 151.800 *151.80
+^S^U^B^T^O^T^A^L            ^*^2^9^4^.^4^0
+Service Chrg                      *12.80 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *307.20
+TAX1 15%                            *46.08
+------------------------------------------
+^T^O^T^A^L                  ^*^3^5^3^.^2^8
+------------------------------------------
+^C^a^s^h                    ^*^3^5^3^.^2^8
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044301
+19/09/2026                           19:33
+
+Invoice: CS_BETEL2-POS_MU8LP55Z
+Order: COV-11440-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 9
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           2 124.200 *248.40
+Chocolate  Cake          1 143.750 *143.75
+^S^U^B^T^O^T^A^L            ^*^3^9^2^.^1^5
+Service Chrg                      *17.06 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *409.21
+TAX1 15%                            *61.38
+------------------------------------------
+^T^O^T^A^L                  ^*^4^7^0^.^5^9
+------------------------------------------
+^C^a^s^h                    ^*^4^7^0^.^5^9
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044302
+19/09/2026                           19:33
+
+Invoice: CS_BETEL2-POS_MU8LPN5I
+Order: COV-11412-BEA
+Operator: Melesech Tadele
+Waiter: Haftu Tsegay Belay
+Table: 15111211111
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea Espresso             3 115.000 *345.00
+^S^U^B^T^O^T^A^L            ^*^3^4^5^.^0^0
+Service Chrg                      *15.01 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *360.01
+TAX1 15%                            *54.00
+------------------------------------------
+^T^O^T^A^L                  ^*^4^1^4^.^0^1
+------------------------------------------
+^C^a^s^h                    ^*^4^1^4^.^0^1
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044303
+19/09/2026                           19:33
+
+Invoice: CS_BETEL2-POS_MU8LPW2J
+Order: COV-11460-BEA
+Operator: Melesech Tadele
+Waiter: Degnet Ayele Erjobo
+Table: 11
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+^S^U^B^T^O^T^A^L            ^*^1^0^4^.^6^5
+Service Chrg                       *4.55 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *109.20
+TAX1 15%                            *16.38
+------------------------------------------
+^T^O^T^A^L                  ^*^1^2^5^.^5^8
+------------------------------------------
+^C^a^s^h                    ^*^1^2^5^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044304
+19/09/2026                           19:34
+
+Invoice: CS_BETEL2-POS_MU8LQAPI
+Order: COV-11461-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Millefoglie              1 133.400 *133.40
+^S^U^B^T^O^T^A^L            ^*^1^3^3^.^4^0
+Service Chrg                       *5.80 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *139.20
+TAX1 15%                            *20.88
+------------------------------------------
+^T^O^T^A^L                  ^*^1^6^0^.^0^8
+------------------------------------------
+^C^a^s^h                    ^*^1^6^0^.^0^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044305
+19/09/2026                           19:35
+
+Invoice: CS_BETEL2-POS_MU8LRBKM
+Order: COV-11462-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Black Forest CakeÂ       1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^a^s^h                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044306
+19/09/2026                           19:47
+
+Invoice: CS_BETEL2-POS_MU8LWNWH
+Order: COV-11463-BEA
+Operator: Melesech Tadele
+Waiter: Robel Haftu Berwo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Assorted CakeÂ           2 128.800 *257.60
+Macchiato Short          2 104.650 *209.30
+^S^U^B^T^O^T^A^L            ^*^4^6^6^.^9^0
+Service Chrg                      *20.31 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *487.21
+TAX1 15%                            *73.08
+------------------------------------------
+^T^O^T^A^L                  ^*^5^6^0^.^2^9
+------------------------------------------
+^C^a^s^h                    ^*^5^6^0^.^2^9
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044307
+19/09/2026                           19:48
+
+Invoice: CS_BETEL2-POS_MU8M8B4O
+Order: COV-11464-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chocolate  Cake          1 143.750 *143.75
+Lemon Gatos Cake         2 152.950 *305.90
+Take Away Pastry         1 14.950   *14.95
+^S^U^B^T^O^T^A^L            ^*^4^6^4^.^6^0
+Service Chrg                      *19.56 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *484.16
+TAX1 15%                            *72.62
+------------------------------------------
+^T^O^T^A^L                  ^*^5^5^6^.^7^8
+------------------------------------------
+^C^a^s^h                    ^*^5^5^6^.^7^8
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+FS No.00044308
+19/09/2026                           19:49
+
+Invoice: CS_BETEL2-POS_MU8M99AK
+Order: COV-11465-BEA
+Operator: Melesech Tadele
+Waiter: Bemnet  Birhanu Negese
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Assorted CakeÂ           2 128.800 *257.60
+Chocolate  Cake          1 143.750 *143.75
+^S^U^B^T^O^T^A^L            ^*^4^0^1^.^3^5
+Service Chrg                      *17.46 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *418.81
+TAX1 15%                            *62.82
+------------------------------------------
+^T^O^T^A^L                  ^*^4^8^1^.^6^3
+------------------------------------------
+^C^a^s^h                    ^*^4^8^1^.^6^3
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000282
+
+           Powered By Red Cloud
+
+

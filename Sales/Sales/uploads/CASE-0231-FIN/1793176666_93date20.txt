@@ -1,0 +1,5943 @@
+JOURNAL NUMBER 1429 CLEARED
+SIGNATURE:      9C68055BDB2CCB61D9C1
+                E9DCF98F02D013053F9C
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+   S E S S I O N   Z   R E P O R T
+
+Z:1410
+20/10/2026                     14:08
+
+SALES                            181
+DISCOUNTS (0)                  *0.00
+SURCHARGES (88)             *1184.83
+VOID (0)                       *0.00
+CASH                       *32896.38
+
+CASH DEPOSIT (0)               *0.00
+CASH DEDUCTED (0)              *0.00
+CASH AVAILABLE             *32896.38
+
+ACCU.EJ                     00001429
+SESSION.EJ                         1
+SIGNATURE:      9C68055BDB2CCB61D9C1
+                E9DCF98F02D013053F9C
+------------------------------------
+TXBL1                      *28605.47
+TXBL2                          *0.00
+TXBL3                          *0.00
+NOTXBL                         *0.00
+TAX1  15.00%                *4290.82
+TAX2   0.00%                   *0.00
+TAX3   0.00%                   *0.00
+ - - - - - - - - - - - - - - - - - -
+SALES TL                   *28605.47
+TXBL TL                    *28605.47
+TAX TL                      *4290.82
+------------------------------------
+RFD TXBL1                      *0.00
+RFD TXBL2                      *0.00
+RFD TXBL3                      *0.00
+RFD NOTXBL                     *0.00
+RFD TAX1  15.00%               *0.00
+RFD TAX2   0.00%               *0.00
+RFD TAX3   0.00%               *0.00
+ - - - - - - - - - - - - - - - - - -
+RFD SALES TL                   *0.00
+RFD TXBL TL                    *0.00
+RFD TAX TL                     *0.00
+------------------------------------
+ACCU.FS                     00142186
+20/10/2026                     14:02
+SESSION.FS                        95
+ACCU.NF                     00229526
+SESSION.NF                       148
+ACCU.RFD                    00000003
+SESSION.RFD                        0
+SESSION RESET                      0
+
+           @@@@ FGB0012632
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229527
+20/10/2026                     14:14
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGKZ2OH
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 14:9:10
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142187
+20/10/2026                     14:14
+
+Ref: CS_BULBULA1-POS_MVGKVVI5
+Order: CO_BULBULA1-POS_MVGKZ2OH
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *104.65
+Macchiato Short              *104.65
+SUBTOTAL                     *104.65
+SURCHARGE                      *4.55
+------------------------------------
+TXBL1                        *109.20
+TAX1  15.00%                  *16.38
+------------------------------------
+ T O T A L             * 1 2 5 . 5 8
+CASH                         *125.58
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229528
+20/10/2026                     14:14
+
+           Kaldis Coffee
+    *** Bar1-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGKZMRE
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 14:9:36
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 15
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229529
+20/10/2026                     14:15
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGL156B
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 14:10:46
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 11
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229530
+20/10/2026                     14:15
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGL156B
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 14:10:46
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 11
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHOCOLATE  CAKE
+1  CARAMEL FROSTING CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229531
+20/10/2026                     14:22
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGL9AZ8
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 14:17:7
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229532
+20/10/2026                     14:24
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGLC2XV
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 14:19:16
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 18
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229533
+20/10/2026                     14:25
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGLEB1R
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 14:21:0
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 100
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229534
+20/10/2026                     14:32
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGLMPWH
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 14:27:33
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE AMERICANO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229535
+20/10/2026                     14:32
+
+           Kaldis Coffee
+                ***
+         N O N - F I S C A L
+            Cup-Bulbula
+                 93
+              Location
+               ORDER
+         N O N - F I S C A L
+                ***
+====================================
+Order No: CO_BULBULA1-POS_MVGLMPWH
+Order By:Miliyon Haymanot
+         N O N - F I S C A L
+Order Device:BULBULA1-POS
+Date: 20/10/2026 14:27:33
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+         N O N - F I S C A L
+Table: 1
+Shift: Shift 2
+====================================
+Qty   Description
+         N O N - F I S C A L
+------------------------------------
+1  HOT CUP7OZ
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142188
+20/10/2026                     14:32
+
+Ref: CS_BULBULA1-POS_MVGLEBUP
+Order: CO_BULBULA1-POS_MVGLMPWH
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *116.67
+Coffee Americano Short       *116.67
+                          1 x *18.40
+Hot Cup7oz                    *18.40
+SUBTOTAL                     *135.07
+SURCHARGE                      *5.08
+------------------------------------
+TXBL1                        *140.15
+TAX1  15.00%                  *21.02
+------------------------------------
+ T O T A L             * 1 6 1 . 1 7
+CASH                         *161.17
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142189
+20/10/2026                     14:32
+
+Ref: CS_BULBULA1-POS_MVGLMSQQ
+Order: CO_BULBULA1-POS_MVGL156B
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 11
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *137.50
+Cafe Latte Short             *137.50
+                         1 x *104.65
+Macchiato Short              *104.65
+                         1 x *179.17
+Chocolate  Cake              *179.17
+                         1 x *254.17
+Caramel Frosting Cake        *254.17
+SUBTOTAL                     *675.49
+SURCHARGE                     *29.38
+------------------------------------
+TXBL1                        *704.87
+TAX1  15.00%                 *105.73
+------------------------------------
+ T O T A L             * 8 1 0 . 6 0
+CASH                         *810.60
+ITEM #                             4
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229536
+20/10/2026                     14:34
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGLOY5O
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 14:29:17
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142190
+20/10/2026                     14:34
+
+Ref: CS_BULBULA1-POS_MVGLOZ7A
+Order: CO_BULBULA1-POS_MVGLOY5O
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *104.65
+Macchiato Short              *104.65
+SUBTOTAL                     *104.65
+SURCHARGE                      *4.55
+------------------------------------
+TXBL1                        *109.20
+TAX1  15.00%                  *16.38
+------------------------------------
+ T O T A L             * 1 2 5 . 5 8
+CASH                         *125.58
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142191
+20/10/2026                     14:41
+
+Ref: CS_BULBULA1-POS_MVGLPOP5
+Order: CO_BULBULA1-POS_MVGLEB1R
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 100
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *104.65
+Macchiato Short              *104.65
+SUBTOTAL                     *104.65
+SURCHARGE                      *4.55
+------------------------------------
+TXBL1                        *109.20
+TAX1  15.00%                  *16.38
+------------------------------------
+ T O T A L             * 1 2 5 . 5 8
+CASH                         *125.58
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229537
+20/10/2026                     14:44
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGM2T62
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 14:40:4
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 14
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229538
+20/10/2026                     14:44
+
+           Kaldis Coffee
+    *** Bar1-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGM2T62
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 14:40:4
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 14
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142192
+20/10/2026                     14:50
+
+Ref: CS_BULBULA1-POS_MVGM2UUH
+Order: CO_BULBULA1-POS_MVGM2T62
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 14
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *104.65
+Macchiato Short              *104.65
+                          1 x *47.15
+Bottled Water 600ml           *47.15
+SUBTOTAL                     *151.80
+SURCHARGE                      *6.60
+------------------------------------
+TXBL1                        *158.40
+TAX1  15.00%                  *23.76
+------------------------------------
+ T O T A L             * 1 8 2 . 1 6
+CASH                         *182.16
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229539
+20/10/2026                     14:51
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGMBCC9
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 14:46:42
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  TEA ESPRESSO
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142193
+20/10/2026                     14:53
+
+Ref: CS_BULBULA1-POS_MVGMBDHZ
+Order: CO_BULBULA1-POS_MVGL9AZ8
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 3
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *133.33
+Macchiato Tall               *133.33
+SUBTOTAL                     *133.33
+SURCHARGE                      *5.80
+------------------------------------
+TXBL1                        *139.13
+TAX1  15.00%                  *20.87
+------------------------------------
+ T O T A L             * 1 6 0 . 0 0
+CASH                         *160.00
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229540
+20/10/2026                     14:57
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGMJFYZ
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 14:53:0
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 14
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229541
+20/10/2026                     14:59
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGMM2XN
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 14:55:3
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 6
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229542
+20/10/2026                     15:03
+
+           Kaldis Coffee
+    *** Juice-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGMQVL3
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 14:58:46
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 13
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  MIXED JUICE
+1  AVOCADO JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142194
+20/10/2026                     15:05
+
+Ref: CS_BULBULA1-POS_MVGMQWHA
+Order: CO_BULBULA1-POS_MVGMJFYZ
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 14
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *104.65
+Macchiato Short              *104.65
+SUBTOTAL                     *104.65
+SURCHARGE                      *4.55
+------------------------------------
+TXBL1                        *109.20
+TAX1  15.00%                  *16.38
+------------------------------------
+ T O T A L             * 1 2 5 . 5 8
+CASH                         *125.58
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142195
+20/10/2026                     15:07
+
+Ref: CS_BULBULA1-POS_MVGMST6X
+Order: CO_BULBULA1-POS_MVGLC2XV
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 18
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *133.33
+Macchiato Tall               *266.66
+SUBTOTAL                     *266.66
+SURCHARGE                     *11.60
+------------------------------------
+TXBL1                        *278.26
+TAX1  15.00%                  *41.74
+------------------------------------
+ T O T A L             * 3 2 0 . 0 0
+CASH                         *320.00
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142196
+20/10/2026                     15:08
+
+Ref: CS_BULBULA1-POS_MVGMW813
+Order: CO_BULBULA1-POS_MVGKZMRE
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 15
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *47.15
+Bottled Water 600ml           *47.15
+SUBTOTAL                      *47.15
+SURCHARGE                      *2.05
+------------------------------------
+TXBL1                         *49.20
+TAX1  15.00%                   *7.38
+------------------------------------
+ T O T A L               * 5 6 . 5 8
+CASH                          *56.58
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229543
+20/10/2026                     15:18
+
+           Kaldis Coffee
+    *** Bar1-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGN9DI9
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 15:13:9
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142197
+20/10/2026                     15:18
+
+Ref: CS_BULBULA1-POS_MVGN2TGM
+Order: CO_BULBULA1-POS_MVGN9DI9
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *47.15
+Bottled Water 600ml           *47.15
+SUBTOTAL                      *47.15
+SURCHARGE                      *2.05
+------------------------------------
+TXBL1                         *49.20
+TAX1  15.00%                   *7.38
+------------------------------------
+ T O T A L               * 5 6 . 5 8
+CASH                          *56.58
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229544
+20/10/2026                     15:18
+
+           Kaldis Coffee
+    *** Juice-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGN9UDK
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 15:13:31
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 5
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  MANGO JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229545
+20/10/2026                     15:24
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGNI0SJ
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 15:19:53
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142198
+20/10/2026                     15:24
+
+Ref: CS_BULBULA1-POS_MVGN9V2P
+Order: CO_BULBULA1-POS_MVGNI0SJ
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *104.65
+Macchiato Short              *104.65
+SUBTOTAL                     *104.65
+SURCHARGE                      *4.55
+------------------------------------
+TXBL1                        *109.20
+TAX1  15.00%                  *16.38
+------------------------------------
+ T O T A L             * 1 2 5 . 5 8
+CASH                         *125.58
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229546
+20/10/2026                     15:25
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGNIGPK
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 15:20:13
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229547
+20/10/2026                     15:26
+
+           Kaldis Coffee
+    *** Bar1-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGNKOX2
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 15:21:57
+No Guest: 11
+Waiter: Ymenash Eshetu Belachew
+Table: 21
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229548
+20/10/2026                     15:28
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGNIGPK
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 15:20:13
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BLACK FOREST CAKEÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229549
+20/10/2026                     15:36
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGNWQA5
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 15:31:19
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 18
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229550
+20/10/2026                     15:36
+
+           Kaldis Coffee
+    *** Bar1-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGNWQA5
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 15:31:19
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 18
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SOFT DRINKÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142199
+20/10/2026                     15:58
+
+Ref: CS_BULBULA1-POS_MVGOPEQX
+Order: CO_BULBULA1-POS_MVGMQVL3
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 13
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *172.50
+Mixed Juice                  *345.00
+                         1 x *200.00
+Avocado Juice                *200.00
+SUBTOTAL                     *545.00
+SURCHARGE                     *23.71
+------------------------------------
+TXBL1                        *568.71
+TAX1  15.00%                  *85.31
+------------------------------------
+ T O T A L             * 6 5 4 . 0 2
+CASH                         *654.02
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142200
+20/10/2026                     15:59
+
+Ref: CS_BULBULA1-POS_MVGOQ2C2
+Order: CO_BULBULA1-POS_MVGMM2XN
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 6
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *104.65
+Macchiato Short              *104.65
+SUBTOTAL                     *104.65
+SURCHARGE                      *4.55
+------------------------------------
+TXBL1                        *109.20
+TAX1  15.00%                  *16.38
+------------------------------------
+ T O T A L             * 1 2 5 . 5 8
+CASH                         *125.58
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142201
+20/10/2026                     15:59
+
+Ref: CS_BULBULA1-POS_MVGOQCM2
+Order: CO_BULBULA1-POS_MVGN9UDK
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 5
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *208.33
+Mango Juice                  *416.66
+SUBTOTAL                     *416.66
+SURCHARGE                     *18.12
+------------------------------------
+TXBL1                        *434.78
+TAX1  15.00%                  *65.22
+------------------------------------
+ T O T A L             * 5 0 0 . 0 0
+CASH                         *500.00
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229551
+20/10/2026                     16:02
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGOUEDJ
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 15:57:30
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  CHOCOLATE MILLEFOGLIE
+2  LEMON GATOS CAKE
+2  CARAMEL FROSTING CAKE
+2  BLACK FOREST CAKEÂ 
+         N O N - F I S C A L
+2  CHOCOLATE  CAKE
+1  BABY CAKE
+1  CARROT CHEESE CAKE
+1  TAKE AWAY PASTRY
+         N O N - F I S C A L
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229552
+20/10/2026                     16:02
+
+           Kaldis Coffee
+                ***
+         N O N - F I S C A L
+              Packing
+          Material-Bulbula
+                 93
+               ORDER
+         N O N - F I S C A L
+                ***
+====================================
+Order No: CO_BULBULA1-POS_MVGOUEDJ
+Order By:Miliyon Haymanot
+         N O N - F I S C A L
+Order Device:BULBULA1-POS
+Date: 20/10/2026 15:57:30
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+         N O N - F I S C A L
+Table: 1
+Shift: Shift 2
+====================================
+Qty   Description
+         N O N - F I S C A L
+------------------------------------
+1  TORTA BOX
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142202
+20/10/2026                     16:02
+
+Ref: CS_BULBULA1-POS_MVGOQM0T
+Order: CO_BULBULA1-POS_MVGOUEDJ
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *133.40
+Chocolate Millefoglie        *266.80
+                         2 x *229.17
+Lemon Gatos Cake             *458.34
+                         2 x *254.17
+Caramel Frosting Cake        *508.34
+                         2 x *124.20
+Black Forest Cake            *248.40
+                         2 x *179.17
+Chocolate  Cake              *358.34
+                         1 x *128.80
+Baby Cake                    *128.80
+                         1 x *183.33
+Carrot Cheese Cake           *183.33
+                          1 x *14.95
+Take Away Pastry              *14.95
+                           1 x *0.01
+Torta Box                      *0.01
+SUBTOTAL                    *2167.31
+SURCHARGE                     *93.63
+------------------------------------
+TXBL1                       *2260.94
+TAX1  15.00%                 *339.14
+------------------------------------
+ T O T A L           * 2 6 0 0 . 0 8
+CASH                        *2600.08
+ITEM #                             9
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142203
+20/10/2026                     16:03
+
+Ref: CS_BULBULA1-POS_MVGOUI3S
+Order: CO_BULBULA1-POS_MVGNWQA5
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 18
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *125.00
+Coffee Short                 *125.00
+                          1 x *75.90
+Soft Drink                    *75.90
+SUBTOTAL                     *200.90
+SURCHARGE                      *8.74
+------------------------------------
+TXBL1                        *209.64
+TAX1  15.00%                  *31.45
+------------------------------------
+ T O T A L             * 2 4 1 . 0 9
+CASH                         *241.09
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229553
+20/10/2026                     16:07
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGP0M8P
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:2:20
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229554
+20/10/2026                     16:07
+
+           Kaldis Coffee
+                ***
+         N O N - F I S C A L
+            Cup-Bulbula
+                 93
+              Location
+               ORDER
+         N O N - F I S C A L
+                ***
+====================================
+Order No: CO_BULBULA1-POS_MVGP0M8P
+Order By:Miliyon Haymanot
+         N O N - F I S C A L
+Order Device:BULBULA1-POS
+Date: 20/10/2026 16:2:20
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+         N O N - F I S C A L
+Table: 1
+Shift: Shift 2
+====================================
+Qty   Description
+         N O N - F I S C A L
+------------------------------------
+1  HOT CUP7OZ
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142204
+20/10/2026                     16:07
+
+Ref: CS_BULBULA1-POS_MVGOV82K
+Order: CO_BULBULA1-POS_MVGP0M8P
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *133.33
+Macchiato Tall               *266.66
+                          1 x *18.40
+Hot Cup7oz                    *18.40
+SUBTOTAL                     *285.06
+SURCHARGE                     *11.60
+------------------------------------
+TXBL1                        *296.66
+TAX1  15.00%                  *44.50
+------------------------------------
+ T O T A L             * 3 4 1 . 1 6
+CASH                         *341.16
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229555
+20/10/2026                     16:07
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGP14TW
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:2:44
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142205
+20/10/2026                     16:07
+
+Ref: CS_BULBULA1-POS_MVGP0P6N
+Order: CO_BULBULA1-POS_MVGP14TW
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *133.33
+Macchiato Tall               *133.33
+SUBTOTAL                     *133.33
+SURCHARGE                      *5.80
+------------------------------------
+TXBL1                        *139.13
+TAX1  15.00%                  *20.87
+------------------------------------
+ T O T A L             * 1 6 0 . 0 0
+CASH                         *160.00
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229556
+20/10/2026                     16:08
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGP1MGR
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:3:7
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 9
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229557
+20/10/2026                     16:08
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGP2MLL
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:3:54
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+4  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229558
+20/10/2026                     16:08
+
+           Kaldis Coffee
+                ***
+         N O N - F I S C A L
+            Cup-Bulbula
+                 93
+              Location
+               ORDER
+         N O N - F I S C A L
+                ***
+====================================
+Order No: CO_BULBULA1-POS_MVGP2MLL
+Order By:Miliyon Haymanot
+         N O N - F I S C A L
+Order Device:BULBULA1-POS
+Date: 20/10/2026 16:3:54
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+         N O N - F I S C A L
+Table: 1
+Shift: Shift 2
+====================================
+Qty   Description
+         N O N - F I S C A L
+------------------------------------
+4  HOT CUP7OZ
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142206
+20/10/2026                     16:08
+
+Ref: CS_BULBULA1-POS_MVGP1N6N
+Order: CO_BULBULA1-POS_MVGP2MLL
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         4 x *133.33
+Macchiato Tall               *533.32
+                          4 x *18.40
+Hot Cup7oz                    *73.60
+SUBTOTAL                     *606.92
+SURCHARGE                     *23.20
+------------------------------------
+TXBL1                        *630.12
+TAX1  15.00%                  *94.52
+------------------------------------
+ T O T A L             * 7 2 4 . 6 4
+CASH                         *724.64
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229559
+20/10/2026                     16:09
+
+           Kaldis Coffee
+   *** Kitchen-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGP45A9
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:5:5
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 100
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CLUB SANDWICH
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229560
+20/10/2026                     16:09
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGP45A9
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:5:5
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 100
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229561
+20/10/2026                     16:10
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGP4M33
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:5:26
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 4
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142207
+20/10/2026                     16:10
+
+Ref: CS_BULBULA1-POS_MVGP4MRS
+Order: CO_BULBULA1-POS_MVGP1MGR
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 9
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *133.33
+Macchiato Tall               *266.66
+SUBTOTAL                     *266.66
+SURCHARGE                     *11.60
+------------------------------------
+TXBL1                        *278.26
+TAX1  15.00%                  *41.74
+------------------------------------
+ T O T A L             * 3 2 0 . 0 0
+CASH                         *320.00
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229562
+20/10/2026                     16:13
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGP84OW
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:8:11
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229563
+20/10/2026                     16:13
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGP8KAR
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:8:31
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229564
+20/10/2026                     16:13
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGP90VA
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:8:52
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 5
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  COFFEE SHORT
+1  TEA ESPRESSO
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229565
+20/10/2026                     16:15
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGPAYJA
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:10:23
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  COOKIES BIG
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142208
+20/10/2026                     16:15
+
+Ref: CS_BULBULA1-POS_MVGP91IS
+Order: CO_BULBULA1-POS_MVGPAYJA
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *933.33
+Cookies Big                 *1866.66
+SUBTOTAL                    *1866.66
+SURCHARGE                     *81.20
+------------------------------------
+TXBL1                       *1947.86
+TAX1  15.00%                 *292.18
+------------------------------------
+ T O T A L           * 2 2 4 0 . 0 4
+CASH                        *2240.04
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229566
+20/10/2026                     16:17
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGP4M33
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:5:26
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 4
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142209
+20/10/2026                     16:18
+
+Ref: CS_BULBULA1-POS_MVGPDUSY
+Order: CO_BULBULA1-POS_MVGP90VA
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 5
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *125.00
+Coffee Short                 *250.00
+                         1 x *115.00
+Tea Espresso                 *115.00
+SUBTOTAL                     *365.00
+SURCHARGE                     *15.88
+------------------------------------
+TXBL1                        *380.88
+TAX1  15.00%                  *57.13
+------------------------------------
+ T O T A L             * 4 3 8 . 0 1
+CASH                         *438.01
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229567
+20/10/2026                     16:20
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGPI9RL
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:16:4
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  LEMON GATOS CAKE
+2  BAKLAVA CAKE
+1  BLACK FOREST CAKEÂ 
+1  CARAMEL FROSTING CAKE
+         N O N - F I S C A L
+1  BABY CAKE
+1  TAKE AWAY PASTRY
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142210
+20/10/2026                     16:20
+
+Ref: CS_BULBULA1-POS_MVGPFA1U
+Order: CO_BULBULA1-POS_MVGPI9RL
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *229.17
+Lemon Gatos Cake             *229.17
+                          2 x *95.83
+Baklava Cake                 *191.66
+                         1 x *124.20
+Black Forest Cake            *124.20
+                         1 x *254.17
+Caramel Frosting Cake        *254.17
+                         1 x *128.80
+Baby Cake                    *128.80
+                          1 x *14.95
+Take Away Pastry              *14.95
+SUBTOTAL                     *942.95
+SURCHARGE                     *40.37
+------------------------------------
+TXBL1                        *983.32
+TAX1  15.00%                 *147.50
+------------------------------------
+ T O T A L           * 1 1 3 0 . 8 2
+CASH                        *1130.82
+ITEM #                             6
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229568
+20/10/2026                     16:22
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGPJX3S
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:17:21
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BABY CAKE
+1  BLACK FOREST CAKEÂ 
+1  CHOCOLATE  CAKE
+1  TAKE AWAY PASTRY
+         N O N - F I S C A L
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142211
+20/10/2026                     16:22
+
+Ref: CS_BULBULA1-POS_MVGPICBU
+Order: CO_BULBULA1-POS_MVGPJX3S
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *128.80
+Baby Cake                    *128.80
+                         1 x *124.20
+Black Forest Cake            *124.20
+                         1 x *179.17
+Chocolate  Cake              *179.17
+                          1 x *14.95
+Take Away Pastry              *14.95
+SUBTOTAL                     *447.12
+SURCHARGE                     *18.79
+------------------------------------
+TXBL1                        *465.91
+TAX1  15.00%                  *69.89
+------------------------------------
+ T O T A L             * 5 3 5 . 8 0
+CASH                         *535.80
+ITEM #                             4
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229569
+20/10/2026                     16:23
+
+           Kaldis Coffee
+    *** Bar1-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGPLQL8
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:18:45
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 9
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229570
+20/10/2026                     16:25
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGPOEXS
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:20:50
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 10
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142212
+20/10/2026                     16:26
+
+Ref: CS_BULBULA1-POS_MVGPOFSN
+Order: CO_BULBULA1-POS_MVGMBCC9
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *115.00
+Tea Espresso                 *115.00
+                         1 x *125.00
+Coffee Short                 *125.00
+SUBTOTAL                     *240.00
+SURCHARGE                     *10.44
+------------------------------------
+TXBL1                        *250.44
+TAX1  15.00%                  *37.57
+------------------------------------
+ T O T A L             * 2 8 8 . 0 1
+CASH                         *288.01
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229571
+20/10/2026                     16:30
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGPU5IR
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:25:18
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  CHOCOLATE  CAKE
+2  LEMON GATOS CAKE
+2  CARAMEL FROSTING CAKE
+1  BLACK FOREST CAKEÂ 
+         N O N - F I S C A L
+1  BABY CAKE
+1  TAKE AWAY PASTRY
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229572
+20/10/2026                     16:30
+
+           Kaldis Coffee
+    *** Bar1-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGPU5IR
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:25:18
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142213
+20/10/2026                     16:30
+
+Ref: CS_BULBULA1-POS_MVGPQ1TO
+Order: CO_BULBULA1-POS_MVGPU5IR
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *179.17
+Chocolate  Cake              *358.34
+                         2 x *229.17
+Lemon Gatos Cake             *458.34
+                         2 x *254.17
+Caramel Frosting Cake        *508.34
+                         1 x *124.20
+Black Forest Cake            *124.20
+                         1 x *128.80
+Baby Cake                    *128.80
+                          1 x *14.95
+Take Away Pastry              *14.95
+                          1 x *47.15
+Bottled Water 600ml           *47.15
+SUBTOTAL                    *1640.12
+SURCHARGE                     *70.69
+------------------------------------
+TXBL1                       *1710.81
+TAX1  15.00%                 *256.62
+------------------------------------
+ T O T A L           * 1 9 6 7 . 4 3
+CASH                        *1967.43
+ITEM #                             7
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142214
+20/10/2026                     16:30
+
+Ref: CS_BULBULA1-POS_MVGPU8EE
+Order: CO_BULBULA1-POS_MVGP84OW
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *104.65
+Macchiato Short              *104.65
+SUBTOTAL                     *104.65
+SURCHARGE                      *4.55
+------------------------------------
+TXBL1                        *109.20
+TAX1  15.00%                  *16.38
+------------------------------------
+ T O T A L             * 1 2 5 . 5 8
+CASH                         *125.58
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229573
+20/10/2026                     16:31
+
+           Kaldis Coffee
+                ***
+         N O N - F I S C A L
+            Cup-Bulbula
+                 93
+              Location
+               ORDER
+         N O N - F I S C A L
+                ***
+====================================
+Order No: CO_BULBULA1-POS_MVGP45A9
+Order By:Miliyon Haymanot
+         N O N - F I S C A L
+Order Device:BULBULA1-POS
+Date: 20/10/2026 16:5:5
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+         N O N - F I S C A L
+Table: 100
+Shift: Shift 2
+====================================
+Qty   Description
+         N O N - F I S C A L
+------------------------------------
+1  HOT CUP7OZ
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229574
+20/10/2026                     16:31
+
+           Kaldis Coffee
+   *** Kitchen-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGP45A9
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:5:5
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 100
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  TAKE AWAY FAST FOOD
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142215
+20/10/2026                     16:31
+
+Ref: CS_BULBULA1-POS_MVGPUI57
+Order: CO_BULBULA1-POS_MVGP45A9
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 100
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *491.05
+Club Sandwich                *491.05
+                         1 x *133.33
+Macchiato Tall               *133.33
+                          1 x *18.40
+Hot Cup7oz                    *18.40
+                          1 x *14.95
+Take Away Fast Food           *14.95
+SUBTOTAL                     *657.73
+SURCHARGE                     *27.16
+------------------------------------
+TXBL1                        *684.89
+TAX1  15.00%                 *102.73
+------------------------------------
+ T O T A L             * 7 8 7 . 6 2
+CASH                         *787.62
+ITEM #                             4
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229575
+20/10/2026                     16:34
+
+           Kaldis Coffee
+   *** Kitchen-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGPOEXS
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:20:50
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 10
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MEAT SAMBUSA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229576
+20/10/2026                     16:35
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGQ0K51
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:30:17
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 8
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+1  MACCHIATO MEDIUM
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229577
+20/10/2026                     16:35
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGPLQL8
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:18:45
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 9
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142216
+20/10/2026                     16:36
+
+Ref: CS_BULBULA1-POS_MVGQ0WZJ
+Order: CO_BULBULA1-POS_MVGP8KAR
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 3
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *133.33
+Macchiato Tall               *133.33
+SUBTOTAL                     *133.33
+SURCHARGE                      *5.80
+------------------------------------
+TXBL1                        *139.13
+TAX1  15.00%                  *20.87
+------------------------------------
+ T O T A L             * 1 6 0 . 0 0
+CASH                         *160.00
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142217
+20/10/2026                     16:40
+
+Ref: CS_BULBULA1-POS_MVGQ2RF2
+Order: CO_BULBULA1-POS_MVGPOEXS
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *104.65
+Macchiato Short              *104.65
+                         1 x *162.50
+Meat Sambusa                 *162.50
+SUBTOTAL                     *267.15
+SURCHARGE                     *11.62
+------------------------------------
+TXBL1                        *278.77
+TAX1  15.00%                  *41.82
+------------------------------------
+ T O T A L             * 3 2 0 . 5 9
+CASH                         *320.59
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229578
+20/10/2026                     16:40
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGPLQL8
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:18:45
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 9
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229579
+20/10/2026                     16:43
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGQB7PW
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:38:34
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142218
+20/10/2026                     16:44
+
+Ref: CS_BULBULA1-POS_MVGQB8HN
+Order: CO_BULBULA1-POS_MVGP4M33
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 4
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *104.65
+Macchiato Short              *104.65
+                         1 x *133.33
+Macchiato Tall               *133.33
+SUBTOTAL                     *237.98
+SURCHARGE                     *10.35
+------------------------------------
+TXBL1                        *248.33
+TAX1  15.00%                  *37.25
+------------------------------------
+ T O T A L             * 2 8 5 . 5 8
+CASH                         *285.58
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229580
+20/10/2026                     16:45
+
+           Kaldis Coffee
+   *** Kitchen-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGQDPR4
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:40:31
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 0
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MEAT SAMBUSA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142219
+20/10/2026                     16:48
+
+Ref: CS_BULBULA1-POS_MVGQDQIN
+Order: CO_BULBULA1-POS_MVGPLQL8
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 9
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *47.15
+Bottled Water 600ml           *47.15
+                         2 x *104.65
+Macchiato Short              *209.30
+SUBTOTAL                     *256.45
+SURCHARGE                     *11.15
+------------------------------------
+TXBL1                        *267.60
+TAX1  15.00%                  *40.14
+------------------------------------
+ T O T A L             * 3 0 7 . 7 4
+CASH                         *307.74
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142220
+20/10/2026                     16:50
+
+Ref: CS_BULBULA1-POS_MVGQHJEZ
+Order: CO_BULBULA1-POS_MVGQ0K51
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 8
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *125.00
+Coffee Short                 *125.00
+                         1 x *129.17
+Macchiato Medium             *129.17
+SUBTOTAL                     *254.17
+SURCHARGE                     *11.06
+------------------------------------
+TXBL1                        *265.23
+TAX1  15.00%                  *39.78
+------------------------------------
+ T O T A L             * 3 0 5 . 0 1
+CASH                         *305.01
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229581
+20/10/2026                     16:52
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGQB7PW
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:38:34
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHOCOLATE  CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229582
+20/10/2026                     16:52
+
+           Kaldis Coffee
+    *** Bar1-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGQMKVX
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:47:24
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 14
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229583
+20/10/2026                     16:55
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGQQI9D
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:50:28
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 9
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  LEMON TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229584
+20/10/2026                     16:55
+
+           Kaldis Coffee
+    *** Bar1-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGQQT7J
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:50:42
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142221
+20/10/2026                     16:55
+
+Ref: CS_BULBULA1-POS_MVGQQIXE
+Order: CO_BULBULA1-POS_MVGQQT7J
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *47.15
+Bottled Water 600ml           *47.15
+SUBTOTAL                      *47.15
+SURCHARGE                      *2.05
+------------------------------------
+TXBL1                         *49.20
+TAX1  15.00%                   *7.38
+------------------------------------
+ T O T A L               * 5 6 . 5 8
+CASH                          *56.58
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229585
+20/10/2026                     17:13
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGRDOHH
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 17:8:29
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  STEAMED MILK SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142222
+20/10/2026                     17:13
+
+Ref: CS_BULBULA1-POS_MVGR7VP2
+Order: CO_BULBULA1-POS_MVGRDOHH
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          2 x *95.45
+Steamed Milk Short           *190.90
+SUBTOTAL                     *190.90
+SURCHARGE                      *8.30
+------------------------------------
+TXBL1                        *199.20
+TAX1  15.00%                  *29.88
+------------------------------------
+ T O T A L             * 2 2 9 . 0 8
+CASH                         *229.08
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142223
+20/10/2026                     17:14
+
+Ref: CS_BULBULA1-POS_MVGRDWXT
+Order: CO_BULBULA1-POS_MVGNKOX2
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 21
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *47.15
+Bottled Water 600ml           *47.15
+SUBTOTAL                      *47.15
+SURCHARGE                      *2.05
+------------------------------------
+TXBL1                         *49.20
+TAX1  15.00%                   *7.38
+------------------------------------
+ T O T A L               * 5 6 . 5 8
+CASH                          *56.58
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229586
+20/10/2026                     17:18
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGRK06R
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 17:13:24
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142224
+20/10/2026                     17:18
+
+Ref: CS_BULBULA1-POS_MVGRFJOI
+Order: CO_BULBULA1-POS_MVGRK06R
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *133.33
+Macchiato Tall               *133.33
+                         1 x *104.65
+Macchiato Short              *104.65
+SUBTOTAL                     *237.98
+SURCHARGE                     *10.35
+------------------------------------
+TXBL1                        *248.33
+TAX1  15.00%                  *37.25
+------------------------------------
+ T O T A L             * 2 8 5 . 5 8
+CASH                         *285.58
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229587
+20/10/2026                     17:19
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGRL2TO
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 17:14:14
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229588
+20/10/2026                     17:19
+
+           Kaldis Coffee
+                ***
+         N O N - F I S C A L
+            Cup-Bulbula
+                 93
+              Location
+               ORDER
+         N O N - F I S C A L
+                ***
+====================================
+Order No: CO_BULBULA1-POS_MVGRL2TO
+Order By:Miliyon Haymanot
+         N O N - F I S C A L
+Order Device:BULBULA1-POS
+Date: 20/10/2026 17:14:14
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+         N O N - F I S C A L
+Table: 1
+Shift: Shift 2
+====================================
+Qty   Description
+         N O N - F I S C A L
+------------------------------------
+1  HOT CUP7OZ
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142225
+20/10/2026                     17:19
+
+Ref: CS_BULBULA1-POS_MVGRK24L
+Order: CO_BULBULA1-POS_MVGRL2TO
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *133.33
+Macchiato Tall               *133.33
+                          1 x *18.40
+Hot Cup7oz                    *18.40
+SUBTOTAL                     *151.73
+SURCHARGE                      *5.80
+------------------------------------
+TXBL1                        *157.53
+TAX1  15.00%                  *23.63
+------------------------------------
+ T O T A L             * 1 8 1 . 1 6
+CASH                         *181.16
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142226
+20/10/2026                     17:19
+
+Ref: CS_BULBULA1-POS_MVGRL5FS
+Order: CO_BULBULA1-POS_MVGQB7PW
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *133.33
+Macchiato Tall               *266.66
+                         1 x *179.17
+Chocolate  Cake              *179.17
+SUBTOTAL                     *445.83
+SURCHARGE                     *19.39
+------------------------------------
+TXBL1                        *465.22
+TAX1  15.00%                  *69.78
+------------------------------------
+ T O T A L             * 5 3 5 . 0 0
+CASH                         *535.00
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229589
+20/10/2026                     17:22
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGRPS3J
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 17:17:53
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 18
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229590
+20/10/2026                     17:24
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGRS4J1
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 17:19:43
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229591
+20/10/2026                     17:24
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGRS4J1
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 17:19:43
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BANANA CAKEÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142227
+20/10/2026                     17:24
+
+Ref: CS_BULBULA1-POS_MVGRRG74
+Order: CO_BULBULA1-POS_MVGRS4J1
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *133.33
+Macchiato Tall               *133.33
+                         1 x *137.50
+Cafe Latte Short             *137.50
+                          1 x *95.45
+Banana Cake                   *95.45
+SUBTOTAL                     *366.28
+SURCHARGE                     *15.93
+------------------------------------
+TXBL1                        *382.21
+TAX1  15.00%                  *57.33
+------------------------------------
+ T O T A L             * 4 3 9 . 5 4
+CASH                         *439.54
+ITEM #                             3
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229592
+20/10/2026                     17:40
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGSCLER
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 17:35:38
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 5
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229593
+20/10/2026                     17:42
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGRPS3J
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 17:17:53
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 18
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  LEMON GATOS CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229594
+20/10/2026                     17:43
+
+           Kaldis Coffee
+    *** Bar1-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGQDPR4
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:40:31
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 0
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SOFT DRINKÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229595
+20/10/2026                     17:43
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGQDPR4
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 16:40:31
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 0
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHOCOLATE  CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142228
+20/10/2026                     17:43
+
+Ref: CS_BULBULA1-POS_MVGSERT2
+Order: CO_BULBULA1-POS_MVGQDPR4
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 0
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *162.50
+Meat Sambusa                 *162.50
+                          1 x *75.90
+Soft Drink                    *75.90
+                         1 x *179.17
+Chocolate  Cake              *179.17
+SUBTOTAL                     *417.57
+SURCHARGE                     *18.16
+------------------------------------
+TXBL1                        *435.73
+TAX1  15.00%                  *65.36
+------------------------------------
+ T O T A L             * 5 0 1 . 0 9
+CASH                         *501.09
+ITEM #                             3
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142229
+20/10/2026                     17:48
+
+Ref: CS_BULBULA1-POS_MVGSG1RI
+Order: CO_BULBULA1-POS_MVGSCLER
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 5
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *104.65
+Macchiato Short              *104.65
+SUBTOTAL                     *104.65
+SURCHARGE                      *4.55
+------------------------------------
+TXBL1                        *109.20
+TAX1  15.00%                  *16.38
+------------------------------------
+ T O T A L             * 1 2 5 . 5 8
+CASH                         *125.58
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229596
+20/10/2026                     17:57
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGSYOS7
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 17:52:49
+No Guest: 11
+Waiter: Tenaye Abebe Haylu
+Table: 17
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142230
+20/10/2026                     18:08
+
+Ref: CS_BULBULA1-POS_MVGSYPKF
+Order: CO_BULBULA1-POS_MVGNIGPK
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *133.33
+Macchiato Tall               *133.33
+                         1 x *124.20
+Black Forest Cake            *124.20
+SUBTOTAL                     *257.53
+SURCHARGE                     *11.20
+------------------------------------
+TXBL1                        *268.73
+TAX1  15.00%                  *40.31
+------------------------------------
+ T O T A L             * 3 0 9 . 0 4
+CASH                         *309.04
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142231
+20/10/2026                     18:09
+
+Ref: CS_BULBULA1-POS_MVGTCFU1
+Order: CO_BULBULA1-POS_MVGQQI9D
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 9
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *66.70
+Lemon Tea                     *66.70
+SUBTOTAL                      *66.70
+SURCHARGE                      *2.90
+------------------------------------
+TXBL1                         *69.60
+TAX1  15.00%                  *10.44
+------------------------------------
+ T O T A L               * 8 0 . 0 4
+CASH                          *80.04
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229597
+20/10/2026                     18:12
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGSYOS7
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 17:52:49
+No Guest: 11
+Waiter: Tenaye Abebe Haylu
+Table: 17
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BANANA CAKEÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142232
+20/10/2026                     18:17
+
+Ref: CS_BULBULA1-POS_MVGTHAXW
+Order: CO_BULBULA1-POS_MVGRPS3J
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 18
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *137.50
+Cafe Latte Short             *275.00
+                         2 x *229.17
+Lemon Gatos Cake             *458.34
+SUBTOTAL                     *733.34
+SURCHARGE                     *31.90
+------------------------------------
+TXBL1                        *765.24
+TAX1  15.00%                 *114.79
+------------------------------------
+ T O T A L             * 8 8 0 . 0 3
+CASH                         *880.03
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142233
+20/10/2026                     18:26
+
+Ref: CS_BULBULA1-POS_MVGTO7MN
+Order: CO_BULBULA1-POS_MVGQMKVX
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 14
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *47.15
+Bottled Water 600ml           *47.15
+SUBTOTAL                      *47.15
+SURCHARGE                      *2.05
+------------------------------------
+TXBL1                         *49.20
+TAX1  15.00%                   *7.38
+------------------------------------
+ T O T A L               * 5 6 . 5 8
+CASH                          *56.58
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229598
+20/10/2026                     18:32
+
+           Kaldis Coffee
+    *** Juice-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGU7VP0
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 18:27:57
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 12
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  KALDI'S TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229599
+20/10/2026                     18:35
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGUBBPR
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 18:30:38
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 13
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229600
+20/10/2026                     18:35
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGUBNGP
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 18:30:53
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 4
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229601
+20/10/2026                     18:36
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGUD0LD
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 18:31:57
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 18
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142234
+20/10/2026                     18:37
+
+Ref: CS_BULBULA1-POS_MVGUD19N
+Order: CO_BULBULA1-POS_MVGSYOS7
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 17
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *137.50
+Cafe Latte Short             *137.50
+                         1 x *104.65
+Macchiato Short              *104.65
+                          1 x *95.45
+Banana Cake                   *95.45
+SUBTOTAL                     *337.60
+SURCHARGE                     *14.68
+------------------------------------
+TXBL1                        *352.28
+TAX1  15.00%                  *52.84
+------------------------------------
+ T O T A L             * 4 0 5 . 1 2
+CASH                         *405.12
+ITEM #                             3
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229602
+20/10/2026                     18:38
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGUEMCL
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 18:33:11
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 16
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ESPRESSO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229603
+20/10/2026                     18:44
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGUMXFC
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 18:39:39
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CARAMEL FROSTING CAKE
+1  CARROT CHEESE CAKE
+1  BLACK FOREST CAKEÂ 
+1  TAKE AWAY PASTRY
+         N O N - F I S C A L
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142235
+20/10/2026                     18:44
+
+Ref: CS_BULBULA1-POS_MVGUEN0C
+Order: CO_BULBULA1-POS_MVGUMXFC
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *254.17
+Caramel Frosting Cake        *254.17
+                         1 x *183.33
+Carrot Cheese Cake           *183.33
+                         1 x *124.20
+Black Forest Cake            *124.20
+                          1 x *14.95
+Take Away Pastry              *14.95
+SUBTOTAL                     *576.65
+SURCHARGE                     *24.43
+------------------------------------
+TXBL1                        *601.08
+TAX1  15.00%                  *90.16
+------------------------------------
+ T O T A L             * 6 9 1 . 2 4
+CASH                         *691.24
+ITEM #                             4
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229604
+20/10/2026                     18:57
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGV3HTH
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 18:52:32
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 8
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142236
+20/10/2026                     18:58
+
+Ref: CS_BULBULA1-POS_MVGV3IL1
+Order: CO_BULBULA1-POS_MVGU7VP0
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 12
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *204.17
+Kaldi's Tea                  *204.17
+SUBTOTAL                     *204.17
+SURCHARGE                      *8.88
+------------------------------------
+TXBL1                        *213.05
+TAX1  15.00%                  *31.96
+------------------------------------
+ T O T A L             * 2 4 5 . 0 1
+CASH                         *245.01
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229605
+20/10/2026                     18:58
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGV4OMF
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 18:53:27
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  JIGGER TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142237
+20/10/2026                     18:58
+
+Ref: CS_BULBULA1-POS_MVGV47XQ
+Order: CO_BULBULA1-POS_MVGV4OMF
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *62.10
+Jigger Tea                    *62.10
+SUBTOTAL                      *62.10
+SURCHARGE                      *2.70
+------------------------------------
+TXBL1                         *64.80
+TAX1  15.00%                   *9.72
+------------------------------------
+ T O T A L               * 7 4 . 5 2
+CASH                          *74.52
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229606
+20/10/2026                     18:58
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGV5GJ5
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 18:54:4
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 10
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229607
+20/10/2026                     19:00
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGUD0LD
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 18:31:57
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 18
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CARAMEL FROSTING CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229608
+20/10/2026                     19:01
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGUEMCL
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 18:33:11
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 16
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BAKLAVA CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229609
+20/10/2026                     19:02
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGVA0U0
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 18:57:37
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BABY CAKE
+1  CARROT CHEESE CAKE
+1  LEMON GATOS CAKE
+1  BLACK FOREST CAKEÂ 
+         N O N - F I S C A L
+1  CARAMEL FROSTING CAKE
+1  TAKE AWAY PASTRY
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142238
+20/10/2026                     19:02
+
+Ref: CS_BULBULA1-POS_MVGV870Y
+Order: CO_BULBULA1-POS_MVGVA0U0
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *128.80
+Baby Cake                    *128.80
+                         1 x *183.33
+Carrot Cheese Cake           *183.33
+                         1 x *229.17
+Lemon Gatos Cake             *229.17
+                         1 x *124.20
+Black Forest Cake            *124.20
+                         1 x *254.17
+Caramel Frosting Cake        *254.17
+                          1 x *14.95
+Take Away Pastry              *14.95
+SUBTOTAL                     *934.62
+SURCHARGE                     *40.00
+------------------------------------
+TXBL1                        *974.62
+TAX1  15.00%                 *146.19
+------------------------------------
+ T O T A L           * 1 1 2 0 . 8 1
+CASH                        *1120.81
+ITEM #                             6
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142239
+20/10/2026                     19:06
+
+Ref: CS_BULBULA1-POS_MVGVA36X
+Order: CO_BULBULA1-POS_MVGUBNGP
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 4
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *104.65
+Macchiato Short              *209.30
+SUBTOTAL                     *209.30
+SURCHARGE                      *9.10
+------------------------------------
+TXBL1                        *218.40
+TAX1  15.00%                  *32.76
+------------------------------------
+ T O T A L             * 2 5 1 . 1 6
+CASH                         *251.16
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229610
+20/10/2026                     19:07
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGVG3IG
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 19:2:20
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 3
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142240
+20/10/2026                     19:09
+
+Ref: CS_BULBULA1-POS_MVGVG47U
+Order: CO_BULBULA1-POS_MVGUEMCL
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 16
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *125.00
+Espresso Tall                *125.00
+                          1 x *95.83
+Baklava Cake                  *95.83
+SUBTOTAL                     *220.83
+SURCHARGE                      *9.61
+------------------------------------
+TXBL1                        *230.44
+TAX1  15.00%                  *34.57
+------------------------------------
+ T O T A L             * 2 6 5 . 0 1
+CASH                         *265.01
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142241
+20/10/2026                     19:10
+
+Ref: CS_BULBULA1-POS_MVGVILKG
+Order: CO_BULBULA1-POS_MVGUD0LD
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 18
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *133.33
+Macchiato Tall               *133.33
+                         1 x *254.17
+Caramel Frosting Cake        *254.17
+SUBTOTAL                     *387.50
+SURCHARGE                     *16.86
+------------------------------------
+TXBL1                        *404.36
+TAX1  15.00%                  *60.65
+------------------------------------
+ T O T A L             * 4 6 5 . 0 1
+CASH                         *465.01
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142242
+20/10/2026                     19:13
+
+Ref: CS_BULBULA1-POS_MVGVKPEJ
+Order: CO_BULBULA1-POS_MVGV3HTH
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 8
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *104.65
+Macchiato Short              *209.30
+SUBTOTAL                     *209.30
+SURCHARGE                      *9.10
+------------------------------------
+TXBL1                        *218.40
+TAX1  15.00%                  *32.76
+------------------------------------
+ T O T A L             * 2 5 1 . 1 6
+CASH                         *251.16
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142243
+20/10/2026                     19:14
+
+Ref: CS_BULBULA1-POS_MVGVOHEL
+Order: CO_BULBULA1-POS_MVGVG3IG
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 3
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *133.33
+Macchiato Tall               *133.33
+SUBTOTAL                     *133.33
+SURCHARGE                      *5.80
+------------------------------------
+TXBL1                        *139.13
+TAX1  15.00%                  *20.87
+------------------------------------
+ T O T A L             * 1 6 0 . 0 0
+CASH                         *160.00
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142244
+20/10/2026                     19:14
+
+Ref: CS_BULBULA1-POS_MVGVPIKW
+Order: CO_BULBULA1-POS_MVGV5GJ5
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *104.65
+Macchiato Short              *104.65
+                         1 x *133.33
+Macchiato Tall               *133.33
+SUBTOTAL                     *237.98
+SURCHARGE                     *10.35
+------------------------------------
+TXBL1                        *248.33
+TAX1  15.00%                  *37.25
+------------------------------------
+ T O T A L             * 2 8 5 . 5 8
+CASH                         *285.58
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142245
+20/10/2026                     19:14
+
+Ref: CS_BULBULA1-POS_MVGVPRB8
+Order: CO_BULBULA1-POS_MVGUBBPR
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 13
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *133.33
+Macchiato Tall               *266.66
+SUBTOTAL                     *266.66
+SURCHARGE                     *11.60
+------------------------------------
+TXBL1                        *278.26
+TAX1  15.00%                  *41.74
+------------------------------------
+ T O T A L             * 3 2 0 . 0 0
+CASH                         *320.00
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229611
+20/10/2026                     19:21
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGVXXZ3
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 19:16:13
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 0
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229612
+20/10/2026                     19:27
+
+           Kaldis Coffee
+    *** Bar1-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGW6MI7
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 19:22:58
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 17
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SOFT DRINKÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229613
+20/10/2026                     19:31
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGWAUM5
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 19:26:15
+No Guest: 1
+Waiter: Ymenash Eshetu Belachew
+Table: 18
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142246
+20/10/2026                     19:39
+
+Ref: CS_BULBULA1-POS_MVGWAVH6
+Order: CO_BULBULA1-POS_MVGW6MI7
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 17
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                          1 x *75.90
+Soft Drink                    *75.90
+SUBTOTAL                      *75.90
+SURCHARGE                      *3.30
+------------------------------------
+TXBL1                         *79.20
+TAX1  15.00%                  *11.88
+------------------------------------
+ T O T A L               * 9 1 . 0 8
+CASH                          *91.08
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142247
+20/10/2026                     19:53
+
+Ref: CS_BULBULA1-POS_MVGWLP8H
+Order: CO_BULBULA1-POS_MVGVXXZ3
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 0
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *104.65
+Macchiato Short              *104.65
+                         1 x *133.33
+Macchiato Tall               *133.33
+SUBTOTAL                     *237.98
+SURCHARGE                     *10.35
+------------------------------------
+TXBL1                        *248.33
+TAX1  15.00%                  *37.25
+------------------------------------
+ T O T A L             * 2 8 5 . 5 8
+CASH                         *285.58
+ITEM #                             2
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229614
+20/10/2026                     20:07
+
+           Kaldis Coffee
+    *** Bar2-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGXLIH5
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 20:2:32
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CARROT CHEESE CAKE
+1  BABY CAKE
+1  TAKE AWAY PASTRY
+====================================
+         N O N - F I S C A L
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142248
+20/10/2026                     20:07
+
+Ref: CS_BULBULA1-POS_MVGX47ZR
+Order: CO_BULBULA1-POS_MVGXLIH5
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *183.33
+Carrot Cheese Cake           *183.33
+                         1 x *128.80
+Baby Cake                    *128.80
+                          1 x *14.95
+Take Away Pastry              *14.95
+SUBTOTAL                     *327.08
+SURCHARGE                     *13.57
+------------------------------------
+TXBL1                        *340.65
+TAX1  15.00%                  *51.10
+------------------------------------
+ T O T A L             * 3 9 1 . 7 5
+CASH                         *391.75
+ITEM #                             3
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+         N O N - F I S C A L
+
+No. NF 00229615
+20/10/2026                     20:14
+
+           Kaldis Coffee
+    *** Bar3-BULBULA1 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: CO_BULBULA1-POS_MVGXU3LR
+Order By:Miliyon Haymanot
+Order Device:BULBULA1-POS
+         N O N - F I S C A L
+Date: 20/10/2026 20:9:13
+No Guest: 1
+Waiter: Tenaye Abebe Haylu
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MACCHIATO TALL
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142249
+20/10/2026                     20:14
+
+Ref: CS_BULBULA1-POS_MVGXLKOY
+Order: CO_BULBULA1-POS_MVGXU3LR
+Operator: Miliyon Haymanot
+Waiter: Tenaye Abebe Haylu
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *133.33
+Macchiato Tall               *133.33
+SUBTOTAL                     *133.33
+SURCHARGE                      *5.80
+------------------------------------
+TXBL1                        *139.13
+TAX1  15.00%                  *20.87
+------------------------------------
+ T O T A L             * 1 6 0 . 0 0
+CASH                         *160.00
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+         A.A, SUBCITY- BOLE
+           W/12,H.NO.-NEW
+ AROUND BULBULA INSIDE JENBORO REAL
+               ESTATE
+           TEL- 0118615882
+
+FS No. 00142250
+20/10/2026                     20:21
+
+Ref: CS_BULBULA1-POS_MVGXU5ZE
+Order: CO_BULBULA1-POS_MVGWAUM5
+Operator: Miliyon Haymanot
+Waiter: Ymenash Eshetu Belachew
+Table: 18
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *104.65
+Macchiato Short              *104.65
+SUBTOTAL                     *104.65
+SURCHARGE                      *4.55
+------------------------------------
+TXBL1                        *109.20
+TAX1  15.00%                  *16.38
+------------------------------------
+ T O T A L             * 1 2 5 . 5 8
+CASH                         *125.58
+ITEM #                             1
+           @@@@ FGB0012632
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+

@@ -1,0 +1,5552 @@
+JOURNAL NUMBER 1439 CLEARED
+SIGNATURE:      C26529F64F52AEE8CACA
+                53C7385C1B78E8CD11BB
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+   S E S S I O N   Z   R E P O R T
+
+Z:1431
+27/08/2026                     11:54
+
+SALES                            190
+DISCOUNTS (0)                  *0.00
+SURCHARGES (108)            *7855.60
+VOID (0)                       *0.00
+CASH                      *213386.58
+
+CASH DEPOSIT (0)               *0.00
+CASH DEDUCTED (0)              *0.00
+CASH AVAILABLE            *213386.58
+
+ACCU.EJ                     00001439
+SESSION.EJ                         1
+SIGNATURE:      C26529F64F52AEE8CACA
+                53C7385C1B78E8CD11BB
+------------------------------------
+TXBL1                     *185553.49
+TXBL2                          *0.00
+TXBL3                          *0.00
+NOTXBL                         *0.00
+TAX1  15.00%               *27833.02
+TAX2   0.00%                   *0.00
+TAX3   0.00%                   *0.00
+ - - - - - - - - - - - - - - - - - -
+SALES TL                  *185553.49
+TXBL TL                   *185553.49
+TAX TL                     *27833.02
+------------------------------------
+RFD TXBL1                      *0.00
+RFD TXBL2                      *0.00
+RFD TXBL3                      *0.00
+RFD NOTXBL                     *0.00
+RFD TAX1  15.00%               *0.00
+RFD TAX2   0.00%               *0.00
+RFD TAX3   0.00%               *0.00
+ - - - - - - - - - - - - - - - - - -
+RFD SALES TL                   *0.00
+RFD TXBL TL                    *0.00
+RFD TAX TL                     *0.00
+------------------------------------
+ACCU.FS                     00101786
+27/08/2026                     11:17
+SESSION.FS                       110
+ACCU.NF                     00158482
+SESSION.NF                       178
+ACCU.RFD                    00000002
+SESSION.RFD                        0
+SESSION RESET                      0
+
+           @@@@ FGB0012872
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158483
+27/08/2026                     20:26
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07353-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 19:59:0
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101787
+27/08/2026                     20:26
+
+Ref: CS_AIRPORT-POS1_MTBROA60
+Order: COV-07353-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *273.91
+Bottled Water 600ml          *273.91
+SUBTOTAL                     *273.91
+SURCHARGE                     *11.92
+------------------------------------
+TXBL1                        *285.83
+TAX1  15.00%                  *42.87
+------------------------------------
+ T O T A L             * 3 2 8 . 7 0
+CASH                         *328.70
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158484
+27/08/2026                     20:45
+
+           Kaldis Coffee
+     *** Bar3-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07354-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 20:17:38
+No Guest: 1
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HOT CHOCOLATE  SHORT
+1  CAPPUCCINO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158485
+27/08/2026                     20:45
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07354-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 20:17:38
+No Guest: 1
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STRAWBERRY SPECIAL JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158486
+27/08/2026                     20:45
+
+           Kaldis Coffee
+     *** Bar2-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07354-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 20:17:38
+No Guest: 1
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CROISSANT CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101788
+27/08/2026                     20:45
+
+Ref: CS_AIRPORT-POS1_MTBRP1SJ
+Order: COV-07354-AIR
+Operator: Kibra Alem
+Waiter: Desalegn Alemu Gela
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+Hot Chocolate  Short         *820.10
+                         1 x *820.10
+Cappuccino Short             *820.10
+                         1 x *820.10
+Strawberry Special Juice     *820.10
+                         1 x *546.19
+Croissant Cake               *546.19
+SUBTOTAL                    *3006.49
+SURCHARGE                    *130.77
+------------------------------------
+TXBL1                       *3137.26
+TAX1  15.00%                 *470.59
+------------------------------------
+ T O T A L           * 3 6 0 7 . 8 5
+CASH                        *3607.85
+ITEM #                             4
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158487
+27/08/2026                     20:51
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07355-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 20:24:33
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  FRUIT SALAD PAPAYA 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101789
+27/08/2026                     20:51
+
+Ref: CS_AIRPORT-POS1_MTBSD3D1
+Order: COV-07355-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *777.96
+Fruit Salad Papaya           *777.96
+SUBTOTAL                     *777.96
+SURCHARGE                     *33.84
+------------------------------------
+TXBL1                        *811.80
+TAX1  15.00%                 *121.77
+------------------------------------
+ T O T A L             * 9 3 3 . 5 7
+CASH                         *933.57
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158488
+27/08/2026                     20:57
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07356-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 20:30:3
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101790
+27/08/2026                     20:57
+
+Ref: CS_AIRPORT-POS1_MTBSLWML
+Order: COV-07356-AIR
+Operator: Kibra Alem
+Waiter: Desalegn Alemu Gela
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *273.91
+Bottled Water 600ml          *273.91
+SUBTOTAL                     *273.91
+SURCHARGE                     *11.92
+------------------------------------
+TXBL1                        *285.83
+TAX1  15.00%                  *42.87
+------------------------------------
+ T O T A L             * 3 2 8 . 7 0
+CASH                         *328.70
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158489
+27/08/2026                     21:02
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07357-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 20:35:19
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101791
+27/08/2026                     21:02
+
+Ref: CS_AIRPORT-POS1_MTBSSYBR
+Order: COV-07357-AIR
+Operator: Kibra Alem
+Waiter: Desalegn Alemu Gela
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *273.91
+Bottled Water 600ml          *273.91
+SUBTOTAL                     *273.91
+SURCHARGE                     *11.92
+------------------------------------
+TXBL1                        *285.83
+TAX1  15.00%                  *42.87
+------------------------------------
+ T O T A L             * 3 2 8 . 7 0
+CASH                         *328.70
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158490
+27/08/2026                     21:15
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07358-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 20:48:34
+No Guest: 0
+Waiter: Bar Man Two
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  PAPAYA JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101792
+27/08/2026                     21:17
+
+Ref: CS_AIRPORT-POS1_MTBTHAZ2
+Order: COV-07358-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+Papaya Juice                 *820.10
+SUBTOTAL                     *820.10
+SURCHARGE                     *35.67
+------------------------------------
+TXBL1                        *855.77
+TAX1  15.00%                 *128.37
+------------------------------------
+ T O T A L             * 9 8 4 . 1 4
+CASH                         *984.14
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158491
+27/08/2026                     21:49
+
+           Kaldis Coffee
+     *** Bar3-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07359-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:21:50
+No Guest: 1
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101793
+27/08/2026                     21:49
+
+Ref: CS_AIRPORT-POS1_MTBTIPUP
+Order: COV-07359-AIR
+Operator: Kibra Alem
+Waiter: Desalegn Alemu Gela
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *546.19
+Coffee Short                 *546.19
+SUBTOTAL                     *546.19
+SURCHARGE                     *23.76
+------------------------------------
+TXBL1                        *569.95
+TAX1  15.00%                  *85.49
+------------------------------------
+ T O T A L             * 6 5 5 . 4 4
+CASH                         *655.44
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158492
+27/08/2026                     22:00
+
+           Kaldis Coffee
+   *** Kitchen-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07360-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:32:37
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHICKEN PESTO WRAP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158493
+27/08/2026                     22:00
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07360-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:32:37
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SOFT DRINK 500ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158494
+27/08/2026                     22:03
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07361-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:35:46
+No Guest: 0
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SPECIAL MANGO JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158495
+27/08/2026                     22:12
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07362-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:45:36
+No Guest: 0
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101794
+27/08/2026                     22:14
+
+Ref: CS_AIRPORT-POS1_MTBVI1WK
+Order: COV-07361-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+Special Mango Juice          *820.10
+SUBTOTAL                     *820.10
+SURCHARGE                     *35.67
+------------------------------------
+TXBL1                        *855.77
+TAX1  15.00%                 *128.37
+------------------------------------
+ T O T A L             * 9 8 4 . 1 4
+CASH                         *984.14
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158496
+27/08/2026                     22:16
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07363-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:48:29
+No Guest: 0
+Waiter: Murade Ali Muhye
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101795
+27/08/2026                     22:16
+
+Ref: CS_AIRPORT-POS1_MTBVJFPX
+Order: COV-07363-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *273.91
+Bottled Water 600ml          *273.91
+SUBTOTAL                     *273.91
+SURCHARGE                     *11.92
+------------------------------------
+TXBL1                        *285.83
+TAX1  15.00%                  *42.87
+------------------------------------
+ T O T A L             * 3 2 8 . 7 0
+CASH                         *328.70
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158497
+27/08/2026                     22:18
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07362-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:45:36
+No Guest: 0
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ORANGE JUICE 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158498
+27/08/2026                     22:18
+
+           Kaldis Coffee
+   *** Kitchen-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07362-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:45:36
+No Guest: 0
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHICKEN PESTO WRAP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158499
+27/08/2026                     22:21
+
+           Kaldis Coffee
+     *** Bar2-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07364-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:54:25
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CROISSANT CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158500
+27/08/2026                     22:21
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07364-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:54:25
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SOFT DRINK 500ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158501
+27/08/2026                     22:21
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07364-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:54:25
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  FRUIT SALAD ANANAS 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158502
+27/08/2026                     22:22
+
+           Kaldis Coffee
+     *** Bar2-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07365-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:55:34
+No Guest: 0
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CROISSANT CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158503
+27/08/2026                     22:22
+
+           Kaldis Coffee
+     *** Bar3-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07365-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:55:34
+No Guest: 0
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAPPUCCINO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158504
+27/08/2026                     22:24
+
+           Kaldis Coffee
+   *** Kitchen-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07366-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:56:40
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHICKEN PESTO WRAP
+1  CROISSANTS WITH EGG
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158505
+27/08/2026                     22:24
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07366-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:56:40
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ORANGE JUICE 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158506
+27/08/2026                     22:24
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07366-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:56:40
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158507
+27/08/2026                     22:24
+
+           Kaldis Coffee
+     *** Bar3-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07366-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:56:40
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE AMERICANO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158508
+27/08/2026                     22:28
+
+           Kaldis Coffee
+     *** Bar3-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07367-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:1:36
+No Guest: 0
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE AMERICANO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158509
+27/08/2026                     22:29
+
+           Kaldis Coffee
+     *** Bar3-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07368-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:1:59
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STEAMED MILK WITH TEA SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101796
+27/08/2026                     22:29
+
+Ref: CS_AIRPORT-POS1_MTBW34K0
+Order: COV-07368-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *546.19
+Steamed Milk With Tea Short  *546.19
+SUBTOTAL                     *546.19
+SURCHARGE                     *23.76
+------------------------------------
+TXBL1                        *569.95
+TAX1  15.00%                  *85.49
+------------------------------------
+ T O T A L             * 6 5 5 . 4 4
+CASH                         *655.44
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101797
+27/08/2026                     22:30
+
+Ref: CS_AIRPORT-POS1_MTBW3JAN
+Order: COV-07367-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *273.36
+Coffee Americano Short       *273.36
+SUBTOTAL                     *273.36
+SURCHARGE                     *11.89
+------------------------------------
+TXBL1                        *285.25
+TAX1  15.00%                  *42.79
+------------------------------------
+ T O T A L             * 3 2 8 . 0 4
+CASH                         *328.04
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158510
+27/08/2026                     22:30
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07369-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:3:32
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  FRUIT SALAD ANANAS 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101798
+27/08/2026                     22:30
+
+Ref: CS_AIRPORT-POS1_MTBW4TJ8
+Order: COV-07369-AIR
+Operator: Kibra Alem
+Waiter: Desalegn Alemu Gela
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *777.96
+Fruit Salad Ananas           *777.96
+SUBTOTAL                     *777.96
+SURCHARGE                     *33.84
+------------------------------------
+TXBL1                        *811.80
+TAX1  15.00%                 *121.77
+------------------------------------
+ T O T A L             * 9 3 3 . 5 7
+CASH                         *933.57
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101799
+27/08/2026                     22:32
+
+Ref: CS_AIRPORT-POS1_MTBW57FC
+Order: COV-07365-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *546.19
+Croissant Cake               *546.19
+                         1 x *820.10
+Cappuccino Short             *820.10
+SUBTOTAL                    *1366.29
+SURCHARGE                     *59.43
+------------------------------------
+TXBL1                       *1425.72
+TAX1  15.00%                 *213.86
+------------------------------------
+ T O T A L           * 1 6 3 9 . 5 8
+CASH                        *1639.58
+ITEM #                             2
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158511
+27/08/2026                     22:34
+
+           Kaldis Coffee
+   *** Kitchen-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07366-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:56:40
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CROISSANTS WITH EGG AND CHESSE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158512
+27/08/2026                     22:34
+
+           Kaldis Coffee
+     *** Bar2-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07366-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:56:40
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CROISSANT CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158513
+27/08/2026                     22:35
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07370-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:8:1
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  SOFT DRINK 500ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101800
+27/08/2026                     22:35
+
+Ref: CS_AIRPORT-POS1_MTBW9UOS
+Order: COV-07370-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *410.05
+Soft Drink 500ml             *820.10
+SUBTOTAL                     *820.10
+SURCHARGE                     *35.67
+------------------------------------
+TXBL1                        *855.77
+TAX1  15.00%                 *128.37
+------------------------------------
+ T O T A L             * 9 8 4 . 1 4
+CASH                         *984.14
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158514
+27/08/2026                     22:36
+
+           Kaldis Coffee
+     *** Bar3-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07364-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 21:54:25
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101801
+27/08/2026                     22:36
+
+Ref: CS_AIRPORT-POS1_MTBWB2TJ
+Order: COV-07364-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *546.19
+Croissant Cake               *546.19
+                         1 x *410.05
+Soft Drink 500ml             *410.05
+                         1 x *777.96
+Fruit Salad Ananas           *777.96
+                         1 x *820.10
+Cafe Latte Short             *820.10
+SUBTOTAL                    *2554.30
+SURCHARGE                    *111.11
+------------------------------------
+TXBL1                       *2665.41
+TAX1  15.00%                 *399.81
+------------------------------------
+ T O T A L           * 3 0 6 5 . 2 2
+CASH                        *3065.22
+ITEM #                             4
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101802
+27/08/2026                     22:37
+
+Ref: CS_AIRPORT-POS1_MTBWC6HJ
+Order: COV-07360-AIR
+Operator: Kibra Alem
+Waiter: Desalegn Alemu Gela
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        1 x *3280.40
+Chicken Pesto Wrap          *3280.40
+                         1 x *410.05
+Soft Drink 500ml             *410.05
+SUBTOTAL                    *3690.45
+SURCHARGE                    *160.54
+------------------------------------
+TXBL1                       *3850.99
+TAX1  15.00%                 *577.65
+------------------------------------
+ T O T A L           * 4 4 2 8 . 6 4
+CASH                        *4428.64
+ITEM #                             2
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158515
+27/08/2026                     22:39
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07371-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:12:31
+No Guest: 0
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  ST GEORGE BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158516
+27/08/2026                     22:40
+
+           Kaldis Coffee
+     *** Bar3-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07372-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:12:50
+No Guest: 0
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAPPUCCINO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158517
+27/08/2026                     22:41
+
+           Kaldis Coffee
+   *** Kitchen-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07373-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:14:11
+No Guest: 0
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+3  CHICKEN PESTO WRAP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158518
+27/08/2026                     22:41
+
+           Kaldis Coffee
+     *** Bar2-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07374-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:14:30
+No Guest: 1
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  CROISSANT CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158519
+27/08/2026                     22:41
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07374-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:14:30
+No Guest: 1
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  ORANGE JUICE 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101803
+27/08/2026                     22:42
+
+Ref: CS_AIRPORT-POS1_MTBWJ99G
+Order: COV-07362-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *273.91
+Bottled Water 600ml          *273.91
+                         1 x *819.87
+Orange Juice                 *819.87
+                        1 x *3280.40
+Chicken Pesto Wrap          *3280.40
+SUBTOTAL                    *4374.18
+SURCHARGE                    *190.28
+------------------------------------
+TXBL1                       *4564.46
+TAX1  15.00%                 *684.67
+------------------------------------
+ T O T A L           * 5 2 4 9 . 1 3
+CASH                        *5249.13
+ITEM #                             3
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158520
+27/08/2026                     22:43
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07375-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:15:51
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HABESHA BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101804
+27/08/2026                     22:43
+
+Ref: CS_AIRPORT-POS1_MTBWJJ4G
+Order: COV-07375-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+Habesha Beer                 *820.10
+SUBTOTAL                     *820.10
+SURCHARGE                     *35.67
+------------------------------------
+TXBL1                        *855.77
+TAX1  15.00%                 *128.37
+------------------------------------
+ T O T A L             * 9 8 4 . 1 4
+CASH                         *984.14
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158521
+27/08/2026                     22:43
+
+           Kaldis Coffee
+   *** Kitchen-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07376-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:16:24
+No Guest: 1
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHICKEN PESTO WRAP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158522
+27/08/2026                     22:43
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07376-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:16:24
+No Guest: 1
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  PINEAPPLE JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101805
+27/08/2026                     22:44
+
+Ref: CS_AIRPORT-POS1_MTBWLOW8
+Order: COV-07372-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+Cappuccino Short             *820.10
+SUBTOTAL                     *820.10
+SURCHARGE                     *35.67
+------------------------------------
+TXBL1                        *855.77
+TAX1  15.00%                 *128.37
+------------------------------------
+ T O T A L             * 9 8 4 . 1 4
+CASH                         *984.14
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158523
+27/08/2026                     22:44
+
+           Kaldis Coffee
+     *** Bar3-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07377-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:17:31
+No Guest: 1
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAPPUCCINO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158524
+27/08/2026                     22:45
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07378-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:18:15
+No Guest: 0
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158525
+27/08/2026                     22:46
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07379-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:19:1
+No Guest: 0
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101806
+27/08/2026                     22:48
+
+Ref: CS_AIRPORT-POS1_MTBWP0TW
+Order: COV-07379-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *273.91
+Bottled Water 600ml          *547.82
+SUBTOTAL                     *547.82
+SURCHARGE                     *23.83
+------------------------------------
+TXBL1                        *571.65
+TAX1  15.00%                  *85.75
+------------------------------------
+ T O T A L             * 6 5 7 . 4 0
+CASH                         *657.40
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101807
+27/08/2026                     22:49
+
+Ref: CS_AIRPORT-POS1_MTBWS1PE
+Order: COV-07366-AIR
+Operator: Kibra Alem
+Waiter: Desalegn Alemu Gela
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        1 x *3280.40
+Chicken Pesto Wrap          *3280.40
+                        1 x *2460.25
+Croissants With Egg         *2460.25
+                         1 x *819.87
+Orange Juice                 *819.87
+                         1 x *273.91
+Bottled Water 600ml          *273.91
+                         1 x *273.36
+Coffee Americano Short       *273.36
+                        1 x *2596.14
+Croissants With Egg And Che *2596.14
+                         1 x *546.19
+Croissant Cake               *546.19
+SUBTOTAL                   *10250.12
+SURCHARGE                    *445.88
+------------------------------------
+TXBL1                      *10696.00
+TAX1  15.00%                *1604.40
+------------------------------------
+ T O T A L         * 1 2 3 0 0 . 4 0
+CASH                       *12300.40
+ITEM #                             7
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101808
+27/08/2026                     22:51
+
+Ref: CS_AIRPORT-POS1_MTBWTJMW
+Order: COV-07374-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *546.19
+Croissant Cake              *1092.38
+                         2 x *819.87
+Orange Juice                *1639.74
+SUBTOTAL                    *2732.12
+SURCHARGE                    *118.85
+------------------------------------
+TXBL1                       *2850.97
+TAX1  15.00%                 *427.65
+------------------------------------
+ T O T A L           * 3 2 7 8 . 6 2
+CASH                        *3278.62
+ITEM #                             2
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158526
+27/08/2026                     22:52
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07380-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:24:41
+No Guest: 1
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ORANGE JUICE 
+1  SPECIAL MANGO JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158527
+27/08/2026                     22:53
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07381-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:26:0
+No Guest: 1
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HEINKEN BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158528
+27/08/2026                     22:54
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07382-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:26:38
+No Guest: 1
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+3  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101809
+27/08/2026                     22:54
+
+Ref: CS_AIRPORT-POS1_MTBWY08Q
+Order: COV-07382-AIR
+Operator: Kibra Alem
+Waiter: Desalegn Alemu Gela
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         3 x *273.91
+Bottled Water 600ml          *821.73
+SUBTOTAL                     *821.73
+SURCHARGE                     *35.75
+------------------------------------
+TXBL1                        *857.48
+TAX1  15.00%                 *128.62
+------------------------------------
+ T O T A L             * 9 8 6 . 1 0
+CASH                         *986.10
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158529
+27/08/2026                     22:54
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07383-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:27:2
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SPECIAL MANGO JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101810
+27/08/2026                     22:54
+
+Ref: CS_AIRPORT-POS1_MTBWZC43
+Order: COV-07377-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+Cappuccino Short             *820.10
+SUBTOTAL                     *820.10
+SURCHARGE                     *35.67
+------------------------------------
+TXBL1                        *855.77
+TAX1  15.00%                 *128.37
+------------------------------------
+ T O T A L             * 9 8 4 . 1 4
+CASH                         *984.14
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101811
+27/08/2026                     22:55
+
+Ref: CS_AIRPORT-POS1_MTBWZWQ0
+Order: COV-07373-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        3 x *3280.40
+Chicken Pesto Wrap          *9841.20
+SUBTOTAL                    *9841.20
+SURCHARGE                    *428.09
+------------------------------------
+TXBL1                      *10269.29
+TAX1  15.00%                *1540.39
+------------------------------------
+ T O T A L         * 1 1 8 0 9 . 6 8
+CASH                       *11809.68
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158530
+27/08/2026                     22:56
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07384-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:29:9
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ST GEORGE BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101812
+27/08/2026                     22:56
+
+Ref: CS_AIRPORT-POS1_MTBX1RFM
+Order: COV-07384-AIR
+Operator: Kibra Alem
+Waiter: Desalegn Alemu Gela
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+St George Beer               *820.10
+SUBTOTAL                     *820.10
+SURCHARGE                     *35.67
+------------------------------------
+TXBL1                        *855.77
+TAX1  15.00%                 *128.37
+------------------------------------
+ T O T A L             * 9 8 4 . 1 4
+CASH                         *984.14
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158531
+27/08/2026                     22:57
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07385-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:30:22
+No Guest: 0
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STRAWBERRY SPECIAL JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101813
+27/08/2026                     22:57
+
+Ref: CS_AIRPORT-POS1_MTBX36FS
+Order: COV-07385-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+Strawberry Special Juice     *820.10
+SUBTOTAL                     *820.10
+SURCHARGE                     *35.67
+------------------------------------
+TXBL1                        *855.77
+TAX1  15.00%                 *128.37
+------------------------------------
+ T O T A L             * 9 8 4 . 1 4
+CASH                         *984.14
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158532
+27/08/2026                     22:58
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07386-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:31:20
+No Guest: 0
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STRAWBERRY SPECIAL JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158533
+27/08/2026                     22:59
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07378-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:18:15
+No Guest: 0
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1.0000  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158534
+27/08/2026                     22:59
+
+           Kaldis Coffee
+     *** Bar2-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07387-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:32:13
+No Guest: 0
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BANANA CAKE 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101814
+27/08/2026                     22:59
+
+Ref: CS_AIRPORT-POS1_MTBX5EOB
+Order: COV-07387-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *546.19
+Banana Cake                  *546.19
+SUBTOTAL                     *546.19
+SURCHARGE                     *23.76
+------------------------------------
+TXBL1                        *569.95
+TAX1  15.00%                  *85.49
+------------------------------------
+ T O T A L             * 6 5 5 . 4 4
+CASH                         *655.44
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101815
+27/08/2026                     23:00
+
+Ref: CS_AIRPORT-POS1_MTBX61YA
+Order: COV-07383-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+Special Mango Juice          *820.10
+SUBTOTAL                     *820.10
+SURCHARGE                     *35.67
+------------------------------------
+TXBL1                        *855.77
+TAX1  15.00%                 *128.37
+------------------------------------
+ T O T A L             * 9 8 4 . 1 4
+CASH                         *984.14
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158535
+27/08/2026                     23:00
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07388-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:33:29
+No Guest: 1
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ST GEORGE BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158536
+27/08/2026                     23:01
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07389-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:33:42
+No Guest: 1
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101816
+27/08/2026                     23:01
+
+Ref: CS_AIRPORT-POS1_MTBX7X3F
+Order: COV-07371-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *820.10
+St George Beer              *1640.20
+SUBTOTAL                    *1640.20
+SURCHARGE                     *71.35
+------------------------------------
+TXBL1                       *1711.55
+TAX1  15.00%                 *256.73
+------------------------------------
+ T O T A L           * 1 9 6 8 . 2 8
+CASH                        *1968.28
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101817
+27/08/2026                     23:01
+
+Ref: CS_AIRPORT-POS1_MTBX873P
+Order: COV-07376-AIR
+Operator: Kibra Alem
+Waiter: Desalegn Alemu Gela
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        1 x *3280.40
+Chicken Pesto Wrap          *3280.40
+                         1 x *820.10
+Pineapple Juice              *820.10
+SUBTOTAL                    *4100.50
+SURCHARGE                    *178.37
+------------------------------------
+TXBL1                       *4278.87
+TAX1  15.00%                 *641.83
+------------------------------------
+ T O T A L           * 4 9 2 0 . 7 0
+CASH                        *4920.70
+ITEM #                             2
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158537
+27/08/2026                     23:02
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07390-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:34:57
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101818
+27/08/2026                     23:02
+
+Ref: CS_AIRPORT-POS1_MTBX8R32
+Order: COV-07390-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *273.91
+Bottled Water 600ml          *273.91
+SUBTOTAL                     *273.91
+SURCHARGE                     *11.92
+------------------------------------
+TXBL1                        *285.83
+TAX1  15.00%                  *42.87
+------------------------------------
+ T O T A L             * 3 2 8 . 7 0
+CASH                         *328.70
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101819
+27/08/2026                     23:02
+
+Ref: CS_AIRPORT-POS1_MTBX9KA6
+Order: COV-07381-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *956.24
+Heinken Beer                 *956.24
+SUBTOTAL                     *956.24
+SURCHARGE                     *41.60
+------------------------------------
+TXBL1                        *997.84
+TAX1  15.00%                 *149.68
+------------------------------------
+ T O T A L           * 1 1 4 7 . 5 2
+CASH                        *1147.52
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101820
+27/08/2026                     23:06
+
+Ref: CS_AIRPORT-POS1_MTBXAAXV
+Order: COV-07388-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+St George Beer               *820.10
+SUBTOTAL                     *820.10
+SURCHARGE                     *35.67
+------------------------------------
+TXBL1                        *855.77
+TAX1  15.00%                 *128.37
+------------------------------------
+ T O T A L             * 9 8 4 . 1 4
+CASH                         *984.14
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158538
+27/08/2026                     23:08
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07391-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:41:17
+No Guest: 1
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STRAWBERRY SPECIAL JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101821
+27/08/2026                     23:09
+
+Ref: CS_AIRPORT-POS1_MTBXHO00
+Order: COV-07389-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *273.91
+Bottled Water 600ml          *273.91
+SUBTOTAL                     *273.91
+SURCHARGE                     *11.92
+------------------------------------
+TXBL1                        *285.83
+TAX1  15.00%                  *42.87
+------------------------------------
+ T O T A L             * 3 2 8 . 7 0
+CASH                         *328.70
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158539
+27/08/2026                     23:13
+
+           Kaldis Coffee
+   *** Kitchen-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07392-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:45:49
+No Guest: 0
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHICKEN PESTO WRAP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158540
+27/08/2026                     23:13
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07392-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:45:49
+No Guest: 0
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  FRUIT SALAD ANANAS 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158541
+27/08/2026                     23:13
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07393-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:46:11
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HABESHA BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101822
+27/08/2026                     23:13
+
+Ref: CS_AIRPORT-POS1_MTBXNI5I
+Order: COV-07393-AIR
+Operator: Kibra Alem
+Waiter: Desalegn Alemu Gela
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+Habesha Beer                 *820.10
+SUBTOTAL                     *820.10
+SURCHARGE                     *35.67
+------------------------------------
+TXBL1                        *855.77
+TAX1  15.00%                 *128.37
+------------------------------------
+ T O T A L             * 9 8 4 . 1 4
+CASH                         *984.14
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158542
+27/08/2026                     23:15
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07392-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:45:49
+No Guest: 0
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101823
+27/08/2026                     23:18
+
+Ref: CS_AIRPORT-POS1_MTBXQ0JP
+Order: COV-07391-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+Strawberry Special Juice     *820.10
+SUBTOTAL                     *820.10
+SURCHARGE                     *35.67
+------------------------------------
+TXBL1                        *855.77
+TAX1  15.00%                 *128.37
+------------------------------------
+ T O T A L             * 9 8 4 . 1 4
+CASH                         *984.14
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158543
+27/08/2026                     23:18
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07394-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:51:18
+No Guest: 0
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STRAWBERRY SPECIAL JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101824
+27/08/2026                     23:18
+
+Ref: CS_AIRPORT-POS1_MTBXTVMD
+Order: COV-07394-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+Strawberry Special Juice     *820.10
+SUBTOTAL                     *820.10
+SURCHARGE                     *35.67
+------------------------------------
+TXBL1                        *855.77
+TAX1  15.00%                 *128.37
+------------------------------------
+ T O T A L             * 9 8 4 . 1 4
+CASH                         *984.14
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158544
+27/08/2026                     23:21
+
+           Kaldis Coffee
+     *** Bar3-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07395-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:53:49
+No Guest: 1
+Waiter: Bar Man Three
+Table: 10
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158545
+27/08/2026                     23:21
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07396-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:54:22
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SPECIAL MANGO JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158546
+27/08/2026                     23:21
+
+           Kaldis Coffee
+     *** Bar3-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07396-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:54:22
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158547
+27/08/2026                     23:21
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07396-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:54:22
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101825
+27/08/2026                     23:22
+
+Ref: CS_AIRPORT-POS1_MTBXYJ6A
+Order: COV-07386-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+Strawberry Special Juice     *820.10
+SUBTOTAL                     *820.10
+SURCHARGE                     *35.67
+------------------------------------
+TXBL1                        *855.77
+TAX1  15.00%                 *128.37
+------------------------------------
+ T O T A L             * 9 8 4 . 1 4
+CASH                         *984.14
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101826
+27/08/2026                     23:24
+
+Ref: CS_AIRPORT-POS1_MTBXZ5AI
+Order: COV-07380-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *819.87
+Orange Juice                 *819.87
+                         1 x *820.10
+Special Mango Juice          *820.10
+SUBTOTAL                    *1639.97
+SURCHARGE                     *71.33
+------------------------------------
+TXBL1                       *1711.30
+TAX1  15.00%                 *256.70
+------------------------------------
+ T O T A L           * 1 9 6 8 . 0 0
+CASH                        *1968.00
+ITEM #                             2
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158548
+27/08/2026                     23:25
+
+           Kaldis Coffee
+     *** Bar3-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07397-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:58:33
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE AMERICANO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158549
+27/08/2026                     23:27
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07398-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 22:59:49
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ST GEORGE BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101827
+27/08/2026                     23:27
+
+Ref: CS_AIRPORT-POS1_MTBY3UNS
+Order: COV-07398-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+St George Beer               *820.10
+SUBTOTAL                     *820.10
+SURCHARGE                     *35.67
+------------------------------------
+TXBL1                        *855.77
+TAX1  15.00%                 *128.37
+------------------------------------
+ T O T A L             * 9 8 4 . 1 4
+CASH                         *984.14
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101828
+27/08/2026                     23:27
+
+Ref: CS_AIRPORT-POS1_MTBY5J2I
+Order: COV-07396-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *820.10
+Special Mango Juice          *820.10
+                         1 x *820.10
+Cafe Latte Short             *820.10
+                         1 x *273.91
+Bottled Water 600ml          *273.91
+SUBTOTAL                    *1914.11
+SURCHARGE                     *83.26
+------------------------------------
+TXBL1                       *1997.37
+TAX1  15.00%                 *299.61
+------------------------------------
+ T O T A L           * 2 2 9 6 . 9 8
+CASH                        *2296.98
+ITEM #                             3
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101829
+27/08/2026                     23:28
+
+Ref: CS_AIRPORT-POS1_MTBY621X
+Order: COV-07392-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        1 x *3280.40
+Chicken Pesto Wrap          *3280.40
+                         1 x *777.96
+Fruit Salad Ananas           *777.96
+                         1 x *273.91
+Bottled Water 600ml          *273.91
+SUBTOTAL                    *4332.27
+SURCHARGE                    *188.46
+------------------------------------
+TXBL1                       *4520.73
+TAX1  15.00%                 *678.11
+------------------------------------
+ T O T A L           * 5 1 9 8 . 8 4
+CASH                        *5198.84
+ITEM #                             3
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158550
+27/08/2026                     23:28
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07399-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 23:1:34
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101830
+27/08/2026                     23:28
+
+Ref: CS_AIRPORT-POS1_MTBY6L3V
+Order: COV-07399-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *273.91
+Bottled Water 600ml          *273.91
+SUBTOTAL                     *273.91
+SURCHARGE                     *11.92
+------------------------------------
+TXBL1                        *285.83
+TAX1  15.00%                  *42.87
+------------------------------------
+ T O T A L             * 3 2 8 . 7 0
+CASH                         *328.70
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158551
+27/08/2026                     23:32
+
+           Kaldis Coffee
+     *** Bar3-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07400-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 23:4:39
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE AMERICANO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158552
+27/08/2026                     23:32
+
+           Kaldis Coffee
+   *** Kitchen-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07401-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 23:5:37
+No Guest: 1
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHICKEN PESTO WRAP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101831
+27/08/2026                     23:33
+
+Ref: CS_AIRPORT-POS1_MTBYCXPB
+Order: COV-07397-AIR
+Operator: Kibra Alem
+Waiter: Desalegn Alemu Gela
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *273.36
+Coffee Americano Short       *273.36
+SUBTOTAL                     *273.36
+SURCHARGE                     *11.89
+------------------------------------
+TXBL1                        *285.25
+TAX1  15.00%                  *42.79
+------------------------------------
+ T O T A L             * 3 2 8 . 0 4
+CASH                         *328.04
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101832
+27/08/2026                     23:34
+
+Ref: CS_AIRPORT-POS1_MTBYDLKJ
+Order: COV-07395-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *820.10
+Cafe Latte Short            *1640.20
+SUBTOTAL                    *1640.20
+SURCHARGE                     *71.35
+------------------------------------
+TXBL1                       *1711.55
+TAX1  15.00%                 *256.73
+------------------------------------
+ T O T A L           * 1 9 6 8 . 2 8
+CASH                        *1968.28
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101833
+27/08/2026                     23:36
+
+Ref: CS_AIRPORT-POS1_MTBYF1NB
+Order: COV-07400-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *273.36
+Coffee Americano Short       *273.36
+SUBTOTAL                     *273.36
+SURCHARGE                     *11.89
+------------------------------------
+TXBL1                        *285.25
+TAX1  15.00%                  *42.79
+------------------------------------
+ T O T A L             * 3 2 8 . 0 4
+CASH                         *328.04
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158553
+27/08/2026                     23:38
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07402-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 23:11:16
+No Guest: 1
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101834
+27/08/2026                     23:43
+
+Ref: CS_AIRPORT-POS1_MTBYM0H3
+Order: COV-07378-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 10
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *273.91
+Bottled Water 600ml          *547.82
+SUBTOTAL                     *547.82
+SURCHARGE                     *23.83
+------------------------------------
+TXBL1                        *571.65
+TAX1  15.00%                  *85.75
+------------------------------------
+ T O T A L             * 6 5 7 . 4 0
+CASH                         *657.40
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158554
+27/08/2026                     23:46
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07401-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 23:5:37
+No Guest: 1
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101835
+27/08/2026                     23:46
+
+Ref: CS_AIRPORT-POS1_MTBYR3TI
+Order: COV-07401-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        1 x *3280.40
+Chicken Pesto Wrap          *3280.40
+                         1 x *273.91
+Bottled Water 600ml          *273.91
+SUBTOTAL                    *3554.31
+SURCHARGE                    *154.62
+------------------------------------
+TXBL1                       *3708.93
+TAX1  15.00%                 *556.34
+------------------------------------
+ T O T A L           * 4 2 6 5 . 2 7
+CASH                        *4265.27
+ITEM #                             2
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158555
+27/08/2026                     23:51
+
+           Kaldis Coffee
+   *** Kitchen-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07403-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 23:24:14
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHICKEN PESTO WRAP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101836
+27/08/2026                     23:51
+
+Ref: CS_AIRPORT-POS1_MTBYUR5N
+Order: COV-07403-AIR
+Operator: Kibra Alem
+Waiter: Desalegn Alemu Gela
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        1 x *3280.40
+Chicken Pesto Wrap          *3280.40
+SUBTOTAL                    *3280.40
+SURCHARGE                    *142.70
+------------------------------------
+TXBL1                       *3423.10
+TAX1  15.00%                 *513.47
+------------------------------------
+ T O T A L           * 3 9 3 6 . 5 7
+CASH                        *3936.57
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158556
+27/08/2026                     23:52
+
+           Kaldis Coffee
+   *** Kitchen-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07404-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 23:25:18
+No Guest: 0
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHICKEN PESTO WRAP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101837
+27/08/2026                     23:52
+
+Ref: CS_AIRPORT-POS1_MTBZ0Y50
+Order: COV-07404-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        1 x *3280.40
+Chicken Pesto Wrap          *3280.40
+SUBTOTAL                    *3280.40
+SURCHARGE                    *142.70
+------------------------------------
+TXBL1                       *3423.10
+TAX1  15.00%                 *513.47
+------------------------------------
+ T O T A L           * 3 9 3 6 . 5 7
+CASH                        *3936.57
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101838
+27/08/2026                     23:53
+
+Ref: CS_AIRPORT-POS1_MTBZ2AMN
+Order: COV-07402-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *273.91
+Bottled Water 600ml          *547.82
+SUBTOTAL                     *547.82
+SURCHARGE                     *23.83
+------------------------------------
+TXBL1                        *571.65
+TAX1  15.00%                  *85.75
+------------------------------------
+ T O T A L             * 6 5 7 . 4 0
+CASH                         *657.40
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158557
+27/08/2026                     23:53
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07405-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 23:26:8
+No Guest: 1
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  ORANGE JUICE 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101839
+27/08/2026                     23:53
+
+Ref: CS_AIRPORT-POS1_MTBZ2U58
+Order: COV-07405-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *819.87
+Orange Juice                *1639.74
+SUBTOTAL                    *1639.74
+SURCHARGE                     *71.33
+------------------------------------
+TXBL1                       *1711.07
+TAX1  15.00%                 *256.66
+------------------------------------
+ T O T A L           * 1 9 6 7 . 7 3
+CASH                        *1967.73
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158558
+27/08/2026                     23:55
+
+           Kaldis Coffee
+   *** Kitchen-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07406-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 23:28:15
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHICKEN PESTO WRAP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158559
+27/08/2026                     23:55
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07407-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 23:28:34
+No Guest: 0
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SOFT DRINK 500ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101840
+27/08/2026                     23:55
+
+Ref: CS_AIRPORT-POS1_MTBZ626J
+Order: COV-07407-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *410.05
+Soft Drink 500ml             *410.05
+SUBTOTAL                     *410.05
+SURCHARGE                     *17.84
+------------------------------------
+TXBL1                        *427.89
+TAX1  15.00%                  *64.18
+------------------------------------
+ T O T A L             * 4 9 2 . 0 7
+CASH                         *492.07
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158560
+28/08/2026                     00:00
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07408-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 23:32:43
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HEINKEN BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101841
+28/08/2026                     00:06
+
+Ref: CS_AIRPORT-POS1_MTBZBSGA
+Order: COV-07406-AIR
+Operator: Kibra Alem
+Waiter: Desalegn Alemu Gela
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        1 x *3280.40
+Chicken Pesto Wrap          *3280.40
+SUBTOTAL                    *3280.40
+SURCHARGE                    *142.70
+------------------------------------
+TXBL1                       *3423.10
+TAX1  15.00%                 *513.47
+------------------------------------
+ T O T A L           * 3 9 3 6 . 5 7
+CASH                        *3936.57
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158561
+28/08/2026                     00:09
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07409-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 23:41:52
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158562
+28/08/2026                     00:09
+
+           Kaldis Coffee
+     *** Bar2-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07409-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 23:41:52
+No Guest: 0
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CROISSANT CAKE
+1  BANANA CAKE 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101842
+28/08/2026                     00:09
+
+Ref: CS_AIRPORT-POS1_MTBZJXMJ
+Order: COV-07409-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *273.91
+Bottled Water 600ml          *273.91
+                         1 x *546.19
+Croissant Cake               *546.19
+                         1 x *546.19
+Banana Cake                  *546.19
+SUBTOTAL                    *1366.29
+SURCHARGE                     *59.44
+------------------------------------
+TXBL1                       *1425.73
+TAX1  15.00%                 *213.86
+------------------------------------
+ T O T A L           * 1 6 3 9 . 5 9
+CASH                        *1639.59
+ITEM #                             3
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158563
+28/08/2026                     00:25
+
+           Kaldis Coffee
+    *** Juice-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07410-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 27/8/2026 23:57:49
+No Guest: 0
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ORANGE JUICE 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101843
+28/08/2026                     00:25
+
+Ref: CS_AIRPORT-POS1_MTBZNNJ1
+Order: COV-07410-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *819.87
+Orange Juice                 *819.87
+SUBTOTAL                     *819.87
+SURCHARGE                     *35.66
+------------------------------------
+TXBL1                        *855.53
+TAX1  15.00%                 *128.33
+------------------------------------
+ T O T A L             * 9 8 3 . 8 6
+CASH                         *983.86
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158564
+28/08/2026                     00:29
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07411-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 28/8/2026 0:2:25
+No Guest: 0
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  AMBO WATER 500ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101844
+28/08/2026                     00:29
+
+Ref: CS_AIRPORT-POS1_MTC08428
+Order: COV-07411-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *574.07
+Ambo Water 500ml             *574.07
+------------------------------------
+TXBL1                        *574.07
+TAX1  15.00%                  *86.11
+------------------------------------
+ T O T A L             * 6 6 0 . 1 8
+CASH                         *660.18
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101845
+28/08/2026                     00:31
+
+Ref: CS_AIRPORT-POS1_MTC0E0XR
+Order: COV-07408-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *956.24
+Heinken Beer                 *956.24
+SUBTOTAL                     *956.24
+SURCHARGE                     *41.60
+------------------------------------
+TXBL1                        *997.84
+TAX1  15.00%                 *149.68
+------------------------------------
+ T O T A L           * 1 1 4 7 . 5 2
+CASH                        *1147.52
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158565
+28/08/2026                     00:32
+
+           Kaldis Coffee
+     *** Bar2-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07412-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 28/8/2026 0:4:50
+No Guest: 0
+Waiter: Desalegn Alemu Gela
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BANANA CAKE 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101846
+28/08/2026                     00:32
+
+Ref: CS_AIRPORT-POS1_MTC0G1VR
+Order: COV-07412-AIR
+Operator: Kibra Alem
+Waiter: Desalegn Alemu Gela
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *546.19
+Banana Cake                  *546.19
+SUBTOTAL                     *546.19
+SURCHARGE                     *23.76
+------------------------------------
+TXBL1                        *569.95
+TAX1  15.00%                  *85.49
+------------------------------------
+ T O T A L             * 6 5 5 . 4 4
+CASH                         *655.44
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158566
+28/08/2026                     00:33
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07413-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 28/8/2026 0:6:4
+No Guest: 1
+Waiter: Bar Man Three
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HEINKEN BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101847
+28/08/2026                     00:33
+
+Ref: CS_AIRPORT-POS1_MTC0H4NH
+Order: COV-07413-AIR
+Operator: Kibra Alem
+Waiter: Bar Man Three
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *956.24
+Heinken Beer                 *956.24
+SUBTOTAL                     *956.24
+SURCHARGE                     *41.60
+------------------------------------
+TXBL1                        *997.84
+TAX1  15.00%                 *149.68
+------------------------------------
+ T O T A L           * 1 1 4 7 . 5 2
+CASH                        *1147.52
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+   S E S S I O N   X   R E P O R T
+
+No. NF 00158567
+28/08/2026                     00:37
+
+SALES                             87
+         N O N - F I S C A L
+DISCOUNTS (0)                  *0.00
+SURCHARGES (60)             *4124.98
+VOID (0)                       *0.00
+CASH                      *114455.49
+
+         N O N - F I S C A L
+CASH DEPOSIT (0)               *0.00
+CASH DEDUCTED (0)              *0.00
+CASH AVAILABLE            *114455.49
+
+------------------------------------
+         N O N - F I S C A L
+TXBL1                      *99526.45
+TXBL2                          *0.00
+TXBL3                          *0.00
+NOTXBL                         *0.00
+         N O N - F I S C A L
+TAX1  15.00%               *14928.97
+TAX2   0.00%                   *0.00
+TAX3   0.00%                   *0.00
+ - - - - - - - - - - - - - - - - - -
+         N O N - F I S C A L
+SALES TL                   *99526.45
+TXBL TL                    *99526.45
+TAX TL                     *14928.97
+------------------------------------
+         N O N - F I S C A L
+RFD TXBL1                      *0.00
+RFD TXBL2                      *0.00
+RFD TXBL3                      *0.00
+RFD NOTXBL                     *0.00
+         N O N - F I S C A L
+RFD TAX1  15.00%               *0.00
+RFD TAX2   0.00%               *0.00
+RFD TAX3   0.00%               *0.00
+ - - - - - - - - - - - - - - - - - -
+         N O N - F I S C A L
+RFD SALES TL                   *0.00
+RFD TXBL TL                    *0.00
+RFD TAX TL                     *0.00
+------------------------------------
+         N O N - F I S C A L
+ACCU.FS                     00101847
+28/08/2026                     00:33
+SESSION.FS                        61
+ACCU.NF                     00158566
+         N O N - F I S C A L
+SESSION.NF                        84
+ACCU.RFD                    00000002
+SESSION.RFD                        0
+SESSION RESET                      0
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+No. NF 00158568
+28/08/2026                     00:54
+
+           Kaldis Coffee
+     *** Bar1-AIRPORT ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-07414-AIR
+Order By:Kibra Alem
+Order Device:AIRPORT-POS1
+         N O N - F I S C A L
+Date: 28/8/2026 0:26:38
+No Guest: 0
+Waiter: Murade Ali Muhye
+Table: 1
+         N O N - F I S C A L
+Shift: Airport_Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00101848
+28/08/2026                     00:54
+
+Ref: CS_AIRPORT-POS1_MTC18FDN
+Order: COV-07414-AIR
+Operator: Kibra Alem
+Waiter: Murade Ali Muhye
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *273.91
+Bottled Water 600ml          *547.82
+SUBTOTAL                     *547.82
+SURCHARGE                     *23.83
+------------------------------------
+TXBL1                        *571.65
+TAX1  15.00%                  *85.75
+------------------------------------
+ T O T A L             * 6 5 7 . 4 0
+CASH                         *657.40
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+         N O N - F I S C A L
+
+   S E S S I O N   X   R E P O R T
+
+No. NF 00158569
+28/08/2026                     00:55
+
+SALES                             88
+         N O N - F I S C A L
+DISCOUNTS (0)                  *0.00
+SURCHARGES (61)             *4148.81
+VOID (0)                       *0.00
+CASH                      *115112.89
+
+         N O N - F I S C A L
+CASH DEPOSIT (0)               *0.00
+CASH DEDUCTED (0)              *0.00
+CASH AVAILABLE            *115112.89
+
+------------------------------------
+         N O N - F I S C A L
+TXBL1                     *100098.10
+TXBL2                          *0.00
+TXBL3                          *0.00
+NOTXBL                         *0.00
+         N O N - F I S C A L
+TAX1  15.00%               *15014.72
+TAX2   0.00%                   *0.00
+TAX3   0.00%                   *0.00
+ - - - - - - - - - - - - - - - - - -
+         N O N - F I S C A L
+SALES TL                  *100098.10
+TXBL TL                   *100098.10
+TAX TL                     *15014.72
+------------------------------------
+         N O N - F I S C A L
+RFD TXBL1                      *0.00
+RFD TXBL2                      *0.00
+RFD TXBL3                      *0.00
+RFD NOTXBL                     *0.00
+         N O N - F I S C A L
+RFD TAX1  15.00%               *0.00
+RFD TAX2   0.00%               *0.00
+RFD TAX3   0.00%               *0.00
+ - - - - - - - - - - - - - - - - - -
+         N O N - F I S C A L
+RFD SALES TL                   *0.00
+RFD TXBL TL                    *0.00
+RFD TAX TL                     *0.00
+------------------------------------
+         N O N - F I S C A L
+ACCU.FS                     00101848
+28/08/2026                     00:54
+SESSION.FS                        62
+ACCU.NF                     00158568
+         N O N - F I S C A L
+SESSION.NF                        86
+ACCU.RFD                    00000002
+SESSION.RFD                        0
+SESSION RESET                      0
+
+         N O N - F I S C A L
+

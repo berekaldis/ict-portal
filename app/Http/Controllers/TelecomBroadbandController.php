@@ -1,0 +1,241 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Branch;
+use App\Models\Department;
+use App\Models\TelecomBroadband;
+use App\Models\TelecomProvider;
+use App\Models\TelecomTransfer;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\Http\Request;
+use Inertia\Inertia;
+use Inertia\Response;
+use Symfony\Component\HttpFoundation\StreamedResponse;
+
+class TelecomBroadbandController extends Controller
+{
+    public function index(Request $request): Response
+    {
+        $query = TelecomBroadband::query()
+            ->with(['provider:id,name', 'branch', 'department:id,name']);
+
+        if ($search = $request->query('search')) {
+            $query->where(function ($q) use ($search) {
+                $q->where('connection_name', 'like', "%{$search}%")
+                    ->orWhere('account_number', 'like', "%{$search}%")
+                    ->orWhere('service_number', 'like', "%{$search}%")
+                    ->orWhere('ip_address', 'like', "%{$search}%")
+                    ->orWhere('installation_address', 'like', "%{$search}%")
+                    ->orWhere('equipment_details', 'like', "%{$search}%")
+                    ->orWhereHas('branch', fn($bq) => $bq->where('branch_name', 'like', "%{$search}%"));
+            });
+        }
+
+        if ($providerId = $request->query('telecom_provider_id')) {
+            $query->where('telecom_provider_id', $providerId);
+        }
+
+        if ($connType = $request->query('connection_type')) {
+            $query->where('connection_type', $connType);
+        }
+
+        if ($status = $request->query('status')) {
+            $query->where('status', $status);
+        }
+
+        if ($branchId = $request->query('branch_id')) {
+            $query->where('branch_id', $branchId);
+        }
+
+        $perPage = (int) $request->query('per_page', 15);
+        $broadbands = $query->orderByDesc('id')->paginate($perPage)->withQueryString();
+
+        $branches = Branch::where('is_active', true)->orderBy('branch_name')->get()->map(fn($b) => ['id' => $b->id, 'name' => $b->name]);
+
+        return Inertia::render('telecom/broadbands/Index', [
+            'broadbands' => $broadbands,
+            'providers' => TelecomProvider::where('is_active', true)->orderBy('name')->get(['id', 'name']),
+            'branches' => $branches,
+            'departments' => Department::where('is_active', true)->orderBy('name')->get(['id', 'name']),
+            'transfers' => TelecomTransfer::where('telecom_type', 'broadband')
+                ->with(['fromBranch', 'toBranch', 'fromDepartment:id,name', 'toDepartment:id,name', 'transferredByUser:id,name'])
+                ->latest()
+                ->limit(30)
+                ->get(),
+            'filters' => $request->only(['search', 'telecom_provider_id', 'connection_type', 'status', 'branch_id', 'per_page']),
+        ]);
+    }
+
+    public function create(): Response
+    {
+        return Inertia::render('telecom/broadbands/Create', [
+            'providers' => TelecomProvider::where('is_active', true)->orderBy('name')->get(['id', 'name']),
+            'branches' => Branch::where('is_active', true)->orderBy('branch_name')->get()->map(fn($b) => ['id' => $b->id, 'name' => $b->name]),
+            'departments' => Department::where('is_active', true)->orderBy('name')->get(['id', 'name']),
+        ]);
+    }
+
+    public function store(Request $request): RedirectResponse
+    {
+        $validated = $request->validate([
+            'connection_name' => ['required', 'string', 'max:255'],
+            'connection_type' => ['required', 'string', 'max:100'],
+            'account_number' => ['nullable', 'string', 'max:100'],
+            'service_number' => ['nullable', 'string', 'max:100'],
+            'telecom_provider_id' => ['nullable', 'exists:telecom_providers,id'],
+            'package_type' => ['nullable', 'string', 'max:150'],
+            'package_start_date' => ['nullable', 'date'],
+            'package_expiry_date' => ['nullable', 'date'],
+            'bandwidth_speed' => ['nullable', 'string', 'max:50'],
+            'monthly_cost' => ['required', 'numeric', 'min:0'],
+            'billing_type' => ['required', 'string', 'max:50'],
+            'branch_id' => ['nullable', 'exists:branches,id'],
+            'department_id' => ['nullable', 'exists:departments,id'],
+            'installation_address' => ['nullable', 'string', 'max:255'],
+            'ip_address' => ['nullable', 'string', 'max:50'],
+            'equipment_details' => ['nullable', 'string'],
+            'contract_start_date' => ['nullable', 'date'],
+            'contract_expiry_date' => ['nullable', 'date'],
+            'status' => ['required', 'string', 'max:50'],
+            'notes' => ['nullable', 'string'],
+        ]);
+
+        TelecomBroadband::create($validated);
+
+        return redirect()->route('telecom.broadbands.index')
+            ->with('success', 'Broadband connection created successfully.');
+    }
+
+    public function edit(TelecomBroadband $broadband): Response
+    {
+        return Inertia::render('telecom/broadbands/Edit', [
+            'broadband' => $broadband->load(['provider', 'branch', 'department']),
+            'providers' => TelecomProvider::where('is_active', true)->orderBy('name')->get(['id', 'name']),
+            'branches' => Branch::where('is_active', true)->orderBy('branch_name')->get()->map(fn($b) => ['id' => $b->id, 'name' => $b->name]),
+            'departments' => Department::where('is_active', true)->orderBy('name')->get(['id', 'name']),
+        ]);
+    }
+
+    public function update(Request $request, TelecomBroadband $broadband): RedirectResponse
+    {
+        $validated = $request->validate([
+            'connection_name' => ['required', 'string', 'max:255'],
+            'connection_type' => ['required', 'string', 'max:100'],
+            'account_number' => ['nullable', 'string', 'max:100'],
+            'service_number' => ['nullable', 'string', 'max:100'],
+            'telecom_provider_id' => ['nullable', 'exists:telecom_providers,id'],
+            'package_type' => ['nullable', 'string', 'max:150'],
+            'package_start_date' => ['nullable', 'date'],
+            'package_expiry_date' => ['nullable', 'date'],
+            'bandwidth_speed' => ['nullable', 'string', 'max:50'],
+            'monthly_cost' => ['required', 'numeric', 'min:0'],
+            'billing_type' => ['required', 'string', 'max:50'],
+            'branch_id' => ['nullable', 'exists:branches,id'],
+            'department_id' => ['nullable', 'exists:departments,id'],
+            'installation_address' => ['nullable', 'string', 'max:255'],
+            'ip_address' => ['nullable', 'string', 'max:50'],
+            'equipment_details' => ['nullable', 'string'],
+            'contract_start_date' => ['nullable', 'date'],
+            'contract_expiry_date' => ['nullable', 'date'],
+            'status' => ['required', 'string', 'max:50'],
+            'notes' => ['nullable', 'string'],
+        ]);
+
+        $broadband->update($validated);
+
+        return redirect()->route('telecom.broadbands.index')
+            ->with('success', 'Broadband connection updated successfully.');
+    }
+
+    public function destroy(TelecomBroadband $broadband): RedirectResponse
+    {
+        $broadband->delete();
+
+        return redirect()->route('telecom.broadbands.index')
+            ->with('success', 'Broadband connection deleted successfully.');
+    }
+
+    public function export(Request $request): StreamedResponse
+    {
+        $query = TelecomBroadband::query()
+            ->with(['provider:id,name', 'branch', 'department:id,name']);
+
+        if ($search = $request->query('search')) {
+            $query->where(function ($q) use ($search) {
+                $q->where('connection_name', 'like', "%{$search}%")
+                    ->orWhere('account_number', 'like', "%{$search}%")
+                    ->orWhere('service_number', 'like', "%{$search}%");
+            });
+        }
+
+        $items = $query->orderBy('connection_name')->get();
+
+        $response = new StreamedResponse(function () use ($items) {
+            $handle = fopen('php://output', 'w');
+            fputcsv($handle, [
+                'ID', 'Connection Name', 'Connection Type', 'Account No', 'Service No', 'Provider',
+                'Package Type', 'Package Start Date', 'Package Expiry Date', 'Speed', 'Monthly Cost',
+                'Billing Type', 'Branch', 'Department', 'IP Address', 'Status', 'Expiry Date', 'Notes'
+            ]);
+
+            foreach ($items as $item) {
+                fputcsv($handle, [
+                    $item->id,
+                    $item->connection_name,
+                    $item->connection_type,
+                    $item->account_number ?? '',
+                    $item->service_number ?? '',
+                    $item->provider?->name ?? 'N/A',
+                    $item->package_type ?? '',
+                    $item->package_start_date ? $item->package_start_date->format('Y-m-d') : '',
+                    $item->package_expiry_date ? $item->package_expiry_date->format('Y-m-d') : '',
+                    $item->bandwidth_speed ?? '',
+                    $item->monthly_cost,
+                    $item->billing_type,
+                    $item->branch?->name ?? 'Head Office',
+                    $item->department?->name ?? '',
+                    $item->ip_address ?? '',
+                    $item->status,
+                    $item->contract_expiry_date ? $item->contract_expiry_date->format('Y-m-d') : '',
+                    $item->notes ?? '',
+                ]);
+            }
+            fclose($handle);
+        });
+
+        $response->headers->set('Content-Type', 'text/csv');
+        $response->headers->set('Content-Disposition', 'attachment; filename="company_broadbands_' . date('Y-m-d') . '.csv"');
+
+        return $response;
+    }
+
+    public function transfer(Request $request, TelecomBroadband $broadband): RedirectResponse
+    {
+        $validated = $request->validate([
+            'branch_id' => ['nullable', 'exists:branches,id'],
+            'department_id' => ['nullable', 'exists:departments,id'],
+            'transfer_reason' => ['nullable', 'string', 'max:1000'],
+        ]);
+
+        TelecomTransfer::create([
+            'telecom_type' => 'broadband',
+            'item_id' => $broadband->id,
+            'reference_number' => $broadband->connection_name,
+            'from_branch_id' => $broadband->branch_id,
+            'to_branch_id' => $validated['branch_id'] ?? null,
+            'from_department_id' => $broadband->department_id,
+            'to_department_id' => $validated['department_id'] ?? null,
+            'transfer_reason' => $validated['transfer_reason'] ?? null,
+            'transferred_by' => auth()->id(),
+        ]);
+
+        $broadband->update([
+            'branch_id' => $validated['branch_id'] ?? null,
+            'department_id' => $validated['department_id'] ?? null,
+        ]);
+
+        return redirect()->route('telecom.broadbands.index')
+            ->with('success', "Broadband {$broadband->connection_name} successfully transferred.");
+    }
+}

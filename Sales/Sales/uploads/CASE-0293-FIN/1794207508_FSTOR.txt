@@ -1,0 +1,3058 @@
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015285
+02/11/2026                           14:54
+
+Invoice: CS_TORHAIL-POS_MVZ733TF
+Order: CO_TORHAIL-POS_MVZ74C5Y
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Banana CakeÂ             2 95.450  *190.90
+Take Away Pastry         1 14.950   *14.95
+Soft DrinkÂ              1 75.900   *75.90
+^S^U^B^T^O^T^A^L            ^*^2^8^1^.^7^5
+Service Chrg                      *11.60 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *293.35
+TAX1 15%                            *44.00
+------------------------------------------
+^T^O^T^A^L                  ^*^3^3^7^.^3^5
+------------------------------------------
+^C^A^S^H                    ^*^3^3^7^.^3^5
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015286
+02/11/2026                           15:05
+
+Invoice: CS_TORHAIL-POS_MVZ7H588
+Order: CO_TORHAIL-POS_MVZ7GEVC
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 23
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Soft Drink               2 75.900  *151.80
+Tuna Sandwich            1 370.300 *370.30
+^S^U^B^T^O^T^A^L            ^*^5^2^2^.^1^0
+Service Chrg                      *22.71 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *544.81
+TAX1 15%                            *81.72
+------------------------------------------
+^T^O^T^A^L                  ^*^6^2^6^.^5^3
+------------------------------------------
+^C^A^S^H                    ^*^6^2^6^.^5^3
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015287
+02/11/2026                           15:11
+
+Invoice: CS_TORHAIL-POS_MVZ7OI2Y
+Order: CO_TORHAIL-POS_MVZ7PPBK
+Operator: Asnaku Wujira
+Waiter: Betelhem  Belachew  Wube
+Table: 017
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Papaya Juice             1 172.500 *172.50
+Green Tea                1 62.100   *62.10
+^S^U^B^T^O^T^A^L            ^*^2^3^4^.^6^0
+Service Chrg                       *7.50 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *242.10
+TAX1 15%                            *36.32
+------------------------------------------
+^T^O^T^A^L                  ^*^2^7^8^.^4^2
+------------------------------------------
+^C^A^S^H                    ^*^2^7^8^.^4^2
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015288
+02/11/2026                           15:13
+
+Invoice: CS_TORHAIL-POS_MVZ7PVX5
+Order: CO_TORHAIL-POS_MVZ7GF15
+Operator: Asnaku Wujira
+Waiter: Betelhem  Belachew  Wube
+Table: 0
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Club Sandwich            1 491.050 *491.05
+Cheese Burger            1 420.900 *420.90
+Take Away Pastry         2 14.950   *29.90
+^S^U^B^T^O^T^A^L            ^*^9^4^1^.^8^5
+Service Chrg                      *39.67 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *981.52
+TAX1 15%                           *147.23
+------------------------------------------
+^T^O^T^A^L              ^*^1^,^1^2^8^.^7^5
+------------------------------------------
+^C^A^S^H                ^*^1^,^1^2^8^.^7^5
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015289
+02/11/2026                           15:16
+
+Invoice: CS_TORHAIL-POS_MVZ7UITE
+Order: CO_TORHAIL-POS_MVZ7UGOF
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 17
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea                      1 62.100   *62.10
+^S^U^B^T^O^T^A^L              ^*^6^2^.^1^0
+Service Chrg                       *2.70 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *64.80
+TAX1 15%                             *9.72
+------------------------------------------
+^T^O^T^A^L                    ^*^7^4^.^5^2
+------------------------------------------
+^C^A^S^H                      ^*^7^4^.^5^2
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015290
+02/11/2026                           15:19
+
+Invoice: CS_TORHAIL-POS_MVZ7ZGC6
+Order: CO_TORHAIL-POS_MVZ7TWXP
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 01
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Soft Drink               1 75.900   *75.90
+^S^U^B^T^O^T^A^L              ^*^7^5^.^9^0
+Service Chrg                       *3.30 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *79.20
+TAX1 15%                            *11.88
+------------------------------------------
+^T^O^T^A^L                    ^*^9^1^.^0^8
+------------------------------------------
+^C^A^S^H                      ^*^9^1^.^0^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015291
+02/11/2026                           15:19
+
+Invoice: CS_TORHAIL-POS_MVZ7ZTZW
+Order: CO_TORHAIL-POS_MVZ7DSS1
+Operator: Asnaku Wujira
+Waiter: Betelhem  Belachew  Wube
+Table: 010
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Carrot Cheese Cake       2 183.330 *366.66
+Steamed Milk Short       1 95.450   *95.45
+Macchiato Tall           1 133.330 *133.33
+^S^U^B^T^O^T^A^L            ^*^5^9^5^.^4^4
+Service Chrg                      *25.90 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *621.34
+TAX1 15%                            *93.20
+------------------------------------------
+^T^O^T^A^L                  ^*^7^1^4^.^5^4
+------------------------------------------
+^C^A^S^H                    ^*^7^1^4^.^5^4
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015292
+02/11/2026                           15:21
+
+Invoice: CS_TORHAIL-POS_MVZ82DYQ
+Order: CO_TORHAIL-POS_MVZ7ZC89
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 15
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chicken Pesto Wrap       1 616.670 *616.67
+Soft Drink               1 75.900   *75.90
+^S^U^B^T^O^T^A^L            ^*^6^9^2^.^5^7
+Service Chrg                      *30.13 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *722.70
+TAX1 15%                           *108.41
+------------------------------------------
+^T^O^T^A^L                  ^*^8^3^1^.^1^1
+------------------------------------------
+^C^A^S^H                    ^*^8^3^1^.^1^1
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015293
+02/11/2026                           15:22
+
+Invoice: CS_TORHAIL-POS_MVZ84928
+Order: CO_TORHAIL-POS_MVZ844XI
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 06
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cafe Latte Short         1 137.500 *137.50
+Macchiato Short          3 104.650 *313.95
+Banana Cake              1 95.450   *95.45
+^S^U^B^T^O^T^A^L            ^*^5^4^6^.^9^0
+Service Chrg                      *23.79 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *570.69
+TAX1 15%                            *85.60
+------------------------------------------
+^T^O^T^A^L                  ^*^6^5^6^.^2^9
+------------------------------------------
+^C^A^S^H                    ^*^6^5^6^.^2^9
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015294
+02/11/2026                           15:26
+
+Invoice: CS_TORHAIL-POS_MVZ84GVP
+Order: CO_TORHAIL-POS_MVZ7T6HI
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 17
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Kaldi's Tea              1 204.170 *204.17
+Yalekelet Tea            1 62.100   *62.10
+^S^U^B^T^O^T^A^L            ^*^2^6^6^.^2^7
+Service Chrg                      *11.58 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *277.85
+TAX1 15%                            *41.68
+------------------------------------------
+^T^O^T^A^L                  ^*^3^1^9^.^5^3
+------------------------------------------
+^C^A^S^H                    ^*^3^1^9^.^5^3
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015295
+02/11/2026                           15:31
+
+Invoice: CS_TORHAIL-POS_MVZ89BHM
+Order: CO_TORHAIL-POS_MVZ769A1
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 20
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+^S^U^B^T^O^T^A^L            ^*^1^0^4^.^6^5
+Service Chrg                       *4.55 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *109.20
+TAX1 15%                            *16.38
+------------------------------------------
+^T^O^T^A^L                  ^*^1^2^5^.^5^8
+------------------------------------------
+^C^A^S^H                    ^*^1^2^5^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015296
+02/11/2026                           15:32
+
+Invoice: CS_TORHAIL-POS_MVZ8FSLI
+Order: CO_TORHAIL-POS_MVZ82BUQ
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 00
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          2 104.650 *209.30
+^S^U^B^T^O^T^A^L            ^*^2^0^9^.^3^0
+Service Chrg                       *9.10 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *218.40
+TAX1 15%                            *32.76
+------------------------------------------
+^T^O^T^A^L                  ^*^2^5^1^.^1^6
+------------------------------------------
+^C^A^S^H                    ^*^2^5^1^.^1^6
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015297
+02/11/2026                           15:41
+
+Invoice: CS_TORHAIL-POS_MVZ8SB6D
+Order: CO_TORHAIL-POS_MVZ7OFRA
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 00
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 133.330 *133.33
+^S^U^B^T^O^T^A^L            ^*^1^3^3^.^3^3
+Service Chrg                       *5.80 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *139.13
+TAX1 15%                            *20.87
+------------------------------------------
+^T^O^T^A^L                  ^*^1^6^0^.^0^0
+------------------------------------------
+^C^A^S^H                    ^*^1^6^0^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015298
+02/11/2026                           15:46
+
+Invoice: CS_TORHAIL-POS_MVZ8XTJH
+Order: CO_TORHAIL-POS_MVZ8TM9B
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 0
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           2 133.330 *266.66
+Macchiato Short          1 104.650 *104.65
+Hot Cup7oz               2 18.400   *36.80
+Hot Cup4oz               1 9.200     *9.20
+^S^U^B^T^O^T^A^L            ^*^4^1^7^.^3^1
+Service Chrg                      *16.15 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *433.46
+TAX1 15%                            *65.02
+------------------------------------------
+^T^O^T^A^L                  ^*^4^9^8^.^4^8
+------------------------------------------
+^C^A^S^H                    ^*^4^9^8^.^4^8
+ITEM#                                    4
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015299
+02/11/2026                           15:48
+
+Invoice: CS_TORHAIL-POS_MVZ907LK
+Order: CO_TORHAIL-POS_MVZ7Y17U
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 13
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Coffee Short             1 125.000 *125.00
+^S^U^B^T^O^T^A^L            ^*^1^2^5^.^0^0
+Service Chrg                       *5.44 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *130.44
+TAX1 15%                            *19.57
+------------------------------------------
+^T^O^T^A^L                  ^*^1^5^0^.^0^1
+------------------------------------------
+^C^A^S^H                    ^*^1^5^0^.^0^1
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015300
+02/11/2026                           15:49
+
+Invoice: CS_TORHAIL-POS_MVZ91U80
+Order: CO_TORHAIL-POS_MVZ8P9P8
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 25
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           2 133.330 *266.66
+Bottled Water 600ml      1 47.150   *47.15
+Bigne 3pcs               1 95.450   *95.45
+^S^U^B^T^O^T^A^L            ^*^4^0^9^.^2^6
+Service Chrg                      *17.80 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *427.06
+TAX1 15%                            *64.06
+------------------------------------------
+^T^O^T^A^L                  ^*^4^9^1^.^1^2
+------------------------------------------
+^C^A^S^H                    ^*^4^9^1^.^1^2
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015301
+02/11/2026                           15:49
+
+Invoice: CS_TORHAIL-POS_MVZ92D3U
+Order: CO_TORHAIL-POS_MVZ8PP82
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 25
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L              ^*^4^7^.^1^5
+Service Chrg                       *2.05 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *49.20
+TAX1 15%                             *7.38
+------------------------------------------
+^T^O^T^A^L                    ^*^5^6^.^5^8
+------------------------------------------
+^C^A^S^H                      ^*^5^6^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015302
+02/11/2026                           15:49
+
+Invoice: CS_TORHAIL-POS_MVZ92NVB
+Order: CO_TORHAIL-POS_MVZ8S8Y2
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 20
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 133.330 *133.33
+^S^U^B^T^O^T^A^L            ^*^1^3^3^.^3^3
+Service Chrg                       *5.80 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *139.13
+TAX1 15%                            *20.87
+------------------------------------------
+^T^O^T^A^L                  ^*^1^6^0^.^0^0
+------------------------------------------
+^C^A^S^H                    ^*^1^6^0^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015303
+02/11/2026                           15:55
+
+Invoice: CS_TORHAIL-POS_MVZ97XMZ
+Order: CO_TORHAIL-POS_MVZ9A2JY
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Hot Cup7oz               1 18.400   *18.40
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *18.40
+TAX1 15%                             *2.76
+------------------------------------------
+^T^O^T^A^L                    ^*^2^1^.^1^6
+------------------------------------------
+^C^A^S^H                      ^*^2^1^.^1^6
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015304
+02/11/2026                           15:56
+
+Invoice: CS_TORHAIL-POS_MVZ9A6PQ
+Order: CO_TORHAIL-POS_MVZ903NZ
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 21
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 133.330 *133.33
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^1^8^0^.^4^8
+Service Chrg                       *7.85 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *188.33
+TAX1 15%                            *28.25
+------------------------------------------
+^T^O^T^A^L                  ^*^2^1^6^.^5^8
+------------------------------------------
+^C^A^S^H                    ^*^2^1^6^.^5^8
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015305
+02/11/2026                           15:57
+
+Invoice: CS_TORHAIL-POS_MVZ9BWSU
+Order: CO_TORHAIL-POS_MVZ8VSBY
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 023
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Coffee Short             1 125.000 *125.00
+Steamed Milk Short       1 95.450   *95.45
+Macchiato Short          1 104.650 *104.65
+^S^U^B^T^O^T^A^L            ^*^3^2^5^.^1^0
+Service Chrg                      *14.14 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *339.24
+TAX1 15%                            *50.89
+------------------------------------------
+^T^O^T^A^L                  ^*^3^9^0^.^1^3
+------------------------------------------
+^C^A^S^H                    ^*^3^9^0^.^1^3
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015306
+02/11/2026                           16:03
+
+Invoice: CS_TORHAIL-POS_MVZ9DTL3
+Order: CO_TORHAIL-POS_MVZ8MTA0
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 5
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Green Tea                1 62.100   *62.10
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *62.10
+TAX1 15%                             *9.32
+------------------------------------------
+^T^O^T^A^L                    ^*^7^1^.^4^2
+------------------------------------------
+^C^A^S^H                      ^*^7^1^.^4^2
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015307
+02/11/2026                           16:07
+
+Invoice: CS_TORHAIL-POS_MVZ9LIPO
+Order: CO_TORHAIL-POS_MVZ8UXV3
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 08
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Coffee Short             2 125.000 *250.00
+Cafe Latte Short         1 137.500 *137.50
+^S^U^B^T^O^T^A^L            ^*^3^8^7^.^5^0
+Service Chrg                      *16.86 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *404.36
+TAX1 15%                            *60.65
+------------------------------------------
+^T^O^T^A^L                  ^*^4^6^5^.^0^1
+------------------------------------------
+^C^A^S^H                    ^*^4^6^5^.^0^1
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015308
+02/11/2026                           16:18
+
+Invoice: CS_TORHAIL-POS_MVZA1GXO
+Order: CO_TORHAIL-POS_MVZA1CQJ
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 17
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea Espresso             1 115.000 *115.00
+Carrot Cheese Cake       1 183.330 *183.33
+Chocolate Millefoglie    1 133.400 *133.40
+^S^U^B^T^O^T^A^L            ^*^4^3^1^.^7^3
+Service Chrg                      *18.77 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *450.50
+TAX1 15%                            *67.58
+------------------------------------------
+^T^O^T^A^L                  ^*^5^1^8^.^0^8
+------------------------------------------
+^C^A^S^H                    ^*^5^1^8^.^0^8
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015309
+02/11/2026                           16:19
+
+Invoice: CS_TORHAIL-POS_MVZA4RRZ
+Order: CO_TORHAIL-POS_MVZ9SEL9
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 9
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 133.330 *133.33
+^S^U^B^T^O^T^A^L            ^*^1^3^3^.^3^3
+Service Chrg                       *5.80 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *139.13
+TAX1 15%                            *20.87
+------------------------------------------
+^T^O^T^A^L                  ^*^1^6^0^.^0^0
+------------------------------------------
+^C^A^S^H                    ^*^1^6^0^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015310
+02/11/2026                           16:25
+
+Invoice: CS_TORHAIL-POS_MVZA7UJ0
+Order: CO_TORHAIL-POS_MVZADB2O
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Soft Cake                2 133.330 *266.66
+Take Away Pastry         1 14.950   *14.95
+^S^U^B^T^O^T^A^L            ^*^2^8^1^.^6^1
+Service Chrg                      *11.60 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *293.21
+TAX1 15%                            *43.98
+------------------------------------------
+^T^O^T^A^L                  ^*^3^3^7^.^1^9
+------------------------------------------
+^C^A^S^H                    ^*^3^3^7^.^1^9
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015311
+02/11/2026                           16:29
+
+Invoice: CS_TORHAIL-POS_MVZAI8H9
+Order: CO_TORHAIL-POS_MVZA67Z0
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 6
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+^S^U^B^T^O^T^A^L            ^*^1^0^4^.^6^5
+Service Chrg                       *4.55 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *109.20
+TAX1 15%                            *16.38
+------------------------------------------
+^T^O^T^A^L                  ^*^1^2^5^.^5^8
+------------------------------------------
+^C^A^S^H                    ^*^1^2^5^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015312
+02/11/2026                           16:42
+
+Invoice: CS_TORHAIL-POS_MVZAYR0Z
+Order: CO_TORHAIL-POS_MVZA6ITN
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 7
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chocolate  Cake          1 179.170 *179.17
+Assorted Cake            1 128.800 *128.80
+^S^U^B^T^O^T^A^L            ^*^3^0^7^.^9^7
+Service Chrg                      *13.39 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *321.36
+TAX1 15%                            *48.20
+------------------------------------------
+^T^O^T^A^L                  ^*^3^6^9^.^5^6
+------------------------------------------
+^C^A^S^H                    ^*^3^6^9^.^5^6
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015313
+02/11/2026                           16:45
+
+Invoice: CS_TORHAIL-POS_MVZAZ4Z4
+Order: CO_TORHAIL-POS_MVZA7SE3
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 15
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Yalekelet Tea            1 62.100   *62.10
+^S^U^B^T^O^T^A^L              ^*^6^2^.^1^0
+Service Chrg                       *2.70 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *64.80
+TAX1 15%                             *9.72
+------------------------------------------
+^T^O^T^A^L                    ^*^7^4^.^5^2
+------------------------------------------
+^C^A^S^H                      ^*^7^4^.^5^2
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015314
+02/11/2026                           16:46
+
+Buyer's TIN: 0084088561
+Customer: HOPE MEDICAL SERVICES AND PHARMA
+          CEUTICALS P L C
+Invoice: CS_TORHAIL-POS_MVZB2GQP
+Order: CO_TORHAIL-POS_MVZB4JEA
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Lemon Tea                1 66.700   *66.70
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^1^1^3^.^8^5
+Service Chrg                       *4.95 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *118.80
+TAX1 15%                            *17.82
+------------------------------------------
+^T^O^T^A^L                  ^*^1^3^6^.^6^2
+------------------------------------------
+^C^A^S^H                    ^*^1^3^6^.^6^2
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015315
+02/11/2026                           16:48
+
+Invoice: CS_TORHAIL-POS_MVZB5CYV
+Order: CO_TORHAIL-POS_MVZB6UJS
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea Espresso             1 115.000 *115.00
+^S^U^B^T^O^T^A^L            ^*^1^1^5^.^0^0
+Service Chrg                       *5.00 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *120.00
+TAX1 15%                            *18.00
+------------------------------------------
+^T^O^T^A^L                  ^*^1^3^8^.^0^0
+------------------------------------------
+^C^A^S^H                    ^*^1^3^8^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015316
+02/11/2026                           16:49
+
+Invoice: CS_TORHAIL-POS_MVZB6YTQ
+Order: CO_TORHAIL-POS_MVZB7XBH
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Hot Cup7oz               1 18.400   *18.40
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *18.40
+TAX1 15%                             *2.76
+------------------------------------------
+^T^O^T^A^L                    ^*^2^1^.^1^6
+------------------------------------------
+^C^A^S^H                      ^*^2^1^.^1^6
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015317
+02/11/2026                           16:49
+
+Invoice: CS_TORHAIL-POS_MVZB81FI
+Order: CO_TORHAIL-POS_MVZAYMXH
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 3
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+Assorted Cake            1 128.800 *128.80
+^S^U^B^T^O^T^A^L            ^*^2^3^3^.^4^5
+Service Chrg                      *10.15 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *243.60
+TAX1 15%                            *36.54
+------------------------------------------
+^T^O^T^A^L                  ^*^2^8^0^.^1^4
+------------------------------------------
+^C^A^S^H                    ^*^2^8^0^.^1^4
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015318
+02/11/2026                           17:03
+
+Invoice: CS_TORHAIL-POS_MVZBN83A
+Order: CO_TORHAIL-POS_MVZBG3VA
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 19
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chocolate Millefoglie    3 133.400 *400.20
+Bottled Water 600ml      2 47.150   *94.30
+Soft Drink               1 75.900   *75.90
+^S^U^B^T^O^T^A^L            ^*^5^7^0^.^4^0
+Service Chrg                      *24.81 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *595.21
+TAX1 15%                            *89.28
+------------------------------------------
+^T^O^T^A^L                  ^*^6^8^4^.^4^9
+------------------------------------------
+^C^A^S^H                    ^*^6^8^4^.^4^9
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015319
+02/11/2026                           17:09
+
+Invoice: CS_TORHAIL-POS_MVZBT9XO
+Order: CO_TORHAIL-POS_MVZBM3S3
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 9
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chocolate Millefoglie    1 133.400 *133.40
+Cafe Latte Short         1 137.500 *137.50
+^S^U^B^T^O^T^A^L            ^*^2^7^0^.^9^0
+Service Chrg                      *11.78 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *282.68
+TAX1 15%                            *42.40
+------------------------------------------
+^T^O^T^A^L                  ^*^3^2^5^.^0^8
+------------------------------------------
+^C^A^S^H                    ^*^3^2^5^.^0^8
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015320
+02/11/2026                           17:19
+
+Invoice: CS_TORHAIL-POS_MVZC63HX
+Order: CO_TORHAIL-POS_MVZBN5ZK
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 3
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Telba Juice With Milk    1 175.000 *175.00
+^S^U^B^T^O^T^A^L            ^*^1^7^5^.^0^0
+Service Chrg                       *7.61 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *182.61
+TAX1 15%                            *27.39
+------------------------------------------
+^T^O^T^A^L                  ^*^2^1^0^.^0^0
+------------------------------------------
+^C^A^S^H                    ^*^2^1^0^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015321
+02/11/2026                           17:24
+
+Invoice: CS_TORHAIL-POS_MVZCGJY2
+Order: CO_TORHAIL-POS_MVZBK88Q
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 015
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Steamed Milk Tall        1 124.200 *124.20
+^S^U^B^T^O^T^A^L            ^*^1^2^4^.^2^0
+Service Chrg                       *5.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *129.60
+TAX1 15%                            *19.44
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^9^.^0^4
+------------------------------------------
+^C^A^S^H                    ^*^1^4^9^.^0^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015322
+02/11/2026                           17:24
+
+Invoice: CS_TORHAIL-POS_MVZCHABA
+Order: CO_TORHAIL-POS_MVZASX9E
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 17
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Steamed Milk Short       1 95.450   *95.45
+^S^U^B^T^O^T^A^L              ^*^9^5^.^4^5
+Service Chrg                       *4.15 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *99.60
+TAX1 15%                            *14.94
+------------------------------------------
+^T^O^T^A^L                  ^*^1^1^4^.^5^4
+------------------------------------------
+^C^A^S^H                    ^*^1^1^4^.^5^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015323
+02/11/2026                           17:37
+
+Invoice: CS_TORHAIL-POS_MVZCXCGW
+Order: CO_TORHAIL-POS_MVZCXND6
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Bottled Water 600ml      1 47.150   *47.15
+Soft DrinkÂ              1 75.900   *75.90
+^S^U^B^T^O^T^A^L            ^*^1^2^3^.^0^5
+Service Chrg                       *5.35 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *128.40
+TAX1 15%                            *19.26
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^7^.^6^6
+------------------------------------------
+^C^A^S^H                    ^*^1^4^7^.^6^6
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015324
+02/11/2026                           17:57
+
+Invoice: CS_TORHAIL-POS_MVZDMWZP
+Order: CO_TORHAIL-POS_MVZDNRHN
+Operator: Asnaku Wujira
+Waiter: Yabsra Nebyu Mamo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Assorted CakeÂ           1 128.800 *128.80
+Take Away Pastry         1 14.950   *14.95
+^S^U^B^T^O^T^A^L            ^*^1^4^3^.^7^5
+Service Chrg                       *5.60 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *149.35
+TAX1 15%                            *22.40
+------------------------------------------
+^T^O^T^A^L                  ^*^1^7^1^.^7^5
+------------------------------------------
+^C^A^S^H                    ^*^1^7^1^.^7^5
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015325
+02/11/2026                           17:59
+
+Invoice: CS_TORHAIL-POS_MVZDNZE0
+Order: CO_TORHAIL-POS_MVZDPVA7
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Steamed Milk Short       1 95.450   *95.45
+Hot Cup7oz               1 18.400   *18.40
+^S^U^B^T^O^T^A^L            ^*^1^1^3^.^8^5
+Service Chrg                       *4.15 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *118.00
+TAX1 15%                            *17.70
+------------------------------------------
+^T^O^T^A^L                  ^*^1^3^5^.^7^0
+------------------------------------------
+^C^A^S^H                    ^*^1^3^5^.^7^0
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015326
+02/11/2026                           18:00
+
+Invoice: CS_TORHAIL-POS_MVZDR3T4
+Order: CO_TORHAIL-POS_MVZCU49R
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 8
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chicken Pesto Wrap       1 616.670 *616.67
+^S^U^B^T^O^T^A^L            ^*^6^1^6^.^6^7
+Service Chrg                      *26.83 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *643.50
+TAX1 15%                            *96.53
+------------------------------------------
+^T^O^T^A^L                  ^*^7^4^0^.^0^3
+------------------------------------------
+^C^A^S^H                    ^*^7^4^0^.^0^3
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015327
+02/11/2026                           18:01
+
+Invoice: CS_TORHAIL-POS_MVZDS2XG
+Order: CO_TORHAIL-POS_MVZBN5ZK
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 3
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Telba Juice With Milk    1 175.000 *175.00
+^S^U^B^T^O^T^A^L            ^*^1^7^5^.^0^0
+Service Chrg                       *7.61 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *182.61
+TAX1 15%                            *27.39
+------------------------------------------
+^T^O^T^A^L                  ^*^2^1^0^.^0^0
+------------------------------------------
+^C^A^S^H                    ^*^2^1^0^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015328
+02/11/2026                           18:03
+
+Invoice: CS_TORHAIL-POS_MVZDSLDV
+Order: CO_TORHAIL-POS_MVZCX6BQ
+Operator: Asnaku Wujira
+Waiter: Yabsra Nebyu Mamo
+Table: 3
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chocolate  Cake          1 179.170 *179.17
+Lemon Gatos Cake         1 229.170 *229.17
+Soft Drink               2 75.900  *151.80
+Macchiato Short          1 104.650 *104.65
+Soft Cake                1 133.330 *133.33
+^S^U^B^T^O^T^A^L            ^*^7^9^8^.^1^2
+Service Chrg                      *34.71 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *832.83
+TAX1 15%                           *124.92
+------------------------------------------
+^T^O^T^A^L                  ^*^9^5^7^.^7^5
+------------------------------------------
+^C^A^S^H                    ^*^9^5^7^.^7^5
+ITEM#                                    5
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015329
+02/11/2026                           18:03
+
+Invoice: CS_TORHAIL-POS_MVZDUR6E
+Order: CO_TORHAIL-POS_MVZCIN1T
+Operator: Asnaku Wujira
+Waiter: Yabsra Nebyu Mamo
+Table: 018
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Caramel Macchiato  Short 3 152.950 *458.85
+^S^U^B^T^O^T^A^L            ^*^4^5^8^.^8^5
+Service Chrg                      *19.96 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *478.81
+TAX1 15%                            *71.82
+------------------------------------------
+^T^O^T^A^L                  ^*^5^5^0^.^6^3
+------------------------------------------
+^C^A^S^H                    ^*^5^5^0^.^6^3
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015330
+02/11/2026                           18:03
+
+Invoice: CS_TORHAIL-POS_MVZDV42Q
+Order: CO_TORHAIL-POS_MVZCN0KH
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 15
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Kaldis Special Burger    1 491.050 *491.05
+^S^U^B^T^O^T^A^L            ^*^4^9^1^.^0^5
+Service Chrg                      *21.36 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *512.41
+TAX1 15%                            *76.86
+------------------------------------------
+^T^O^T^A^L                  ^*^5^8^9^.^2^7
+------------------------------------------
+^C^A^S^H                    ^*^5^8^9^.^2^7
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015331
+02/11/2026                           18:04
+
+Invoice: CS_TORHAIL-POS_MVZDVUIS
+Order: CO_TORHAIL-POS_MVZAI6DO
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 00
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea                      1 62.100   *62.10
+^S^U^B^T^O^T^A^L              ^*^6^2^.^1^0
+Service Chrg                       *2.70 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *64.80
+TAX1 15%                             *9.72
+------------------------------------------
+^T^O^T^A^L                    ^*^7^4^.^5^2
+------------------------------------------
+^C^A^S^H                      ^*^7^4^.^5^2
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015332
+02/11/2026                           18:10
+
+Invoice: CS_TORHAIL-POS_MVZE3UN6
+Order: CO_TORHAIL-POS_MVZE3QII
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 10
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Assorted Cake            1 128.800 *128.80
+Tea                      1 62.100   *62.10
+^S^U^B^T^O^T^A^L            ^*^1^9^0^.^9^0
+Service Chrg                       *8.30 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *199.20
+TAX1 15%                            *29.88
+------------------------------------------
+^T^O^T^A^L                  ^*^2^2^9^.^0^8
+------------------------------------------
+^C^A^S^H                    ^*^2^2^9^.^0^8
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015333
+02/11/2026                           18:12
+
+Invoice: CS_TORHAIL-POS_MVZE5HBD
+Order: CO_TORHAIL-POS_MVZBT7RW
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 26
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 133.330 *133.33
+Assorted Cake            1 128.800 *128.80
+^S^U^B^T^O^T^A^L            ^*^2^6^2^.^1^3
+Service Chrg                      *11.40 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *273.53
+TAX1 15%                            *41.03
+------------------------------------------
+^T^O^T^A^L                  ^*^3^1^4^.^5^6
+------------------------------------------
+^C^A^S^H                    ^*^3^1^4^.^5^6
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015334
+02/11/2026                           18:12
+
+Invoice: CS_TORHAIL-POS_MVZE6G3Q
+Order: CO_TORHAIL-POS_MVZE6YCI
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 4
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 133.330 *133.33
+^S^U^B^T^O^T^A^L            ^*^1^3^3^.^3^3
+Service Chrg                       *5.80 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *139.13
+TAX1 15%                            *20.87
+------------------------------------------
+^T^O^T^A^L                  ^*^1^6^0^.^0^0
+------------------------------------------
+^C^A^S^H                    ^*^1^6^0^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015335
+02/11/2026                           18:13
+
+Invoice: CS_TORHAIL-POS_MVZE7GL0
+Order: CO_TORHAIL-POS_MVZE20YX
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 15
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea                      1 62.100   *62.10
+Macchiato Short          1 104.650 *104.65
+^S^U^B^T^O^T^A^L            ^*^1^6^6^.^7^5
+Service Chrg                       *7.25 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *174.00
+TAX1 15%                            *26.10
+------------------------------------------
+^T^O^T^A^L                  ^*^2^0^0^.^1^0
+------------------------------------------
+^C^A^S^H                    ^*^2^0^0^.^1^0
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015336
+02/11/2026                           18:14
+
+Invoice: CS_TORHAIL-POS_MVZE84Q9
+Order: CO_TORHAIL-POS_MVZE9750
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+^S^U^B^T^O^T^A^L            ^*^1^0^4^.^6^5
+Service Chrg                       *4.55 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *109.20
+TAX1 15%                            *16.38
+------------------------------------------
+^T^O^T^A^L                  ^*^1^2^5^.^5^8
+------------------------------------------
+^C^A^S^H                    ^*^1^2^5^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015337
+02/11/2026                           18:17
+
+Invoice: CS_TORHAIL-POS_MVZE9BE4
+Order: CO_TORHAIL-POS_MVZED7ZJ
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Kaldi's Tea              1 204.170 *204.17
+Steamed Milk Short       1 95.450   *95.45
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L            ^*^3^4^6^.^7^7
+Service Chrg                      *15.08 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *361.85
+TAX1 15%                            *54.28
+------------------------------------------
+^T^O^T^A^L                  ^*^4^1^6^.^1^3
+------------------------------------------
+^C^A^S^H                    ^*^4^1^6^.^1^3
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015338
+02/11/2026                           18:21
+
+Invoice: CS_TORHAIL-POS_MVZEGTH6
+Order: CO_TORHAIL-POS_MVZEI33M
+Operator: Asnaku Wujira
+Waiter: Yabsra Nebyu Mamo
+Table: 5
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Meat  Sambusa With Fries 1 187.500 *187.50
+^S^U^B^T^O^T^A^L            ^*^1^8^7^.^5^0
+Service Chrg                       *8.16 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *195.66
+TAX1 15%                            *29.35
+------------------------------------------
+^T^O^T^A^L                  ^*^2^2^5^.^0^1
+------------------------------------------
+^C^A^S^H                    ^*^2^2^5^.^0^1
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015339
+02/11/2026                           18:21
+
+Invoice: CS_TORHAIL-POS_MVZEI7CW
+Order: CO_TORHAIL-POS_MVZEII77
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Carrot Cheese Cake       1 183.330 *183.33
+^S^U^B^T^O^T^A^L            ^*^1^8^3^.^3^3
+Service Chrg                       *7.97 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *191.30
+TAX1 15%                            *28.70
+------------------------------------------
+^T^O^T^A^L                  ^*^2^2^0^.^0^0
+------------------------------------------
+^C^A^S^H                    ^*^2^2^0^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015340
+02/11/2026                           18:28
+
+Invoice: CS_TORHAIL-POS_MVZEO586
+Order: CO_TORHAIL-POS_MVZER2JS
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Strawberry Special With Milk
+                         1 183.330 *183.33
+Macchiato Short          1 104.650 *104.65
+Caramel Frosting Cake    1 254.170 *254.17
+Millefoglie              1 133.400 *133.40
+^S^U^B^T^O^T^A^L            ^*^6^7^5^.^5^5
+Service Chrg                      *29.38 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *704.93
+TAX1 15%                           *105.74
+------------------------------------------
+^T^O^T^A^L                  ^*^8^1^0^.^6^7
+------------------------------------------
+^C^A^S^H                    ^*^8^1^0^.^6^7
+ITEM#                                    4
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015341
+02/11/2026                           18:28
+
+Invoice: CS_TORHAIL-POS_MVZERAN7
+Order: CO_TORHAIL-POS_MVZCR3LA
+Operator: Asnaku Wujira
+Waiter: Yabsra Nebyu Mamo
+Table: 07
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Assorted Cake            1 128.800 *128.80
+Macchiato Medium         2 129.170 *258.34
+^S^U^B^T^O^T^A^L            ^*^3^8^7^.^1^4
+Service Chrg                      *16.84 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *403.98
+TAX1 15%                            *60.60
+------------------------------------------
+^T^O^T^A^L                  ^*^4^6^4^.^5^8
+------------------------------------------
+^C^A^S^H                    ^*^4^6^4^.^5^8
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015342
+02/11/2026                           18:29
+
+Invoice: CS_TORHAIL-POS_MVZERQCT
+Order: CO_TORHAIL-POS_MVZE5F9D
+Operator: Asnaku Wujira
+Waiter: Yabsra Nebyu Mamo
+Table: 6
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chocolate  Cake          1 179.170 *179.17
+Carrot Cheese Cake       1 183.330 *183.33
+^S^U^B^T^O^T^A^L            ^*^3^6^2^.^5^0
+Service Chrg                      *15.76 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *378.26
+TAX1 15%                            *56.74
+------------------------------------------
+^T^O^T^A^L                  ^*^4^3^5^.^0^0
+------------------------------------------
+^C^A^S^H                    ^*^4^3^5^.^0^0
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015343
+02/11/2026                           18:30
+
+Invoice: CS_TORHAIL-POS_MVZETT5U
+Order: CO_TORHAIL-POS_MVZEN2Q3
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 13
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Steamed Milk With Tea Short
+                         1 116.670 *116.67
+^S^U^B^T^O^T^A^L            ^*^1^1^6^.^6^7
+Service Chrg                       *5.08 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *121.75
+TAX1 15%                            *18.26
+------------------------------------------
+^T^O^T^A^L                  ^*^1^4^0^.^0^1
+------------------------------------------
+^C^A^S^H                    ^*^1^4^0^.^0^1
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015344
+02/11/2026                           18:33
+
+Invoice: CS_TORHAIL-POS_MVZEU9AK
+Order: CO_TORHAIL-POS_MVZEY97Y
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chicken Pesto Wrap       2 616.670
+                                 *1,233.34
+Commemel F. Tea          2 62.100  *124.20
+^S^U^B^T^O^T^A^L        ^*^1^,^3^5^7^.^5^4
+Service Chrg                      *59.05 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                            *1,416.59
+TAX1 15%                           *212.49
+------------------------------------------
+^T^O^T^A^L              ^*^1^,^6^2^9^.^0^8
+------------------------------------------
+^C^A^S^H                ^*^1^,^6^2^9^.^0^8
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015345
+02/11/2026                           18:38
+
+Invoice: CS_TORHAIL-POS_MVZEYFB7
+Order: CO_TORHAIL-POS_MVZF415P
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Caramel Special Torta    1 2,650.000
+                                 *2,650.00
+Torta Box                1 0.010     *0.01
+^S^U^B^T^O^T^A^L        ^*^2^,^6^5^0^.^0^1
+Service Chrg                     *115.28 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                            *2,765.29
+TAX1 15%                           *414.79
+------------------------------------------
+^T^O^T^A^L              ^*^3^,^1^8^0^.^0^8
+------------------------------------------
+^C^A^S^H                ^*^3^,^1^8^0^.^0^8
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015346
+02/11/2026                           18:39
+
+Invoice: CS_TORHAIL-POS_MVZF47GF
+Order: CO_TORHAIL-POS_MVZENIQJ
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 3
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Anebabero Slice          1 75.900   *75.90
+Free Tea                 1 0.010     *0.01
+Soft Drink               1 75.900   *75.90
+^S^U^B^T^O^T^A^L            ^*^1^5^1^.^8^1
+Service Chrg                       *6.60 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *158.41
+TAX1 15%                            *23.76
+------------------------------------------
+^T^O^T^A^L                  ^*^1^8^2^.^1^7
+------------------------------------------
+^C^A^S^H                    ^*^1^8^2^.^1^7
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015347
+02/11/2026                           18:40
+
+Invoice: CS_TORHAIL-POS_MVZF610C
+Order: CO_TORHAIL-POS_MVZE7EKW
+Operator: Asnaku Wujira
+Waiter: Yabsra Nebyu Mamo
+Table: 17
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+Tea                      1 62.100   *62.10
+^S^U^B^T^O^T^A^L            ^*^1^6^6^.^7^5
+Service Chrg                       *7.25 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *174.00
+TAX1 15%                            *26.10
+------------------------------------------
+^T^O^T^A^L                  ^*^2^0^0^.^1^0
+------------------------------------------
+^C^A^S^H                    ^*^2^0^0^.^1^0
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015348
+02/11/2026                           18:44
+
+Invoice: CS_TORHAIL-POS_MVZFBFL3
+Order: CO_TORHAIL-POS_MVZELOUW
+Operator: Asnaku Wujira
+Waiter: Yabsra Nebyu Mamo
+Table: 18
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Assorted Cake            2 128.800 *257.60
+Papaya Juice             1 172.500 *172.50
+Hot Chocolate  Short     1 239.200 *239.20
+^S^U^B^T^O^T^A^L            ^*^6^6^9^.^3^0
+Service Chrg                      *29.12 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *698.42
+TAX1 15%                           *104.76
+------------------------------------------
+^T^O^T^A^L                  ^*^8^0^3^.^1^8
+------------------------------------------
+^C^A^S^H                    ^*^8^0^3^.^1^8
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015349
+02/11/2026                           18:46
+
+Invoice: CS_TORHAIL-POS_MVZFCCM8
+Order: CO_TORHAIL-POS_MVZFF1GJ
+Operator: Asnaku Wujira
+Waiter: Yabsra Nebyu Mamo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Soft Cake                1 133.330 *133.33
+^S^U^B^T^O^T^A^L            ^*^1^3^3^.^3^3
+Service Chrg                       *5.80 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *139.13
+TAX1 15%                            *20.87
+------------------------------------------
+^T^O^T^A^L                  ^*^1^6^0^.^0^0
+------------------------------------------
+^C^A^S^H                    ^*^1^6^0^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015350
+02/11/2026                           18:48
+
+Invoice: CS_TORHAIL-POS_MVZFF5N1
+Order: CO_TORHAIL-POS_MVZFGJHB
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chocolate  Cake          1 179.170 *179.17
+^S^U^B^T^O^T^A^L            ^*^1^7^9^.^1^7
+Service Chrg                       *7.79 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *186.96
+TAX1 15%                            *28.04
+------------------------------------------
+^T^O^T^A^L                  ^*^2^1^5^.^0^0
+------------------------------------------
+^C^A^S^H                    ^*^2^1^5^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015351
+02/11/2026                           18:53
+
+Invoice: CS_TORHAIL-POS_MVZFITXI
+Order: CO_TORHAIL-POS_MVZFBDG4
+Operator: Asnaku Wujira
+Waiter: Yabsra Nebyu Mamo
+Table: 6
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Espresso Short           1 95.450   *95.45
+^S^U^B^T^O^T^A^L              ^*^9^5^.^4^5
+Service Chrg                       *4.15 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *99.60
+TAX1 15%                            *14.94
+------------------------------------------
+^T^O^T^A^L                  ^*^1^1^4^.^5^4
+------------------------------------------
+^C^A^S^H                    ^*^1^1^4^.^5^4
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015352
+02/11/2026                           18:59
+
+Invoice: CS_TORHAIL-POS_MVZFQGY2
+Order: CO_TORHAIL-POS_MVZEO1E2
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 21
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+Kaldi's Tea              1 204.170 *204.17
+^S^U^B^T^O^T^A^L            ^*^3^0^8^.^8^2
+Service Chrg                      *13.43 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *322.25
+TAX1 15%                            *48.34
+------------------------------------------
+^T^O^T^A^L                  ^*^3^7^0^.^5^9
+------------------------------------------
+^C^A^S^H                    ^*^3^7^0^.^5^9
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015353
+02/11/2026                           19:08
+
+Invoice: CS_TORHAIL-POS_MVZFUPHW
+Order: CO_TORHAIL-POS_MVZETPC4
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 100
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Cafe Latte Tall          2 152.950 *305.90
+Chocolate  Cake          2 179.170 *358.34
+^S^U^B^T^O^T^A^L            ^*^6^6^4^.^2^4
+Service Chrg                      *28.90 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *693.14
+TAX1 15%                           *103.97
+------------------------------------------
+^T^O^T^A^L                  ^*^7^9^7^.^1^1
+------------------------------------------
+^C^A^S^H                    ^*^7^9^7^.^1^1
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015354
+02/11/2026                           19:08
+
+Invoice: CS_TORHAIL-POS_MVZG6FU1
+Order: CO_TORHAIL-POS_MVZFC8LI
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 9
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chocolate  Cake          1 179.170 *179.17
+Macchiato Short          1 104.650 *104.65
+^S^U^B^T^O^T^A^L            ^*^2^8^3^.^8^2
+Service Chrg                      *12.34 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *296.16
+TAX1 15%                            *44.42
+------------------------------------------
+^T^O^T^A^L                  ^*^3^4^0^.^5^8
+------------------------------------------
+^C^A^S^H                    ^*^3^4^0^.^5^8
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015355
+02/11/2026                           19:09
+
+Invoice: CS_TORHAIL-POS_MVZG7EY6
+Order: CO_TORHAIL-POS_MVZFQAUW
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 8
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Chocolate  Cake          1 179.170 *179.17
+Macchiato Short          1 104.650 *104.65
+Soft Drink               1 75.900   *75.90
+Millefoglie              1 133.400 *133.40
+^S^U^B^T^O^T^A^L            ^*^4^9^3^.^1^2
+Service Chrg                      *21.44 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *514.56
+TAX1 15%                            *77.18
+------------------------------------------
+^T^O^T^A^L                  ^*^5^9^1^.^7^4
+------------------------------------------
+^C^A^S^H                    ^*^5^9^1^.^7^4
+ITEM#                                    4
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015356
+02/11/2026                           19:09
+
+Invoice: CS_TORHAIL-POS_MVZG7QYK
+Order: CO_TORHAIL-POS_MVZFIRUF
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 5
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Pineapple Tea            1 172.500 *172.50
+^S^U^B^T^O^T^A^L            ^*^1^7^2^.^5^0
+Service Chrg                       *7.50 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *180.00
+TAX1 15%                            *27.00
+------------------------------------------
+^T^O^T^A^L                  ^*^2^0^7^.^0^0
+------------------------------------------
+^C^A^S^H                    ^*^2^0^7^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015357
+02/11/2026                           19:09
+
+Invoice: CS_TORHAIL-POS_MVZG7XT1
+Order: CO_TORHAIL-POS_MVZG8HGI
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Club Sandwich            1 491.050 *491.05
+^S^U^B^T^O^T^A^L            ^*^4^9^1^.^0^5
+Service Chrg                      *21.36 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *512.41
+TAX1 15%                            *76.86
+------------------------------------------
+^T^O^T^A^L                  ^*^5^8^9^.^2^7
+------------------------------------------
+^C^A^S^H                    ^*^5^8^9^.^2^7
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015358
+02/11/2026                           19:42
+
+Invoice: CS_TORHAIL-POS_MVZH0BTA
+Order: CO_TORHAIL-POS_MVZGXPHE
+Operator: Asnaku Wujira
+Waiter: Yabsra Nebyu Mamo
+Table: 5
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Kaldi's Tea              1 204.170 *204.17
+Macchiato Tall           2 133.330 *266.66
+^S^U^B^T^O^T^A^L            ^*^4^7^0^.^8^3
+Service Chrg                      *20.48 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *491.31
+TAX1 15%                            *73.70
+------------------------------------------
+^T^O^T^A^L                  ^*^5^6^5^.^0^1
+------------------------------------------
+^C^A^S^H                    ^*^5^6^5^.^0^1
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015359
+02/11/2026                           19:43
+
+Invoice: CS_TORHAIL-POS_MVZHE4MM
+Order: CO_TORHAIL-POS_MVZGNT03
+Operator: Asnaku Wujira
+Waiter: Yabsra Nebyu Mamo
+Table: 18
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea Espresso             1 115.000 *115.00
+^S^U^B^T^O^T^A^L            ^*^1^1^5^.^0^0
+Service Chrg                       *5.00 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *120.00
+TAX1 15%                            *18.00
+------------------------------------------
+^T^O^T^A^L                  ^*^1^3^8^.^0^0
+------------------------------------------
+^C^A^S^H                    ^*^1^3^8^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015360
+02/11/2026                           19:45
+
+Invoice: CS_TORHAIL-POS_MVZHFXC6
+Order: CO_TORHAIL-POS_MVZHI3T8
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Bottled Water 600ml      1 47.150   *47.15
+^S^U^B^T^O^T^A^L              ^*^4^7^.^1^5
+Service Chrg                       *2.05 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *49.20
+TAX1 15%                             *7.38
+------------------------------------------
+^T^O^T^A^L                    ^*^5^6^.^5^8
+------------------------------------------
+^C^A^S^H                      ^*^5^6^.^5^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015361
+02/11/2026                           19:47
+
+Invoice: CS_TORHAIL-POS_MVZHI86S
+Order: CO_TORHAIL-POS_MVZGYMF1
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 20
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Short          1 104.650 *104.65
+Macchiato Tall           1 133.330 *133.33
+^S^U^B^T^O^T^A^L            ^*^2^3^7^.^9^8
+Service Chrg                      *10.35 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *248.33
+TAX1 15%                            *37.25
+------------------------------------------
+^T^O^T^A^L                  ^*^2^8^5^.^5^8
+------------------------------------------
+^C^A^S^H                    ^*^2^8^5^.^5^8
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015362
+02/11/2026                           19:49
+
+Invoice: CS_TORHAIL-POS_MVZHLNO5
+Order: CO_TORHAIL-POS_MVZHNEVL
+Operator: Asnaku Wujira
+Waiter: Chernet Gudeta Wendmu
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Soft DrinkÂ              1 75.900   *75.90
+^S^U^B^T^O^T^A^L              ^*^7^5^.^9^0
+Service Chrg                       *3.30 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                               *79.20
+TAX1 15%                            *11.88
+------------------------------------------
+^T^O^T^A^L                    ^*^9^1^.^0^8
+------------------------------------------
+^C^A^S^H                      ^*^9^1^.^0^8
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015363
+02/11/2026                           19:59
+
+Invoice: CS_TORHAIL-POS_MVZHNJ4W
+Order: CO_TORHAIL-POS_MVZGP5C9
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Steamed Milk Short       1 95.450   *95.45
+Soft Drink               1 75.900   *75.90
+Banana Cake              1 95.450   *95.45
+Carrot Cheese Cake       1 183.330 *183.33
+^S^U^B^T^O^T^A^L            ^*^4^5^0^.^1^3
+Service Chrg                      *19.57 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *469.70
+TAX1 15%                            *70.46
+------------------------------------------
+^T^O^T^A^L                  ^*^5^4^0^.^1^6
+------------------------------------------
+^C^A^S^H                    ^*^5^4^0^.^1^6
+ITEM#                                    4
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015364
+02/11/2026                           20:01
+
+Invoice: CS_TORHAIL-POS_MVZI0YW6
+Order: CO_TORHAIL-POS_MVZI3AW8
+Operator: Asnaku Wujira
+Waiter: Yabsra Nebyu Mamo
+Table: 1
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Coffee Short             1 125.000 *125.00
+Hot Cup4oz               1 9.200     *9.20
+^S^U^B^T^O^T^A^L            ^*^1^3^4^.^2^0
+Service Chrg                       *5.44 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *139.64
+TAX1 15%                            *20.95
+------------------------------------------
+^T^O^T^A^L                  ^*^1^6^0^.^5^9
+------------------------------------------
+^C^A^S^H                    ^*^1^6^0^.^5^9
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015365
+02/11/2026                           20:08
+
+Invoice: CS_TORHAIL-POS_MVZI3H7N
+Order: CO_TORHAIL-POS_MVZHLLGQ
+Operator: Asnaku Wujira
+Waiter: Yabsra Nebyu Mamo
+Table: 17
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Tea                      2 62.100  *124.20
+Steamed Milk Tall        1 124.200 *124.20
+Macchiato Medium         1 129.170 *129.17
+^S^U^B^T^O^T^A^L            ^*^3^7^7^.^5^7
+Service Chrg                      *16.42 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *393.99
+TAX1 15%                            *59.10
+------------------------------------------
+^T^O^T^A^L                  ^*^4^5^3^.^0^9
+------------------------------------------
+^C^A^S^H                    ^*^4^5^3^.^0^9
+ITEM#                                    3
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015366
+02/11/2026                           20:23
+
+Invoice: CS_TORHAIL-POS_MVZIOOKE
+Order: CO_TORHAIL-POS_MVZIOMCO
+Operator: Asnaku Wujira
+Waiter: Ymata Brhan Gelaw
+Table: 7
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Macchiato Tall           1 133.330 *133.33
+^S^U^B^T^O^T^A^L            ^*^1^3^3^.^3^3
+Service Chrg                       *5.80 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *139.13
+TAX1 15%                            *20.87
+------------------------------------------
+^T^O^T^A^L                  ^*^1^6^0^.^0^0
+------------------------------------------
+^C^A^S^H                    ^*^1^6^0^.^0^0
+ITEM#                                    1
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+
+             TIN: 0004346744
+------------------------------------------
+            KALDIS COFFEE  PLC
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/09,H.NO.-NEW
+            AROUND TORHAYLOCH
+              TEL-0116676742
+FS No.00015367
+02/11/2026                           20:24
+
+Invoice: CS_TORHAIL-POS_MVZIVRQC
+Order: CO_TORHAIL-POS_MVZIJ520
+Operator: Asnaku Wujira
+Waiter: Yabsra Nebyu Mamo
+Table: 20
+------------------------------------------
+Description         Qty  Price     AMOUNT
+------------------------------------------
+Strawberry Juice         1 216.670 *216.67
+Cafe Latte Short         1 137.500 *137.50
+^S^U^B^T^O^T^A^L            ^*^3^5^4^.^1^7
+Service Chrg                      *15.41 1
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                              *369.58
+TAX1 15%                            *55.44
+------------------------------------------
+^T^O^T^A^L                  ^*^4^2^5^.^0^2
+------------------------------------------
+^C^A^S^H                    ^*^4^2^5^.^0^2
+ITEM#                                    2
+                  {logo}
+            {logo} FGI0000273
+
+           Powered By Red Cloud
+    Powered By CNET Systems. Call 8025
+
+

@@ -1,0 +1,61 @@
+             TIN: 0004346744
+------------------------------------------
+     ^K^A^L^D^I^S ^C^O^F^F^E^E ^P^L^C
+        A.A,SUBCITY-KOLFE KERANIWO
+              W/07,H.NO.-NEW
+            AROUND BETEL SQUARE
+            TEL-........FAX..
+     ^S^E^S^S^I^O^N^ ^Z^ ^R^E^P^O^R^T
+
+Z:1240
+08/08/2026                           20:51
+
+- - - - - - - - - - - - - - - - - - - - -
+SALES NET                       *24,739.99
+SURCHARGES                              77
+                                 *1,070.82
+
+Cash                            *29,682.40
+TOTAL                           *29,682.40
+TOTAL IN SAFE                   *29,682.40
+- - - - - - - - - - - - - - - - - - - - -
+TXBL1                           *25,810.81
+TXBL2                                *0.00
+TXBL3                                *0.00
+NOTXBL                               *0.00
+TAX1 15%                         *3,871.59
+TAX2  0%                             *0.00
+TAX3  0%                             *0.00
+- - - - - - - - - - - - - - - - - - - - -
+SALES TL                        *25,810.81
+TXBL TL                         *25,810.81
+TAX TL                           *3,871.59
+- - - - - - - - - - - - - - - - - - - - -
+RFD TXBL1                            *0.00
+RFD TXBL2                            *0.00
+RFD TXBL3                            *0.00
+RFD NOTXBL                           *0.00
+RFD TAX1 15%                         *0.00
+RFD TAX2  0%                         *0.00
+RFD TAX3  0%                         *0.00
+- - - - - - - - - - - - - - - - - - - - -
+RFD SALES TL                         *0.00
+RFD TXBL TL                          *0.00
+RFD TAX TL                           *0.00
+- - - - - - - - - - - - - - - - - - - - -
+ACCU.FS                           00038202
+08/08/2026                           20:29
+SESSION.FS                              78
+ACCU.NF                           00058555
+SESSION.NF                             123
+ACCU.RFD                          00000001
+SESSION.RFD                              0
+SESSION RESET                            0
+- - - - - - - - - - - - - - - - - - - - -
+SESSION REPRINT                          0
+SESSION LIDOPEN                          1
+SESSION PWROFF                           0
+                  {logo}
+            {logo} FGI0000282
+
+ AE3BE1F977AEF19F4090F77F78ACAF55D9287BD3

@@ -1,0 +1,35 @@
+ TIN: 0004346744
+          KALDIS COFFEE PLC
+          A.A,SUBCITY-BOLE
+       W/01,H.NO-BOLE AIRPORT
+            BOLE AIRPORT
+          TEL-0118-95-18-34
+
+FS No. 00097798
+02/08/2026                     07:34
+
+Ref: CS_AIRPORT-POS1_MSBA5CQ8
+Order: COV-03377-AIR
+Operator: Akberet Taemo
+Waiter: Kdst Zelalem Sisay
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                       122 x *813.20
+Cafe Latte Short           *99210.40
+SUBTOTAL                   *99210.40
+SURCHARGE                   *4315.65
+------------------------------------
+TXBL1                     *103526.05
+TAX1  15.00%               *15528.91
+------------------------------------
+ T O T A L       * 1 1 9 0 5 4 . 9 6
+CASH                      *119054.96
+ITEM #                             1
+           @@@@ FGB0012872
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025

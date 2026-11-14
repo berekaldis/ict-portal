@@ -1,0 +1,5398 @@
+JOURNAL NUMBER 1326 CLEARED
+SIGNATURE:      DF7BF57747CE56741001
+                57A4C0C6DC15758F706F
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+   S E S S I O N   Z   R E P O R T
+
+Z:1300
+24/07/2026                     18:04
+
+SALES                             23
+DISCOUNTS (0)                  *0.00
+SURCHARGES (15)              *500.98
+VOID (0)                       *0.00
+CASH                       *13819.84
+
+CASH DEPOSIT (0)               *0.00
+CASH DEDUCTED (0)              *0.00
+CASH AVAILABLE             *13819.84
+
+ACCU.EJ                     00001326
+SESSION.EJ                         1
+SIGNATURE:      DF7BF57747CE56741001
+                57A4C0C6DC15758F706F
+------------------------------------
+TXBL1                      *12017.26
+TXBL2                          *0.00
+TXBL3                          *0.00
+NOTXBL                         *0.00
+TAX1  15.00%                *1802.59
+TAX2   0.00%                   *0.00
+TAX3   0.00%                   *0.00
+ - - - - - - - - - - - - - - - - - -
+SALES TL                   *12017.26
+TXBL TL                    *12017.26
+TAX TL                      *1802.59
+------------------------------------
+RFD TXBL1                      *0.00
+RFD TXBL2                      *0.00
+RFD TXBL3                      *0.00
+RFD NOTXBL                     *0.00
+RFD TAX1  15.00%               *0.00
+RFD TAX2   0.00%               *0.00
+RFD TAX3   0.00%               *0.00
+ - - - - - - - - - - - - - - - - - -
+RFD SALES TL                   *0.00
+RFD TXBL TL                    *0.00
+RFD TAX TL                     *0.00
+------------------------------------
+ACCU.FS                     00092208
+24/07/2026                     15:37
+SESSION.FS                        16
+ACCU.NF                     00144525
+SESSION.NF                        24
+ACCU.RFD                    00000003
+SESSION.RFD                        0
+SESSION RESET                      0
+
+           @@@@ FGB0000762
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144526
+24/07/2026                     19:07
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02596-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 19:7:37
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 12
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144527
+24/07/2026                     19:07
+
+           Kaldis Coffee
+    *** Bar2-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02596-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 19:7:37
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 12
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CROISSANT CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092209
+24/07/2026                     19:09
+
+Ref: CS_Airport2-pos_MRZ4W9JU
+Order: COV-02596-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 12
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *541.59
+Coffee Short                 *541.59
+                         1 x *541.59
+Croissant Cake               *541.59
+SUBTOTAL                    *1083.18
+SURCHARGE                     *47.12
+------------------------------------
+TXBL1                       *1130.30
+TAX1  15.00%                 *169.55
+------------------------------------
+ T O T A L           * 1 2 9 9 . 8 5
+CASH                        *1299.85
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144528
+24/07/2026                     19:14
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02597-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 19:14:40
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092210
+24/07/2026                     19:14
+
+Ref: CS_Airport2-pos_MRZ4ZBLI
+Order: COV-02597-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+SUBTOTAL                     *135.53
+SURCHARGE                      *5.90
+------------------------------------
+TXBL1                        *141.43
+TAX1  15.00%                  *21.21
+------------------------------------
+ T O T A L             * 1 6 2 . 6 4
+CASH                         *162.64
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144529
+24/07/2026                     19:31
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02598-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 19:31:39
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092211
+24/07/2026                     19:31
+
+Ref: CS_Airport2-pos_MRZ55BND
+Order: COV-02598-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *135.53
+Bottled Water 600ml          *271.06
+SUBTOTAL                     *271.06
+SURCHARGE                     *11.79
+------------------------------------
+TXBL1                        *282.85
+TAX1  15.00%                  *42.43
+------------------------------------
+ T O T A L             * 3 2 5 . 2 8
+CASH                         *325.28
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144530
+24/07/2026                     19:44
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02599-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 19:44:24
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092212
+24/07/2026                     19:44
+
+Ref: CS_Airport2-pos_MRZ5R6A9
+Order: COV-02599-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *135.53
+Bottled Water 600ml          *271.06
+SUBTOTAL                     *271.06
+SURCHARGE                     *11.79
+------------------------------------
+TXBL1                        *282.85
+TAX1  15.00%                  *42.43
+------------------------------------
+ T O T A L             * 3 2 5 . 2 8
+CASH                         *325.28
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144531
+24/07/2026                     19:51
+
+           Kaldis Coffee
+    *** Bar2-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02600-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 19:51:41
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CROISSANT CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144532
+24/07/2026                     19:51
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02600-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 19:51:41
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAPPUCCINO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092213
+24/07/2026                     19:51
+
+Ref: CS_Airport2-pos_MRZ67KJR
+Order: COV-02600-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *541.59
+Croissant Cake               *541.59
+                         1 x *813.20
+Cappuccino Short             *813.20
+SUBTOTAL                    *1354.79
+SURCHARGE                     *58.93
+------------------------------------
+TXBL1                       *1413.72
+TAX1  15.00%                 *212.06
+------------------------------------
+ T O T A L           * 1 6 2 5 . 7 8
+CASH                        *1625.78
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144533
+24/07/2026                     19:54
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02601-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 19:54:56
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092214
+24/07/2026                     19:54
+
+Ref: CS_Airport2-pos_MRZ6GY6A
+Order: COV-02601-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *135.53
+Bottled Water 600ml          *271.06
+SUBTOTAL                     *271.06
+SURCHARGE                     *11.79
+------------------------------------
+TXBL1                        *282.85
+TAX1  15.00%                  *42.43
+------------------------------------
+ T O T A L             * 3 2 5 . 2 8
+CASH                         *325.28
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144534
+24/07/2026                     21:03
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02602-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 21:3:24
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+4  TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092215
+24/07/2026                     21:03
+
+Ref: CS_Airport2-pos_MRZ6L41S
+Order: COV-02602-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         4 x *135.53
+Tea                          *542.12
+SUBTOTAL                     *542.12
+SURCHARGE                     *23.58
+------------------------------------
+TXBL1                        *565.70
+TAX1  15.00%                  *84.86
+------------------------------------
+ T O T A L             * 6 5 0 . 5 6
+CASH                         *650.56
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144535
+24/07/2026                     21:05
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02603-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 21:5:24
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144536
+24/07/2026                     21:05
+
+           Kaldis Coffee
+    *** Bar2-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02603-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 21:5:24
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CROISSANT CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092216
+24/07/2026                     21:05
+
+Ref: CS_Airport2-pos_MRZ915R1
+Order: COV-02603-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *541.59
+Coffee Short                 *541.59
+                         1 x *541.59
+Croissant Cake               *541.59
+SUBTOTAL                    *1083.18
+SURCHARGE                     *47.12
+------------------------------------
+TXBL1                       *1130.30
+TAX1  15.00%                 *169.55
+------------------------------------
+ T O T A L           * 1 2 9 9 . 8 5
+CASH                        *1299.85
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144537
+24/07/2026                     21:09
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02604-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 21:9:11
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SOFT DRINK 500ML
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092217
+24/07/2026                     21:09
+
+Ref: CS_Airport2-pos_MRZ93QTW
+Order: COV-02604-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *271.06
+Soft Drink 500ml             *271.06
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+SUBTOTAL                     *406.59
+SURCHARGE                     *17.69
+------------------------------------
+TXBL1                        *424.28
+TAX1  15.00%                  *63.64
+------------------------------------
+ T O T A L             * 4 8 7 . 9 2
+CASH                         *487.92
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144538
+24/07/2026                     21:09
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02605-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 21:9:47
+No Guest: 0
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092218
+24/07/2026                     21:09
+
+Ref: CS_Airport2-pos_MRZ98LXN
+Order: COV-02605-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+SUBTOTAL                     *135.53
+SURCHARGE                      *5.90
+------------------------------------
+TXBL1                        *141.43
+TAX1  15.00%                  *21.21
+------------------------------------
+ T O T A L             * 1 6 2 . 6 4
+CASH                         *162.64
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144539
+24/07/2026                     21:24
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02606-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 21:24:36
+No Guest: 0
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  GREEN TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092219
+24/07/2026                     21:30
+
+Ref: CS_Airport2-pos_MRZ9SDVQ
+Order: COV-02606-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *565.99
+Green Tea                    *565.99
+------------------------------------
+TXBL1                        *565.99
+TAX1  15.00%                  *84.90
+------------------------------------
+ T O T A L             * 6 5 0 . 8 9
+CASH                         *650.89
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144540
+24/07/2026                     21:33
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02607-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 21:33:30
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092220
+24/07/2026                     21:33
+
+Ref: CS_Airport2-pos_MRZ9ZWIE
+Order: COV-02607-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+SUBTOTAL                     *135.53
+SURCHARGE                      *5.90
+------------------------------------
+TXBL1                        *141.43
+TAX1  15.00%                  *21.21
+------------------------------------
+ T O T A L             * 1 6 2 . 6 4
+CASH                         *162.64
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144541
+24/07/2026                     21:48
+
+           Kaldis Coffee
+  *** Kitchen-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02608-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 21:48:17
+No Guest: 1
+Waiter: Bar Man Two
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  CHICKEN PESTO WRAP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144542
+24/07/2026                     21:48
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02608-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 21:48:17
+No Guest: 1
+Waiter: Bar Man Two
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HEINKEN BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092221
+24/07/2026                     21:48
+
+Ref: CS_Airport2-pos_MRZA3V9V
+Order: COV-02608-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        2 x *2304.61
+Chicken Pesto Wrap          *4609.22
+                         1 x *948.19
+Heinken Beer                 *948.19
+SUBTOTAL                    *5557.41
+SURCHARGE                    *241.75
+------------------------------------
+TXBL1                       *5799.16
+TAX1  15.00%                 *869.87
+------------------------------------
+ T O T A L           * 6 6 6 9 . 0 3
+CASH                        *6669.03
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144543
+24/07/2026                     21:59
+
+           Kaldis Coffee
+   *** Juice-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02609-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 21:59:19
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MANGO JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092222
+24/07/2026                     21:59
+
+Ref: CS_Airport2-pos_MRZAMWO1
+Order: COV-02609-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *813.20
+Mango Juice                  *813.20
+SUBTOTAL                     *813.20
+SURCHARGE                     *35.37
+------------------------------------
+TXBL1                        *848.57
+TAX1  15.00%                 *127.29
+------------------------------------
+ T O T A L             * 9 7 5 . 8 6
+CASH                         *975.86
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144544
+24/07/2026                     22:00
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02610-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:0:35
+No Guest: 1
+Waiter: Bar Man Two
+Table: 200
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144545
+24/07/2026                     22:00
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02610-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:0:35
+No Guest: 1
+Waiter: Bar Man Two
+Table: 200
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ST GEORGE BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092223
+24/07/2026                     22:00
+
+Ref: CS_Airport2-pos_MRZB2NOW
+Order: COV-02610-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 200
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+                         1 x *813.20
+St George Beer               *813.20
+SUBTOTAL                     *948.73
+SURCHARGE                     *41.27
+------------------------------------
+TXBL1                        *990.00
+TAX1  15.00%                 *148.50
+------------------------------------
+ T O T A L           * 1 1 3 8 . 5 0
+CASH                        *1138.50
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144546
+24/07/2026                     22:02
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02611-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:2:33
+No Guest: 0
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092224
+24/07/2026                     22:02
+
+Ref: CS_Airport2-pos_MRZB37SA
+Order: COV-02611-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+SUBTOTAL                     *135.53
+SURCHARGE                      *5.90
+------------------------------------
+TXBL1                        *141.43
+TAX1  15.00%                  *21.21
+------------------------------------
+ T O T A L             * 1 6 2 . 6 4
+CASH                         *162.64
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144547
+24/07/2026                     22:04
+
+           Kaldis Coffee
+  *** Kitchen-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02612-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:4:51
+No Guest: 1
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+3  CHICKEN PESTO WRAP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144548
+24/07/2026                     22:04
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02613-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:5:2
+No Guest: 1
+Waiter: Bar Man Two
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HABESHA BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144549
+24/07/2026                     22:05
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02612-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:4:51
+No Guest: 1
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+3  GREEN TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144550
+24/07/2026                     22:05
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02614-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:5:55
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092225
+24/07/2026                     22:05
+
+Ref: CS_Airport2-pos_MRZB98RZ
+Order: COV-02614-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *135.53
+Tea                          *135.53
+SUBTOTAL                     *135.53
+SURCHARGE                      *5.90
+------------------------------------
+TXBL1                        *141.43
+TAX1  15.00%                  *21.21
+------------------------------------
+ T O T A L             * 1 6 2 . 6 4
+CASH                         *162.64
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144551
+24/07/2026                     22:07
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02615-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:7:28
+No Guest: 1
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144552
+24/07/2026                     22:07
+
+           Kaldis Coffee
+   *** Juice-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02616-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:7:42
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  MANGO JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092226
+24/07/2026                     22:07
+
+Ref: CS_Airport2-pos_MRZBBIIT
+Order: COV-02616-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *813.20
+Mango Juice                 *1626.40
+SUBTOTAL                    *1626.40
+SURCHARGE                     *70.75
+------------------------------------
+TXBL1                       *1697.15
+TAX1  15.00%                 *254.57
+------------------------------------
+ T O T A L           * 1 9 5 1 . 7 2
+CASH                        *1951.72
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144553
+24/07/2026                     22:09
+
+           Kaldis Coffee
+  *** Kitchen-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02617-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:9:49
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 200
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STEAK SANDWICH
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144554
+24/07/2026                     22:09
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02617-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:9:49
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 200
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  COFFEE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144555
+24/07/2026                     22:11
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02613-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:5:2
+No Guest: 1
+Waiter: Bar Man Two
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1.0000  HABESHA BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144556
+24/07/2026                     22:13
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02618-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:13:51
+No Guest: 0
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  JIGGER TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144557
+24/07/2026                     22:13
+
+           Kaldis Coffee
+    *** Bar2-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02618-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:13:51
+No Guest: 0
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CROISSANT CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092227
+24/07/2026                     22:15
+
+Ref: CS_Airport2-pos_MRZBJR6G
+Order: COV-02618-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *541.59
+Jigger Tea                   *541.59
+                         1 x *541.59
+Croissant Cake               *541.59
+SUBTOTAL                    *1083.18
+SURCHARGE                     *47.12
+------------------------------------
+TXBL1                       *1130.30
+TAX1  15.00%                 *169.55
+------------------------------------
+ T O T A L           * 1 2 9 9 . 8 5
+CASH                        *1299.85
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144558
+24/07/2026                     22:15
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02619-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:15:28
+No Guest: 0
+Waiter: Bar Man Two
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  SOFT DRINK 500ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092228
+24/07/2026                     22:15
+
+Ref: CS_Airport2-pos_MRZBLC6E
+Order: COV-02619-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *271.06
+Soft Drink 500ml             *542.12
+SUBTOTAL                     *542.12
+SURCHARGE                     *23.58
+------------------------------------
+TXBL1                        *565.70
+TAX1  15.00%                  *84.86
+------------------------------------
+ T O T A L             * 6 5 0 . 5 6
+CASH                         *650.56
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092229
+24/07/2026                     22:17
+
+Ref: CS_Airport2-pos_MRZBLUBN
+Order: COV-02615-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *813.20
+Cafe Latte Short             *813.20
+SUBTOTAL                     *813.20
+SURCHARGE                     *35.37
+------------------------------------
+TXBL1                        *848.57
+TAX1  15.00%                 *127.29
+------------------------------------
+ T O T A L             * 9 7 5 . 8 6
+CASH                         *975.86
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092230
+24/07/2026                     22:18
+
+Ref: CS_Airport2-pos_MRZBO30J
+Order: COV-02612-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        3 x *2304.61
+Chicken Pesto Wrap          *6913.83
+                         3 x *565.99
+Green Tea                   *1697.97
+SUBTOTAL                    *8611.80
+SURCHARGE                    *300.75
+------------------------------------
+TXBL1                       *8912.55
+TAX1  15.00%                *1336.88
+------------------------------------
+ T O T A L         * 1 0 2 4 9 . 4 3
+CASH                       *10249.43
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144559
+24/07/2026                     22:18
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02620-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:18:50
+No Guest: 0
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092231
+24/07/2026                     22:18
+
+Ref: CS_Airport2-pos_MRZBPFXF
+Order: COV-02620-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *135.53
+Bottled Water 600ml          *271.06
+SUBTOTAL                     *271.06
+SURCHARGE                     *11.79
+------------------------------------
+TXBL1                        *282.85
+TAX1  15.00%                  *42.43
+------------------------------------
+ T O T A L             * 3 2 5 . 2 8
+CASH                         *325.28
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144560
+24/07/2026                     22:19
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02621-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:19:32
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SOFT DRINK 500ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092232
+24/07/2026                     22:19
+
+Ref: CS_Airport2-pos_MRZBQ66O
+Order: COV-02621-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *271.06
+Soft Drink 500ml             *271.06
+SUBTOTAL                     *271.06
+SURCHARGE                     *11.79
+------------------------------------
+TXBL1                        *282.85
+TAX1  15.00%                  *42.43
+------------------------------------
+ T O T A L             * 3 2 5 . 2 8
+CASH                         *325.28
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092233
+24/07/2026                     22:20
+
+Ref: CS_Airport2-pos_MRZBR26W
+Order: COV-02617-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 200
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        1 x *2981.19
+Steak Sandwich              *2981.19
+                         1 x *541.59
+Coffee Short                 *541.59
+SUBTOTAL                    *3522.78
+SURCHARGE                    *153.24
+------------------------------------
+TXBL1                       *3676.02
+TAX1  15.00%                 *551.40
+------------------------------------
+ T O T A L           * 4 2 2 7 . 4 2
+CASH                        *4227.42
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144561
+24/07/2026                     22:21
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02622-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:21:8
+No Guest: 0
+Waiter: Bar Man Two
+Table: 21
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STEAMED MILK WITH TEA SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092234
+24/07/2026                     22:21
+
+Ref: CS_Airport2-pos_MRZBSDG7
+Order: COV-02622-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 21
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *541.59
+Steamed Milk With Tea Short  *541.59
+SUBTOTAL                     *541.59
+SURCHARGE                     *23.56
+------------------------------------
+TXBL1                        *565.15
+TAX1  15.00%                  *84.77
+------------------------------------
+ T O T A L             * 6 4 9 . 9 2
+CASH                         *649.92
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092235
+24/07/2026                     22:21
+
+Ref: CS_Airport2-pos_MRZBT4IE
+Order: COV-02613-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *813.20
+Habesha Beer                *1626.40
+SUBTOTAL                    *1626.40
+SURCHARGE                     *70.75
+------------------------------------
+TXBL1                       *1697.15
+TAX1  15.00%                 *254.57
+------------------------------------
+ T O T A L           * 1 9 5 1 . 7 2
+CASH                        *1951.72
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144562
+24/07/2026                     22:23
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02623-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:23:27
+No Guest: 0
+Waiter: Bar Man Two
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+3  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144563
+24/07/2026                     22:23
+
+           Kaldis Coffee
+    *** Bar2-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02623-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:23:27
+No Guest: 0
+Waiter: Bar Man Two
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CROISSANT CAKE
+2  BANANA CAKEÂ 
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092236
+24/07/2026                     22:23
+
+Ref: CS_Airport2-pos_MRZBTWAD
+Order: COV-02623-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         3 x *813.20
+Cafe Latte Short            *2439.60
+                         1 x *541.59
+Croissant Cake               *541.59
+                         2 x *541.59
+Banana Cake                 *1083.18
+SUBTOTAL                    *4064.37
+SURCHARGE                    *176.80
+------------------------------------
+TXBL1                       *4241.17
+TAX1  15.00%                 *636.18
+------------------------------------
+ T O T A L           * 4 8 7 7 . 3 5
+CASH                        *4877.35
+ITEM #                             3
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144564
+24/07/2026                     22:24
+
+           Kaldis Coffee
+    *** Bar2-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02624-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:24:30
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CROISSANT CAKE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144565
+24/07/2026                     22:24
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02624-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:24:30
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144566
+24/07/2026                     22:26
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02625-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:26:16
+No Guest: 1
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144567
+24/07/2026                     22:26
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02625-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:26:16
+No Guest: 1
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  GREEN TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144568
+24/07/2026                     22:26
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02626-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:26:27
+No Guest: 0
+Waiter: Bar Man Two
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+3  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092237
+24/07/2026                     22:26
+
+Ref: CS_Airport2-pos_MRZBZPZ5
+Order: COV-02626-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         3 x *135.53
+Bottled Water 600ml          *406.59
+SUBTOTAL                     *406.59
+SURCHARGE                     *17.69
+------------------------------------
+TXBL1                        *424.28
+TAX1  15.00%                  *63.64
+------------------------------------
+ T O T A L             * 4 8 7 . 9 2
+CASH                         *487.92
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144569
+24/07/2026                     22:28
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02627-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:28:55
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAPPUCCINO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144570
+24/07/2026                     22:28
+
+           Kaldis Coffee
+  *** Kitchen-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02627-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:28:55
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MEAT SAMBUSA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092238
+24/07/2026                     22:29
+
+Ref: CS_Airport2-pos_MRZC34DS
+Order: COV-02624-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *541.59
+Croissant Cake               *541.59
+                         1 x *813.20
+Cafe Latte Short             *813.20
+SUBTOTAL                    *1354.79
+SURCHARGE                     *58.93
+------------------------------------
+TXBL1                       *1413.72
+TAX1  15.00%                 *212.06
+------------------------------------
+ T O T A L           * 1 6 2 5 . 7 8
+CASH                        *1625.78
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144571
+24/07/2026                     22:31
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02628-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:31:18
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAPPUCCINO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144572
+24/07/2026                     22:31
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02628-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:31:18
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092239
+24/07/2026                     22:31
+
+Ref: CS_Airport2-pos_MRZC3CV6
+Order: COV-02628-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *813.20
+Cappuccino Short             *813.20
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+SUBTOTAL                     *948.73
+SURCHARGE                     *41.27
+------------------------------------
+TXBL1                        *990.00
+TAX1  15.00%                 *148.50
+------------------------------------
+ T O T A L           * 1 1 3 8 . 5 0
+CASH                        *1138.50
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144573
+24/07/2026                     22:33
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02629-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:33:45
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ESPRESSO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144574
+24/07/2026                     22:33
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02629-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:33:45
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092240
+24/07/2026                     22:33
+
+Ref: CS_Airport2-pos_MRZC67IR
+Order: COV-02629-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *271.06
+Espresso Short               *271.06
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+SUBTOTAL                     *406.59
+SURCHARGE                     *17.69
+------------------------------------
+TXBL1                        *424.28
+TAX1  15.00%                  *63.64
+------------------------------------
+ T O T A L             * 4 8 7 . 9 2
+CASH                         *487.92
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144575
+24/07/2026                     22:35
+
+           Kaldis Coffee
+   *** Juice-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02630-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:35:40
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MANGO JUICE
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144576
+24/07/2026                     22:35
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02630-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:35:40
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144577
+24/07/2026                     22:35
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02631-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:35:54
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 200
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144578
+24/07/2026                     22:36
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02632-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:36:29
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 300
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144579
+24/07/2026                     22:36
+
+           Kaldis Coffee
+  *** Kitchen-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02632-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:36:29
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 300
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STEAK SANDWICH
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144580
+24/07/2026                     22:36
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02633-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:36:46
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092241
+24/07/2026                     22:36
+
+Ref: CS_Airport2-pos_MRZCCV30
+Order: COV-02633-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+SUBTOTAL                     *135.53
+SURCHARGE                      *5.90
+------------------------------------
+TXBL1                        *141.43
+TAX1  15.00%                  *21.21
+------------------------------------
+ T O T A L             * 1 6 2 . 6 4
+CASH                         *162.64
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144581
+24/07/2026                     22:37
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02634-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:37:9
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092242
+24/07/2026                     22:37
+
+Ref: CS_Airport2-pos_MRZCD88R
+Order: COV-02634-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *813.20
+Cafe Latte Short             *813.20
+SUBTOTAL                     *813.20
+SURCHARGE                     *35.37
+------------------------------------
+TXBL1                        *848.57
+TAX1  15.00%                 *127.29
+------------------------------------
+ T O T A L             * 9 7 5 . 8 6
+CASH                         *975.86
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144582
+24/07/2026                     22:37
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02635-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:37:33
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 300
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CARAMEL MACCHIATO  SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144583
+24/07/2026                     22:37
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02636-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:38:1
+No Guest: 1
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  ST GEORGE BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092243
+24/07/2026                     22:37
+
+Ref: CS_Airport2-pos_MRZCE7EK
+Order: COV-02636-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *813.20
+St George Beer               *813.20
+SUBTOTAL                     *813.20
+SURCHARGE                     *35.37
+------------------------------------
+TXBL1                        *848.57
+TAX1  15.00%                 *127.29
+------------------------------------
+ T O T A L             * 9 7 5 . 8 6
+CASH                         *975.86
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092244
+24/07/2026                     22:38
+
+Ref: CS_Airport2-pos_MRZCEU1M
+Order: COV-02625-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+                         1 x *565.99
+Green Tea                    *565.99
+SUBTOTAL                     *701.52
+SURCHARGE                      *5.90
+------------------------------------
+TXBL1                        *707.42
+TAX1  15.00%                 *106.11
+------------------------------------
+ T O T A L             * 8 1 3 . 5 3
+CASH                         *813.53
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144584
+24/07/2026                     22:38
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02637-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:38:41
+No Guest: 1
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092245
+24/07/2026                     22:38
+
+Ref: CS_Airport2-pos_MRZCF76H
+Order: COV-02637-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+SUBTOTAL                     *135.53
+SURCHARGE                      *5.90
+------------------------------------
+TXBL1                        *141.43
+TAX1  15.00%                  *21.21
+------------------------------------
+ T O T A L             * 1 6 2 . 6 4
+CASH                         *162.64
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144585
+24/07/2026                     22:38
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02638-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:38:56
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092246
+24/07/2026                     22:38
+
+Ref: CS_Airport2-pos_MRZCFOXM
+Order: COV-02638-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+SUBTOTAL                     *135.53
+SURCHARGE                      *5.90
+------------------------------------
+TXBL1                        *141.43
+TAX1  15.00%                  *21.21
+------------------------------------
+ T O T A L             * 1 6 2 . 6 4
+CASH                         *162.64
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144586
+24/07/2026                     22:40
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02639-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:40:42
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 20
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  SOFT DRINK 500ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144587
+24/07/2026                     22:40
+
+           Kaldis Coffee
+  *** Kitchen-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02639-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:40:42
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 20
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STEAK SANDWICH
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144588
+24/07/2026                     22:40
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02640-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:41:0
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092247
+24/07/2026                     22:40
+
+Ref: CS_Airport2-pos_MRZCI9YI
+Order: COV-02640-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+SUBTOTAL                     *135.53
+SURCHARGE                      *5.90
+------------------------------------
+TXBL1                        *141.43
+TAX1  15.00%                  *21.21
+------------------------------------
+ T O T A L             * 1 6 2 . 6 4
+CASH                         *162.64
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144589
+24/07/2026                     22:42
+
+           Kaldis Coffee
+  *** Kitchen-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02641-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:42:49
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHICKEN PESTO WRAP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092248
+24/07/2026                     22:42
+
+Ref: CS_Airport2-pos_MRZCIOHW
+Order: COV-02641-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        1 x *2304.61
+Chicken Pesto Wrap          *2304.61
+SUBTOTAL                    *2304.61
+SURCHARGE                    *100.25
+------------------------------------
+TXBL1                       *2404.86
+TAX1  15.00%                 *360.73
+------------------------------------
+ T O T A L           * 2 7 6 5 . 5 9
+CASH                        *2765.59
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144590
+24/07/2026                     22:43
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02642-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:43:48
+No Guest: 1
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HEINKEN BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092249
+24/07/2026                     22:44
+
+Ref: CS_Airport2-pos_MRZCM89O
+Order: COV-02627-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *813.20
+Cappuccino Short             *813.20
+                         1 x *948.19
+Meat Sambusa                 *948.19
+SUBTOTAL                    *1761.39
+SURCHARGE                     *76.62
+------------------------------------
+TXBL1                       *1838.01
+TAX1  15.00%                 *275.70
+------------------------------------
+ T O T A L           * 2 1 1 3 . 7 1
+CASH                        *2113.71
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144591
+24/07/2026                     22:45
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02643-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:45:54
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092250
+24/07/2026                     22:45
+
+Ref: CS_Airport2-pos_MRZCNP76
+Order: COV-02643-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *135.53
+Tea                          *271.06
+SUBTOTAL                     *271.06
+SURCHARGE                     *11.79
+------------------------------------
+TXBL1                        *282.85
+TAX1  15.00%                  *42.43
+------------------------------------
+ T O T A L             * 3 2 5 . 2 8
+CASH                         *325.28
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144592
+24/07/2026                     22:46
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02644-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:46:40
+No Guest: 1
+Waiter: Bar Man Two
+Table: 23
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HEINKEN BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144593
+24/07/2026                     22:46
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02645-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:46:49
+No Guest: 1
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HEINKEN BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092251
+24/07/2026                     22:46
+
+Ref: CS_Airport2-pos_MRZCQ42W
+Order: COV-02632-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 300
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+                        1 x *2981.19
+Steak Sandwich              *2981.19
+SUBTOTAL                    *3116.72
+SURCHARGE                    *135.58
+------------------------------------
+TXBL1                       *3252.30
+TAX1  15.00%                 *487.85
+------------------------------------
+ T O T A L           * 3 7 4 0 . 1 5
+CASH                        *3740.15
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144594
+24/07/2026                     22:47
+
+           Kaldis Coffee
+  *** Kitchen-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02646-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:48:3
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MEAT SAMBUSA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144595
+24/07/2026                     22:48
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02646-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:48:3
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAFE LATTE SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092252
+24/07/2026                     22:48
+
+Ref: CS_Airport2-pos_MRZCQA2H
+Order: COV-02646-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *948.19
+Meat Sambusa                 *948.19
+                         1 x *813.20
+Cafe Latte Short             *813.20
+SUBTOTAL                    *1761.39
+SURCHARGE                     *76.62
+------------------------------------
+TXBL1                       *1838.01
+TAX1  15.00%                 *275.70
+------------------------------------
+ T O T A L           * 2 1 1 3 . 7 1
+CASH                        *2113.71
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144596
+24/07/2026                     22:50
+
+           Kaldis Coffee
+  *** Kitchen-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02647-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:50:36
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CHICKEN PESTO WRAP
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092253
+24/07/2026                     22:50
+
+Ref: CS_Airport2-pos_MRZCRRJZ
+Order: COV-02647-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                        1 x *2304.61
+Chicken Pesto Wrap          *2304.61
+SUBTOTAL                    *2304.61
+SURCHARGE                    *100.25
+------------------------------------
+TXBL1                       *2404.86
+TAX1  15.00%                 *360.73
+------------------------------------
+ T O T A L           * 2 7 6 5 . 5 9
+CASH                        *2765.59
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092254
+24/07/2026                     22:50
+
+Ref: CS_Airport2-pos_MRZCV0C5
+Order: COV-02631-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 200
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *813.20
+Cafe Latte Short             *813.20
+SUBTOTAL                     *813.20
+SURCHARGE                     *35.37
+------------------------------------
+TXBL1                        *848.57
+TAX1  15.00%                 *127.29
+------------------------------------
+ T O T A L             * 9 7 5 . 8 6
+CASH                         *975.86
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092255
+24/07/2026                     22:51
+
+Ref: CS_Airport2-pos_MRZCVHZP
+Order: COV-02635-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 300
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *813.20
+Caramel Macchiato  Short     *813.20
+SUBTOTAL                     *813.20
+SURCHARGE                     *35.37
+------------------------------------
+TXBL1                        *848.57
+TAX1  15.00%                 *127.29
+------------------------------------
+ T O T A L             * 9 7 5 . 8 6
+CASH                         *975.86
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144597
+24/07/2026                     22:52
+
+           Kaldis Coffee
+  *** Kitchen-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02648-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:52:22
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  MEAT SAMBUSA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144598
+24/07/2026                     22:52
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02648-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:52:22
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092256
+24/07/2026                     22:52
+
+Ref: CS_Airport2-pos_MRZCVW05
+Order: COV-02648-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *948.19
+Meat Sambusa                 *948.19
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+SUBTOTAL                    *1083.72
+SURCHARGE                     *47.15
+------------------------------------
+TXBL1                       *1130.87
+TAX1  15.00%                 *169.63
+------------------------------------
+ T O T A L           * 1 3 0 0 . 5 0
+CASH                        *1300.50
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092257
+24/07/2026                     22:54
+
+Ref: CS_Airport2-pos_MRZCXB1V
+Order: COV-02642-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *948.19
+Heinken Beer                 *948.19
+SUBTOTAL                     *948.19
+SURCHARGE                     *41.25
+------------------------------------
+TXBL1                        *989.44
+TAX1  15.00%                 *148.42
+------------------------------------
+ T O T A L           * 1 1 3 7 . 8 6
+CASH                        *1137.86
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092258
+24/07/2026                     22:54
+
+Ref: CS_Airport2-pos_MRZCZYK1
+Order: COV-02644-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 23
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *948.19
+Heinken Beer                 *948.19
+SUBTOTAL                     *948.19
+SURCHARGE                     *41.25
+------------------------------------
+TXBL1                        *989.44
+TAX1  15.00%                 *148.42
+------------------------------------
+ T O T A L           * 1 1 3 7 . 8 6
+CASH                        *1137.86
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144599
+24/07/2026                     22:55
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02649-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:55:41
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  CAPPUCCINO SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092259
+24/07/2026                     22:55
+
+Ref: CS_Airport2-pos_MRZD08UW
+Order: COV-02649-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *813.20
+Cappuccino Short             *813.20
+SUBTOTAL                     *813.20
+SURCHARGE                     *35.37
+------------------------------------
+TXBL1                        *848.57
+TAX1  15.00%                 *127.29
+------------------------------------
+ T O T A L             * 9 7 5 . 8 6
+CASH                         *975.86
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092260
+24/07/2026                     22:56
+
+Ref: CS_Airport2-pos_MRZD1JZH
+Order: COV-02630-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *813.20
+Mango Juice                  *813.20
+                         1 x *813.20
+Cafe Latte Short             *813.20
+SUBTOTAL                    *1626.40
+SURCHARGE                     *70.74
+------------------------------------
+TXBL1                       *1697.14
+TAX1  15.00%                 *254.57
+------------------------------------
+ T O T A L           * 1 9 5 1 . 7 1
+CASH                        *1951.71
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144600
+24/07/2026                     22:59
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02650-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:59:35
+No Guest: 0
+Waiter: Bar Man Three
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144601
+24/07/2026                     22:59
+
+           Kaldis Coffee
+  *** Kitchen-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02650-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 22:59:35
+No Guest: 0
+Waiter: Bar Man Three
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STEAK SANDWICH
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092261
+24/07/2026                     23:00
+
+Ref: CS_Airport2-pos_MRZD6JXI
+Order: COV-02639-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 20
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *271.06
+Soft Drink 500ml             *271.06
+                        1 x *2981.19
+Steak Sandwich              *2981.19
+SUBTOTAL                    *3252.25
+SURCHARGE                    *141.47
+------------------------------------
+TXBL1                       *3393.72
+TAX1  15.00%                 *509.06
+------------------------------------
+ T O T A L           * 3 9 0 2 . 7 8
+CASH                        *3902.78
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144602
+24/07/2026                     23:04
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02651-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 23:4:39
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  JIGGER TEA
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092262
+24/07/2026                     23:04
+
+Ref: CS_Airport2-pos_MRZD7WNT
+Order: COV-02651-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *541.59
+Jigger Tea                   *541.59
+SUBTOTAL                     *541.59
+SURCHARGE                     *23.56
+------------------------------------
+TXBL1                        *565.15
+TAX1  15.00%                  *84.77
+------------------------------------
+ T O T A L             * 6 4 9 . 9 2
+CASH                         *649.92
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144603
+24/07/2026                     23:05
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02652-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 23:5:13
+No Guest: 0
+Waiter: Bar Man Two
+Table: 1
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  HEINKEN BEER
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092263
+24/07/2026                     23:05
+
+Ref: CS_Airport2-pos_MRZDD36S
+Order: COV-02652-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 1
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *948.19
+Heinken Beer                 *948.19
+SUBTOTAL                     *948.19
+SURCHARGE                     *41.25
+------------------------------------
+TXBL1                        *989.44
+TAX1  15.00%                 *148.42
+------------------------------------
+ T O T A L           * 1 1 3 7 . 8 6
+CASH                        *1137.86
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144604
+24/07/2026                     23:09
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02653-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 23:9:22
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  BOTTLED WATER 600ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092264
+24/07/2026                     23:09
+
+Ref: CS_Airport2-pos_MRZDDT7J
+Order: COV-02653-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+SUBTOTAL                     *135.53
+SURCHARGE                      *5.90
+------------------------------------
+TXBL1                        *141.43
+TAX1  15.00%                  *21.21
+------------------------------------
+ T O T A L             * 1 6 2 . 6 4
+CASH                         *162.64
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144605
+24/07/2026                     23:17
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02654-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 23:17:30
+No Guest: 0
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  SOFT DRINK 500ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092265
+24/07/2026                     23:17
+
+Ref: CS_Airport2-pos_MRZDL5ZQ
+Order: COV-02654-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *271.06
+Soft Drink 500ml             *542.12
+SUBTOTAL                     *542.12
+SURCHARGE                     *23.58
+------------------------------------
+TXBL1                        *565.70
+TAX1  15.00%                  *84.86
+------------------------------------
+ T O T A L             * 6 5 0 . 5 6
+CASH                         *650.56
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144606
+24/07/2026                     23:18
+
+           Kaldis Coffee
+    *** Bar1-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02655-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 23:18:13
+No Guest: 1
+Waiter: Genet Tesema Kumsa
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+2  SOFT DRINK 500ML
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092266
+24/07/2026                     23:18
+
+Ref: CS_Airport2-pos_MRZDTMB4
+Order: COV-02655-AIR2
+Operator: Kdst Grma
+Waiter: Genet Tesema Kumsa
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         2 x *271.06
+Soft Drink 500ml             *542.12
+SUBTOTAL                     *542.12
+SURCHARGE                     *23.58
+------------------------------------
+TXBL1                        *565.70
+TAX1  15.00%                  *84.86
+------------------------------------
+ T O T A L             * 6 5 0 . 5 6
+CASH                         *650.56
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092267
+24/07/2026                     23:21
+
+Ref: CS_Airport2-pos_MRZDUIZZ
+Order: COV-02650-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *135.53
+Bottled Water 600ml          *135.53
+                        1 x *2981.19
+Steak Sandwich              *2981.19
+SUBTOTAL                    *3116.72
+SURCHARGE                    *135.58
+------------------------------------
+TXBL1                       *3252.30
+TAX1  15.00%                 *487.85
+------------------------------------
+ T O T A L           * 3 7 4 0 . 1 5
+CASH                        *3740.15
+ITEM #                             2
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+No. NF 00144607
+24/07/2026                     23:57
+
+           Kaldis Coffee
+    *** Bar3-Airport 2 ORDER ***
+         N O N - F I S C A L
+====================================
+Order No: COV-02656-AIR2
+Order By:Kdst Grma
+Order Device:Airport2-pos
+         N O N - F I S C A L
+Date: 24/7/2026 23:57:33
+No Guest: 0
+Waiter: Bar Man Two
+Table: 2
+         N O N - F I S C A L
+Shift: Shift 2
+====================================
+Qty   Description
+------------------------------------
+         N O N - F I S C A L
+1  STEAMED MILK SHORT
+====================================
+                                    
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092268
+24/07/2026                     23:57
+
+Ref: CS_Airport2-pos_MRZF5VHD
+Order: COV-02656-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *541.59
+Steamed Milk Short           *541.59
+SUBTOTAL                     *541.59
+SURCHARGE                     *23.56
+------------------------------------
+TXBL1                        *565.15
+TAX1  15.00%                  *84.77
+------------------------------------
+ T O T A L             * 6 4 9 . 9 2
+CASH                         *649.92
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+FS No. 00092269
+24/07/2026                     23:57
+
+Ref: CS_Airport2-pos_MRZF943G
+Order: COV-02645-AIR2
+Operator: Kdst Grma
+Waiter: Bar Man Two
+Table: 2
+------------------------------------
+Description              Qty   Price
+------------------------------------
+
+                         1 x *948.19
+Heinken Beer                 *948.19
+SUBTOTAL                     *948.19
+SURCHARGE                     *41.25
+------------------------------------
+TXBL1                        *989.44
+TAX1  15.00%                 *148.42
+------------------------------------
+ T O T A L           * 1 1 3 7 . 8 6
+CASH                        *1137.86
+ITEM #                             1
+           @@@@ FGB0000762
+
+          * GRAPHIC LOGO *
+
+ ,Powered By CNET Systems. Call 8025
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+   S E S S I O N   X   R E P O R T
+
+No. NF 00144608
+24/07/2026                     23:58
+
+SALES                             83
+         N O N - F I S C A L
+DISCOUNTS (0)                  *0.00
+SURCHARGES (60)             *3006.36
+VOID (0)                       *0.00
+CASH                       *86189.39
+
+         N O N - F I S C A L
+CASH DEPOSIT (0)               *0.00
+CASH DEDUCTED (0)              *0.00
+CASH AVAILABLE             *86189.39
+
+------------------------------------
+         N O N - F I S C A L
+TXBL1                      *74947.26
+TXBL2                          *0.00
+TXBL3                          *0.00
+NOTXBL                         *0.00
+         N O N - F I S C A L
+TAX1  15.00%               *11242.09
+TAX2   0.00%                   *0.00
+TAX3   0.00%                   *0.00
+ - - - - - - - - - - - - - - - - - -
+         N O N - F I S C A L
+SALES TL                   *74947.26
+TXBL TL                    *74947.26
+TAX TL                     *11242.09
+------------------------------------
+         N O N - F I S C A L
+RFD TXBL1                      *0.00
+RFD TXBL2                      *0.00
+RFD TXBL3                      *0.00
+RFD NOTXBL                     *0.00
+         N O N - F I S C A L
+RFD TAX1  15.00%               *0.00
+RFD TAX2   0.00%               *0.00
+RFD TAX3   0.00%               *0.00
+ - - - - - - - - - - - - - - - - - -
+         N O N - F I S C A L
+RFD SALES TL                   *0.00
+RFD TXBL TL                    *0.00
+RFD TAX TL                     *0.00
+------------------------------------
+         N O N - F I S C A L
+ACCU.FS                     00092269
+24/07/2026                     23:57
+SESSION.FS                        61
+ACCU.NF                     00144607
+         N O N - F I S C A L
+SESSION.NF                        82
+ACCU.RFD                    00000003
+SESSION.RFD                        0
+SESSION RESET                      0
+
+         N O N - F I S C A L
+
+           TIN: 0004346744
+         KALDIS COFFEE P.L.C
+           A,A SUCIT-BOLE
+       W/01,H.NO.-BOLE AIRPORT
+         INSIDE BOLE AIRPORT
+           TEL-0911384548
+
+         N O N - F I S C A L
+
+   S E S S I O N   X   R E P O R T
+
+No. NF 00144609
+25/07/2026                     00:12
+
+SALES                             83
+         N O N - F I S C A L
+DISCOUNTS (0)                  *0.00
+SURCHARGES (60)             *3006.36
+VOID (0)                       *0.00
+CASH                       *86189.39
+
+         N O N - F I S C A L
+CASH DEPOSIT (0)               *0.00
+CASH DEDUCTED (0)              *0.00
+CASH AVAILABLE             *86189.39
+
+------------------------------------
+         N O N - F I S C A L
+TXBL1                      *74947.26
+TXBL2                          *0.00
+TXBL3                          *0.00
+NOTXBL                         *0.00
+         N O N - F I S C A L
+TAX1  15.00%               *11242.09
+TAX2   0.00%                   *0.00
+TAX3   0.00%                   *0.00
+ - - - - - - - - - - - - - - - - - -
+         N O N - F I S C A L
+SALES TL                   *74947.26
+TXBL TL                    *74947.26
+TAX TL                     *11242.09
+------------------------------------
+         N O N - F I S C A L
+RFD TXBL1                      *0.00
+RFD TXBL2                      *0.00
+RFD TXBL3                      *0.00
+RFD NOTXBL                     *0.00
+         N O N - F I S C A L
+RFD TAX1  15.00%               *0.00
+RFD TAX2   0.00%               *0.00
+RFD TAX3   0.00%               *0.00
+ - - - - - - - - - - - - - - - - - -
+         N O N - F I S C A L
+RFD SALES TL                   *0.00
+RFD TXBL TL                    *0.00
+RFD TAX TL                     *0.00
+------------------------------------
+         N O N - F I S C A L
+ACCU.FS                     00092269
+24/07/2026                     23:57
+SESSION.FS                        61
+ACCU.NF                     00144608
+         N O N - F I S C A L
+SESSION.NF                        83
+ACCU.RFD                    00000003
+SESSION.RFD                        0
+SESSION RESET                      0
+
+         N O N - F I S C A L
+
