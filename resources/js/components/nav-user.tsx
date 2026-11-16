@@ -27,7 +27,7 @@ import {
 import React, { useState } from 'react';
 
 export function NavUser() {
-    const { isMobile } = useSidebar();
+    const { isMobile, state } = useSidebar();
     const { props } = usePage<any>();
     const user = props.auth?.user;
     const roles: string[] = props.auth?.roles || [];
@@ -74,8 +74,8 @@ export function NavUser() {
                         </DropdownMenuTrigger>
                         <DropdownMenuContent
                             className="w-64 rounded-xl p-1.5 shadow-lg border-border/70"
-                            side={isMobile ? 'bottom' : 'right'}
-                            align="end"
+                            side={isMobile ? 'bottom' : (state === 'collapsed' ? 'right' : 'top')}
+                            align={state === 'collapsed' ? 'end' : 'start'}
                             sideOffset={8}
                         >
                             <DropdownMenuLabel className="p-2 font-normal">
