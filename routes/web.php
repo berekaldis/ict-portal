@@ -79,10 +79,12 @@ Route::middleware('auth')->group(function () {
         Route::post('/types', [CaseTypeController::class, 'store'])->name('types.store');
         Route::delete('/types/{id}', [CaseTypeController::class, 'destroy'])->name('types.destroy');
 
-        Route::get('/{id}', [CaseController::class, 'show'])->name('show');
-        Route::put('/{id}', [CaseController::class, 'update'])->name('update');
-        Route::delete('/{id}', [CaseController::class, 'destroy'])->name('destroy');
-        Route::post('/{id}/comments', [CaseCommentController::class, 'store'])->name('comments.store');
+        Route::redirect('/settings', '/settings');
+
+        Route::get('/{id}', [CaseController::class, 'show'])->name('show')->whereNumber('id');
+        Route::put('/{id}', [CaseController::class, 'update'])->name('update')->whereNumber('id');
+        Route::delete('/{id}', [CaseController::class, 'destroy'])->name('destroy')->whereNumber('id');
+        Route::post('/{id}/comments', [CaseCommentController::class, 'store'])->name('comments.store')->whereNumber('id');
     });
 
     // ============================================================
