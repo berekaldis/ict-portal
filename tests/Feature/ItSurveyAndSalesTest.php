@@ -37,6 +37,11 @@ class ItSurveyAndSalesTest extends TestCase
         $role = Role::firstOrCreate(['name' => 'Super Admin', 'guard_name' => 'web']);
         $role->syncPermissions($permissions);
 
+        \Illuminate\Support\Facades\Http::fake([
+            'api.telegram.org/*' => \Illuminate\Support\Facades\Http::response(['ok' => true], 200),
+            '*' => \Illuminate\Support\Facades\Http::response(['ok' => true], 200),
+        ]);
+
         $this->admin = User::firstOrCreate(
             ['username' => 'test_admin_survey_sales'],
             [
@@ -109,7 +114,31 @@ class ItSurveyAndSalesTest extends TestCase
     public function test_can_view_hardware_inventory(): void
     {
         $response = $this->actingAs($this->admin)->get(route('it-surveys.hardware'));
-        $response->assertStatus(200);
+        $response->assertRedirect(route('it-surveys.index', ['tab' => 'hardware']));
+    }
+
+    public function test_can_delete_it_survey_report(): void
+    {
+        $report = ItSurveyReport::create([
+            'report_uuid' => (string) \Illuminate\Support\Str::uuid(),
+            'branch_name' => 'Delete Branch Test',
+            'technician_name' => 'Tester',
+            'branch_manager' => 'Mgr Test',
+            'type' => 'hardware',
+            'health_score' => 100,
+            'health_status' => 'Good',
+            'critical_count' => 0,
+            'total_items' => 1,
+            'passed_items' => 1,
+            'failed_items' => 0,
+            'skipped_items' => 0,
+            'checklist_data' => [],
+            'submitted_at' => now(),
+        ]);
+
+        $response = $this->actingAs($this->admin)->delete(route('it-surveys.destroy', $report->id));
+        $response->assertRedirect(route('it-surveys.index'));
+        $this->assertDatabaseMissing('it_survey_reports', ['id' => $report->id]);
     }
 
     public function test_can_add_hardware_asset(): void

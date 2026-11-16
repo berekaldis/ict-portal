@@ -10,8 +10,8 @@
     },
     "operations_director_user_id": 12345678,
     "database": "kaldis.db",
-    "anti_link_protection": false,
-    "auto_welcome": false,
+    "anti_link_protection": true,
+    "auto_welcome": true,
     "welcome_message": "Welcome {name} to {group}! Please follow group rules.",
     "standard_topics": [
         {

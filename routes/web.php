@@ -110,6 +110,7 @@ Route::middleware('auth')->group(function () {
         Route::get('/export/reports', [ItSurveyController::class, 'exportReports'])->name('export.reports');
         Route::get('/export/hardware', [ItSurveyController::class, 'exportHardware'])->name('export.hardware');
         Route::get('/{id}', [ItSurveyController::class, 'show'])->name('show');
+        Route::delete('/{id}', [ItSurveyController::class, 'destroy'])->name('destroy')->middleware('can:it_survey.manage');
     });
 
     // ============================================================

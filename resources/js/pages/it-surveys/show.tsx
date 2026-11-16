@@ -1,22 +1,43 @@
 import AppLayout from '@/layouts/app-layout';
-import { Head, Link } from '@inertiajs/react';
+import { Head, Link, router } from '@inertiajs/react';
+import React, { useEffect, useState } from 'react';
+import { usePermission } from '@/hooks/user-permissions';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogFooter,
+    DialogHeader,
+    DialogTitle,
+} from '@/components/ui/dialog';
+import {
+    Table,
+    TableBody,
+    TableCell,
+    TableHead,
+    TableHeader,
+    TableRow,
+} from '@/components/ui/table';
 import {
     AlertCircle,
+    AlertTriangle,
     ArrowLeft,
     Calendar,
     Camera,
     CheckCircle2,
     ClipboardCheck,
-    Download,
-    FileText,
     HardDrive,
     Info,
     Laptop,
     Printer,
     SkipForward,
+    Trash2,
     User,
+    X,
 } from 'lucide-react';
-import React, { useState } from 'react';
 
 interface ChecklistResult {
     category_id: number;
@@ -55,267 +76,342 @@ interface Props {
 }
 
 export default function ItSurveyShow({ report }: Props) {
+    const { can } = usePermission();
     const [selectedPhoto, setSelectedPhoto] = useState<string | null>(null);
+    const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
+
+    useEffect(() => {
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('print') === '1') {
+            setTimeout(() => {
+                window.print();
+            }, 600);
+        }
+    }, []);
+
+    const handleDelete = () => {
+        router.delete(`/it-surveys/${report.id}`);
+    };
 
     const getHealthBadge = (score: number, status: string) => {
         if (score >= 85 || status === 'Good') {
             return (
-                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-bold bg-emerald-100 text-emerald-800 border border-emerald-300">
-                    <span className="w-2.5 h-2.5 rounded-full bg-emerald-600"></span>
-                    {score}% • Good Health
-                </span>
+                <Badge variant="outline" className="border-emerald-300 text-emerald-800 bg-emerald-50 px-2.5 py-1 text-xs font-semibold gap-1.5">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+                    {score}% • Good Condition
+                </Badge>
             );
         }
         if (score >= 60 || status === 'Warning') {
             return (
-                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-bold bg-amber-100 text-amber-800 border border-amber-300">
-                    <span className="w-2.5 h-2.5 rounded-full bg-amber-600"></span>
-                    {score}% • Warning
-                </span>
+                <Badge variant="outline" className="border-amber-300 text-amber-800 bg-amber-50 px-2.5 py-1 text-xs font-semibold gap-1.5">
+                    <AlertTriangle className="w-3.5 h-3.5 text-amber-600" />
+                    {score}% • Warning (Needs Attention)
+                </Badge>
             );
         }
         return (
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-bold bg-rose-100 text-rose-800 border border-rose-300">
-                <span className="w-2.5 h-2.5 rounded-full bg-rose-600"></span>
+            <Badge variant="outline" className="border-rose-300 text-rose-800 bg-rose-50 px-2.5 py-1 text-xs font-semibold gap-1.5">
+                <AlertCircle className="w-3.5 h-3.5 text-rose-600" />
                 {score}% • Critical Issues
-            </span>
+            </Badge>
         );
     };
 
     return (
         <AppLayout breadcrumbs={[
+            { title: 'Dashboard', href: '/dashboard' },
             { title: 'IT Survey & Audit', href: '/it-surveys' },
-            { title: `${report.branch_name} Report`, href: `/it-surveys/${report.id}` },
+            { title: `${report.branch_name} Inspection`, href: `/it-surveys/${report.id}` },
         ]}>
             <Head title={`Audit Report - ${report.branch_name}`} />
 
-            <div className="p-6 max-w-5xl mx-auto space-y-6">
-                {/* Top Action Bar */}
-                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+            <div className="flex h-full flex-1 flex-col gap-5 p-4 md:p-6 max-w-5xl mx-auto w-full">
+                {/* Print Controls / Action Bar */}
+                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 print:hidden">
                     <Link
                         href="/it-surveys"
-                        className="inline-flex items-center gap-1.5 text-sm font-medium text-slate-500 hover:text-slate-800 transition"
+                        className="inline-flex items-center gap-1.5 text-xs font-medium text-slate-500 hover:text-slate-800 transition"
                     >
-                        <ArrowLeft className="w-4 h-4" />
+                        <ArrowLeft className="w-3.5 h-3.5" />
                         Back to Audits List
                     </Link>
 
                     <div className="flex items-center gap-2">
-                        <button
+                        <Button
+                            size="sm"
+                            variant="outline"
                             onClick={() => window.print()}
-                            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-semibold text-slate-700 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 shadow-sm transition"
+                            className="h-8 text-xs gap-1.5"
                         >
-                            <Printer className="w-3.5 h-3.5" />
+                            <Printer className="w-3.5 h-3.5 text-slate-600" />
                             Print Report
-                        </button>
-                        <Link
-                            href="/it-surveys/create"
-                            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg shadow-sm transition"
-                        >
-                            New Inspection
-                        </Link>
+                        </Button>
+
+                        {can('it_survey.create') && (
+                            <Link href="/it-surveys/create">
+                                <Button size="sm" className="h-8 text-xs">
+                                    New Inspection
+                                </Button>
+                            </Link>
+                        )}
+
+                        {can('it_survey.manage') && (
+                            <Button
+                                size="sm"
+                                variant="outline"
+                                onClick={() => setDeleteDialogOpen(true)}
+                                className="h-8 text-xs text-rose-600 hover:text-rose-700 hover:bg-rose-50 border-rose-200"
+                            >
+                                <Trash2 className="w-3.5 h-3.5 mr-1" />
+                                Delete
+                            </Button>
+                        )}
                     </div>
                 </div>
 
-                {/* Main Report Header Card */}
-                <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-6">
-                    <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b border-slate-100 pb-5">
-                        <div className="flex items-center gap-4">
-                            <div className="w-14 h-14 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold">
-                                {report.type === 'hardware' ? <HardDrive className="w-7 h-7" /> : <Laptop className="w-7 h-7" />}
-                            </div>
+                {/* Printable Header Card */}
+                <Card className="border shadow-none">
+                    <CardHeader className="pb-3 border-b border-slate-100">
+                        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
                             <div>
                                 <div className="flex items-center gap-2">
-                                    <h1 className="text-2xl font-black text-slate-900">{report.branch_name}</h1>
-                                    <span className="px-2.5 py-0.5 rounded-md text-xs font-semibold uppercase bg-slate-100 text-slate-700">
+                                    <h1 className="text-lg font-bold text-slate-900">{report.branch_name}</h1>
+                                    <Badge variant="outline" className="capitalize text-xs">
                                         {report.type} Survey
-                                    </span>
+                                    </Badge>
                                 </div>
-                                <div className="text-xs text-slate-400 font-mono mt-0.5">UUID: {report.report_uuid}</div>
+                                <div className="text-xs text-muted-foreground font-mono mt-0.5">
+                                    UUID: {report.report_uuid}
+                                </div>
+                            </div>
+                            <div>
+                                {getHealthBadge(report.health_score, report.health_status)}
                             </div>
                         </div>
+                    </CardHeader>
 
-                        <div>
-                            {getHealthBadge(report.health_score, report.health_status)}
-                        </div>
-                    </div>
-
-                    {/* Metadata Grid */}
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-xs">
-                        <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
-                            <div className="text-slate-400 font-medium">Technician</div>
-                            <div className="text-slate-900 font-bold text-sm mt-0.5 flex items-center gap-1">
-                                <User className="w-3.5 h-3.5 text-slate-400" />
-                                {report.technician_name}
+                    <CardContent className="pt-4">
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
+                            <div className="border border-slate-100 rounded-md p-2.5 bg-slate-50/50">
+                                <span className="text-muted-foreground">Inspector / Technician:</span>
+                                <div className="font-semibold text-slate-800 mt-0.5">{report.technician_name}</div>
+                            </div>
+                            <div className="border border-slate-100 rounded-md p-2.5 bg-slate-50/50">
+                                <span className="text-muted-foreground">Branch Manager:</span>
+                                <div className="font-semibold text-slate-800 mt-0.5">{report.branch_manager}</div>
+                            </div>
+                            <div className="border border-slate-100 rounded-md p-2.5 bg-slate-50/50">
+                                <span className="text-muted-foreground">Audit Date:</span>
+                                <div className="font-semibold text-slate-800 mt-0.5">
+                                    {new Date(report.submitted_at).toLocaleDateString('en-US', {
+                                        month: 'short',
+                                        day: 'numeric',
+                                        year: 'numeric',
+                                        hour: '2-digit',
+                                        minute: '2-digit',
+                                    })}
+                                </div>
+                            </div>
+                            <div className="border border-slate-100 rounded-md p-2.5 bg-slate-50/50">
+                                <span className="text-muted-foreground">Audit Results:</span>
+                                <div className="font-semibold text-slate-800 mt-0.5">
+                                    {report.passed_items} OK • {report.failed_items} Issues • {report.skipped_items} Skip
+                                </div>
                             </div>
                         </div>
+                    </CardContent>
+                </Card>
 
-                        <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
-                            <div className="text-slate-400 font-medium">Branch Manager</div>
-                            <div className="text-slate-900 font-bold text-sm mt-0.5">
-                                {report.branch_manager}
-                            </div>
-                        </div>
-
-                        <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
-                            <div className="text-slate-400 font-medium">Inspection Date</div>
-                            <div className="text-slate-900 font-bold text-sm mt-0.5 flex items-center gap-1">
-                                <Calendar className="w-3.5 h-3.5 text-slate-400" />
-                                {new Date(report.submitted_at).toLocaleDateString()}
-                            </div>
-                        </div>
-
-                        <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
-                            <div className="text-slate-400 font-medium">Evaluation Breakdown</div>
-                            <div className="text-slate-900 font-bold text-sm mt-0.5">
-                                {report.passed_items} OK / {report.failed_items} Issues
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Summary / Notes Cards */}
+                {/* Findings & Actions Summary */}
                 {(report.issues_summary || report.actions_taken || report.recommendations) && (
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-2">
-                            <h3 className="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1.5 text-rose-600">
-                                <AlertCircle className="w-4 h-4" />
-                                Issues Summary
-                            </h3>
-                            <p className="text-sm text-slate-600 whitespace-pre-line">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                        <Card className="border shadow-none">
+                            <CardHeader className="py-2.5 px-4 bg-slate-50/50 border-b border-slate-100">
+                                <CardTitle className="text-xs font-semibold text-rose-700 flex items-center gap-1.5">
+                                    <AlertCircle className="w-3.5 h-3.5" /> Issues Summary
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="p-3 text-xs text-slate-700 whitespace-pre-line leading-relaxed">
                                 {report.issues_summary || 'No major issues recorded.'}
-                            </p>
-                        </div>
+                            </CardContent>
+                        </Card>
 
-                        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-2">
-                            <h3 className="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1.5 text-indigo-600">
-                                <CheckCircle2 className="w-4 h-4" />
-                                Actions Taken
-                            </h3>
-                            <p className="text-sm text-slate-600 whitespace-pre-line">
+                        <Card className="border shadow-none">
+                            <CardHeader className="py-2.5 px-4 bg-slate-50/50 border-b border-slate-100">
+                                <CardTitle className="text-xs font-semibold text-indigo-700 flex items-center gap-1.5">
+                                    <CheckCircle2 className="w-3.5 h-3.5" /> Actions Taken
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="p-3 text-xs text-slate-700 whitespace-pre-line leading-relaxed">
                                 {report.actions_taken || 'No immediate corrective action taken.'}
-                            </p>
-                        </div>
+                            </CardContent>
+                        </Card>
 
-                        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-2">
-                            <h3 className="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1.5 text-amber-600">
-                                <Info className="w-4 h-4" />
-                                Recommendations
-                            </h3>
-                            <p className="text-sm text-slate-600 whitespace-pre-line">
+                        <Card className="border shadow-none">
+                            <CardHeader className="py-2.5 px-4 bg-slate-50/50 border-b border-slate-100">
+                                <CardTitle className="text-xs font-semibold text-amber-700 flex items-center gap-1.5">
+                                    <Info className="w-3.5 h-3.5" /> Recommendations
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="p-3 text-xs text-slate-700 whitespace-pre-line leading-relaxed">
                                 {report.recommendations || 'No specific follow-up required.'}
-                            </p>
-                        </div>
+                            </CardContent>
+                        </Card>
                     </div>
                 )}
 
-                {/* Photo Evidence Gallery */}
+                {/* Inspection Photo Gallery */}
                 {report.photos && report.photos.length > 0 && (
-                    <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-3">
-                        <h3 className="text-sm font-bold text-slate-800 flex items-center gap-2">
-                            <Camera className="w-4 h-4 text-indigo-600" />
-                            Inspection Photo Evidence ({report.photos.length})
-                        </h3>
-                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                            {report.photos.map((photo, i) => (
-                                <button
-                                    key={i}
-                                    type="button"
-                                    onClick={() => setSelectedPhoto(photo)}
-                                    className="group relative rounded-xl overflow-hidden border border-slate-200 aspect-video bg-slate-100 focus:outline-none"
-                                >
-                                    <img
-                                        src={photo}
-                                        alt={`Evidence ${i + 1}`}
-                                        className="w-full h-full object-cover group-hover:scale-105 transition"
-                                    />
-                                    <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-xs font-medium transition">
-                                        Click to Zoom
-                                    </div>
-                                </button>
-                            ))}
-                        </div>
-                    </div>
+                    <Card className="border shadow-none print:hidden">
+                        <CardHeader className="py-2.5 px-4 border-b border-slate-100">
+                            <CardTitle className="text-xs font-semibold text-slate-900 flex items-center gap-1.5">
+                                <Camera className="w-3.5 h-3.5 text-indigo-600" />
+                                Inspection Evidence ({report.photos.length} photos)
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className="p-3">
+                            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+                                {report.photos.map((photo, i) => (
+                                    <button
+                                        key={i}
+                                        type="button"
+                                        onClick={() => setSelectedPhoto(photo)}
+                                        className="relative rounded-md overflow-hidden border border-slate-200 aspect-video bg-slate-50 focus:outline-none hover:opacity-90 transition group"
+                                    >
+                                        <img
+                                            src={photo}
+                                            alt={`Evidence ${i + 1}`}
+                                            className="w-full h-full object-cover"
+                                        />
+                                        <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-[11px] font-medium transition">
+                                            Click to view
+                                        </div>
+                                    </button>
+                                ))}
+                            </div>
+                        </CardContent>
+                    </Card>
                 )}
 
-                {/* Detailed Checklist Results Table */}
-                <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden space-y-4 p-5">
-                    <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
-                        <ClipboardCheck className="w-5 h-5 text-indigo-600" />
-                        Checklist Inspection Results
-                    </h3>
+                {/* Detailed Checklist Table */}
+                <Card className="border shadow-none overflow-hidden">
+                    <CardHeader className="py-3 px-4 border-b border-slate-100">
+                        <CardTitle className="text-xs font-semibold text-slate-900 flex items-center gap-1.5">
+                            <ClipboardCheck className="w-3.5 h-3.5 text-indigo-600" />
+                            Detailed Checklist Inspection Results
+                        </CardTitle>
+                    </CardHeader>
+                    <Table>
+                        <TableHeader>
+                            <TableRow className="bg-slate-50/75">
+                                <TableHead className="text-xs font-semibold">Category</TableHead>
+                                <TableHead className="text-xs font-semibold">Checklist Item / Question</TableHead>
+                                <TableHead className="text-xs font-semibold">Status</TableHead>
+                                <TableHead className="text-xs font-semibold">Findings & Details</TableHead>
+                            </TableRow>
+                        </TableHeader>
+                        <TableBody>
+                            {report.checklist_data?.map((item, idx) => (
+                                <TableRow key={idx} className="hover:bg-slate-50/60">
+                                    <TableCell className="text-xs font-medium text-slate-900 whitespace-nowrap">
+                                        {item.category_name}
+                                    </TableCell>
+                                    <TableCell className="text-xs text-slate-700">
+                                        {item.question}
+                                    </TableCell>
+                                    <TableCell className="whitespace-nowrap">
+                                        {item.status === 'OK' ? (
+                                            <Badge variant="outline" className="border-emerald-300 text-emerald-700 bg-emerald-50 text-[11px]">
+                                                <CheckCircle2 className="w-3 h-3 mr-1 text-emerald-600" /> OK
+                                            </Badge>
+                                        ) : item.status === 'Issue' ? (
+                                            <Badge variant="outline" className="border-rose-300 text-rose-700 bg-rose-50 text-[11px]">
+                                                <AlertCircle className="w-3 h-3 mr-1 text-rose-600" /> Issue
+                                            </Badge>
+                                        ) : (
+                                            <Badge variant="outline" className="border-slate-300 text-slate-600 bg-slate-50 text-[11px]">
+                                                <SkipForward className="w-3 h-3 mr-1 text-slate-400" /> Skipped
+                                            </Badge>
+                                        )}
+                                    </TableCell>
+                                    <TableCell className="text-xs text-slate-600">
+                                        {item.status === 'Issue' && item.detail && (
+                                            <span className="text-rose-700 font-medium">{item.detail}</span>
+                                        )}
+                                        {item.status === 'Skip' && item.skip_reason && (
+                                            <span className="text-slate-500 italic">{item.skip_reason}</span>
+                                        )}
+                                        {item.status === 'OK' && (
+                                            <span className="text-muted-foreground">Normal</span>
+                                        )}
+                                    </TableCell>
+                                </TableRow>
+                            ))}
+                        </TableBody>
+                    </Table>
+                </Card>
 
-                    <div className="overflow-x-auto">
-                        <table className="w-full text-left text-sm">
-                            <thead className="bg-slate-50 border-y border-slate-200 text-slate-600 font-semibold text-xs uppercase">
-                                <tr>
-                                    <th className="px-4 py-3">Category</th>
-                                    <th className="px-4 py-3">Item / Question</th>
-                                    <th className="px-4 py-3">Status</th>
-                                    <th className="px-4 py-3">Notes / Fault Details</th>
-                                </tr>
-                            </thead>
-                            <tbody className="divide-y divide-slate-100">
-                                {report.checklist_data?.map((item, idx) => (
-                                    <tr key={idx} className="hover:bg-slate-50/70 transition">
-                                        <td className="px-4 py-3.5 font-medium text-slate-900 text-xs whitespace-nowrap">
-                                            {item.category_name}
-                                        </td>
-                                        <td className="px-4 py-3.5 text-slate-700 text-xs">
-                                            {item.question}
-                                        </td>
-                                        <td className="px-4 py-3.5 whitespace-nowrap">
-                                            {item.status === 'OK' ? (
-                                                <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
-                                                    <CheckCircle2 className="w-3 h-3" />
-                                                    OK
-                                                </span>
-                                            ) : item.status === 'Issue' ? (
-                                                <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-bold bg-rose-50 text-rose-700 border border-rose-200">
-                                                    <AlertCircle className="w-3 h-3" />
-                                                    Issue
-                                                </span>
-                                            ) : (
-                                                <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-bold bg-purple-50 text-purple-700 border border-purple-200">
-                                                    <SkipForward className="w-3 h-3" />
-                                                    Skipped
-                                                </span>
-                                            )}
-                                        </td>
-                                        <td className="px-4 py-3.5 text-xs text-slate-600">
-                                            {item.status === 'Issue' && item.detail && (
-                                                <span className="text-rose-600 font-medium">{item.detail}</span>
-                                            )}
-                                            {item.status === 'Skip' && item.skip_reason && (
-                                                <span className="text-purple-600 italic">{item.skip_reason}</span>
-                                            )}
-                                            {item.status === 'OK' && (
-                                                <span className="text-slate-400">Normal</span>
-                                            )}
-                                        </td>
-                                    </tr>
-                                ))}
-                            </tbody>
-                        </table>
+                {/* Printable Sign-off Block (Visible only on print or clean bottom) */}
+                <div className="hidden print:block border-t border-slate-300 pt-6 mt-6">
+                    <div className="grid grid-cols-2 gap-8 text-xs text-slate-700">
+                        <div>
+                            <div className="font-semibold mb-6">Technician / Inspector:</div>
+                            <div className="border-b border-slate-400 pb-1">{report.technician_name}</div>
+                            <div className="mt-1 text-muted-foreground">Signature & Date</div>
+                        </div>
+                        <div>
+                            <div className="font-semibold mb-6">Branch Manager Confirmation:</div>
+                            <div className="border-b border-slate-400 pb-1">{report.branch_manager}</div>
+                            <div className="mt-1 text-muted-foreground">Signature & Date</div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            {/* Photo Modal */}
-            {selectedPhoto && (
-                <div
-                    className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4 cursor-pointer"
-                    onClick={() => setSelectedPhoto(null)}
-                >
-                    <div className="max-w-3xl max-h-[85vh] bg-white rounded-2xl overflow-hidden shadow-2xl p-2">
+            {/* Photo Zoom Dialog */}
+            <Dialog open={!!selectedPhoto} onOpenChange={() => setSelectedPhoto(null)}>
+                <DialogContent className="sm:max-w-3xl p-2 bg-black/95 border-none">
+                    <div className="relative flex items-center justify-center">
                         <img
-                            src={selectedPhoto}
-                            alt="Inspection full evidence"
-                            className="max-w-full max-h-[80vh] object-contain rounded-xl"
+                            src={selectedPhoto || ''}
+                            alt="Evidence zoom"
+                            className="max-h-[80vh] w-auto object-contain rounded-md"
                         />
                     </div>
-                </div>
-            )}
+                </DialogContent>
+            </Dialog>
+
+            {/* Delete Confirmation Dialog */}
+            <Dialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
+                <DialogContent className="sm:max-w-sm">
+                    <DialogHeader>
+                        <DialogTitle className="text-base font-semibold text-rose-600">Delete Audit Report</DialogTitle>
+                        <DialogDescription className="text-xs">
+                            Are you sure you want to delete this inspection report for{' '}
+                            <span className="font-semibold text-slate-800">{report.branch_name}</span>? This action cannot be undone.
+                        </DialogDescription>
+                    </DialogHeader>
+                    <DialogFooter className="gap-2">
+                        <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={() => setDeleteDialogOpen(false)}
+                            className="h-8 text-xs"
+                        >
+                            Cancel
+                        </Button>
+                        <Button
+                            variant="destructive"
+                            size="sm"
+                            onClick={handleDelete}
+                            className="h-8 text-xs"
+                        >
+                            Delete Report
+                        </Button>
+                    </DialogFooter>
+                </DialogContent>
+            </Dialog>
         </AppLayout>
     );
 }

@@ -16,14 +16,17 @@ class ItSurveyController extends Controller
 {
     public function index(Request $request)
     {
+        $tab = $request->input('tab', 'reports');
+
         $query = ItSurveyReport::query();
 
         if ($request->filled('search')) {
             $search = $request->input('search');
             $query->where(function ($q) use ($search) {
                 $q->where('branch_name', 'like', "%{$search}%")
-                  ->where('technician_name', 'like', "%{$search}%")
+                  ->orWhere('technician_name', 'like', "%{$search}%")
                   ->orWhere('branch_manager', 'like', "%{$search}%")
+                  ->orWhere('report_uuid', 'like', "%{$search}%")
                   ->orWhere('issues_summary', 'like', "%{$search}%");
             });
         }
@@ -50,11 +53,41 @@ class ItSurveyController extends Controller
 
         $reports = $query->orderBy('submitted_at', 'desc')->paginate(15)->withQueryString();
 
-        // Branches for filter dropdown
+        // Hardware Assets Query (for Hardware Inventory tab or direct access)
+        $assetQuery = ItHardwareAsset::query();
+        if ($request->filled('asset_search')) {
+            $aSearch = $request->input('asset_search');
+            $assetQuery->where(function ($q) use ($aSearch) {
+                $q->where('asset_tag', 'like', "%{$aSearch}%")
+                  ->orWhere('serial_number', 'like', "%{$aSearch}%")
+                  ->orWhere('brand', 'like', "%{$aSearch}%")
+                  ->orWhere('model', 'like', "%{$aSearch}%")
+                  ->orWhere('branch_name', 'like', "%{$aSearch}%")
+                  ->orWhere('assigned_to', 'like', "%{$aSearch}%")
+                  ->orWhere('ip_address', 'like', "%{$aSearch}%");
+            });
+        }
+        if ($request->filled('asset_branch')) {
+            $assetQuery->where('branch_name', $request->input('asset_branch'));
+        }
+        if ($request->filled('asset_status')) {
+            $assetQuery->where('status', $request->input('asset_status'));
+        }
+        if ($request->filled('asset_type')) {
+            $assetQuery->where('asset_type', $request->input('asset_type'));
+        }
+        $assets = $assetQuery->orderBy('branch_name')->orderBy('asset_type')->paginate(20, ['*'], 'assets_page')->withQueryString();
+
+        // Branches for filter dropdowns
         $branches = DB::table('branches')->pluck('branch_name')->filter()->unique()->values();
         if ($branches->isEmpty()) {
             $branches = ItSurveyReport::distinct()->pluck('branch_name')->filter()->values();
         }
+
+        // Checklist categories & questions
+        $categories = ItSurveyCategory::with(['items' => function ($q) {
+            $q->where('is_active', true)->orderBy('display_order');
+        }])->where('is_active', true)->orderBy('display_order')->get();
 
         // Statistics
         $totalReports = ItSurveyReport::count();
@@ -64,11 +97,18 @@ class ItSurveyController extends Controller
         $avgScore = $totalReports > 0 ? round(ItSurveyReport::avg('health_score')) : 100;
 
         $totalAssets = ItHardwareAsset::count();
-        $faultyAssets = ItHardwareAsset::whereIn('status', ['faulty', 'maintenance', 'repair'])->count();
+        $operationalAssets = ItHardwareAsset::where('status', 'operational')->count();
+        $maintenanceAssets = ItHardwareAsset::whereIn('status', ['maintenance', 'repair'])->count();
+        $faultyAssets = ItHardwareAsset::where('status', 'faulty')->count();
+        $missingAssets = ItHardwareAsset::where('status', 'missing')->count();
 
         return Inertia::render('it-surveys/index', [
+            'tab' => $tab,
             'reports' => $reports,
+            'assets' => $assets,
+            'categories' => $categories,
             'branches' => $branches,
+            'assetTypes' => ['pos', 'printer', 'switch', 'router', 'ups', 'cctv', 'computer', 'scanner', 'server', 'other'],
             'stats' => [
                 'total_reports' => $totalReports,
                 'good_count' => $goodCount,
@@ -76,9 +116,15 @@ class ItSurveyController extends Controller
                 'critical_count' => $criticalCount,
                 'avg_score' => $avgScore,
                 'total_assets' => $totalAssets,
+                'operational_assets' => $operationalAssets,
+                'maintenance_assets' => $maintenanceAssets,
                 'faulty_assets' => $faultyAssets,
+                'missing_assets' => $missingAssets,
             ],
-            'filters' => $request->only(['search', 'branch', 'type', 'status', 'date_from', 'date_to']),
+            'filters' => $request->only([
+                'search', 'branch', 'type', 'status', 'date_from', 'date_to',
+                'asset_search', 'asset_branch', 'asset_status', 'asset_type', 'tab'
+            ]),
         ]);
     }
 
@@ -216,57 +262,27 @@ class ItSurveyController extends Controller
         ]);
     }
 
+    public function destroy($id)
+    {
+        $report = ItSurveyReport::findOrFail($id);
+
+        if (!empty($report->photos) && is_array($report->photos)) {
+            foreach ($report->photos as $photo) {
+                if (is_string($photo) && str_starts_with($photo, '/storage/')) {
+                    $relPath = str_replace('/storage/', '', $photo);
+                    Storage::disk('public')->delete($relPath);
+                }
+            }
+        }
+
+        $report->delete();
+
+        return redirect()->route('it-surveys.index')->with('success', 'Audit report deleted successfully.');
+    }
+
     public function hardwareIndex(Request $request)
     {
-        $query = ItHardwareAsset::query();
-
-        if ($request->filled('search')) {
-            $search = $request->input('search');
-            $query->where(function ($q) use ($search) {
-                $q->where('asset_tag', 'like', "%{$search}%")
-                  ->orWhere('serial_number', 'like', "%{$search}%")
-                  ->orWhere('brand', 'like', "%{$search}%")
-                  ->orWhere('model', 'like', "%{$search}%")
-                  ->orWhere('branch_name', 'like', "%{$search}%")
-                  ->orWhere('assigned_to', 'like', "%{$search}%")
-                  ->orWhere('ip_address', 'like', "%{$search}%");
-            });
-        }
-
-        if ($request->filled('branch')) {
-            $query->where('branch_name', $request->input('branch'));
-        }
-
-        if ($request->filled('status')) {
-            $query->where('status', $request->input('status'));
-        }
-
-        if ($request->filled('asset_type')) {
-            $query->where('asset_type', $request->input('asset_type'));
-        }
-
-        $assets = $query->orderBy('branch_name')->orderBy('asset_type')->paginate(20)->withQueryString();
-
-        $branches = DB::table('branches')->pluck('branch_name')->filter()->unique()->values();
-        if ($branches->isEmpty()) {
-            $branches = ItHardwareAsset::distinct()->pluck('branch_name')->filter()->values();
-        }
-
-        $stats = [
-            'total' => ItHardwareAsset::count(),
-            'operational' => ItHardwareAsset::where('status', 'operational')->count(),
-            'maintenance' => ItHardwareAsset::whereIn('status', ['maintenance', 'repair'])->count(),
-            'faulty' => ItHardwareAsset::where('status', 'faulty')->count(),
-            'missing' => ItHardwareAsset::where('status', 'missing')->count(),
-        ];
-
-        return Inertia::render('it-surveys/hardware', [
-            'assets' => $assets,
-            'branches' => $branches,
-            'stats' => $stats,
-            'assetTypes' => ['pos', 'printer', 'switch', 'router', 'ups', 'cctv', 'computer', 'scanner', 'server', 'other'],
-            'filters' => $request->only(['search', 'branch', 'status', 'asset_type']),
-        ]);
+        return redirect()->route('it-surveys.index', array_merge($request->query(), ['tab' => 'hardware']));
     }
 
     public function hardwareStore(Request $request)
