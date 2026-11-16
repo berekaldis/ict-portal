@@ -4,6 +4,14 @@ import {
     CollapsibleTrigger,
 } from '@/components/ui/collapsible';
 import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuLabel,
+    DropdownMenuSeparator,
+    DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
+import {
     SidebarGroup,
     SidebarMenu,
     SidebarMenuButton,
@@ -85,6 +93,7 @@ function NavSectionItem({
     visibleItems,
     currentUrl,
     isOpen,
+    isCollapsed,
     onToggle,
     onLinkClick,
 }: {
@@ -92,12 +101,88 @@ function NavSectionItem({
     visibleItems: NavItem[];
     currentUrl: string;
     isOpen: boolean;
+    isCollapsed: boolean;
     onToggle: (open: boolean) => void;
     onLinkClick: () => void;
 }) {
     const isSectionActive = visibleItems.some((item) => isRouteActive(item.href, currentUrl));
     const SectionIcon = section.icon;
 
+    // In Collapsed (icon-only) mode, show a clean flyout dropdown menu on hover/click
+    if (isCollapsed) {
+        return (
+            <SidebarMenuItem>
+                <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                        <SidebarMenuButton
+                            tooltip={section.label}
+                            isActive={isSectionActive}
+                            className={`w-full justify-center transition-colors p-2 rounded-lg cursor-pointer ${
+                                isSectionActive
+                                    ? 'text-primary font-semibold bg-primary/10'
+                                    : 'text-foreground/80 hover:bg-muted/70 hover:text-foreground'
+                            }`}
+                        >
+                            {SectionIcon && (
+                                <SectionIcon
+                                    className={`h-4.5 w-4.5 shrink-0 transition-colors ${
+                                        isSectionActive ? 'text-primary' : 'text-muted-foreground'
+                                    }`}
+                                />
+                            )}
+                        </SidebarMenuButton>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent
+                        side="right"
+                        align="start"
+                        sideOffset={8}
+                        className="min-w-52 rounded-xl p-1.5 shadow-xl border border-border/70 bg-popover text-popover-foreground z-50"
+                    >
+                        <DropdownMenuLabel className="px-2.5 py-1.5 text-xs font-bold text-foreground flex items-center gap-2">
+                            {SectionIcon && <SectionIcon className="h-4 w-4 text-primary shrink-0" />}
+                            <span>{section.label}</span>
+                        </DropdownMenuLabel>
+                        <DropdownMenuSeparator className="my-1 border-border/50" />
+                        {visibleItems.map((item) => {
+                            const isActive = isRouteActive(item.href, currentUrl);
+                            const ItemIcon = item.icon;
+
+                            return (
+                                <DropdownMenuItem key={item.title} asChild className="cursor-pointer">
+                                    <Link
+                                        href={item.href}
+                                        prefetch
+                                        onClick={onLinkClick}
+                                        className={`flex items-center justify-between w-full px-2.5 py-2 text-xs rounded-lg transition-colors ${
+                                            isActive
+                                                ? 'bg-primary/15 text-primary font-semibold'
+                                                : 'text-muted-foreground hover:text-foreground hover:bg-muted/60'
+                                        }`}
+                                    >
+                                        <div className="flex items-center gap-2.5 min-w-0">
+                                            <ItemIcon
+                                                className={`h-4 w-4 shrink-0 ${
+                                                    isActive ? 'text-primary' : 'text-muted-foreground'
+                                                }`}
+                                            />
+                                            <span className="truncate">{item.title}</span>
+                                        </div>
+                                        {item.badge && (
+                                            <span className="ml-auto text-[10px] font-mono px-1.5 py-0.2 rounded-full bg-primary/15 text-primary shrink-0">
+                                                {item.badge}
+                                            </span>
+                                        )}
+                                    </Link>
+                                </DropdownMenuItem>
+                            );
+                        })}
+                    </DropdownMenuContent>
+                </DropdownMenu>
+            </SidebarMenuItem>
+        );
+    }
+
+    // In Expanded mode, standard collapsible accordion with sub-menu items
     return (
         <Collapsible
             open={isOpen}
@@ -124,16 +209,18 @@ function NavSectionItem({
                                     }`}
                                 />
                             )}
-                            <span className="truncate text-sm font-medium">{section.label}</span>
+                            <span className="truncate text-sm font-medium group-data-[collapsible=icon]:hidden">
+                                {section.label}
+                            </span>
                         </div>
                         <ChevronRight
-                            className={`h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200 ${
+                            className={`h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200 group-data-[collapsible=icon]:hidden ${
                                 isOpen ? 'rotate-90 text-foreground' : ''
                             }`}
                         />
                     </SidebarMenuButton>
                 </CollapsibleTrigger>
-                <CollapsibleContent>
+                <CollapsibleContent className="group-data-[collapsible=icon]:hidden">
                     <SidebarMenuSub className="ml-4 my-1 pl-3.5 border-l border-border/60 space-y-1">
                         {visibleItems.map((item) => {
                             const isActive = isRouteActive(item.href, currentUrl);
@@ -184,7 +271,8 @@ function NavSectionItem({
 export function NavMain({ sections }: Props) {
     const { can, isItTeam } = usePermission();
     const { url } = usePage();
-    const { isMobile, setOpenMobile } = useSidebar();
+    const { isMobile, setOpenMobile, state } = useSidebar();
+    const isCollapsed = state === 'collapsed' && !isMobile;
 
     // Determine which section contains the currently active route
     const getActiveSectionLabel = React.useCallback((): string | null => {
@@ -267,6 +355,7 @@ export function NavMain({ sections }: Props) {
                             visibleItems={visibleItems}
                             currentUrl={url}
                             isOpen={isOpen}
+                            isCollapsed={isCollapsed}
                             onToggle={(open) => handleToggleSection(section.label, open)}
                             onLinkClick={handleLinkClick}
                         />

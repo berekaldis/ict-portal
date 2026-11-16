@@ -12,7 +12,6 @@ import {
     Lock,
     LogIn,
     Shield,
-    Sparkles,
     User,
 } from 'lucide-react';
 import React, { useState } from 'react';
@@ -41,15 +40,6 @@ export default function Login({ status, currentUser }: Props) {
         post('/login', {
             onFinish: () => reset('password'),
         });
-    };
-
-    const selectQuickAccount = (username: string, pass: string = 'admin123') => {
-        setData((prev) => ({
-            ...prev,
-            login: username,
-            username: username,
-            password: pass,
-        }));
     };
 
     return (
@@ -183,41 +173,6 @@ export default function Login({ status, currentUser }: Props) {
                         </>
                     )}
                 </Button>
-
-                {/* Quick Role Select Chips for Admin & Testing */}
-                <div className="pt-3 border-t border-border/50">
-                    <div className="flex items-center justify-between mb-2">
-                        <span className="text-[11px] text-muted-foreground font-medium flex items-center gap-1">
-                            <Sparkles className="h-3 w-3 text-amber-600 dark:text-amber-500" /> Quick Account Selector:
-                        </span>
-                    </div>
-                    <div className="flex flex-wrap gap-1.5">
-                        {[
-                            { u: 'superadmin', label: 'Super Admin', badge: 'Full IT' },
-                            { u: 'admin', label: 'Admin', badge: 'Finance' },
-                            { u: 'finance_admin', label: 'Finance Admin', badge: 'Finance' },
-                            { u: 'fb_admin', label: 'F&B Admin', badge: 'F&B' },
-                            { u: 'it_admin', label: 'IT Admin', badge: 'Cases & IT' },
-                            { u: 'branch_user', label: 'Branch User', badge: 'Bole' },
-                        ].map((acc) => (
-                            <button
-                                key={acc.u}
-                                type="button"
-                                onClick={() => selectQuickAccount(acc.u)}
-                                className={`text-[11px] px-2.5 py-1 rounded-md border transition-all flex items-center gap-1.5 ${
-                                    data.login === acc.u
-                                        ? 'bg-primary text-primary-foreground border-primary font-semibold shadow-xs'
-                                        : 'bg-muted/50 hover:bg-muted text-foreground/80 border-border/60'
-                                }`}
-                            >
-                                <span>{acc.label}</span>
-                                <span className="text-[9px] opacity-70 px-1 py-0.2 rounded bg-black/10 dark:bg-white/10">
-                                    {acc.badge}
-                                </span>
-                            </button>
-                        ))}
-                    </div>
-                </div>
             </form>
         </AuthLayout>
     );

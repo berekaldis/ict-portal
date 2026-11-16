@@ -45,13 +45,13 @@ export function NavUser() {
                                     {initials}
                                 </AvatarFallback>
                             </Avatar>
-                            <div className="grid flex-1 text-left text-sm leading-tight">
+                            <div className="grid flex-1 text-left text-sm leading-tight group-data-[collapsible=icon]:hidden">
                                 <span className="truncate font-semibold text-xs">{user.name || user.username}</span>
                                 <span className="truncate text-[10px] text-muted-foreground">
                                     {roles[0] || user.role || 'User'}
                                 </span>
                             </div>
-                            <ChevronsUpDown className="ml-auto size-4" />
+                            <ChevronsUpDown className="ml-auto size-4 group-data-[collapsible=icon]:hidden" />
                         </SidebarMenuButton>
                     </DropdownMenuTrigger>
                     <DropdownMenuContent
