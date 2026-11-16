@@ -33,7 +33,7 @@ export default function AppLayout({ children, breadcrumbs = [] }: Props) {
     return (
         <SidebarProvider defaultOpen={props.sidebarOpen ?? true}>
             <AppSidebar />
-            <SidebarInset className="flex flex-col min-h-screen bg-background">
+            <SidebarInset className="flex flex-col flex-1 min-h-full min-h-screen bg-background">
                 <AppHeader breadcrumbs={breadcrumbs} />
                 <main className="flex-1 p-4 md:p-6 overflow-x-hidden">
                     {children}
