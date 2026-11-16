@@ -36,6 +36,14 @@ Route::post('login', [AuthenticatedSessionController::class, 'store']);
 // Public Customer Survey Routes (Mobile QR code access)
 Route::get('survey', [SurveyController::class, 'publicForm'])->name('survey.public');
 Route::post('survey/submit', [SurveyController::class, 'submit'])->name('survey.submit');
+Route::get('survey/mini-app', [SurveyController::class, 'publicForm'])->name('survey.mini-app');
+
+// ============================================================
+// TELEGRAM MINI APP - IT BRANCH SURVEY & AUDIT (In-app Telegram access)
+// ============================================================
+Route::get('it-surveys/mini-app', [ItSurveyController::class, 'miniApp'])->name('it-surveys.mini-app');
+Route::post('it-surveys/mini-app', [ItSurveyController::class, 'miniAppStore'])->name('it-surveys.mini-app.store');
+Route::get('it-surveys/app', [ItSurveyController::class, 'miniApp'])->name('it-surveys.app');
 
 // Authenticated Routes
 Route::middleware('auth')->group(function () {

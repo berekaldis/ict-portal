@@ -255,8 +255,20 @@ export default function ItSurveyCreate({
                         </h1>
                     </div>
 
-                    {/* Hardware vs Software Toggle */}
-                    <div className="flex bg-slate-100 p-0.5 rounded-lg border border-slate-200">
+                    <div className="flex flex-wrap items-center gap-2">
+                        <a
+                            href={`/it-surveys/mini-app?type=${surveyType}`}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-sky-700 bg-sky-50 border border-sky-200 rounded-lg hover:bg-sky-100 transition shadow-xs"
+                            title="Open as Telegram Mini App or on mobile"
+                        >
+                            <Send className="w-3.5 h-3.5 text-sky-600" />
+                            Telegram Mini App
+                        </a>
+
+                        {/* Hardware vs Software Toggle */}
+                        <div className="flex bg-slate-100 p-0.5 rounded-lg border border-slate-200">
                         <button
                             type="button"
                             onClick={() => {
@@ -289,6 +301,7 @@ export default function ItSurveyCreate({
                         </button>
                     </div>
                 </div>
+            </div>
 
                 {/* Score Summary Bar */}
                 <Card className="border shadow-none">

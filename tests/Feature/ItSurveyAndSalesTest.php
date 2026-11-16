@@ -248,4 +248,53 @@ class ItSurveyAndSalesTest extends TestCase
             'comment' => 'Verified with bank deposit slip.',
         ]);
     }
+
+    public function test_can_access_it_survey_mini_app_without_login(): void
+    {
+        $response = $this->get(route('it-surveys.mini-app'));
+        $response->assertStatus(200);
+
+        $responseApp = $this->get(route('it-surveys.app'));
+        $responseApp->assertStatus(200);
+    }
+
+    public function test_can_submit_it_survey_via_mini_app(): void
+    {
+        $payload = [
+            'branch_name' => 'Sarbet',
+            'technician_name' => 'Telegram Bot Tech',
+            'branch_manager' => 'Manager Aster',
+            'type' => 'hardware',
+            'checklist_data' => [
+                [
+                    'category_id' => 1,
+                    'category_name' => 'POS Terminal',
+                    'item_id' => 1,
+                    'question' => 'Touch screen functional?',
+                    'status' => 'OK',
+                    'detail' => '',
+                    'skip_reason' => '',
+                ],
+            ],
+            'issues_summary' => 'All systems functional on site via Mini App.',
+            'actions_taken' => 'Routine hardware check.',
+            'recommendations' => 'Keep spare printer rolls.',
+        ];
+
+        $response = $this->postJson(route('it-surveys.mini-app.store'), $payload);
+        $response->assertStatus(200);
+        $response->assertJson(['success' => true]);
+
+        $this->assertDatabaseHas('it_survey_reports', [
+            'branch_name' => 'Sarbet',
+            'technician_name' => 'Telegram Bot Tech',
+            'health_score' => 100,
+        ]);
+    }
+
+    public function test_can_access_customer_survey_mini_app(): void
+    {
+        $response = $this->get(route('survey.mini-app'));
+        $response->assertStatus(200);
+    }
 }

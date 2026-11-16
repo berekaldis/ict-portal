@@ -1099,6 +1099,28 @@ final class KaldisBot
         $chatId = (int) ($message['chat']['id'] ?? 0);
         $command = strtolower($tokens[0] ?? '');
 
+        if (in_array($command, ['/survey', '/audit', '/miniapp', '/start'], true)) {
+            $siteUrl = rtrim((string) (env('APP_URL') ?: 'http://127.0.0.1:8000'), '/');
+            $keyboard = [
+                'inline_keyboard' => [
+                    [
+                        ['text' => '🛠️ Hardware Audit Mini App', 'web_app' => ['url' => $siteUrl . '/it-surveys/mini-app?type=hardware']],
+                        ['text' => '💻 Software Audit Mini App', 'web_app' => ['url' => $siteUrl . '/it-surveys/mini-app?type=software']],
+                    ],
+                    [
+                        ['text' => '☕ Customer Survey Mini App', 'web_app' => ['url' => $siteUrl . '/survey/mini-app']],
+                    ],
+                ],
+            ];
+            $this->client->sendMessage(
+                $chatId,
+                "☕ <b>Kaldis Coffee IT Survey & Audit</b>\n\nTap a button below to open the Survey Mini App directly inside Telegram:",
+                null,
+                $keyboard
+            );
+            return;
+        }
+
         if ($command === '/help') {
             $this->client->sendMessage(
                 $chatId,

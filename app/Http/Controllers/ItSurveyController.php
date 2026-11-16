@@ -253,6 +253,169 @@ class ItSurveyController extends Controller
         return redirect()->route('it-surveys.show', $report->id)->with('success', 'Branch infrastructure survey submitted successfully!');
     }
 
+    public function miniApp(Request $request)
+    {
+        $type = $request->query('type', 'hardware');
+
+        $categories = ItSurveyCategory::where('type', $type)
+            ->where('is_active', true)
+            ->with(['items' => function ($q) {
+                $q->where('is_active', true)->orderBy('display_order');
+            }])
+            ->orderBy('display_order')
+            ->get();
+
+        $branches = DB::table('branches')->select('id', 'branch_name as name')->orderBy('branch_name')->get();
+        if ($branches->isEmpty()) {
+            $branches = collect([
+                ['id' => 1, 'name' => 'Bole Medhanialem'],
+                ['id' => 2, 'name' => 'Kazanchis'],
+                ['id' => 3, 'name' => 'Sarbet'],
+                ['id' => 4, 'name' => 'Piassa'],
+                ['id' => 5, 'name' => 'CMC'],
+                ['id' => 6, 'name' => 'Mexico'],
+                ['id' => 7, 'name' => 'Gerji'],
+                ['id' => 8, 'name' => 'Megenagna'],
+            ]);
+        }
+
+        $technicians = DB::table('users')->select('id', 'name')->orderBy('name')->get();
+
+        return Inertia::render('it-surveys/mini-app', [
+            'type' => $type,
+            'categories' => $categories,
+            'branches' => $branches,
+            'technicians' => $technicians,
+            'initialBranch' => $request->query('branch', ''),
+        ]);
+    }
+
+    public function miniAppStore(Request $request)
+    {
+        $validated = $request->validate([
+            'branch_name' => 'required|string|max:150',
+            'branch_id' => 'nullable|integer',
+            'technician_name' => 'required|string|max:150',
+            'branch_manager' => 'required|string|max:150',
+            'type' => 'required|in:hardware,software',
+            'checklist_data' => 'required|array',
+            'issues_summary' => 'nullable|string',
+            'actions_taken' => 'nullable|string',
+            'recommendations' => 'nullable|string',
+            'photos' => 'nullable|array',
+        ]);
+
+        $checklist = $validated['checklist_data'];
+        $totalItems = count($checklist);
+        $passedItems = 0;
+        $failedItems = 0;
+        $skippedItems = 0;
+
+        foreach ($checklist as $item) {
+            $status = $item['status'] ?? 'OK';
+            if ($status === 'OK') {
+                $passedItems++;
+            } elseif ($status === 'Issue') {
+                $failedItems++;
+            } elseif ($status === 'Skip') {
+                $skippedItems++;
+            }
+        }
+
+        $evaluated = $passedItems + $failedItems;
+        $healthScore = $evaluated > 0 ? round(($passedItems / $evaluated) * 100) : 100;
+
+        $healthStatus = 'Good';
+        if ($healthScore < 60) {
+            $healthStatus = 'Critical';
+        } elseif ($healthScore < 85) {
+            $healthStatus = 'Warning';
+        }
+
+        $reportUuid = (string) Str::uuid();
+
+        // Process uploaded base64 photos if present
+        $storedPhotos = [];
+        if (!empty($validated['photos']) && is_array($validated['photos'])) {
+            foreach ($validated['photos'] as $idx => $photoData) {
+                if (is_string($photoData) && str_starts_with($photoData, 'data:image')) {
+                    if (preg_match('/^data:image\/(\w+);base64,/', $photoData, $matches)) {
+                        $extension = strtolower($matches[1]);
+                        $data = substr($photoData, strpos($photoData, ',') + 1);
+                        $decoded = base64_decode($data);
+                        if ($decoded !== false) {
+                            $filename = "survey_{$reportUuid}_{$idx}.{$extension}";
+                            Storage::disk('public')->put("surveys/{$filename}", $decoded);
+                            $storedPhotos[] = "/storage/surveys/{$filename}";
+                        }
+                    }
+                } elseif (is_string($photoData)) {
+                    $storedPhotos[] = $photoData;
+                }
+            }
+        }
+
+        $report = ItSurveyReport::create([
+            'report_uuid' => $reportUuid,
+            'branch_id' => $validated['branch_id'] ?? null,
+            'branch_name' => $validated['branch_name'],
+            'technician_name' => $validated['technician_name'],
+            'technician_id' => auth()->id() ?? null,
+            'branch_manager' => $validated['branch_manager'],
+            'type' => $validated['type'],
+            'health_score' => $healthScore,
+            'health_status' => $healthStatus,
+            'critical_count' => $failedItems,
+            'total_items' => $totalItems,
+            'passed_items' => $passedItems,
+            'failed_items' => $failedItems,
+            'skipped_items' => $skippedItems,
+            'checklist_data' => $checklist,
+            'issues_summary' => $validated['issues_summary'] ?? null,
+            'actions_taken' => $validated['actions_taken'] ?? null,
+            'recommendations' => $validated['recommendations'] ?? null,
+            'photos' => $storedPhotos,
+            'submitted_at' => now(),
+        ]);
+
+        // Send Telegram alert if bot is configured
+        try {
+            $statusEmoji = $healthScore >= 85 ? '🟢' : ($healthScore >= 60 ? '🟡' : '🔴');
+            $msg = "<b>☕ Kaldis IT Branch Inspection (Mini App)</b>\n\n" .
+                "<b>🏢 Branch:</b> " . htmlspecialchars($report->branch_name) . "\n" .
+                "<b>💻 Audit Type:</b> " . ucfirst($report->type) . " Survey\n" .
+                "<b>{$statusEmoji} Health Score:</b> <b>{$report->health_score}%</b> ({$report->health_status})\n" .
+                "<b>📊 Results:</b> {$passedItems} OK • {$failedItems} Issues • {$skippedItems} Skipped\n" .
+                "<b>👨‍🔧 Inspector:</b> " . htmlspecialchars($report->technician_name) . "\n" .
+                "<b>📋 Manager:</b> " . htmlspecialchars($report->branch_manager) . "\n";
+
+            if (!empty($report->issues_summary)) {
+                $msg .= "<b>⚠️ Issues:</b> " . htmlspecialchars(substr($report->issues_summary, 0, 200)) . "\n";
+            }
+            $msg .= "<b>🆔 UUID:</b> <code>{$report->report_uuid}</code>";
+
+            $chatId = env('TELEGRAM_CHAT_ID', env('TELEGRAM_ADMIN_CHAT_ID', '-1003724420241'));
+            if ($chatId) {
+                \App\Services\TelegramService::sendMessage((string)$chatId, $msg);
+            }
+        } catch (\Throwable $e) {
+            // Ignore notification failure
+        }
+
+        if ($request->wantsJson()) {
+            return response()->json([
+                'success' => true,
+                'message' => 'Branch survey report submitted successfully via Telegram Mini App!',
+                'report_uuid' => $report->report_uuid,
+                'health_score' => $report->health_score,
+                'health_status' => $report->health_status,
+                'id' => $report->id,
+            ]);
+        }
+
+        return redirect()->route('it-surveys.mini-app', ['submitted' => 1, 'uuid' => $reportUuid]);
+    }
+
     public function show($id)
     {
         $report = ItSurveyReport::findOrFail($id);

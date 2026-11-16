@@ -45,7 +45,12 @@ import {
     Printer,
     RotateCcw,
     Search,
+    Send,
     Server,
+    Smartphone,
+    Check,
+    Copy,
+    ExternalLink,
     Trash2,
     XCircle,
 } from 'lucide-react';
@@ -179,6 +184,10 @@ export default function ItSurveyIndex({
 
     // Delete Report Modal
     const [deletingReport, setDeletingReport] = useState<Report | null>(null);
+
+    // Telegram Mini App Modal
+    const [telegramModalOpen, setTelegramModalOpen] = useState(false);
+    const [copiedLink, setCopiedLink] = useState(false);
 
     // Delete Asset Modal
     const [deletingAsset, setDeletingAsset] = useState<Asset | null>(null);
@@ -364,6 +373,16 @@ export default function ItSurveyIndex({
                                 Export Assets
                             </a>
                         </div>
+
+                        <Button
+                            size="sm"
+                            variant="outline"
+                            onClick={() => setTelegramModalOpen(true)}
+                            className="gap-1.5 h-8 text-xs text-sky-700 hover:text-sky-800 border-sky-200 bg-sky-50/50 hover:bg-sky-50"
+                        >
+                            <Send className="h-3.5 w-3.5 text-sky-600" />
+                            Telegram Mini App
+                        </Button>
 
                         {can('it_survey.manage') && (
                             <Button
@@ -1138,6 +1157,114 @@ export default function ItSurveyIndex({
                         >
                             Remove Asset
                         </Button>
+                    </DialogFooter>
+                </DialogContent>
+            </Dialog>
+            {/* ======================================================== */}
+            {/* MODAL: TELEGRAM MINI APP INTEGRATION                     */}
+            {/* ======================================================== */}
+            <Dialog open={telegramModalOpen} onOpenChange={setTelegramModalOpen}>
+                <DialogContent className="sm:max-w-md">
+                    <DialogHeader>
+                        <div className="flex items-center gap-2">
+                            <div className="w-8 h-8 rounded-lg bg-sky-100 text-sky-600 flex items-center justify-center">
+                                <Send className="w-4 h-4" />
+                            </div>
+                            <div>
+                                <DialogTitle className="text-base font-semibold">Telegram Mini App</DialogTitle>
+                                <DialogDescription className="text-xs">
+                                    Open surveys directly inside Telegram on mobile or desktop without web login.
+                                </DialogDescription>
+                            </div>
+                        </div>
+                    </DialogHeader>
+
+                    <div className="space-y-3 py-2">
+                        {/* Primary Link */}
+                        <div className="space-y-1">
+                            <Label className="text-xs font-medium text-slate-700">Mini App Direct URL</Label>
+                            <div className="flex items-center gap-1.5">
+                                <Input
+                                    readOnly
+                                    value={typeof window !== 'undefined' ? `${window.location.origin}/it-surveys/mini-app` : '/it-surveys/mini-app'}
+                                    className="h-8 text-xs font-mono bg-slate-50"
+                                />
+                                <Button
+                                    size="sm"
+                                    variant="outline"
+                                    onClick={() => {
+                                        const url = `${window.location.origin}/it-surveys/mini-app`;
+                                        navigator.clipboard.writeText(url);
+                                        setCopiedLink(true);
+                                        setTimeout(() => setCopiedLink(false), 2000);
+                                    }}
+                                    className="h-8 text-xs px-2.5 gap-1"
+                                >
+                                    {copiedLink ? <Check className="w-3.5 h-3.5 text-emerald-600" /> : <Copy className="w-3.5 h-3.5" />}
+                                    {copiedLink ? 'Copied' : 'Copy'}
+                                </Button>
+                            </div>
+                        </div>
+
+                        {/* Quick Launch Buttons */}
+                        <div className="space-y-1.5">
+                            <Label className="text-xs font-medium text-slate-700">Quick Test & Preview</Label>
+                            <div className="grid grid-cols-2 gap-2">
+                                <a
+                                    href="/it-surveys/mini-app?type=hardware"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="inline-flex items-center justify-center gap-1.5 px-3 py-2 text-xs font-medium text-slate-800 bg-slate-100 hover:bg-slate-200 rounded-lg transition"
+                                >
+                                    <HardDrive className="w-3.5 h-3.5 text-indigo-600" />
+                                    Hardware Audit
+                                    <ExternalLink className="w-3 h-3 text-slate-400" />
+                                </a>
+                                <a
+                                    href="/it-surveys/mini-app?type=software"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="inline-flex items-center justify-center gap-1.5 px-3 py-2 text-xs font-medium text-slate-800 bg-slate-100 hover:bg-slate-200 rounded-lg transition"
+                                >
+                                    <Laptop className="w-3.5 h-3.5 text-cyan-600" />
+                                    Software Audit
+                                    <ExternalLink className="w-3 h-3 text-slate-400" />
+                                </a>
+                            </div>
+                        </div>
+
+                        {/* Telegram Bot Instructions */}
+                        <div className="rounded-lg bg-sky-50/70 border border-sky-100 p-2.5 text-xs text-sky-900 space-y-1">
+                            <div className="font-semibold flex items-center gap-1 text-sky-800">
+                                <Smartphone className="w-3.5 h-3.5" />
+                                How to configure in Telegram:
+                            </div>
+                            <ol className="list-decimal list-inside space-y-0.5 text-[11px] text-sky-800/90">
+                                <li>Send <code className="font-mono bg-sky-100 px-1 rounded">/setmenubutton</code> to <strong>@BotFather</strong>.</li>
+                                <li>Select your bot and paste the Mini App URL above.</li>
+                                <li>Technicians can also type <code className="font-mono bg-sky-100 px-1 rounded">/survey</code> in your bot to open the Web App button.</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <DialogFooter>
+                        <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={() => setTelegramModalOpen(false)}
+                            className="h-8 text-xs"
+                        >
+                            Close
+                        </Button>
+                        <a
+                            href="/it-surveys/mini-app"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="inline-flex items-center gap-1.5 h-8 px-3 text-xs font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-md transition"
+                        >
+                            Open Mini App
+                            <ExternalLink className="w-3.5 h-3.5" />
+                        </a>
                     </DialogFooter>
                 </DialogContent>
             </Dialog>

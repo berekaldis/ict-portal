@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/badge';
 import { Head } from '@inertiajs/react';
 import { CheckCircle2, Coffee, MapPin, Send, Sparkles } from 'lucide-react';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 interface Props {
     initialBranch: string;
@@ -15,6 +15,18 @@ export default function PublicSurveyForm({ initialBranch, initialTable = '', bra
     const [submitted, setSubmitted] = useState(false);
     const [submitting, setSubmitting] = useState(false);
     const [errorMsg, setErrorMsg] = useState<string | null>(null);
+
+    useEffect(() => {
+        const tg = (window as any).Telegram?.WebApp;
+        if (tg) {
+            try {
+                tg.ready();
+                tg.expand();
+            } catch (e) {
+                // Ignore
+            }
+        }
+    }, []);
 
     // Form state matching 20 questions
     const [formData, setFormData] = useState<{
@@ -123,7 +135,10 @@ export default function PublicSurveyForm({ initialBranch, initialTable = '', bra
 
     return (
         <div className="min-h-screen bg-stone-100 text-stone-800 selection:bg-amber-600 selection:text-white pb-16 font-sans">
-            <Head title="የደንበኞች አስተያየት መጠይቅ | Kaldis Coffee" />
+            <Head>
+                <title>የደንበኞች አስተያየት መጠይቅ | Kaldis Coffee</title>
+                <script src="https://telegram.org/js/telegram-web-app.js"></script>
+            </Head>
 
             {/* Header */}
             <div className="bg-[#4a2618] text-white py-8 px-4 text-center shadow-md relative overflow-hidden">
@@ -162,16 +177,33 @@ export default function PublicSurveyForm({ initialBranch, initialTable = '', bra
                                 የሰጡን አስተያየት ለአገልግሎታችን ማሻሻያ በጣም ጠቃሚ ነው። ለካልዲስ ቡና ያለዎት ፍቅር እና ድጋፍ ምንጊዜም ይበረታታል።
                             </p>
                         </div>
-                        <button
-                            type="button"
-                            onClick={() => {
-                                setSubmitted(false);
-                                window.scrollTo({ top: 0, behavior: 'smooth' });
-                            }}
-                            className="inline-flex items-center justify-center px-6 py-2.5 rounded-xl bg-[#4a2618] text-white text-xs font-semibold hover:bg-[#381c12] transition-colors shadow-sm"
-                        >
-                            አዲስ መጠይቅ ሙላ
-                        </button>
+                        <div className="flex flex-col sm:flex-row justify-center gap-2 pt-2">
+                            <button
+                                type="button"
+                                onClick={() => {
+                                    const tg = (window as any).Telegram?.WebApp;
+                                    if (tg && typeof tg.close === 'function') {
+                                        tg.close();
+                                    } else {
+                                        setSubmitted(false);
+                                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                                    }
+                                }}
+                                className="inline-flex items-center justify-center px-6 py-2.5 rounded-xl bg-indigo-600 text-white text-xs font-semibold hover:bg-indigo-700 transition-colors shadow-sm cursor-pointer"
+                            >
+                                ቴሌግራም ዝጋ (Close Mini App)
+                            </button>
+                            <button
+                                type="button"
+                                onClick={() => {
+                                    setSubmitted(false);
+                                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                                }}
+                                className="inline-flex items-center justify-center px-6 py-2.5 rounded-xl bg-[#4a2618] text-white text-xs font-semibold hover:bg-[#381c12] transition-colors shadow-sm cursor-pointer"
+                            >
+                                አዲስ መጠይቅ ሙላ
+                            </button>
+                        </div>
                     </div>
                 ) : (
                     <form onSubmit={handleSubmit} className="space-y-5">
