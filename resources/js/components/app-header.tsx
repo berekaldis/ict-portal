@@ -1,5 +1,6 @@
 import { AppearanceDropdown } from '@/components/appearance-dropdown';
 import { Breadcrumbs, BreadcrumbItemType } from '@/components/breadcrumbs';
+import { HeaderUserMenu } from '@/components/header-user-menu';
 import { Button } from '@/components/ui/button';
 import { SidebarTrigger } from '@/components/ui/sidebar';
 import { usePermission } from '@/hooks/user-permissions';
@@ -66,6 +67,10 @@ export function AppHeader({ breadcrumbs = [] }: Props) {
                 )}
 
                 <AppearanceDropdown />
+
+                <div className="h-5 w-[1px] bg-border/60 mx-0.5 shrink-0" />
+
+                <HeaderUserMenu />
             </div>
         </header>
     );

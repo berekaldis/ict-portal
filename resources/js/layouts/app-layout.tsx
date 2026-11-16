@@ -1,3 +1,4 @@
+import { AppFooter } from '@/components/app-footer';
 import { AppHeader } from '@/components/app-header';
 import { AppSidebar } from '@/components/app-sidebar';
 import { BreadcrumbItemType } from '@/components/breadcrumbs';
@@ -37,6 +38,7 @@ export default function AppLayout({ children, breadcrumbs = [] }: Props) {
                 <main className="flex-1 p-4 md:p-6 overflow-x-hidden">
                     {children}
                 </main>
+                <AppFooter />
                 {mustChangePassword && <PasswordChangeDialog open={true} />}
                 <Toaster position="top-right" richColors />
             </SidebarInset>
