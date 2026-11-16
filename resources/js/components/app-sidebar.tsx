@@ -1,8 +1,10 @@
 import { AppLogo } from '@/components/app-logo';
 import { NavMain, NavSection } from '@/components/nav-main';
+import { NavUser } from '@/components/nav-user';
 import {
     Sidebar,
     SidebarContent,
+    SidebarFooter,
     SidebarHeader,
     SidebarMenu,
     SidebarMenuItem,
@@ -309,6 +311,10 @@ export function AppSidebar() {
             <SidebarContent className="overflow-y-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
                 <NavMain sections={sections} />
             </SidebarContent>
+
+            <SidebarFooter>
+                <NavUser />
+            </SidebarFooter>
         </Sidebar>
     );
 }
