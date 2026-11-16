@@ -2,7 +2,7 @@ import React from 'react';
 
 export function AppFooter() {
     return (
-        <footer className="border-t border-border/40 py-2.5 px-4 md:px-6 mt-auto text-xs text-muted-foreground select-none">
+        <footer className="sticky bottom-0 z-10 bg-background/95 backdrop-blur-xs border-t border-border/40 py-2.5 px-4 md:px-6 mt-auto text-xs text-muted-foreground select-none">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-2 text-[11px]">
                 <div className="flex items-center gap-2">
                     <span className="font-semibold text-foreground">Kaldi's Coffee ICT Portal</span>
