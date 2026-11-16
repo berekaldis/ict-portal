@@ -21,6 +21,8 @@ import {
     Store,
     Trash2,
     UserCheck,
+    Search,
+    X,
 } from 'lucide-react';
 import React, { useState } from 'react';
 
@@ -53,6 +55,7 @@ export default function EditRequestCreate({
 
     const [activeTab, setActiveTab] = useState<'voucher' | 'onhand'>('voucher');
     const [voucherCodes, setVoucherCodes] = useState<string[]>(['']);
+    const [storeSearch, setStoreSearch] = useState('');
 
     const { data, setData, post, processing, errors } = useForm({
         action_type: 'Edit' as 'Edit' | 'Void' | 'On Hand Delete',
@@ -102,12 +105,25 @@ export default function EditRequestCreate({
         });
     };
 
+    const filteredStoreDepartments = storeDepartments.filter((dept) =>
+        dept.toLowerCase().includes(storeSearch.toLowerCase().trim())
+    );
+
     const selectAllStoreDepartments = () => {
-        setData('store_departments', [...storeDepartments]);
+        if (storeSearch.trim()) {
+            const toAdd = filteredStoreDepartments.filter((d) => !data.store_departments.includes(d));
+            setData('store_departments', [...data.store_departments, ...toAdd]);
+        } else {
+            setData('store_departments', [...storeDepartments]);
+        }
     };
 
     const clearStoreDepartments = () => {
-        setData('store_departments', []);
+        if (storeSearch.trim()) {
+            setData('store_departments', data.store_departments.filter((d) => !filteredStoreDepartments.includes(d)));
+        } else {
+            setData('store_departments', []);
+        }
     };
 
     const addVoucherCode = () => {
@@ -494,14 +510,14 @@ export default function EditRequestCreate({
                                         </div>
                                     </div>
 
-                                    {/* Department Stores (Select one or more) */}
+                                    {/* Department Stores (Searchable & Multi-Select with Badges) */}
                                     <div className="space-y-2 pt-1">
                                         <div className="flex items-center justify-between">
                                             <Label className="text-xs font-semibold flex items-center gap-1.5">
                                                 <span>Department Stores (Select one or more) 🏢</span>
                                                 <span className="text-destructive">*</span>
                                                 {data.store_departments.length > 0 && (
-                                                    <Badge variant="secondary" className="text-[10px] h-5 px-1.5">
+                                                    <Badge variant="secondary" className="text-[10px] h-5 px-1.5 font-semibold">
                                                         {data.store_departments.length} Selected
                                                     </Badge>
                                                 )}
@@ -512,7 +528,7 @@ export default function EditRequestCreate({
                                                     onClick={selectAllStoreDepartments}
                                                     className="text-[11px] text-primary hover:underline font-medium"
                                                 >
-                                                    Select All
+                                                    {storeSearch.trim() ? 'Select Filtered' : 'Select All'}
                                                 </button>
                                                 <span className="text-muted-foreground text-[10px]">•</span>
                                                 <button
@@ -520,35 +536,82 @@ export default function EditRequestCreate({
                                                     onClick={clearStoreDepartments}
                                                     className="text-[11px] text-muted-foreground hover:text-foreground"
                                                 >
-                                                    Clear
+                                                    {storeSearch.trim() ? 'Clear Filtered' : 'Clear All'}
                                                 </button>
                                             </div>
                                         </div>
 
-                                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 p-3 rounded-xl bg-muted/20 border border-border/50 max-h-56 overflow-y-auto">
-                                            {storeDepartments.map((dept) => {
-                                                const isChecked = data.store_departments.includes(dept);
-                                                return (
-                                                    <label
+                                        {/* Selected Store Badges with Remove 'X' */}
+                                        {data.store_departments.length > 0 && (
+                                            <div className="flex flex-wrap gap-1.5 p-2 rounded-lg bg-background border border-border/60 shadow-xs max-h-28 overflow-y-auto">
+                                                {data.store_departments.map((dept) => (
+                                                    <Badge
                                                         key={dept}
-                                                        className={`flex items-center gap-2 p-2 rounded-lg border text-xs cursor-pointer transition-colors ${
-                                                            isChecked
-                                                                ? 'bg-primary/10 border-primary/40 font-medium text-foreground'
-                                                                : 'bg-background hover:bg-muted/50 border-border/60 text-muted-foreground'
-                                                        }`}
+                                                        variant="secondary"
+                                                        className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs bg-primary/10 text-primary border border-primary/25 rounded-md hover:bg-destructive/10 hover:text-destructive hover:border-destructive/30 transition-all cursor-pointer group select-none"
+                                                        onClick={() => toggleStoreDepartment(dept)}
+                                                        title={`Click to remove ${dept}`}
                                                     >
-                                                        <input
-                                                            type="checkbox"
-                                                            checked={isChecked}
-                                                            onChange={() => toggleStoreDepartment(dept)}
-                                                            className="h-4 w-4 rounded border-input text-primary focus:ring-primary"
-                                                        />
-                                                        <span className="truncate" title={dept}>
-                                                            {dept}
-                                                        </span>
-                                                    </label>
-                                                );
-                                            })}
+                                                        <span className="font-medium">{dept}</span>
+                                                        <X className="h-3 w-3 text-muted-foreground group-hover:text-destructive group-hover:scale-115 transition-transform" />
+                                                    </Badge>
+                                                ))}
+                                            </div>
+                                        )}
+
+                                        {/* Search Filter Input */}
+                                        <div className="relative">
+                                            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none" />
+                                            <Input
+                                                type="text"
+                                                value={storeSearch}
+                                                onChange={(e) => setStoreSearch(e.target.value)}
+                                                placeholder="Search department stores (e.g. Pastry, Juice, Milk, Uniform)..."
+                                                className="pl-9 pr-8 text-xs h-9 bg-background border-border/70 focus-visible:ring-primary"
+                                            />
+                                            {storeSearch && (
+                                                <button
+                                                    type="button"
+                                                    onClick={() => setStoreSearch('')}
+                                                    className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground p-0.5"
+                                                    title="Clear search"
+                                                >
+                                                    <X className="h-3.5 w-3.5" />
+                                                </button>
+                                            )}
+                                        </div>
+
+                                        {/* Department Stores Grid */}
+                                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 p-3 rounded-xl bg-muted/20 border border-border/50 max-h-56 overflow-y-auto">
+                                            {filteredStoreDepartments.length > 0 ? (
+                                                filteredStoreDepartments.map((dept) => {
+                                                    const isChecked = data.store_departments.includes(dept);
+                                                    return (
+                                                        <label
+                                                            key={dept}
+                                                            className={`flex items-center gap-2 p-2 rounded-lg border text-xs cursor-pointer transition-colors select-none ${
+                                                                isChecked
+                                                                    ? 'bg-primary/10 border-primary/40 font-medium text-foreground'
+                                                                    : 'bg-background hover:bg-muted/50 border-border/60 text-muted-foreground'
+                                                            }`}
+                                                        >
+                                                            <input
+                                                                type="checkbox"
+                                                                checked={isChecked}
+                                                                onChange={() => toggleStoreDepartment(dept)}
+                                                                className="h-4 w-4 rounded border-input text-primary focus:ring-primary"
+                                                            />
+                                                            <span className="truncate" title={dept}>
+                                                                {dept}
+                                                            </span>
+                                                        </label>
+                                                    );
+                                                })
+                                            ) : (
+                                                <div className="col-span-full py-4 text-center text-xs text-muted-foreground">
+                                                    No department stores found matching "{storeSearch}"
+                                                </div>
+                                            )}
                                         </div>
                                         {errors.store_departments && (
                                             <p className="text-xs text-destructive">{errors.store_departments}</p>

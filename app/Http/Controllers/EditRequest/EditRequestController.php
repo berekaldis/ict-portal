@@ -174,20 +174,24 @@ class EditRequestController extends Controller
             'shft 2',
         ];
 
-        // Store Departments from edit_request folder & settings table
+        // Store Departments for On Hand Delete requests
         $defaultStoreDepts = [
-            "Hot Kitchen",
-            "Bottle & Can Bar",
-            "Pastry",
+            "Hot Beverage Store",
+            "Bottled Beverage Store",
+            "Pastry Store",
             "Food Store",
-            "Juice & Smoothie Bar",
-            "Steward",
+            "Juice Store",
+            "Stuff Store",
             "Cup Store",
-            "Ice Cream & Shake Bar",
-            "Coffee Bar",
+            "Ice Cream Store",
+            "Coffee Roasted Store",
             "Milk Store",
-            "Super Market Store",
-            "Staff Canteen",
+            "Supply Store",
+            "Stationery Store",
+            "Cleaning Store",
+            "Packing Material Store",
+            "Spare Part Store",
+            "Uniform Store",
         ];
 
         $storeDepartments = $defaultStoreDepts;

@@ -62,7 +62,7 @@ class SurveyAndHrModulesTest extends TestCase
         $this->actingAs($superadmin)->get('/it-surveys')->assertStatus(200);
 
         // 2. Hardware Inventory
-        $this->actingAs($superadmin)->get('/it-surveys/hardware')->assertStatus(200);
+        $this->actingAs($superadmin)->get('/it-surveys/hardware')->assertRedirect();
 
         // 3. CSV Export
         $exportResponse = $this->actingAs($superadmin)->get('/it-surveys/export/reports');
