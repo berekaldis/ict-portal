@@ -76,7 +76,7 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
         // 3. Portal Profile & Branding
         company_name: settings.company_name || "Kaldi's Coffee ICT Portal",
         company_phone: settings.company_phone || '+251 11 661 6161',
-        support_email: settings.support_email || 'support.ict@kaldiscoffee.com',
+        support_email: settings.support_email || 'support.ict@kaldisbunna.et',
     });
 
     const handleSaveSettings = (e: React.FormEvent) => {

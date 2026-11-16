@@ -47,7 +47,7 @@ class SystemSettingsSeeder extends Seeder
             // Company metadata
             'company_name' => "Kaldi's Coffee ICT Portal",
             'company_phone' => '+251 11 661 6161',
-            'support_email' => 'support.ict@kaldiscoffee.com',
+            'support_email' => 'support.ict@kaldisbunna.et',
         ];
 
         foreach ($settings as $key => $val) {

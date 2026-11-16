@@ -43,7 +43,7 @@ class CaseSettingController extends Controller
         // 3. General & Branding
         'company_name' => "Kaldi's Coffee ICT Portal",
         'company_phone' => '+251 11 661 6161',
-        'support_email' => 'support.ict@kaldiscoffee.com',
+        'support_email' => 'support.ict@kaldisbunna.et',
     ];
 
     public function index(): Response

@@ -904,7 +904,7 @@ $currentUser = $_SESSION['case_user'];
                                 <div class="settings-section">
                                     <h4><i class="material-icons-round">business</i> Company Information</h4>
                                     <div class="form-group"><label class="form-label">Company Name</label><input type="text" id="companyName" class="form-control" placeholder="Kaldis Coffee"></div>
-                                    <div class="form-group"><label class="form-label">Company Email</label><input type="email" id="companyEmail" class="form-control" placeholder="info@kaldiscoffee.com"></div>
+                                    <div class="form-group"><label class="form-label">Company Email</label><input type="email" id="companyEmail" class="form-control" placeholder="support.ict@kaldisbunna.et"></div>
                                     <div class="form-group"><label class="form-label">Company Phone</label><input type="text" id="companyPhone" class="form-control" placeholder="+251 XXX XXX XXX"></div>
                                     <div class="form-group"><label class="form-label">Company Address</label><textarea id="companyAddress" class="form-control" rows="2" placeholder="Company address..."></textarea></div>
                                 </div>

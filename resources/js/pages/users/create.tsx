@@ -99,7 +99,7 @@ export default function UserCreate({ roles, branches, allPermissions = [] }: Pro
                                     <Input
                                         id="email"
                                         type="email"
-                                        placeholder="jdoe@kaldiscoffee.com"
+                                        placeholder="jdoe@kaldisbunna.et"
                                         value={data.email}
                                         onChange={(e) => setData('email', e.target.value)}
                                     />

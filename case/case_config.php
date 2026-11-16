@@ -178,7 +178,7 @@ function caseInitDatabase() {
         if ($userCount == 0) {
             $defaultPassword = password_hash('admin123', PASSWORD_DEFAULT);
             $db->prepare("INSERT INTO case_users (username, password, role, status, email) VALUES (?, ?, ?, ?, ?)")
-                ->execute(array('admin', $defaultPassword, 'admin', 'active', 'admin@kaldiscoffee.com'));
+                ->execute(array('admin', $defaultPassword, 'admin', 'active', 'admin@kaldisbunna.et'));
         }
 
     } catch (Exception $e) {

@@ -444,7 +444,7 @@ class CompanySystemSyncService
             [
                 'name' => "Kaldi's Super Admin",
                 'full_name' => "Kaldi's ICT Super Administrator",
-                'email' => 'superadmin@kaldiscoffee.com',
+                'email' => 'superadmin@kaldisbunna.et',
                 'role' => 'Super Admin',
                 'department' => 'IT',
                 'password' => Hash::make('admin123'),
