@@ -63,7 +63,7 @@ export default function Login({ status, currentUser }: LoginProps) {
                         <Label htmlFor="email">Email address</Label>
                         <Input
                             id="email"
-                            type="text"
+                            type="email"
                             required
                             autoFocus
                             tabIndex={1}

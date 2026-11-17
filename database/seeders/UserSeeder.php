@@ -13,7 +13,7 @@ class UserSeeder extends Seeder
     {
         $users = [
             [
-                'username' => 'superadmin',
+                'username' => 'superadmin@kaldisbunna.et',
                 'name' => "Kaldi's Super Admin",
                 'full_name' => "Kaldi's ICT Super Administrator",
                 'email' => 'superadmin@kaldisbunna.et',
@@ -24,7 +24,7 @@ class UserSeeder extends Seeder
                 'roles' => ['Super Admin', 'superadmin'],
             ],
             [
-                'username' => 'admin',
+                'username' => 'admin@kaldisbunna.et',
                 'name' => "Kaldi's Department Admin",
                 'full_name' => "Finance Department Administrator",
                 'email' => 'admin@kaldisbunna.et',
@@ -35,7 +35,7 @@ class UserSeeder extends Seeder
                 'roles' => ['Admin', 'Finance Manager'],
             ],
             [
-                'username' => 'finance_admin',
+                'username' => 'finance.admin@kaldisbunna.et',
                 'name' => 'Finance Department Admin',
                 'full_name' => 'Finance Department Administrator',
                 'email' => 'finance.admin@kaldisbunna.et',
@@ -46,7 +46,7 @@ class UserSeeder extends Seeder
                 'roles' => ['Admin', 'Finance Manager'],
             ],
             [
-                'username' => 'fb_admin',
+                'username' => 'fb.admin@kaldisbunna.et',
                 'name' => 'F&B Department Admin',
                 'full_name' => 'Food & Beverage Administrator',
                 'email' => 'fb.admin@kaldisbunna.et',
@@ -57,7 +57,7 @@ class UserSeeder extends Seeder
                 'roles' => ['Admin', 'F&B Manager'],
             ],
             [
-                'username' => 'it_admin',
+                'username' => 'it.admin@kaldisbunna.et',
                 'name' => 'IT Department Admin',
                 'full_name' => 'IT Support Administrator',
                 'email' => 'it.admin@kaldisbunna.et',
@@ -68,7 +68,7 @@ class UserSeeder extends Seeder
                 'roles' => ['Admin', 'IT Admin', 'IT Staff'],
             ],
             [
-                'username' => 'it_trainer',
+                'username' => 'it@kaldisbunna.et',
                 'name' => 'IT Support Team',
                 'full_name' => 'Kaldi IT Support Officer',
                 'email' => 'it@kaldisbunna.et',
@@ -79,7 +79,7 @@ class UserSeeder extends Seeder
                 'roles' => ['IT Staff'],
             ],
             [
-                'username' => 'finance_trainer',
+                'username' => 'finance@kaldisbunna.et',
                 'name' => 'Finance Manager',
                 'full_name' => 'Finance Department Approver',
                 'email' => 'finance@kaldisbunna.et',
@@ -90,7 +90,7 @@ class UserSeeder extends Seeder
                 'roles' => ['Admin', 'Finance Manager'],
             ],
             [
-                'username' => 'fb_mgr',
+                'username' => 'fb@kaldisbunna.et',
                 'name' => 'F&B Manager',
                 'full_name' => 'Food & Beverage Manager',
                 'email' => 'fb@kaldisbunna.et',
@@ -101,7 +101,7 @@ class UserSeeder extends Seeder
                 'roles' => ['Admin', 'F&B Manager'],
             ],
             [
-                'username' => 'coordinator',
+                'username' => 'coordinator@kaldisbunna.et',
                 'name' => 'Training Coordinator',
                 'full_name' => 'Training & Operations Coordinator',
                 'email' => 'coordinator@kaldisbunna.et',
@@ -112,7 +112,7 @@ class UserSeeder extends Seeder
                 'roles' => ['Coordinator'],
             ],
             [
-                'username' => 'branch_user',
+                'username' => 'branch.user@kaldisbunna.et',
                 'name' => 'Bole Branch User',
                 'full_name' => 'Bole Branch Requester',
                 'email' => 'branch.user@kaldisbunna.et',
@@ -124,7 +124,7 @@ class UserSeeder extends Seeder
                 'roles' => ['Branch User'],
             ],
             [
-                'username' => 'bole_branch',
+                'username' => 'bole@kaldisbunna.et',
                 'name' => 'Bole Branch Manager',
                 'full_name' => 'Bole Branch Store',
                 'email' => 'bole@kaldisbunna.et',
