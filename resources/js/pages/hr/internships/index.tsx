@@ -20,7 +20,7 @@ import {
     Trash2,
     XCircle,
 } from 'lucide-react';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 interface InternshipItem {
     id: number;

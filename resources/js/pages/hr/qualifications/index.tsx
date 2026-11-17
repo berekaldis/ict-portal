@@ -17,7 +17,7 @@ import {
     Trash2,
     UserCheck,
 } from 'lucide-react';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 interface QualificationItem {
     id: number;
