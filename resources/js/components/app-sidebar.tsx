@@ -114,11 +114,12 @@ const sections: NavSection[] = [
         ],
     },
     // =========================================================
-    // TELECOM MANAGEMENT MODULE
+    // TELECOM MANAGEMENT MODULE (IT ONLY)
     // =========================================================
     {
         label: 'Telecom Management',
         icon: Signal,
+        itOnly: true,
         permission: 'telecom.view|view telecom management|manage telecom connections',
         items: [
             {
@@ -148,11 +149,12 @@ const sections: NavSection[] = [
         ],
     },
     // =========================================================
-    // KALDIS BRANCH COMMUNICATION PLATFORM
+    // KALDIS BRANCH COMMUNICATION PLATFORM (IT ONLY)
     // =========================================================
     {
         label: 'Kaldis Communication',
         icon: Send,
+        itOnly: true,
         permission: 'communication.view|view kaldis communication|view telegram config|manage telegram config',
         items: [
             {
@@ -164,11 +166,12 @@ const sections: NavSection[] = [
         ],
     },
     // =========================================================
-    // IT BRANCH INFRASTRUCTURE & HARDWARE AUDIT (SERVEY MODULE)
+    // IT BRANCH INFRASTRUCTURE & HARDWARE AUDIT (IT ONLY)
     // =========================================================
     {
         label: 'IT Branch Survey & Audit',
         icon: ClipboardCheck,
+        itOnly: true,
         permission: 'it_survey.view|it_survey.create|it_survey.manage',
         items: [
             {
@@ -260,11 +263,12 @@ const sections: NavSection[] = [
         ],
     },
     // =========================================================
-    // SYSTEM ADMINISTRATION
+    // SYSTEM ADMINISTRATION (IT ONLY)
     // =========================================================
     {
         label: 'System Administration',
         icon: Settings,
+        itOnly: true,
         permission: 'view users|view roles|view permissions|case.settings.manage',
         items: [
             {

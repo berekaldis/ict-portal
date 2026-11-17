@@ -136,6 +136,9 @@ class PermissionSeeder extends Seeder
                 'edit_request.reject',
                 'edit_request.reports.view',
                 'view dashboard',
+                'sales_case.view',
+                'sales_case.create',
+                'sales_case.manage',
             ],
 
             'F&B Manager' => [

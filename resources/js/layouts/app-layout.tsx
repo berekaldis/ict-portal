@@ -39,7 +39,6 @@ export default function AppLayout({ children, breadcrumbs = [] }: Props) {
                     {children}
                 </main>
                 <AppFooter />
-                {mustChangePassword && <PasswordChangeDialog open={true} />}
                 <Toaster position="top-right" richColors />
             </SidebarInset>
         </SidebarProvider>

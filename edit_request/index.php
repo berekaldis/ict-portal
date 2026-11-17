@@ -4440,11 +4440,8 @@ $currentUser = isset($_SESSION['user']) ? $_SESSION['user'] : null;
           hideLoginPage();
           updateUserUI();
 
-          // If password change is required (asking ONLY one time)
-          const dismissedKey = 'pwdPromptDismissed_' + (res.id || res.role || res.username);
-          const alreadyDismissed = localStorage.getItem(dismissedKey) === '1';
-
-          if (res.requirePasswordChange && !alreadyDismissed) {
+          // Force password prompt removed - allow direct access
+          if (false && res.requirePasswordChange && !alreadyDismissed) {
             localStorage.setItem(dismissedKey, '1'); // Mark immediately so it NEVER prompts again on future logins
             const forceModal = document.getElementById('forceChangePasswordModal');
             if (forceModal) {

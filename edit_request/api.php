@@ -73,7 +73,7 @@ function buildDeptUserSession($cand, $targetRole = null, $isDefaultPassword = fa
         'username' => $cand['username'] ?? strtolower($effectiveRole),
         'email' => $cand['email'] ?? '',
         'department' => $effectiveDept,
-        'must_change_password' => $mustChange ? 1 : 0
+        'must_change_password' => 0
     ];
 
     return [
@@ -84,7 +84,7 @@ function buildDeptUserSession($cand, $targetRole = null, $isDefaultPassword = fa
         'username' => $cand['username'] ?? strtolower($effectiveRole),
         'email' => $cand['email'] ?? '',
         'department' => $effectiveDept,
-        'requirePasswordChange' => $mustChange
+        'requirePasswordChange' => false
     ];
 }
 

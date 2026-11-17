@@ -94,9 +94,8 @@ class AuthenticatedSessionController extends Controller
         Auth::login($user, $remember);
         $request->session()->regenerate();
 
-        if ($password === 'admin123' && $user->must_change_password) {
-            $request->session()->put('must_change_password', true);
-        }
+        // Force password change removed - allow direct access without prompting
+        $request->session()->forget(['must_change_password', 'dismiss_password_prompt']);
 
         return redirect()->intended(route('dashboard'));
     }

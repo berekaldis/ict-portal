@@ -38,21 +38,49 @@ class HandleInertiaRequests extends Middleware
     public function share(Request $request): array
     {
         $user = $request->user();
-        if ($user && $user->roles->isEmpty() && !empty($user->role)) {
-            $mappedRole = match ($user->role) {
-                'Branch Manager', 'Shift Leader', 'Supervisor', 'Branch User' => 'Branch User',
-                'Super Admin', 'superadmin' => 'Super Admin',
-                'IT Admin' => 'IT Admin',
-                'Admin', 'admin' => 'Admin',
-                'IT Staff', 'IT' => 'IT Staff',
-                'Finance Manager' => 'Finance Manager',
-                'F&B Manager' => 'F&B Manager',
-                'Coordinator' => 'Coordinator',
-                default => null,
-            };
-            if ($mappedRole && \Spatie\Permission\Models\Role::where('name', $mappedRole)->exists()) {
-                $user->assignRole($mappedRole);
-                $user->load('roles', 'permissions');
+        if ($user) {
+            $deptNorm = strtolower(trim((string)$user->department));
+            $uname = strtolower(trim((string)$user->username));
+            $isSuper = in_array($uname, ['superadmin', 'superadmin@kaldisbunna.et', 'berhanu@kaldisbunna.et', 'takelu@kaldisbunna.et'])
+                || $user->role === 'Super Admin'
+                || $user->hasRole(['Super Admin', 'superadmin']);
+
+            if ($isSuper) {
+                if (!$user->hasRole('Super Admin')) {
+                    $user->syncRoles(['Super Admin']);
+                    $user->role = 'Super Admin';
+                    $user->save();
+                    $user->load('roles', 'permissions');
+                }
+            } elseif ($deptNorm === 'finance' || str_contains($deptNorm, 'finance')) {
+                if (!$user->hasRole('Finance Manager') || $user->hasRole('Admin') || $user->role !== 'Finance Manager') {
+                    $user->syncRoles(['Finance Manager']);
+                    $user->role = 'Finance Manager';
+                    $user->save();
+                    $user->load('roles', 'permissions');
+                }
+            } elseif ($deptNorm === 'f&b' || $deptNorm === 'fb' || str_contains($deptNorm, 'food') || str_contains($deptNorm, 'beverage')) {
+                if (!$user->hasRole('F&B Manager') || $user->hasRole('Admin') || $user->role !== 'F&B Manager') {
+                    $user->syncRoles(['F&B Manager']);
+                    $user->role = 'F&B Manager';
+                    $user->save();
+                    $user->load('roles', 'permissions');
+                }
+            } elseif (in_array($deptNorm, ['it', 'ict'])) {
+                if (!$user->hasRole(['IT Admin', 'IT Staff'])) {
+                    $itRole = ($user->role === 'IT Staff') ? 'IT Staff' : 'IT Admin';
+                    $user->syncRoles([$itRole]);
+                    $user->role = $itRole;
+                    $user->save();
+                    $user->load('roles', 'permissions');
+                }
+            } else {
+                if ($user->roles->isEmpty() || $user->hasRole('Admin') || $user->role !== 'Branch User') {
+                    $user->syncRoles(['Branch User']);
+                    $user->role = 'Branch User';
+                    $user->save();
+                    $user->load('roles', 'permissions');
+                }
             }
         }
 
@@ -72,8 +100,6 @@ class HandleInertiaRequests extends Middleware
                 $isItDept && (in_array('IT Admin', $roles) || in_array('IT Staff', $roles) || in_array('IT', $roles))
             ))
         );
-        $hasSession = $request->hasSession();
-        $mustChangePassword = $user && (($user->must_change_password || ($hasSession && $request->session()->get('must_change_password'))) && !($hasSession && $request->session()->get('dismiss_password_prompt')));
 
         return [
             ...parent::share($request),
@@ -83,7 +109,7 @@ class HandleInertiaRequests extends Middleware
                 'roles' => $roles,
                 'permissions' => $permissions->toArray(),
                 'isItTeam' => $isItTeam,
-                'mustChangePassword' => (bool)$mustChangePassword,
+                'mustChangePassword' => false,
             ],
             'ziggy' => fn () => [
                 ...(new Ziggy)->toArray(),

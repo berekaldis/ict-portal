@@ -417,14 +417,14 @@ class CompanySystemSyncService
 
         if ($isFinance) {
             return [
-                'role' => 'Admin',
+                'role' => 'Finance Manager',
                 'department' => 'Finance',
             ];
         }
 
         if ($isFb) {
             return [
-                'role' => 'Admin',
+                'role' => 'F&B Manager',
                 'department' => 'F&B',
             ];
         }
