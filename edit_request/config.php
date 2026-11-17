@@ -694,10 +694,21 @@ function sendDetailedNotificationHtml($rowData, $status, $actor = "System") {
             $targetChatId = getDeptChatId($pdo, 'F&B');
         }
     } else {
-        // Normal Edit / Void Request -> Send to Target Department (Finance / F&B)
-        $cleanTargetDept = trim(explode('(', $targetDeptRaw)[0]);
-        $cleanTargetDept = trim(explode(',', $cleanTargetDept)[0]);
-        $targetChatId = getDeptChatId($pdo, $cleanTargetDept ?: 'F&B');
+        // Normal Edit / Void Request
+        if ($status === 'NEW_REQUEST') {
+            // New request -> Send ONLY to approving department (Finance / F&B). Never to IT!
+            $cleanTargetDept = trim(explode('(', $targetDeptRaw)[0]);
+            $cleanTargetDept = trim(explode(',', $cleanTargetDept)[0]);
+            $targetChatId = getDeptChatId($pdo, $cleanTargetDept ?: 'Finance');
+        } elseif ($status === 'Approved') {
+            // Approved by Finance or F&B -> Send to IT Department for execution!
+            $targetChatId = getDeptChatId($pdo, 'IT');
+        } else {
+            // Done / Rejected -> Send back to approving department
+            $cleanTargetDept = trim(explode('(', $targetDeptRaw)[0]);
+            $cleanTargetDept = trim(explode(',', $cleanTargetDept)[0]);
+            $targetChatId = getDeptChatId($pdo, $cleanTargetDept ?: 'Finance');
+        }
     }
 
     // Construct Header based on Action Type & Workflow Status

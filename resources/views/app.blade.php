@@ -1,22 +1,14 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" @class(['dark' => ($appearance ?? 'system') == 'dark'])>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <script>
-        (function () {
-            const appearance = '{{ $appearance ?? "system" }}';
-            if (appearance === 'system') {
-                const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                if (prefersDark) {
-                    document.documentElement.classList.add('dark');
-                }
-            } else if (appearance === 'dark') {
-                document.documentElement.classList.add('dark');
-            }
-        })();
+        // Ensure clean default theme (light mode)
+        document.documentElement.classList.remove('dark');
+        try { localStorage.removeItem('theme'); } catch(e) {}
     </script>
 
     <title inertia>{{ config('app.name', 'Kaldis ICT Portal') }}</title>

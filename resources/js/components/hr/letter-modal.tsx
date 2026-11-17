@@ -85,7 +85,7 @@ export default function LetterModal({ open, onClose, letter }: Props) {
                     <div className="text-center space-y-1 pb-6 border-b-2 border-amber-900/40">
                         <div className="flex justify-center mb-2">
                             <img
-                                src="/logokaldis.png"
+                                src="/images/kaldis_logo.png"
                                 alt="Kaldi's Coffee Logo"
                                 className="h-16 w-16 sm:h-20 sm:w-20 object-contain drop-shadow-xs"
                                 onError={(e) => {

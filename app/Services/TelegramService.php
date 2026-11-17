@@ -210,30 +210,51 @@ class TelegramService
             ?: CaseSetting::get('telegram_chat_id_onhand_delete')
             ?: '-1002426639974';
 
-        $chatId = $adminChatId;
+        // Determine target Chat ID based on workflow requirements:
+        // 1. New/Pending requests go ONLY to Finance or F&B (approvers). IT never receives new requests!
+        // 2. Once Approved by Finance/F&B, request is dispatched to IT Department ($adminChatId) for technical execution!
+        // 3. Once Done or Rejected, notifications return to originating department.
+        $isFinanceTarget = str_contains(strtolower($targetDept), 'finance');
+        $isFbTarget = str_contains(strtolower($targetDept), 'f&b') || str_contains(strtolower($targetDept), 'fb') || $isOnHandDelete;
+
         if ($isOnHandDelete) {
             if ($status === 'Pending' || $status === 'NEW_REQUEST') {
-                $chatId = $fbChatId;
+                $chatId = $fbChatId; // Step 1: New On Hand Delete -> F&B Group only
             } elseif ($status === 'Approved') {
-                $chatId = $adminChatId;
+                $chatId = $adminChatId; // Step 2: F&B Approved -> Sent to IT Group for Execution
             } elseif ($status === 'Done' || $status === 'Rejected') {
-                $chatId = $onHandDeleteChatId;
+                $chatId = $onHandDeleteChatId ?: $fbChatId; // Step 3: Done/Rejected -> OnHand/F&B Group
+            } else {
+                $chatId = $fbChatId;
             }
         } else {
-            if (str_contains(strtolower($targetDept), 'finance')) {
-                $chatId = $financeChatId;
-            } elseif (str_contains(strtolower($targetDept), 'f&b') || str_contains(strtolower($targetDept), 'fb')) {
-                $chatId = $fbChatId;
-            } elseif (str_contains(strtolower($targetDept), 'it')) {
+            // Standard Voucher Edit / Void Requests
+            if ($status === 'Pending' || $status === 'NEW_REQUEST') {
+                // New requests go strictly to approving department (Finance or F&B). Never to IT!
+                $chatId = $isFbTarget ? $fbChatId : $financeChatId;
+            } elseif ($status === 'Approved') {
+                // Approved by Finance or F&B -> Send to IT Department for technical execution!
                 $chatId = $adminChatId;
+            } elseif ($status === 'Done') {
+                // IT marked Done -> Send notification back to approving department (Finance or F&B)
+                $chatId = $isFbTarget ? $fbChatId : $financeChatId;
+            } elseif ($status === 'Rejected') {
+                // Rejected -> Return notification to approving department
+                $chatId = $isFbTarget ? $fbChatId : $financeChatId;
+            } else {
+                $chatId = $isFbTarget ? $fbChatId : $financeChatId;
             }
         }
 
         $header = match ($status) {
-            'NEW_REQUEST', 'Pending' => $isOnHandDelete ? "<b>🔥 NEW ON HAND DELETE REQUEST</b>\nTarget: F&B Group" : "<b>📝 NEW VOUCHER EDIT/VOID REQUEST</b>",
-            'Approved' => $isOnHandDelete ? "<b>✅ ON HAND DELETE APPROVED</b>\nApproved By: " . self::escape($actor) . "\n➡️ Sent to IT Group for Execution" : "<b>✅ REQUEST APPROVED</b>\nBy: " . self::escape($actor),
+            'NEW_REQUEST', 'Pending' => $isOnHandDelete ? "<b>🔥 NEW ON HAND DELETE REQUEST</b>\nTarget: F&B Department" : "<b>📝 NEW VOUCHER EDIT/VOID REQUEST</b>\nTarget: " . ($isFbTarget ? "F&B Department" : "Finance Department"),
+            'Approved' => $isOnHandDelete
+                ? "<b>✅ ON HAND DELETE APPROVED</b>\nApproved By: " . self::escape($actor) . "\n➡️ Sent to IT Group for Execution"
+                : "<b>✅ VOUCHER REQUEST APPROVED</b>\nApproved By: " . self::escape($actor) . "\n➡️ Sent to IT Department for Execution",
             'Rejected' => "<b>❌ REQUEST REJECTED</b>\nBy: " . self::escape($actor),
-            'Done' => $isOnHandDelete ? "<b>🎉 ON HAND DELETE COMPLETED ✅</b>\nProcessed By IT: " . self::escape($actor) : "<b>🎉 REQUEST COMPLETED ✅</b>\nProcessed By: " . self::escape($actor),
+            'Done' => $isOnHandDelete
+                ? "<b>🎉 ON HAND DELETE COMPLETED ✅</b>\nProcessed By IT: " . self::escape($actor) . "\n➡️ Notification sent to F&B Group"
+                : "<b>🎉 VOUCHER REQUEST COMPLETED ✅</b>\nProcessed By IT: " . self::escape($actor) . "\n➡️ Notification sent to " . ($isFbTarget ? "F&B Department" : "Finance Department"),
             default => "<b>REQUEST UPDATE ({$status})</b>"
         };
 

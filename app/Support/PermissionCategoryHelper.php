@@ -8,6 +8,26 @@ class PermissionCategoryHelper
     {
         $perm = strtolower(trim($permission));
 
+        if (str_contains($perm, 'communication')) {
+            return 'Kaldis Communication';
+        }
+
+        if (str_contains($perm, 'telecom')) {
+            return 'Telecom Management';
+        }
+
+        if (str_starts_with($perm, 'it_survey.') || str_contains($perm, 'survey')) {
+            return 'IT Survey & Audit';
+        }
+
+        if (str_starts_with($perm, 'sales_case.') || str_contains($perm, 'sales')) {
+            return 'Sales Reconciliation';
+        }
+
+        if (str_starts_with($perm, 'hr.') || self::containsAny($perm, ['internship', 'qualification', 'recruitment'])) {
+            return 'HR Management';
+        }
+
         if (str_starts_with($perm, 'case.')) {
             return 'Case Management (IT Only)';
         }
@@ -30,6 +50,11 @@ class PermissionCategoryHelper
     public static function groupPermissions(array $permissions): array
     {
         $grouped = [
+            'Kaldis Communication' => [],
+            'Telecom Management' => [],
+            'IT Survey & Audit' => [],
+            'Sales Reconciliation' => [],
+            'HR Management' => [],
             'Case Management (IT Only)' => [],
             'Edit & Void Requests' => [],
             'User & Organization' => [],

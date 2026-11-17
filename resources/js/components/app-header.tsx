@@ -1,4 +1,3 @@
-import { AppearanceDropdown } from '@/components/appearance-dropdown';
 import { Breadcrumbs, BreadcrumbItemType } from '@/components/breadcrumbs';
 import { Button } from '@/components/ui/button';
 import { SidebarTrigger } from '@/components/ui/sidebar';
@@ -64,8 +63,6 @@ export function AppHeader({ breadcrumbs = [] }: Props) {
                         </span>
                     </Button>
                 )}
-
-                <AppearanceDropdown />
             </div>
         </header>
     );

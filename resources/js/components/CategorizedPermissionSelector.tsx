@@ -215,7 +215,15 @@ export default function CategorizedPermissionSelector({
                                             return (
                                                 <div
                                                     key={perm}
+                                                    role="button"
+                                                    tabIndex={0}
                                                     onClick={() => togglePermission(perm)}
+                                                    onKeyDown={(e) => {
+                                                        if (e.key === ' ' || e.key === 'Enter') {
+                                                            e.preventDefault();
+                                                            togglePermission(perm);
+                                                        }
+                                                    }}
                                                     className={`flex items-start gap-2.5 p-2 rounded-md border text-left cursor-pointer transition-colors ${
                                                         isChecked
                                                             ? 'bg-primary/5 border-primary/40 text-foreground'
@@ -224,8 +232,8 @@ export default function CategorizedPermissionSelector({
                                                 >
                                                     <Checkbox
                                                         checked={isChecked}
-                                                        onCheckedChange={() => togglePermission(perm)}
-                                                        className="mt-0.5"
+                                                        tabIndex={-1}
+                                                        className="mt-0.5 pointer-events-none"
                                                     />
                                                     <div className="text-xs leading-snug">
                                                         <div className="font-medium text-foreground">{formatPermissionLabel(perm)}</div>

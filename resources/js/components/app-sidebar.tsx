@@ -254,12 +254,6 @@ const sections: NavSection[] = [
                 icon: Briefcase,
                 permission: 'hr.view',
             },
-            {
-                title: 'HR Settings',
-                href: '/hr/settings',
-                icon: Settings2,
-                permission: 'hr.manage',
-            },
         ],
     },
     // =========================================================
@@ -269,7 +263,7 @@ const sections: NavSection[] = [
         label: 'System Administration',
         icon: Settings,
         itOnly: true,
-        permission: 'view users|view roles|view permissions|case.settings.manage',
+        permission: 'view users|view roles|view permissions|case.settings.manage|hr.manage',
         items: [
             {
                 title: 'Users',
@@ -290,10 +284,16 @@ const sections: NavSection[] = [
                 permission: 'view permissions',
             },
             {
-                title: 'Settings',
+                title: 'System Settings',
                 href: '/settings',
                 icon: Settings2,
                 permission: 'case.settings.manage',
+            },
+            {
+                title: 'HR & Branch Settings',
+                href: '/hr/settings',
+                icon: Settings2,
+                permission: 'hr.manage',
             },
         ],
     },

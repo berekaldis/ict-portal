@@ -73,6 +73,45 @@ class PermissionSeeder extends Seeder
         'hr.view',
         'hr.create',
         'hr.manage',
+
+        // Telecom Management Module
+        'telecom.view',
+        'view telecom management',
+        'manage telecom connections',
+        'export telecom data',
+        'telecom.phone.view',
+        'telecom.phone.create',
+        'telecom.phone.edit',
+        'telecom.phone.delete',
+        'telecom.phone.transfer',
+        'telecom.broadband.view',
+        'telecom.broadband.create',
+        'telecom.broadband.edit',
+        'telecom.broadband.delete',
+        'telecom.broadband.transfer',
+        'telecom.providers.manage',
+        'telecom.export',
+
+        // IT Branch Survey & Infrastructure Audit Module
+        'it_survey.view',
+        'it_survey.create',
+        'it_survey.manage',
+
+        // Sales Discrepancy & Z-Report Reconciliation Module
+        'sales_case.view',
+        'sales_case.create',
+        'sales_case.manage',
+
+        // Kaldis Branch Communication Module
+        'communication.view',
+        'communication.manage',
+        'communication.moderation',
+        'communication.broadcast',
+        'communication.sync',
+        'view kaldis communication',
+        'manage kaldis communication',
+        'manage communication moderation',
+        'send communication broadcast',
     ];
 
     public function run(): void
