@@ -36,12 +36,12 @@ class AuthenticatedSessionController extends Controller
      */
     public function store(Request $request, CompanySystemSyncService $syncService): RedirectResponse
     {
-        $loginInput = trim((string)($request->input('login') ?? $request->input('username') ?? ''));
+        $loginInput = trim((string)($request->input('email') ?? $request->input('login') ?? $request->input('username') ?? ''));
         $password = (string)$request->input('password', '');
         $remember = $request->boolean('remember');
 
         if (empty($loginInput)) {
-            return back()->withErrors(['login' => 'Username or email is required.']);
+            return back()->withErrors(['email' => 'Email address is required.', 'login' => 'Email address is required.']);
         }
 
         if (empty($password)) {
@@ -62,11 +62,11 @@ class AuthenticatedSessionController extends Controller
         }
 
         if (!$user) {
-            return back()->withErrors(['login' => 'Account record not found for this username or email.']);
+            return back()->withErrors(['email' => 'Account record not found for this email address.', 'login' => 'Account record not found for this email address.']);
         }
 
         if (!$user->is_active) {
-            return back()->withErrors(['login' => 'Your account has been deactivated. Please contact an administrator.']);
+            return back()->withErrors(['email' => 'Your account has been deactivated. Please contact an administrator.', 'login' => 'Your account has been deactivated. Please contact an administrator.']);
         }
 
         // 3. Verify password

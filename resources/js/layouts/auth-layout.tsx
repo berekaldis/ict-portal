@@ -1,33 +1,36 @@
 import AppLogoIcon from '@/components/app-logo-icon';
-import React from 'react';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Link } from '@inertiajs/react';
+import React, { type PropsWithChildren } from 'react';
 import { Toaster } from 'sonner';
 
 interface Props {
-    children: React.ReactNode;
     title?: string;
     description?: string;
 }
 
-export default function AuthLayout({ children, title, description }: Props) {
+export default function AuthLayout({
+    children,
+    title,
+    description,
+}: PropsWithChildren<Props>) {
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-muted/20 relative">
-            <div className="absolute inset-0 bg-[radial-gradient(oklch(0.48_0.14_55)_1px,transparent_1px)] [background-size:24px_24px] opacity-[0.03] pointer-events-none" />
-
-            <div className="w-full max-w-md space-y-6 relative z-10">
-                <div className="text-center space-y-2">
-                    <div className="inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-background border border-border/80 shadow-sm p-2 mb-1">
-                        <AppLogoIcon className="h-12 w-12" />
+        <div className="flex min-h-svh flex-col items-center justify-center gap-6 bg-muted p-6 md:p-10">
+            <div className="flex w-full max-w-md flex-col gap-6">
+                <Link href="/" className="flex items-center gap-2 self-center font-medium">
+                    <div className="flex h-24 w-24 items-center justify-center rounded-full bg-white shadow-sm border border-gray-200 dark:border-gray-800 p-2">
+                        <AppLogoIcon className="size-20 object-contain" />
                     </div>
-                    <h1 className="text-2xl font-bold tracking-tight text-foreground">
-                        {title || "Kaldi's Coffee ICT Portal"}
-                    </h1>
-                    {description && (
-                        <p className="text-sm text-muted-foreground">{description}</p>
-                    )}
-                </div>
+                </Link>
 
-                <div className="bg-card border border-border/70 rounded-xl p-6 sm:p-8 shadow-sm">
-                    {children}
+                <div className="flex flex-col gap-6">
+                    <Card className="rounded-xl">
+                        <CardHeader className="px-10 pt-8 pb-0 text-center">
+                            <CardTitle className="text-xl">{title || "Log in to your account"}</CardTitle>
+                            {description && <CardDescription>{description}</CardDescription>}
+                        </CardHeader>
+                        <CardContent className="px-10 py-8">{children}</CardContent>
+                    </Card>
                 </div>
 
                 <p className="text-center text-xs text-muted-foreground">
