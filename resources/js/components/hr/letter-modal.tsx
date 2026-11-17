@@ -60,10 +60,38 @@ export default function LetterModal({ open, onClose, letter }: Props) {
 
                 {/* Printable Letter Sheet */}
                 <div className="p-8 sm:p-12 bg-white text-black font-sans leading-relaxed selection:bg-amber-100" id="printable-letter">
+                    <style>{`
+                        @media print {
+                            body * {
+                                visibility: hidden !important;
+                            }
+                            #printable-letter, #printable-letter * {
+                                visibility: visible !important;
+                            }
+                            #printable-letter {
+                                position: fixed !important;
+                                left: 0 !important;
+                                top: 0 !important;
+                                width: 100% !important;
+                                padding: 12mm 18mm !important;
+                                margin: 0 !important;
+                                background: white !important;
+                                color: black !important;
+                                box-shadow: none !important;
+                            }
+                        }
+                    `}</style>
                     {/* Header */}
                     <div className="text-center space-y-1 pb-6 border-b-2 border-amber-900/40">
-                        <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-amber-800 text-white mb-1">
-                            <Coffee className="w-6 h-6" />
+                        <div className="flex justify-center mb-2">
+                            <img
+                                src="/logokaldis.png"
+                                alt="Kaldi's Coffee Logo"
+                                className="h-16 w-16 sm:h-20 sm:w-20 object-contain drop-shadow-xs"
+                                onError={(e) => {
+                                    (e.target as HTMLImageElement).src = '/images/logo.png';
+                                }}
+                            />
                         </div>
                         <h2 className="text-xl font-extrabold tracking-wide text-amber-950 font-serif">
                             ካልዲስ ኮፊ ኃ/የተ/የግ/ማህበር

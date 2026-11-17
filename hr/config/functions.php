@@ -46,6 +46,10 @@ function getSettings($pdo) {
         }
     }
     
+    if (empty($settings['logo_url'])) {
+        $settings['logo_url'] = '/logokaldis.png';
+    }
+    
     return $settings;
 }
 
