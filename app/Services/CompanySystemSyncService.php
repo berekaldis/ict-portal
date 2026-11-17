@@ -102,7 +102,7 @@ class CompanySystemSyncService
     }
 
     /**
-     * Sync active branches from company_system (only inserts branches not already occurred in this database).
+     * Sync active branches from company_system.
      */
     public function syncBranches(): array
     {
@@ -113,27 +113,40 @@ class CompanySystemSyncService
                 ->get();
 
             $syncedCount = 0;
+            $activeNames = [];
 
             foreach ($csBranches as $b) {
                 $branchName = trim($b->name);
                 if (empty($branchName)) {
                     continue;
                 }
+                $activeNames[] = $branchName;
 
-                // Only get NOT OCCURRED branches from company_system
-                $existsLocally = Branch::where('branch_name', $branchName)
-                    ->orWhereRaw('LOWER(branch_name) = ?', [strtolower($branchName)])
-                    ->exists();
-                if ($existsLocally) {
-                    continue; // Skip already occurred branch
+                Branch::updateOrCreate(
+                    ['branch_name' => $branchName],
+                    [
+                        'is_active' => true,
+                        'telegram_chat_id' => $b->telegram_chat_id ?? null,
+                    ]
+                );
+
+                // Also keep hr_settings branch list updated
+                if (DB::getSchemaBuilder()->hasTable('hr_settings')) {
+                    DB::table('hr_settings')->updateOrInsert(
+                        ['type' => 'branch', 'value' => $branchName],
+                        ['chat_id' => $b->telegram_chat_id ?? null, 'updated_at' => now()]
+                    );
                 }
 
-                Branch::create([
-                    'branch_name' => $branchName,
-                    'is_active' => true,
-                ]);
-
                 $syncedCount++;
+            }
+
+            // Deactivate or remove branches no longer active in company_system
+            if (!empty($activeNames)) {
+                Branch::whereNotIn('branch_name', $activeNames)->delete();
+                if (DB::getSchemaBuilder()->hasTable('hr_settings')) {
+                    DB::table('hr_settings')->where('type', 'branch')->whereNotIn('value', $activeNames)->delete();
+                }
             }
 
             return [
