@@ -13,7 +13,7 @@ export default function Dashboard() {
 
     return (
         <AppLayout breadcrumbs={[{ title: 'Dashboard', href: '/dashboard' }]}>
-            <Head title="Dashboard - Kaldis Coffee" />
+            <Head title="Dashboard - Kaldi's Coffee ICT-Portal" />
 
             <div className="space-y-8">
                 {/* Welcome Section with Coffee Cup */}
@@ -25,8 +25,8 @@ export default function Dashboard() {
                                 <h1 className="text-4xl font-bold text-amber-900 md:text-5xl lg:text-6xl dark:text-amber-100">
                                     {greeting}, {userName}!
                                 </h1>
-                                <p className="text-xl text-amber-800 md:text-2xl dark:text-amber-200">
-                                    Welcome to Kaldi&apos;s Coffee
+                                <p className="text-xl font-semibold text-amber-800 md:text-2xl dark:text-amber-200">
+                                    Welcome to Kaldi&apos;s Coffee ICT-Portal
                                 </p>
                                 <p className="text-lg text-amber-700 dark:text-amber-300">
                                     Sip a Coffee, Make a Memory.
