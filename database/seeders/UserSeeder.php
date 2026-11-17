@@ -7,10 +7,11 @@ use Illuminate\Database\Seeder;
 class UserSeeder extends Seeder
 {
     /**
-     * Dummy user seed disabled. Live database data is preserved directly.
+     * Restore all live users directly from kaldis_full_backup.sql.
      */
     public function run(): void
     {
-        $this->command->info('UserSeeder: Dummy seeds removed. Preserving live production users.');
+        $this->command->info('UserSeeder: Restoring all live production users...');
+        $this->command->call('db:restore-data', ['--force' => true]);
     }
 }
