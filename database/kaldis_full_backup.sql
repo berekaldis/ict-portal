@@ -1297,7 +1297,7 @@ CREATE TABLE `migrations` (
   `migration` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `batch` int NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1306,7 +1306,7 @@ CREATE TABLE `migrations` (
 
 LOCK TABLES `migrations` WRITE;
 /*!40000 ALTER TABLE `migrations` DISABLE KEYS */;
-INSERT INTO `migrations` VALUES (1,'0001_01_01_000000_create_users_table',1),(2,'0001_01_01_000001_create_cache_table',1),(3,'0001_01_01_000002_create_jobs_table',1),(4,'2026_01_01_000001_create_permissions_table',1),(5,'2026_01_01_000002_create_manuals_table',1),(6,'2026_01_01_000003_create_schedules_table',1),(7,'2026_01_01_000004_create_attendance_table',1),(8,'2026_01_01_000005_create_feedback_table',1),(9,'2026_01_01_000006_create_trainer_departments_table',1),(10,'2026_01_01_000007_create_branches_table',1),(11,'2026_01_01_000008_create_settings_table',1),(12,'2026_01_01_000009_create_notification_logs_table',1),(13,'2025_07_26_062753_create_permission_tables',2),(14,'2026_11_11_200000_update_users_table_for_unified_auth',3),(15,'2026_11_13_160626_create_departments_table',4),(16,'2026_11_13_230000_add_performance_indexes',5),(17,'2026_11_13_231000_create_survey_tables',6),(18,'2026_11_13_232000_create_hr_tables',6),(19,'2026_11_14_010000_create_it_survey_and_audit_tables',7),(20,'2026_11_14_020000_create_sales_cases_tables',7),(21,'2026_11_14_030000_create_telecom_management_tables',8),(22,'2026_11_14_040000_add_telegram_fields_to_users_and_branches',9);
+INSERT INTO `migrations` VALUES (1,'0001_01_01_000000_create_users_table',1),(2,'0001_01_01_000001_create_cache_table',1),(3,'0001_01_01_000002_create_jobs_table',1),(4,'2026_01_01_000001_create_permissions_table',1),(5,'2026_01_01_000002_create_manuals_table',1),(6,'2026_01_01_000003_create_schedules_table',1),(7,'2026_01_01_000004_create_attendance_table',1),(8,'2026_01_01_000005_create_feedback_table',1),(9,'2026_01_01_000006_create_trainer_departments_table',1),(10,'2026_01_01_000007_create_branches_table',1),(11,'2026_01_01_000008_create_settings_table',1),(12,'2026_01_01_000009_create_notification_logs_table',1),(13,'2025_07_26_062753_create_permission_tables',2),(14,'2026_11_11_200000_update_users_table_for_unified_auth',3),(15,'2026_11_13_160626_create_departments_table',4),(16,'2026_11_13_230000_add_performance_indexes',5),(17,'2026_11_13_231000_create_survey_tables',6),(18,'2026_11_13_232000_create_hr_tables',6),(19,'2026_11_14_010000_create_it_survey_and_audit_tables',7),(20,'2026_11_14_020000_create_sales_cases_tables',7),(21,'2026_11_14_030000_create_telecom_management_tables',8),(22,'2026_11_14_040000_add_telegram_fields_to_users_and_branches',9),(23,'2024_01_01_000000_create_core_portal_tables',10),(24,'2026_11_14_050000_expand_target_dept_on_edit_requests',10);
 /*!40000 ALTER TABLE `migrations` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -2692,4 +2692,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-11-17 11:38:27
+-- Dump completed on 2026-11-17 11:51:11

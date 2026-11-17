@@ -9,14 +9,17 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('users', function (Blueprint $table) {
+            if (!Schema::hasColumn('users', 'name')) {
+                $table->string('name', 191)->nullable();
+            }
+            if (!Schema::hasColumn('users', 'username')) {
+                $table->string('username', 191)->nullable();
+            }
             if (!Schema::hasColumn('users', 'role')) {
                 $table->string('role', 191)->default('User');
             }
             if (!Schema::hasColumn('users', 'is_active')) {
-                $col = $table->boolean('is_active')->default(true);
-                if (Schema::hasColumn('users', 'role')) {
-                    $col->after('role');
-                }
+                $table->boolean('is_active')->default(true);
             }
             if (!Schema::hasColumn('users', 'full_name')) {
                 $table->string('full_name', 150)->nullable();
@@ -37,16 +40,10 @@ return new class extends Migration
                 $table->string('department', 191)->nullable();
             }
             if (!Schema::hasColumn('users', 'branch')) {
-                $col = $table->string('branch', 191)->nullable();
-                if (Schema::hasColumn('users', 'department')) {
-                    $col->after('department');
-                }
+                $table->string('branch', 191)->nullable();
             }
             if (!Schema::hasColumn('users', 'phone_number')) {
-                $col = $table->string('phone_number', 50)->nullable();
-                if (Schema::hasColumn('users', 'email')) {
-                    $col->after('email');
-                }
+                $table->string('phone_number', 50)->nullable();
             }
         });
     }
