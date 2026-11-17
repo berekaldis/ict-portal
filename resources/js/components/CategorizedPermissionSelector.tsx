@@ -1,12 +1,12 @@
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Checkbox } from '@/components/ui/checkbox';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { formatPermissionLabel, groupPermissionsList, GroupedPermissions } from '@/lib/permission-categories';
 import {
     Briefcase,
+    Check,
     CheckSquare,
     ChevronDown,
     ChevronUp,
@@ -224,17 +224,21 @@ export default function CategorizedPermissionSelector({
                                                             togglePermission(perm);
                                                         }
                                                     }}
-                                                    className={`flex items-start gap-2.5 p-2 rounded-md border text-left cursor-pointer transition-colors ${
+                                                    className={`flex items-start gap-2.5 p-2 rounded-md border text-left cursor-pointer transition-colors select-none ${
                                                         isChecked
                                                             ? 'bg-primary/5 border-primary/40 text-foreground'
                                                             : 'bg-background hover:bg-muted/30 border-border/50 text-muted-foreground'
                                                     }`}
                                                 >
-                                                    <Checkbox
-                                                        checked={isChecked}
-                                                        tabIndex={-1}
-                                                        className="mt-0.5 pointer-events-none"
-                                                    />
+                                                    <div
+                                                        className={`mt-0.5 size-4 shrink-0 rounded-[4px] border flex items-center justify-center transition-all ${
+                                                            isChecked
+                                                                ? 'bg-amber-600 border-amber-600 text-white shadow-2xs'
+                                                                : 'border-input bg-background/50 hover:border-amber-500/60'
+                                                        }`}
+                                                    >
+                                                        {isChecked && <Check className="size-3 stroke-[3]" />}
+                                                    </div>
                                                     <div className="text-xs leading-snug">
                                                         <div className="font-medium text-foreground">{formatPermissionLabel(perm)}</div>
                                                         <div className="font-mono text-[10px] text-muted-foreground">{perm}</div>
