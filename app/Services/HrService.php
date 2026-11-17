@@ -61,23 +61,24 @@ class HrService
      */
     public static function getInternshipLetterData(HrInternshipRequest $record): array
     {
-        $targetBranch = $record->work_branch ?: $record->to_branch;
-        $startDate = $record->start_date ? substr((string) $record->start_date, 0, 10) : date('Y-m-d');
-        $letterDate = $record->created_at ? substr((string) $record->created_at, 0, 10) : date('Y-m-d');
+        $toBranch = $record->to_branch ?: $record->work_branch;
+        $workBranch = $record->work_branch ?: $record->to_branch;
+        $startDate = $record->start_date ? date('Y-m-d', strtotime((string) $record->start_date)) : date('Y-m-d');
+        $letterDate = $record->created_at ? date('Y-m-d', strtotime((string) $record->created_at)) : date('Y-m-d');
 
         return [
             'type' => 'Internship Request',
             'title' => 'የሥራ ላይ ልምምድን ይመለከታል',
             'ref_no' => $record->request_id,
             'date' => $letterDate,
-            'to_branch' => $targetBranch,
+            'to_branch' => $toBranch,
             'from_dept' => 'ሰው ኃይል አስተዳደር',
             'name' => $record->name,
             'gender' => $record->gender,
-            'work_branch' => $targetBranch,
+            'work_branch' => $workBranch,
             'job' => $record->job,
             'start_date' => $startDate,
-            'body' => "{$record->gender} {$record->name} በ {$targetBranch} ቅርንጫፍ ውስጥ በ {$record->job} የሥራ መደብ ላይ እንዲቀጠሩ ይታወቃል። ከ {$startDate} ጀምሮ በዚሁ የሥራ መደብ የሥራ ላይ ልምምድ እንዲያደርጉ ወደ እርስዎ ልከናል። ብቁ መሆናቸውን ሪፖርት ሲያደርጉልን፣ የቅጥር ውላቸውን እንደምንፈጽም እንገልጻለን።",
+            'body' => "{$record->gender} {$record->name} በ {$workBranch} ቅርንጫፍ ውስጥ በ {$record->job} የሥራ መደብ ላይ እንዲቀጠሩ ይታወቃል። ከ {$startDate} ጀምሮ በዚሁ የሥራ መደብ የሥራ ላይ ልምምድ እንዲያደርጉ ወደ እርስዎ ልከናል። ብቁ መሆናቸውን ሪፖርት ሲያደርጉልን፣ የቅጥር ውላቸውን እንደምንፈጽም እንገልጻለን።",
         ];
     }
 
@@ -87,8 +88,8 @@ class HrService
     public static function getQualificationLetterData(HrQualification $record): array
     {
         $branch = $record->branch;
-        $probationStart = $record->probation_start ? substr((string) $record->probation_start, 0, 10) : date('Y-m-d');
-        $letterDate = $record->created_at ? substr((string) $record->created_at, 0, 10) : date('Y-m-d');
+        $probationStart = $record->probation_start ? date('Y-m-d', strtotime((string) $record->probation_start)) : date('Y-m-d');
+        $letterDate = $record->created_at ? date('Y-m-d', strtotime((string) $record->created_at)) : date('Y-m-d');
 
         return [
             'type' => 'Qualification Confirmation',
@@ -115,8 +116,8 @@ class HrService
     public static function getRecruitmentLetterData(HrRecruitment $record): array
     {
         $branch = $record->branch;
-        $startDate = $record->start_date ? substr((string) $record->start_date, 0, 10) : date('Y-m-d');
-        $letterDate = $record->created_at ? substr((string) $record->created_at, 0, 10) : date('Y-m-d');
+        $startDate = $record->start_date ? date('Y-m-d', strtotime((string) $record->start_date)) : date('Y-m-d');
+        $letterDate = $record->created_at ? date('Y-m-d', strtotime((string) $record->created_at)) : date('Y-m-d');
 
         return [
             'type' => 'Recruitment Placement',

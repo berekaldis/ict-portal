@@ -13,6 +13,7 @@ import { Link } from '@inertiajs/react';
 import {
     BarChart3,
     Briefcase,
+    Building2,
     CheckCircle2,
     ClipboardCheck,
     Clock,
@@ -254,6 +255,12 @@ const sections: NavSection[] = [
                 icon: Briefcase,
                 permission: 'hr.view',
             },
+            {
+                title: 'HR Settings',
+                href: '/hr/settings',
+                icon: Settings2,
+                permission: 'hr.manage',
+            },
         ],
     },
     // =========================================================
@@ -284,13 +291,19 @@ const sections: NavSection[] = [
                 permission: 'view permissions',
             },
             {
+                title: 'Branches',
+                href: '/admin/branches',
+                icon: Building2,
+                permission: 'view users|case.settings.manage|hr.manage',
+            },
+            {
                 title: 'System Settings',
                 href: '/settings',
                 icon: Settings2,
                 permission: 'case.settings.manage',
             },
             {
-                title: 'HR & Branch Settings',
+                title: 'HR Settings',
                 href: '/hr/settings',
                 icon: Settings2,
                 permission: 'hr.manage',

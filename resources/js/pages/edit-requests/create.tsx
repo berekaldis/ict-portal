@@ -470,12 +470,13 @@ export default function EditRequestCreate({
                                                 Target Department 🏦 <span className="text-destructive">*</span>
                                             </Label>
                                             <SearchableSelect
-                                                options={targetDepartments}
-                                                value={data.target_dept}
-                                                onValueChange={(val) => setData('target_dept', val)}
-                                                placeholder="Select Department..."
-                                                searchPlaceholder="Search department..."
+                                                options={['F&B']}
+                                                value="F&B"
+                                                onValueChange={(val) => setData('target_dept', 'F&B')}
+                                                placeholder="F&B Department"
+                                                searchPlaceholder="F&B Department"
                                             />
+                                            <p className="text-[11px] text-muted-foreground">Target department for On Hand Delete is exclusively F&B.</p>
                                             {errors.target_dept && <p className="text-xs text-destructive">{errors.target_dept}</p>}
                                         </div>
                                     </div>

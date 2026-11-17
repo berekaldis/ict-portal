@@ -84,7 +84,19 @@ export function isRouteActive(itemHref: string, currentUrl: string): boolean {
         }
     }
 
-    // 6. Match sub-resource detail or edit routes (e.g. /edit-requests/41 or /cases/12)
+    // 6. Disallow /hr (HR Dashboard) from matching /hr/internships, /hr/qualifications, /hr/recruitments, /hr/settings
+    if (targetPath === '/hr') {
+        if (
+            currentPath.startsWith('/hr/internships') ||
+            currentPath.startsWith('/hr/qualifications') ||
+            currentPath.startsWith('/hr/recruitments') ||
+            currentPath.startsWith('/hr/settings')
+        ) {
+            return false;
+        }
+    }
+
+    // 7. Match sub-resource detail or edit routes (e.g. /edit-requests/41 or /cases/12)
     return currentPath.startsWith(targetPath + '/');
 }
 

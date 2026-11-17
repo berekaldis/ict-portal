@@ -252,7 +252,7 @@ class EditRequestController extends Controller
         }
 
         $actionType = $validated['action_type'];
-        $baseTargetDept = $validated['target_dept'];
+        $baseTargetDept = $actionType === 'On Hand Delete' ? 'F&B' : $validated['target_dept'];
 
         // On Hand Delete specifics (Store User and Department Stores)
         if ($actionType === 'On Hand Delete') {

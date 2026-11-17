@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
+import { SearchableSelect } from '@/components/ui/searchable-select';
 import LetterModal, { LetterData } from '@/components/hr/letter-modal';
 import AppLayout from '@/layouts/app-layout';
 import { Head, Link, router, useForm } from '@inertiajs/react';
@@ -154,16 +155,19 @@ export default function RecruitmentIndex({
                 <div className="bg-card rounded-xl p-3 border border-border/50 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-xs">
                     <div className="flex items-center gap-2 w-full sm:w-auto text-xs">
                         <span className="text-muted-foreground font-medium">Branch:</span>
-                        <select
-                            value={filters.branch}
-                            onChange={(e) => applyFilter({ branch: e.target.value })}
-                            className="h-8 text-xs rounded-lg border-border/60 bg-muted/20 px-2.5 font-medium"
-                        >
-                            <option value="all">All Branches</option>
-                            {branches.map((b) => (
-                                <option key={b} value={b}>{b}</option>
-                            ))}
-                        </select>
+                        <div className="w-48">
+                            <SearchableSelect
+                                options={branches}
+                                value={filters.branch || 'all'}
+                                onValueChange={(val) => applyFilter({ branch: val })}
+                                placeholder="All Branches"
+                                searchPlaceholder="Search branch..."
+                                allowAll
+                                allLabel="All Branches"
+                                allValue="all"
+                                className="h-8 text-xs"
+                            />
+                        </div>
                     </div>
 
                     <div className="relative w-full sm:w-72">
@@ -328,17 +332,16 @@ export default function RecruitmentIndex({
                             </div>
 
                             <div className="grid grid-cols-2 gap-3">
-                                <div>
+                                <div className="space-y-1">
                                     <Label className="text-xs font-semibold">Assigned Branch</Label>
-                                    <select
+                                    <SearchableSelect
+                                        options={branches}
                                         value={data.branch}
-                                        onChange={(e) => setData('branch', e.target.value)}
-                                        className="w-full text-xs rounded-lg border-border/60 bg-muted/20 py-2 px-2.5 mt-1 font-medium"
-                                    >
-                                        {branches.map((b) => (
-                                            <option key={b} value={b}>{b}</option>
-                                        ))}
-                                    </select>
+                                        onValueChange={(val) => setData('branch', val)}
+                                        placeholder="Select branch..."
+                                        searchPlaceholder="Search branch..."
+                                        className="w-full text-xs"
+                                    />
                                 </div>
                                 <div>
                                     <Label className="text-xs font-semibold">Effective Start Date</Label>

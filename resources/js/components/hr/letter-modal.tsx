@@ -89,7 +89,12 @@ export default function LetterModal({ open, onClose, letter }: Props) {
                                 alt="Kaldi's Coffee Logo"
                                 className="h-16 w-16 sm:h-20 sm:w-20 object-contain drop-shadow-xs"
                                 onError={(e) => {
-                                    (e.target as HTMLImageElement).src = '/images/logo.png';
+                                    const img = e.currentTarget;
+                                    if (img.src.includes('kaldis_logo.png')) {
+                                        img.src = '/logokaldis.png';
+                                    } else if (!img.src.includes('logo.png')) {
+                                        img.src = '/images/logo.png';
+                                    }
                                 }}
                             />
                         </div>

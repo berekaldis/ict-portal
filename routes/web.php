@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\BranchManagementController;
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\Auth\PasswordController;
 use App\Http\Controllers\CompanySystemSyncController;
@@ -62,6 +63,15 @@ Route::middleware('auth')->group(function () {
     Route::get('settings', [CaseSettingController::class, 'index'])->name('settings.index')->middleware('can:case.settings.manage');
     Route::post('settings', [CaseSettingController::class, 'update'])->name('settings.update')->middleware('can:case.settings.manage');
     Route::post('settings/test-telegram', [CaseSettingController::class, 'testTelegram'])->name('settings.test-telegram')->middleware('can:case.settings.manage');
+
+    // System Administration - Branches Management
+    Route::prefix('admin')->name('admin.')->middleware('can:view users|case.settings.manage|hr.manage')->group(function () {
+        Route::get('branches', [BranchManagementController::class, 'index'])->name('branches.index');
+        Route::post('branches', [BranchManagementController::class, 'store'])->name('branches.store');
+        Route::put('branches/{id}', [BranchManagementController::class, 'update'])->name('branches.update');
+        Route::delete('branches/{id}', [BranchManagementController::class, 'destroy'])->name('branches.destroy');
+        Route::post('branches/sync', [BranchManagementController::class, 'sync'])->name('branches.sync');
+    });
 
     // ============================================================
     // CASE MANAGEMENT MODULE
