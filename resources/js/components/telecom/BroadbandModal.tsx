@@ -184,41 +184,40 @@ export default function BroadbandModal({
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
-                className="max-w-6xl max-h-[92vh] overflow-y-auto p-6"
+                className="sm:max-w-5xl max-w-5xl max-h-[92vh] overflow-y-auto p-6 sm:p-8 border-border/80 shadow-2xl"
                 onPointerDownOutside={(e) => e.preventDefault()}
                 onInteractOutside={(e) => e.preventDefault()}
                 onEscapeKeyDown={(e) => e.preventDefault()}
             >
-                <DialogHeader>
-                    <DialogTitle className="flex items-center gap-2 text-xl font-bold text-purple-700 dark:text-purple-400">
+                <DialogHeader className="pb-2 border-b border-border/60">
+                    <DialogTitle className="flex items-center gap-2 text-2xl font-bold text-purple-700 dark:text-purple-400">
                         <Wifi className="h-6 w-6 text-purple-600" />
                         {isEdit ? 'Edit Broadband / Data Connection' : 'Add Broadband / WTTx / Data SIM Connection'}
                     </DialogTitle>
                 </DialogHeader>
-                <hr className="my-1" />
 
-                <form onSubmit={handleSubmit} className="space-y-6 py-2">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+                <form onSubmit={handleSubmit} className="space-y-6 pt-3">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <div>
-                            <Label htmlFor="connection_name">Connection Name / Identifier <span className="text-destructive">*</span></Label>
+                            <Label htmlFor="connection_name" className="text-sm font-semibold">Connection Name / Identifier <span className="text-destructive">*</span></Label>
                             <Input
                                 id="connection_name"
                                 placeholder="e.g. HQ Bole Primary Fiber, Region 1 Data SIM"
                                 value={data.connection_name}
                                 onChange={(e) => setData('connection_name', e.target.value)}
-                                className="mt-1"
+                                className="mt-1 h-10"
                                 required
                             />
                             <InputError message={errors.connection_name} />
                         </div>
 
                         <div>
-                            <Label htmlFor="connection_type">Connection Type <span className="text-destructive">*</span></Label>
+                            <Label htmlFor="connection_type" className="text-sm font-semibold">Connection Type <span className="text-destructive">*</span></Label>
                             <select
                                 id="connection_type"
                                 value={data.connection_type}
                                 onChange={(e) => setData('connection_type', e.target.value)}
-                                className="mt-1 w-full rounded-md border border-input bg-white p-2 text-sm dark:bg-slate-950"
+                                className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                             >
                                 <option value="WTTx (Fixed Wireless)">WTTx (Fixed Wireless 4G/5G)</option>
                                 <option value="Data Sim Card">Data SIM Card</option>
@@ -231,36 +230,36 @@ export default function BroadbandModal({
                         </div>
 
                         <div>
-                            <Label htmlFor="service_number">Service Number / SIM Phone Number</Label>
+                            <Label htmlFor="service_number" className="text-sm font-semibold">Service Number / SIM Phone Number</Label>
                             <Input
                                 id="service_number"
                                 placeholder="e.g. 0911XXXXXX or SIM Line No."
                                 value={data.service_number}
                                 onChange={(e) => setData('service_number', e.target.value)}
-                                className="mt-1 font-mono"
+                                className="mt-1 h-10 font-mono"
                             />
                             <InputError message={errors.service_number} />
                         </div>
 
                         <div>
-                            <Label htmlFor="account_number">Account / Circuit No.</Label>
+                            <Label htmlFor="account_number" className="text-sm font-semibold">Account / Circuit No.</Label>
                             <Input
                                 id="account_number"
                                 placeholder="e.g. CKT-99120 or Account No."
                                 value={data.account_number}
                                 onChange={(e) => setData('account_number', e.target.value)}
-                                className="mt-1 font-mono"
+                                className="mt-1 h-10 font-mono"
                             />
                             <InputError message={errors.account_number} />
                         </div>
 
                         <div>
-                            <Label htmlFor="telecom_provider_id">Telecom Provider</Label>
+                            <Label htmlFor="telecom_provider_id" className="text-sm font-semibold">Telecom Provider</Label>
                             <select
                                 id="telecom_provider_id"
                                 value={data.telecom_provider_id}
                                 onChange={(e) => setData('telecom_provider_id', e.target.value)}
-                                className="mt-1 w-full rounded-md border border-input bg-white p-2 text-sm dark:bg-slate-950"
+                                className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                             >
                                 <option value="">Select Provider...</option>
                                 {providers.map((p) => (
@@ -274,7 +273,7 @@ export default function BroadbandModal({
 
                         {/* Searchable Branch Selector */}
                         <div className="space-y-1">
-                            <Label htmlFor="branch_id">Search & Select Assigned Branch</Label>
+                            <Label htmlFor="branch_id" className="text-sm font-semibold">Search & Select Assigned Branch</Label>
                             <SearchableSelect
                                 options={formattedBranches}
                                 value={data.branch_id}
@@ -287,30 +286,30 @@ export default function BroadbandModal({
                         </div>
 
                         <div>
-                            <Label htmlFor="package_type">Package / Rate Plan</Label>
+                            <Label htmlFor="package_type" className="text-sm font-semibold">Package / Rate Plan</Label>
                             <Input
                                 id="package_type"
                                 placeholder="e.g. Business Fiber 50Mbps, WTTx Unlimited"
                                 value={data.package_type}
                                 onChange={(e) => setData('package_type', e.target.value)}
-                                className="mt-1"
+                                className="mt-1 h-10"
                             />
                         </div>
 
                         <div>
-                            <Label htmlFor="bandwidth_speed">Bandwidth Speed</Label>
+                            <Label htmlFor="bandwidth_speed" className="text-sm font-semibold">Bandwidth Speed</Label>
                             <Input
                                 id="bandwidth_speed"
                                 placeholder="e.g. 50 Mbps, Unlimited 4G/5G"
                                 value={data.bandwidth_speed}
                                 onChange={(e) => setData('bandwidth_speed', e.target.value)}
-                                className="mt-1"
+                                className="mt-1 h-10"
                             />
                         </div>
 
                         {/* Package Start Date */}
                         <div>
-                            <Label htmlFor="package_start_date" className="flex items-center gap-1.5 font-semibold text-purple-700 dark:text-purple-400">
+                            <Label htmlFor="package_start_date" className="flex items-center gap-1.5 text-sm font-semibold text-purple-700 dark:text-purple-400">
                                 <Calendar className="h-4 w-4" /> Package Start Date
                             </Label>
                             <Input
@@ -318,18 +317,18 @@ export default function BroadbandModal({
                                 type="date"
                                 value={data.package_start_date}
                                 onChange={(e) => handleStartDateChange(e.target.value)}
-                                className="mt-1 border-purple-300 dark:border-purple-800"
+                                className="mt-1 h-10 border-purple-300 dark:border-purple-800"
                             />
                             <InputError message={errors.package_start_date} />
                         </div>
 
                         {/* Package Duration Selector */}
                         <div>
-                            <Label className="font-semibold text-slate-700 dark:text-slate-300">Package Duration</Label>
+                            <Label className="text-sm font-semibold text-slate-700 dark:text-slate-300">Package Duration</Label>
                             <select
                                 value={durationMonths}
                                 onChange={(e) => handleDurationChange(parseInt(e.target.value, 10))}
-                                className="mt-1 w-full rounded-md border border-input bg-white p-2 text-sm dark:bg-slate-950"
+                                className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                             >
                                 <option value={1}>1 Month (+30 Days)</option>
                                 <option value={3}>3 Months</option>
@@ -340,7 +339,7 @@ export default function BroadbandModal({
 
                         {/* Calculated Package Expire Date */}
                         <div>
-                            <Label htmlFor="package_expiry_date" className="flex items-center gap-1.5 font-semibold text-emerald-700 dark:text-emerald-400">
+                            <Label htmlFor="package_expiry_date" className="flex items-center gap-1.5 text-sm font-semibold text-emerald-700 dark:text-emerald-400">
                                 <Calendar className="h-4 w-4" /> Package Expire Date
                             </Label>
                             <Input
@@ -348,33 +347,33 @@ export default function BroadbandModal({
                                 type="date"
                                 value={data.package_expiry_date}
                                 onChange={(e) => setData('package_expiry_date', e.target.value)}
-                                className="mt-1 border-emerald-300 dark:border-emerald-800 font-semibold"
+                                className="mt-1 h-10 border-emerald-300 dark:border-emerald-800 font-semibold"
                             />
                             <p className="text-[11px] text-muted-foreground mt-0.5">Calculated based on start date & duration</p>
                             <InputError message={errors.package_expiry_date} />
                         </div>
 
                         <div>
-                            <Label htmlFor="monthly_cost">Monthly Cost (ETB) <span className="text-destructive">*</span></Label>
+                            <Label htmlFor="monthly_cost" className="text-sm font-semibold">Monthly Cost (ETB) <span className="text-destructive">*</span></Label>
                             <Input
                                 id="monthly_cost"
                                 type="number"
                                 step="0.01"
                                 value={data.monthly_cost}
                                 onChange={(e) => setData('monthly_cost', parseFloat(e.target.value) || 0)}
-                                className="mt-1 font-mono"
+                                className="mt-1 h-10 font-mono"
                                 required
                             />
                             <InputError message={errors.monthly_cost} />
                         </div>
 
                         <div>
-                            <Label htmlFor="billing_type">Billing Type</Label>
+                            <Label htmlFor="billing_type" className="text-sm font-semibold">Billing Type</Label>
                             <select
                                 id="billing_type"
                                 value={data.billing_type}
                                 onChange={(e) => setData('billing_type', e.target.value)}
-                                className="mt-1 w-full rounded-md border border-input bg-white p-2 text-sm dark:bg-slate-950"
+                                className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                             >
                                 <option value="Postpaid">Postpaid</option>
                                 <option value="Prepaid">Prepaid</option>
@@ -383,12 +382,12 @@ export default function BroadbandModal({
                         </div>
 
                         <div>
-                            <Label htmlFor="status">Status <span className="text-destructive">*</span></Label>
+                            <Label htmlFor="status" className="text-sm font-semibold">Status <span className="text-destructive">*</span></Label>
                             <select
                                 id="status"
                                 value={data.status}
                                 onChange={(e) => setData('status', e.target.value)}
-                                className="mt-1 w-full rounded-md border border-input bg-white p-2 text-sm dark:bg-slate-950"
+                                className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                             >
                                 <option value="Active">Active</option>
                                 <option value="Inactive">Inactive</option>
@@ -399,22 +398,22 @@ export default function BroadbandModal({
                         </div>
 
                         <div>
-                            <Label htmlFor="ip_address">Static IP Address</Label>
+                            <Label htmlFor="ip_address" className="text-sm font-semibold">Static IP Address</Label>
                             <Input
                                 id="ip_address"
                                 placeholder="e.g. 197.156.xx.xx"
                                 value={data.ip_address}
                                 onChange={(e) => setData('ip_address', e.target.value)}
-                                className="mt-1 font-mono text-xs"
+                                className="mt-1 h-10 font-mono text-xs"
                             />
                         </div>
                     </div>
 
-                    <DialogFooter className="pt-4">
+                    <DialogFooter className="pt-6 border-t border-border/60">
                         <DialogClose asChild>
-                            <Button type="button" variant="outline">Cancel</Button>
+                            <Button type="button" variant="outline" size="lg">Cancel</Button>
                         </DialogClose>
-                        <Button type="submit" disabled={processing} className="gap-1.5 bg-purple-600 hover:bg-purple-700 text-white font-semibold">
+                        <Button type="submit" disabled={processing} size="lg" className="gap-2 px-6 bg-purple-600 hover:bg-purple-700 text-white font-semibold">
                             {processing && <Loader2 className="h-4 w-4 animate-spin" />}
                             <span>{isEdit ? 'Save Changes' : 'Save Connection'}</span>
                         </Button>

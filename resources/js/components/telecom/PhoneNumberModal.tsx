@@ -194,40 +194,39 @@ export default function PhoneNumberModal({
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
-                className="max-w-6xl max-h-[92vh] overflow-y-auto p-6"
+                className="sm:max-w-5xl max-w-5xl max-h-[92vh] overflow-y-auto p-6 sm:p-8 border-border/80 shadow-2xl"
                 onPointerDownOutside={(e) => e.preventDefault()}
                 onInteractOutside={(e) => e.preventDefault()}
                 onEscapeKeyDown={(e) => e.preventDefault()}
             >
-                <DialogHeader>
-                    <DialogTitle className="flex items-center gap-2 text-xl font-bold text-blue-700 dark:text-blue-400">
+                <DialogHeader className="pb-2 border-b border-border/60">
+                    <DialogTitle className="flex items-center gap-2 text-2xl font-bold text-blue-700 dark:text-blue-400">
                         <Phone className="h-6 w-6 text-blue-600" />
                         {isEdit ? 'Edit Phone Line Details' : 'Add New Phone Line / SIM Card'}
                     </DialogTitle>
                 </DialogHeader>
-                <hr className="my-1" />
 
-                <form onSubmit={handleSubmit} className="space-y-6 py-2">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+                <form onSubmit={handleSubmit} className="space-y-6 pt-3">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <div>
-                            <Label htmlFor="phone_number">Phone Number <span className="text-destructive">*</span></Label>
+                            <Label htmlFor="phone_number" className="text-sm font-semibold">Phone Number <span className="text-destructive">*</span></Label>
                             <Input
                                 id="phone_number"
                                 placeholder="e.g. +251 91 123 4567"
                                 value={data.phone_number}
                                 onChange={(e) => setData('phone_number', e.target.value)}
-                                className="mt-1"
+                                className="mt-1 h-10"
                             />
                             <InputError message={errors.phone_number} />
                         </div>
 
                         <div>
-                            <Label htmlFor="telecom_provider_id">Telecom Provider</Label>
+                            <Label htmlFor="telecom_provider_id" className="text-sm font-semibold">Telecom Provider</Label>
                             <select
                                 id="telecom_provider_id"
                                 value={data.telecom_provider_id}
                                 onChange={(e) => setData('telecom_provider_id', e.target.value)}
-                                className="mt-1 w-full rounded-md border border-input bg-white p-2 text-sm dark:bg-slate-950"
+                                className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                             >
                                 <option value="">Select Provider...</option>
                                 {providers.map((p) => (
@@ -240,12 +239,12 @@ export default function PhoneNumberModal({
                         </div>
 
                         <div>
-                            <Label htmlFor="service_type">Service Type <span className="text-destructive">*</span></Label>
+                            <Label htmlFor="service_type" className="text-sm font-semibold">Service Type <span className="text-destructive">*</span></Label>
                             <select
                                 id="service_type"
                                 value={data.service_type}
                                 onChange={(e) => setData('service_type', e.target.value)}
-                                className="mt-1 w-full rounded-md border border-input bg-white p-2 text-sm dark:bg-slate-950"
+                                className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                             >
                                 <option value="Mobile">Mobile SIM</option>
                                 <option value="Fixed Line">Fixed Landline</option>
@@ -255,41 +254,41 @@ export default function PhoneNumberModal({
                         </div>
 
                         <div>
-                            <Label htmlFor="account_number">Account / Contract No.</Label>
+                            <Label htmlFor="account_number" className="text-sm font-semibold">Account / Contract No.</Label>
                             <Input
                                 id="account_number"
                                 placeholder="e.g. ACC-88942"
                                 value={data.account_number}
                                 onChange={(e) => setData('account_number', e.target.value)}
-                                className="mt-1"
+                                className="mt-1 h-10"
                             />
                         </div>
 
                         <div>
-                            <Label htmlFor="sim_card_number">SIM Card / ICCID Number</Label>
+                            <Label htmlFor="sim_card_number" className="text-sm font-semibold">SIM Card / ICCID Number</Label>
                             <Input
                                 id="sim_card_number"
                                 placeholder="89251..."
                                 value={data.sim_card_number}
                                 onChange={(e) => setData('sim_card_number', e.target.value)}
-                                className="mt-1"
+                                className="mt-1 h-10 font-mono"
                             />
                         </div>
 
                         <div>
-                            <Label htmlFor="package_type">Package / Rate Plan</Label>
+                            <Label htmlFor="package_type" className="text-sm font-semibold">Package / Rate Plan</Label>
                             <Input
                                 id="package_type"
                                 placeholder="e.g. Unlimited Postpaid 1000 ETB"
                                 value={data.package_type}
                                 onChange={(e) => setData('package_type', e.target.value)}
-                                className="mt-1"
+                                className="mt-1 h-10"
                             />
                         </div>
 
                         {/* Package Start Date */}
                         <div>
-                            <Label htmlFor="package_start_date" className="flex items-center gap-1.5 font-semibold text-blue-700 dark:text-blue-400">
+                            <Label htmlFor="package_start_date" className="flex items-center gap-1.5 text-sm font-semibold text-blue-700 dark:text-blue-400">
                                 <Calendar className="h-4 w-4" /> Package Start Date
                             </Label>
                             <Input
@@ -297,18 +296,18 @@ export default function PhoneNumberModal({
                                 type="date"
                                 value={data.package_start_date}
                                 onChange={(e) => handleStartDateChange(e.target.value)}
-                                className="mt-1 border-blue-300 dark:border-blue-800"
+                                className="mt-1 h-10 border-blue-300 dark:border-blue-800"
                             />
                             <InputError message={errors.package_start_date} />
                         </div>
 
                         {/* Package Duration Selector */}
                         <div>
-                            <Label className="font-semibold text-slate-700 dark:text-slate-300">Package Duration</Label>
+                            <Label className="text-sm font-semibold text-slate-700 dark:text-slate-300">Package Duration</Label>
                             <select
                                 value={durationMonths}
                                 onChange={(e) => handleDurationChange(parseInt(e.target.value, 10))}
-                                className="mt-1 w-full rounded-md border border-input bg-white p-2 text-sm dark:bg-slate-950"
+                                className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                             >
                                 <option value={1}>1 Month (+30 Days)</option>
                                 <option value={3}>3 Months</option>
@@ -319,7 +318,7 @@ export default function PhoneNumberModal({
 
                         {/* Calculated Expire Date */}
                         <div>
-                            <Label htmlFor="package_expiry_date" className="flex items-center gap-1.5 font-semibold text-emerald-700 dark:text-emerald-400">
+                            <Label htmlFor="package_expiry_date" className="flex items-center gap-1.5 text-sm font-semibold text-emerald-700 dark:text-emerald-400">
                                 <Calendar className="h-4 w-4" /> Package Expire Date
                             </Label>
                             <Input
@@ -327,32 +326,32 @@ export default function PhoneNumberModal({
                                 type="date"
                                 value={data.package_expiry_date}
                                 onChange={(e) => setData('package_expiry_date', e.target.value)}
-                                className="mt-1 border-emerald-300 dark:border-emerald-800 font-semibold"
+                                className="mt-1 h-10 border-emerald-300 dark:border-emerald-800 font-semibold"
                             />
                             <p className="text-[11px] text-muted-foreground mt-0.5">Calculated based on start date & duration</p>
                             <InputError message={errors.package_expiry_date} />
                         </div>
 
                         <div>
-                            <Label htmlFor="monthly_cost">Monthly Cost (ETB) <span className="text-destructive">*</span></Label>
+                            <Label htmlFor="monthly_cost" className="text-sm font-semibold">Monthly Cost (ETB) <span className="text-destructive">*</span></Label>
                             <Input
                                 id="monthly_cost"
                                 type="number"
                                 step="0.01"
                                 value={data.monthly_cost}
                                 onChange={(e) => setData('monthly_cost', parseFloat(e.target.value) || 0)}
-                                className="mt-1 font-mono"
+                                className="mt-1 h-10 font-mono"
                             />
                             <InputError message={errors.monthly_cost} />
                         </div>
 
                         <div>
-                            <Label htmlFor="billing_type">Billing Type <span className="text-destructive">*</span></Label>
+                            <Label htmlFor="billing_type" className="text-sm font-semibold">Billing Type <span className="text-destructive">*</span></Label>
                             <select
                                 id="billing_type"
                                 value={data.billing_type}
                                 onChange={(e) => setData('billing_type', e.target.value)}
-                                className="mt-1 w-full rounded-md border border-input bg-white p-2 text-sm dark:bg-slate-950"
+                                className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                             >
                                 <option value="Postpaid">Postpaid</option>
                                 <option value="Prepaid">Prepaid</option>
@@ -361,12 +360,12 @@ export default function PhoneNumberModal({
                         </div>
 
                         <div>
-                            <Label htmlFor="status">Status <span className="text-destructive">*</span></Label>
+                            <Label htmlFor="status" className="text-sm font-semibold">Status <span className="text-destructive">*</span></Label>
                             <select
                                 id="status"
                                 value={data.status}
                                 onChange={(e) => setData('status', e.target.value)}
-                                className="mt-1 w-full rounded-md border border-input bg-white p-2 text-sm dark:bg-slate-950"
+                                className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                             >
                                 <option value="Active">Active</option>
                                 <option value="Inactive">Inactive</option>
@@ -376,12 +375,12 @@ export default function PhoneNumberModal({
                         </div>
 
                         <div>
-                            <Label htmlFor="assigned_type">Assigned To <span className="text-destructive">*</span></Label>
+                            <Label htmlFor="assigned_type" className="text-sm font-semibold">Assigned To <span className="text-destructive">*</span></Label>
                             <select
                                 id="assigned_type"
                                 value={data.assigned_type}
                                 onChange={(e) => setData('assigned_type', e.target.value)}
-                                className="mt-1 w-full rounded-md border border-input bg-white p-2 text-sm dark:bg-slate-950"
+                                className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                             >
                                 <option value="Employee">Specific Employee</option>
                                 <option value="Branch">Branch / Office</option>
@@ -392,7 +391,7 @@ export default function PhoneNumberModal({
 
                         {data.assigned_type === 'Employee' && (
                             <div className="col-span-1 md:col-span-2 space-y-1">
-                                <Label htmlFor="employee_id">Search & Select Employee</Label>
+                                <Label htmlFor="employee_id" className="text-sm font-semibold">Search & Select Employee</Label>
                                 <SearchableSelect
                                     options={formattedEmployees}
                                     value={data.employee_id}
@@ -407,7 +406,7 @@ export default function PhoneNumberModal({
 
                         {data.assigned_type === 'Branch' && (
                             <div className="col-span-1 md:col-span-2 space-y-1">
-                                <Label htmlFor="branch_id">Search & Select Branch</Label>
+                                <Label htmlFor="branch_id" className="text-sm font-semibold">Search & Select Branch</Label>
                                 <SearchableSelect
                                     options={formattedBranches}
                                     value={data.branch_id}
@@ -422,7 +421,7 @@ export default function PhoneNumberModal({
 
                         {data.assigned_type === 'Department' && (
                             <div className="col-span-1 md:col-span-2 space-y-1">
-                                <Label htmlFor="department_id">Search & Select Department</Label>
+                                <Label htmlFor="department_id" className="text-sm font-semibold">Search & Select Department</Label>
                                 <SearchableSelect
                                     options={formattedDepartments}
                                     value={data.department_id}
@@ -436,11 +435,11 @@ export default function PhoneNumberModal({
                         )}
                     </div>
 
-                    <DialogFooter className="pt-4">
+                    <DialogFooter className="pt-6 border-t border-border/60">
                         <DialogClose asChild>
-                            <Button type="button" variant="outline">Cancel</Button>
+                            <Button type="button" variant="outline" size="lg">Cancel</Button>
                         </DialogClose>
-                        <Button type="submit" disabled={processing} className="gap-1.5">
+                        <Button type="submit" disabled={processing} size="lg" className="gap-2 px-6">
                             {processing && <Loader2 className="h-4 w-4 animate-spin" />}
                             <span>{isEdit ? 'Save Changes' : 'Add Phone Line'}</span>
                         </Button>
