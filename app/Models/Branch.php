@@ -12,8 +12,10 @@ class Branch extends Model
     protected $table = 'branches';
 
     protected $fillable = [
+        'id',
         'branch_name',
         'is_active',
+        'telegram_chat_id',
     ];
 
     protected $casts = [

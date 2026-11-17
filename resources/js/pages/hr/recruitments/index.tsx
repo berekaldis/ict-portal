@@ -62,13 +62,19 @@ export default function RecruitmentIndex({
     const { data, setData, post, processing, reset } = useForm({
         name: '',
         gender: 'አቶ',
-        branch: branches[0] || 'Bole',
+        branch: branches[0] || '',
         requested_job: jobs[0] || 'Barista',
         assigned_job: jobs[0] || 'Barista',
         start_date: new Date().toISOString().split('T')[0],
         destination: '',
         qualification_ref_id: '',
     });
+
+    useEffect(() => {
+        if (!data.branch && branches.length > 0) {
+            setData('branch', branches[0]);
+        }
+    }, [branches]);
 
     const handleSelectQualification = (refId: string) => {
         setData('qualification_ref_id', refId);

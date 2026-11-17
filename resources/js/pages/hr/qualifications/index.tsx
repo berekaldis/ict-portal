@@ -68,7 +68,7 @@ export default function QualificationIndex({
     const { data, setData, post, processing, reset } = useForm({
         name: '',
         gender: 'አቶ',
-        branch: branches[0] || 'Bole',
+        branch: branches[0] || '',
         job: jobs[0] || 'Barista',
         probation_start: new Date().toISOString().split('T')[0],
         manager_name: '',
@@ -76,6 +76,12 @@ export default function QualificationIndex({
         destination: '',
         internship_ref_id: '',
     });
+
+    useEffect(() => {
+        if (!data.branch && branches.length > 0) {
+            setData('branch', branches[0]);
+        }
+    }, [branches]);
 
     const handleSelectInternship = (refId: string) => {
         setData('internship_ref_id', refId);

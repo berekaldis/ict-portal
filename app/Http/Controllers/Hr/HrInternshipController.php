@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Hr;
 
 use App\Http\Controllers\Controller;
+use App\Models\Branch;
 use App\Models\HrInternshipRequest;
 use App\Models\HrSetting;
 use App\Services\HrService;
@@ -42,7 +43,16 @@ class HrInternshipController extends Controller
 
         $internships = $query->orderByDesc('id')->paginate(15)->withQueryString();
 
-        $branches = HrSetting::where('type', 'branch')->pluck('value')->toArray();
+        $branches = Branch::where('is_active', true)
+            ->orderBy('branch_name')
+            ->pluck('branch_name')
+            ->filter()
+            ->values()
+            ->toArray();
+
+        if (empty($branches)) {
+            $branches = HrSetting::where('type', 'branch')->pluck('value')->filter()->values()->toArray();
+        }
         $jobs = HrSetting::where('type', 'job')->pluck('value')->toArray();
 
         return Inertia::render('hr/internships/index', [

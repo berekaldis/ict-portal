@@ -122,13 +122,26 @@ class CompanySystemSyncService
                 }
                 $activeNames[] = $branchName;
 
-                Branch::updateOrCreate(
-                    ['branch_name' => $branchName],
-                    [
+                $existing = Branch::where('branch_name', $branchName)
+                    ->orWhere('id', $b->id)
+                    ->first();
+
+                if ($existing) {
+                    $existing->update([
+                        'branch_name' => $branchName,
                         'is_active' => true,
+                        'telegram_chat_id' => $b->telegram_chat_id ?? $existing->telegram_chat_id,
+                    ]);
+                } else {
+                    DB::table('branches')->insert([
+                        'id' => $b->id,
+                        'branch_name' => $branchName,
+                        'is_active' => 1,
                         'telegram_chat_id' => $b->telegram_chat_id ?? null,
-                    ]
-                );
+                        'created_at' => now(),
+                        'updated_at' => now(),
+                    ]);
+                }
 
                 // Also keep hr_settings branch list updated
                 if (DB::getSchemaBuilder()->hasTable('hr_settings')) {

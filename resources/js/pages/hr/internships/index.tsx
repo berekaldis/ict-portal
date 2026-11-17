@@ -60,11 +60,20 @@ export default function InternshipIndex({ internships, branches, jobs, filters }
     const { data, setData, post, processing, reset, errors } = useForm({
         name: '',
         gender: 'አቶ',
-        to_branch: branches[0] || 'Bole',
-        work_branch: branches[0] || 'Bole',
+        to_branch: branches[0] || '',
+        work_branch: branches[0] || '',
         job: jobs[0] || 'Barista',
         start_date: new Date().toISOString().split('T')[0],
     });
+
+    useEffect(() => {
+        if (!data.to_branch && branches.length > 0) {
+            setData('to_branch', branches[0]);
+        }
+        if (!data.work_branch && branches.length > 0) {
+            setData('work_branch', branches[0]);
+        }
+    }, [branches]);
 
     const handleCreate = (e: React.FormEvent) => {
         e.preventDefault();

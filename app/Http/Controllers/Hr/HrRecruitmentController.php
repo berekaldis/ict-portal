@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Hr;
 
 use App\Http\Controllers\Controller;
+use App\Models\Branch;
 use App\Models\HrQualification;
 use App\Models\HrRecruitment;
 use App\Models\HrSetting;
@@ -37,7 +38,16 @@ class HrRecruitmentController extends Controller
 
         $recruitments = $query->orderByDesc('id')->paginate(15)->withQueryString();
 
-        $branches = HrSetting::where('type', 'branch')->pluck('value')->toArray();
+        $branches = Branch::where('is_active', true)
+            ->orderBy('branch_name')
+            ->pluck('branch_name')
+            ->filter()
+            ->values()
+            ->toArray();
+
+        if (empty($branches)) {
+            $branches = HrSetting::where('type', 'branch')->pluck('value')->filter()->values()->toArray();
+        }
         $jobs = HrSetting::where('type', 'job')->pluck('value')->toArray();
 
         // Qualified candidates that can be recruited
