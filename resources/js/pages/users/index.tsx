@@ -15,6 +15,7 @@ import {
     Lock,
     PlusCircle,
     Power,
+    RefreshCw,
     Search,
     Shield,
     Users,
@@ -26,6 +27,7 @@ interface UserItem {
     id: number;
     username: string;
     name: string;
+    role?: string;
     email?: string;
     department?: string;
     branch?: string;
@@ -51,6 +53,7 @@ export default function UsersIndex({ users, filters, roles, branches }: Props) {
     const [search, setSearch] = useState(filters.search || '');
     const [role, setRole] = useState(filters.role || 'All');
     const [status, setStatus] = useState(filters.status || 'All');
+    const [syncing, setSyncing] = useState(false);
 
     // Reset Password Modal
     const [resetUser, setResetUser] = useState<UserItem | null>(null);
@@ -79,6 +82,13 @@ export default function UsersIndex({ users, filters, roles, branches }: Props) {
         setRole('All');
         setStatus('All');
         router.get(route('users.index'), {}, { replace: true });
+    };
+
+    const handleSyncAll = () => {
+        setSyncing(true);
+        router.post(route('users.sync-all-users'), {}, {
+            onFinish: () => setSyncing(false),
+        });
     };
 
     const handleToggleActive = (id: number) => {
@@ -116,11 +126,23 @@ export default function UsersIndex({ users, filters, roles, branches }: Props) {
                         </p>
                     </div>
 
-                    <Button asChild size="sm" className="h-9">
-                        <Link href={route('users.create')}>
-                            <PlusCircle className="h-4 w-4 mr-1.5" /> Create User
-                        </Link>
-                    </Button>
+                    <div className="flex items-center gap-2">
+                        <Button
+                            variant="outline"
+                            size="sm"
+                            className="h-9"
+                            onClick={handleSyncAll}
+                            disabled={syncing}
+                        >
+                            <RefreshCw className={`h-4 w-4 mr-1.5 ${syncing ? 'animate-spin' : ''}`} />
+                            {syncing ? 'Syncing...' : 'Sync All 769 Users'}
+                        </Button>
+                        <Button asChild size="sm" className="h-9">
+                            <Link href={route('users.create')}>
+                                <PlusCircle className="h-4 w-4 mr-1.5" /> Create User
+                            </Link>
+                        </Button>
+                    </div>
                 </div>
 
                 {/* Filters */}

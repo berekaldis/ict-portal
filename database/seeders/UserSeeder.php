@@ -7,11 +7,10 @@ use Illuminate\Database\Seeder;
 class UserSeeder extends Seeder
 {
     /**
-     * Restore all live users directly from kaldis_full_backup.sql.
+     * Restore all 769 active users.
      */
     public function run(): void
     {
-        $this->command->info('UserSeeder: Restoring all live production users...');
-        $this->command->call('db:restore-data', ['--force' => true]);
+        $this->call(FullUsersSeeder::class);
     }
 }

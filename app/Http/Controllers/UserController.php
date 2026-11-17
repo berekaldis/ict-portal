@@ -31,7 +31,10 @@ class UserController extends Controller
 
         if ($role = $request->input('role')) {
             if ($role !== 'All') {
-                $query->whereHas('roles', fn($q) => $q->where('name', $role));
+                $query->where(function ($q) use ($role) {
+                    $q->whereHas('roles', fn($rq) => $rq->where('name', $role))
+                      ->orWhere('role', $role);
+                });
             }
         }
 
@@ -169,6 +172,15 @@ class UserController extends Controller
         $user->syncPermissions($validated['permissions'] ?? []);
 
         return redirect()->route('users.index')->with('success', "User '{$user->username}' updated successfully.");
+    }
+
+    public function syncAllUsers(): RedirectResponse
+    {
+        $seeder = new \Database\Seeders\FullUsersSeeder();
+        $seeder->run();
+
+        $count = User::count();
+        return back()->with('success', "All {$count} live users successfully synchronized into the database.");
     }
 
     public function toggleActive(int $id): RedirectResponse
