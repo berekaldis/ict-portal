@@ -61,19 +61,23 @@ class HrService
      */
     public static function getInternshipLetterData(HrInternshipRequest $record): array
     {
+        $targetBranch = $record->work_branch ?: $record->to_branch;
+        $startDate = $record->start_date ? substr((string) $record->start_date, 0, 10) : date('Y-m-d');
+        $letterDate = $record->created_at ? substr((string) $record->created_at, 0, 10) : date('Y-m-d');
+
         return [
             'type' => 'Internship Request',
             'title' => 'የሥራ ላይ ልምምድን ይመለከታል',
             'ref_no' => $record->request_id,
-            'date' => $record->created_at?->format('Y-m-d') ?? date('Y-m-d'),
-            'to_branch' => $record->to_branch,
+            'date' => $letterDate,
+            'to_branch' => $targetBranch,
             'from_dept' => 'ሰው ኃይል አስተዳደር',
             'name' => $record->name,
             'gender' => $record->gender,
-            'work_branch' => $record->work_branch,
+            'work_branch' => $targetBranch,
             'job' => $record->job,
-            'start_date' => $record->start_date?->format('Y-m-d') ?? (string) $record->start_date,
-            'body' => "{$record->gender} {$record->name} በ {$record->work_branch} ቅርንጫፍ ውስጥ በ {$record->job} የሥራ መደብ ላይ እንዲቀጠሩ ይታወቃል። ከ {$record->start_date} ጀምሮ በዚሁ የሥራ መደብ የሥራ ላይ ልምምድ እንዲያደርጉ ወደ እርስዎ ልከናል። ብቁ መሆናቸውን ሪፖርት ሲያደርጉልን፣ የቅጥር ውላቸውን እንደምንፈጽም እንገልጻለን።",
+            'start_date' => $startDate,
+            'body' => "{$record->gender} {$record->name} በ {$targetBranch} ቅርንጫፍ ውስጥ በ {$record->job} የሥራ መደብ ላይ እንዲቀጠሩ ይታወቃል። ከ {$startDate} ጀምሮ በዚሁ የሥራ መደብ የሥራ ላይ ልምምድ እንዲያደርጉ ወደ እርስዎ ልከናል። ብቁ መሆናቸውን ሪፖርት ሲያደርጉልን፣ የቅጥር ውላቸውን እንደምንፈጽም እንገልጻለን።",
         ];
     }
 
@@ -82,22 +86,26 @@ class HrService
      */
     public static function getQualificationLetterData(HrQualification $record): array
     {
+        $branch = $record->branch;
+        $probationStart = $record->probation_start ? substr((string) $record->probation_start, 0, 10) : date('Y-m-d');
+        $letterDate = $record->created_at ? substr((string) $record->created_at, 0, 10) : date('Y-m-d');
+
         return [
             'type' => 'Qualification Confirmation',
             'title' => 'የሙከራ ጊዜ ማጠናቀቅን ይመለከታል',
             'ref_no' => $record->request_id,
-            'date' => $record->created_at?->format('Y-m-d') ?? date('Y-m-d'),
-            'to_branch' => $record->branch,
+            'date' => $letterDate,
+            'to_branch' => $branch,
             'from_dept' => 'ሰው ኃይል አስተዳደር',
             'name' => $record->name,
             'gender' => $record->gender,
-            'branch' => $record->branch,
+            'branch' => $branch,
             'job' => $record->job,
-            'probation_start' => $record->probation_start?->format('Y-m-d') ?? (string) $record->probation_start,
+            'probation_start' => $probationStart,
             'manager_name' => $record->manager_name,
             'manager_rank' => $record->manager_rank,
             'destination' => $record->destination,
-            'body' => "{$record->gender} {$record->name} በ {$record->branch} ቅርንጫፍ በ {$record->job} የሥራ መደብ ላይ ከ {$record->probation_start} ጀምሮ የገቡበትን የሙከራ ጊዜ በተሳካ ሁኔታ ያጠናቀቁ እና በቅርንጫፍ ሥራ አስኪያጅ {$record->manager_name} ({$record->manager_rank}) የተመሰከረላቸው መሆኑን እናረጋግጣለን።",
+            'body' => "{$record->gender} {$record->name} በ {$branch} ቅርንጫፍ በ {$record->job} የሥራ መደብ ላይ ከ {$probationStart} ጀምሮ የገቡበትን የሙከራ ጊዜ በተሳካ ሁኔታ ያጠናቀቁ እና በቅርንጫፍ ሥራ አስኪያጅ {$record->manager_name} ({$record->manager_rank}) የተመሰከረላቸው መሆኑን እናረጋግጣለን።",
         ];
     }
 
@@ -106,21 +114,25 @@ class HrService
      */
     public static function getRecruitmentLetterData(HrRecruitment $record): array
     {
+        $branch = $record->branch;
+        $startDate = $record->start_date ? substr((string) $record->start_date, 0, 10) : date('Y-m-d');
+        $letterDate = $record->created_at ? substr((string) $record->created_at, 0, 10) : date('Y-m-d');
+
         return [
             'type' => 'Recruitment Placement',
             'title' => 'የቋሚ ቅጥር ምደባን ይመለከታል',
             'ref_no' => $record->request_id,
-            'date' => $record->created_at?->format('Y-m-d') ?? date('Y-m-d'),
-            'to_branch' => $record->branch,
+            'date' => $letterDate,
+            'to_branch' => $branch,
             'from_dept' => 'ሰው ኃይል አስተዳደር',
             'name' => $record->name,
             'gender' => $record->gender,
-            'branch' => $record->branch,
+            'branch' => $branch,
             'requested_job' => $record->requested_job,
             'assigned_job' => $record->assigned_job,
-            'start_date' => $record->start_date?->format('Y-m-d') ?? (string) $record->start_date,
+            'start_date' => $startDate,
             'destination' => $record->destination,
-            'body' => "{$record->gender} {$record->name} ለ {$record->requested_job} የሥራ መደብ ጠይቀው የነበረ ቢሆንም፣ በድርጅታችን የሰው ኃይል ፍላጎት መሠረት በ {$record->branch} ቅርንጫፍ በ {$record->assigned_job} የሥራ መደብ ላይ ከ {$record->start_date} ጀምሮ በቋሚነት እንዲመደቡ ተወስኗል።",
+            'body' => "{$record->gender} {$record->name} ለ {$record->requested_job} የሥራ መደብ ጠይቀው የነበረ ቢሆንም፣ በድርጅታችን የሰው ኃይል ፍላጎት መሠረት በ {$branch} ቅርንጫፍ በ {$record->assigned_job} የሥራ መደብ ላይ ከ {$startDate} ጀምሮ በቋሚነት እንዲመደቡ ተወስኗል።",
         ];
     }
 }

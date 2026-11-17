@@ -185,8 +185,7 @@ export default function InternshipIndex({ internships, branches, jobs, filters }
                                     <th className="p-3">Request ID</th>
                                     <th className="p-3">Staff Name</th>
                                     <th className="p-3">Position</th>
-                                    <th className="p-3">To Branch</th>
-                                    <th className="p-3">Work Branch</th>
+                                    <th className="p-3">Branch</th>
                                     <th className="p-3">Start Date</th>
                                     <th className="p-3">Status</th>
                                     <th className="p-3 text-right">Actions</th>
@@ -195,7 +194,7 @@ export default function InternshipIndex({ internships, branches, jobs, filters }
                             <tbody className="divide-y divide-border/30">
                                 {internships.data.length === 0 ? (
                                     <tr>
-                                        <td colSpan={8} className="p-8 text-center text-muted-foreground">
+                                        <td colSpan={7} className="p-8 text-center text-muted-foreground">
                                             No internship requests found.
                                         </td>
                                     </tr>
@@ -207,8 +206,7 @@ export default function InternshipIndex({ internships, branches, jobs, filters }
                                                 {item.gender} {item.name}
                                             </td>
                                             <td className="p-3 text-muted-foreground">{item.job}</td>
-                                            <td className="p-3 font-medium text-foreground">{item.to_branch}</td>
-                                            <td className="p-3 text-muted-foreground">{item.work_branch}</td>
+                                            <td className="p-3 font-medium text-foreground">{item.work_branch || item.to_branch}</td>
                                             <td className="p-3 text-muted-foreground">{item.start_date}</td>
                                             <td className="p-3">
                                                 <Badge
@@ -327,31 +325,24 @@ export default function InternshipIndex({ internships, branches, jobs, filters }
                                 </div>
                             </div>
 
-                            <div className="grid grid-cols-2 gap-3">
-                                <div>
-                                    <Label className="text-xs font-semibold">To Branch (Dispatch)</Label>
-                                    <select
-                                        value={data.to_branch}
-                                        onChange={(e) => setData('to_branch', e.target.value)}
-                                        className="w-full text-xs rounded-lg border-border/60 bg-muted/20 py-2 px-2.5 mt-1 font-medium"
-                                    >
-                                        {branches.map((b) => (
-                                            <option key={b} value={b}>{b}</option>
-                                        ))}
-                                    </select>
-                                </div>
-                                <div>
-                                    <Label className="text-xs font-semibold">Work Branch (Placement)</Label>
-                                    <select
-                                        value={data.work_branch}
-                                        onChange={(e) => setData('work_branch', e.target.value)}
-                                        className="w-full text-xs rounded-lg border-border/60 bg-muted/20 py-2 px-2.5 mt-1 font-medium"
-                                    >
-                                        {branches.map((b) => (
-                                            <option key={b} value={b}>{b}</option>
-                                        ))}
-                                    </select>
-                                </div>
+                            <div>
+                                <Label className="text-xs font-semibold">Assigned Branch (ቅርንጫፍ)</Label>
+                                <select
+                                    value={data.work_branch || data.to_branch}
+                                    onChange={(e) => {
+                                        const val = e.target.value;
+                                        setData((prev) => ({
+                                            ...prev,
+                                            to_branch: val,
+                                            work_branch: val,
+                                        }));
+                                    }}
+                                    className="w-full text-xs rounded-lg border-border/60 bg-muted/20 py-2 px-2.5 mt-1 font-medium"
+                                >
+                                    {branches.map((b) => (
+                                        <option key={b} value={b}>{b}</option>
+                                    ))}
+                                </select>
                             </div>
 
                             <div className="grid grid-cols-2 gap-3">

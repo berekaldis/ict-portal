@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Hr;
 
 use App\Http\Controllers\Controller;
+use App\Models\Branch;
 use App\Models\HrSetting;
 use App\Models\HrSystemConfig;
 use App\Services\TelegramService;
@@ -15,6 +16,19 @@ class HrSettingController extends Controller
 {
     public function index(): Response
     {
+        // Keep hr_settings strictly aligned with active branches
+        $activeBranches = Branch::where('is_active', true)->get();
+        $activeNames = $activeBranches->pluck('branch_name')->filter()->toArray();
+        if (!empty($activeNames)) {
+            HrSetting::where('type', 'branch')->whereNotIn('value', $activeNames)->delete();
+        }
+        foreach ($activeBranches as $ab) {
+            HrSetting::firstOrCreate(
+                ['type' => 'branch', 'value' => $ab->branch_name],
+                ['chat_id' => $ab->telegram_chat_id]
+            );
+        }
+
         $settings = HrSetting::orderBy('type')->orderBy('value')->get();
         $botToken = HrSystemConfig::get('bot_token', '8485030522:AAFQrY-bzz15N1G_Xfen1zsrNPxNrPqf8k8');
 
@@ -38,7 +52,14 @@ class HrSettingController extends Controller
             'chat_id' => 'nullable|string|max:100',
         ]);
 
-        HrSetting::create($validated);
+        $setting = HrSetting::create($validated);
+
+        if ($validated['type'] === 'branch') {
+            Branch::updateOrCreate(
+                ['branch_name' => $validated['value']],
+                ['is_active' => true, 'telegram_chat_id' => $validated['chat_id'] ?? null]
+            );
+        }
 
         return back()->with('success', ucfirst($validated['type']) . " '{$validated['value']}' added successfully.");
     }
@@ -52,13 +73,25 @@ class HrSettingController extends Controller
         $setting = HrSetting::findOrFail($id);
         $setting->update(['chat_id' => $validated['chat_id']]);
 
+        if ($setting->type === 'branch') {
+            Branch::where('branch_name', $setting->value)
+                ->update(['telegram_chat_id' => $validated['chat_id']]);
+        }
+
         return back()->with('success', "Chat ID updated for {$setting->value}.");
     }
 
     public function destroySetting($id): RedirectResponse
     {
         $setting = HrSetting::findOrFail($id);
+        $settingName = $setting->value;
+        $settingType = $setting->type;
+
         $setting->delete();
+
+        if ($settingType === 'branch') {
+            Branch::where('branch_name', $settingName)->delete();
+        }
 
         return back()->with('success', "Setting removed.");
     }

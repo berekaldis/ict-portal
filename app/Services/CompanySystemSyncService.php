@@ -110,6 +110,7 @@ class CompanySystemSyncService
             $csBranches = DB::connection('company_system')
                 ->table('branches')
                 ->where('status', 'active')
+                ->orderBy('name')
                 ->get();
 
             $syncedCount = 0;
@@ -154,11 +155,14 @@ class CompanySystemSyncService
                 $syncedCount++;
             }
 
-            // Deactivate or remove branches no longer active in company_system
+            // Remove legacy / inactive branches not in active company_system list
             if (!empty($activeNames)) {
                 Branch::whereNotIn('branch_name', $activeNames)->delete();
                 if (DB::getSchemaBuilder()->hasTable('hr_settings')) {
-                    DB::table('hr_settings')->where('type', 'branch')->whereNotIn('value', $activeNames)->delete();
+                    DB::table('hr_settings')
+                        ->where('type', 'branch')
+                        ->whereNotIn('value', $activeNames)
+                        ->delete();
                 }
             }
 

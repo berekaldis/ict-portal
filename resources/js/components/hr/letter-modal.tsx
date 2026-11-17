@@ -105,7 +105,9 @@ export default function LetterModal({ open, onClose, letter }: Props) {
                     <div className="pt-6 pb-4 flex justify-between text-xs text-stone-700 font-medium border-b border-stone-200">
                         <div>
                             <p><strong>ቁጥር (Ref No):</strong> <span className="font-mono">{letter.ref_no}</span></p>
-                            <p className="mt-1"><strong>ለ (To):</strong> {letter.to_branch} ቅርንጫፍ</p>
+                            <p className="mt-1">
+                                <strong>ለ (To):</strong> {letter.to_branch ? (letter.to_branch.includes('ቅርንጫፍ') ? letter.to_branch : `${letter.to_branch} ቅርንጫፍ`) : ''}
+                            </p>
                             <p className="mt-1"><strong>ከ (From):</strong> {letter.from_dept}</p>
                         </div>
                         <div className="text-right">

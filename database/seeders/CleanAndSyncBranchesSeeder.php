@@ -23,6 +23,40 @@ class CleanAndSyncBranchesSeeder extends Seeder
         // ==========================================
         DB::table('branches')->truncate();
 
+        // Exactly the 28 active operational branches
+        $canonicalBranches = [
+            ['id' => 130068, 'branch_name' => '4 kilo', 'telegram_chat_id' => null],
+            ['id' => 33, 'branch_name' => 'Adama German', 'telegram_chat_id' => null],
+            ['id' => 13, 'branch_name' => 'Addisu Gebya', 'telegram_chat_id' => null],
+            ['id' => 46, 'branch_name' => 'Airport', 'telegram_chat_id' => null],
+            ['id' => 130469, 'branch_name' => 'Airport 2', 'telegram_chat_id' => null],
+            ['id' => 49, 'branch_name' => 'Betel Adebabay', 'telegram_chat_id' => null],
+            ['id' => 12, 'branch_name' => 'Betel Bicha Foq', 'telegram_chat_id' => null],
+            ['id' => 130069, 'branch_name' => 'Betel Total', 'telegram_chat_id' => null],
+            ['id' => 39, 'branch_name' => 'Bishoftu', 'telegram_chat_id' => null],
+            ['id' => 35, 'branch_name' => 'Bole Medhanialem', 'telegram_chat_id' => null],
+            ['id' => 40, 'branch_name' => 'Bulbula 93', 'telegram_chat_id' => null],
+            ['id' => 56, 'branch_name' => 'Bulbula Medhanialm', 'telegram_chat_id' => null],
+            ['id' => 14, 'branch_name' => 'ECA', 'telegram_chat_id' => null],
+            ['id' => 29, 'branch_name' => 'Entoto Park', 'telegram_chat_id' => null],
+            ['id' => 17, 'branch_name' => 'Grand Palace', 'telegram_chat_id' => null],
+            ['id' => 9, 'branch_name' => 'Gulele Medhanialm', 'telegram_chat_id' => null],
+            ['id' => 43, 'branch_name' => 'Gurdshola', 'telegram_chat_id' => null],
+            ['id' => 20, 'branch_name' => 'Imperial', 'telegram_chat_id' => null],
+            ['id' => 44, 'branch_name' => 'Jemo', 'telegram_chat_id' => null],
+            ['id' => 8, 'branch_name' => 'Kality Sheger', 'telegram_chat_id' => null],
+            ['id' => 4, 'branch_name' => 'Kera', 'telegram_chat_id' => null],
+            ['id' => 11, 'branch_name' => 'Lancha', 'telegram_chat_id' => '6492922880'],
+            ['id' => 10, 'branch_name' => 'Megenaga', 'telegram_chat_id' => null],
+            ['id' => 11606, 'branch_name' => 'Mexico', 'telegram_chat_id' => null],
+            ['id' => 58, 'branch_name' => 'Old Airport', 'telegram_chat_id' => null],
+            ['id' => 7, 'branch_name' => 'Sarbet', 'telegram_chat_id' => null],
+            ['id' => 6, 'branch_name' => 'Semen Hotel', 'telegram_chat_id' => null],
+            ['id' => 32, 'branch_name' => 'Torhailoch', 'telegram_chat_id' => null],
+        ];
+
+        $branchesToInsert = $canonicalBranches;
+
         try {
             $csBranches = DB::connection('company_system')
                 ->table('branches')
@@ -30,40 +64,71 @@ class CleanAndSyncBranchesSeeder extends Seeder
                 ->orderBy('name')
                 ->get();
 
-            $activeNames = [];
-            foreach ($csBranches as $b) {
-                $name = trim($b->name);
-                if (empty($name)) continue;
-                $activeNames[] = $name;
+            if ($csBranches->isNotEmpty()) {
+                $branchesToInsert = [];
+                foreach ($csBranches as $b) {
+                    $name = trim($b->name);
+                    if (empty($name)) continue;
+                    $branchesToInsert[] = [
+                        'id' => $b->id,
+                        'branch_name' => $name,
+                        'telegram_chat_id' => $b->telegram_chat_id ?? null,
+                    ];
+                }
+            }
+        } catch (\Throwable $e) {
+            Log::warning("Company System connection unavailable during seeding: " . $e->getMessage());
+        }
 
-                DB::table('branches')->insert([
-                    'id' => $b->id,
-                    'branch_name' => $name,
+        foreach ($branchesToInsert as $b) {
+            DB::table('branches')->updateOrInsert(
+                ['branch_name' => $b['branch_name']],
+                [
+                    'id' => $b['id'],
                     'is_active' => 1,
-                    'telegram_chat_id' => $b->telegram_chat_id ?? null,
+                    'telegram_chat_id' => $b['telegram_chat_id'],
+                    'created_at' => now(),
+                    'updated_at' => now(),
+                ]
+            );
+        }
+
+        // Sync hr_settings branches
+        if (DB::getSchemaBuilder()->hasTable('hr_settings')) {
+            DB::table('hr_settings')->where('type', 'branch')->delete();
+            foreach ($branchesToInsert as $b) {
+                DB::table('hr_settings')->insert([
+                    'type' => 'branch',
+                    'value' => $b['branch_name'],
+                    'chat_id' => $b['telegram_chat_id'],
                     'created_at' => now(),
                     'updated_at' => now(),
                 ]);
             }
 
-            // Sync hr_settings branches
-            if (DB::getSchemaBuilder()->hasTable('hr_settings')) {
-                DB::table('hr_settings')->where('type', 'branch')->delete();
-                foreach ($csBranches as $b) {
-                    $name = trim($b->name);
-                    if (empty($name)) continue;
-
-                    DB::table('hr_settings')->insert([
-                        'type' => 'branch',
-                        'value' => $name,
-                        'chat_id' => $b->telegram_chat_id ?? null,
-                        'created_at' => now(),
-                        'updated_at' => now(),
-                    ]);
-                }
+            // Ensure standard jobs exist
+            $standardJobs = [
+                'Barista', 'Cashier', 'Waiter', 'Cook', 'Cleaner',
+                'Supervisor', 'Manager', 'Driver', 'Guard', 'Accountant',
+                'IT Support', 'Store Keeper'
+            ];
+            foreach ($standardJobs as $job) {
+                DB::table('hr_settings')->updateOrInsert(
+                    ['type' => 'job', 'value' => $job],
+                    ['created_at' => now(), 'updated_at' => now()]
+                );
             }
-        } catch (\Throwable $e) {
-            Log::warning("Company System connection unavailable during seeding: " . $e->getMessage());
+
+            // Ensure standard ranks exist
+            $standardRanks = [
+                'Branch Manager', 'Supervisor', 'Team Leader', 'Senior Staff', 'Junior Staff'
+            ];
+            foreach ($standardRanks as $rank) {
+                DB::table('hr_settings')->updateOrInsert(
+                    ['type' => 'rank', 'value' => $rank],
+                    ['created_at' => now(), 'updated_at' => now()]
+                );
+            }
         }
 
         // ==========================================
