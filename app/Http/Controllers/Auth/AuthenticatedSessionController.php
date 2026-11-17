@@ -49,16 +49,22 @@ class AuthenticatedSessionController extends Controller
         }
 
         // 1. Look up user locally (case-insensitive by email, username, prefix before @, or name)
+        $prefix = str_contains($loginInput, '@') ? explode('@', $loginInput)[0] : $loginInput;
+
         $user = User::whereRaw('LOWER(email) = ?', [strtolower($loginInput)])
-            ->orWhereRaw('LOWER(email) = ?', [strtolower($loginInput . '@kaldisbunna.et')])
+            ->orWhereRaw('LOWER(email) = ?', [strtolower($prefix . '@kaldisbunna.et')])
+            ->orWhereRaw('LOWER(email) = ?', [strtolower($prefix . '@kaldiscoffee.com')])
             ->orWhereRaw('LOWER(username) = ?', [strtolower($loginInput)])
-            ->orWhereRaw('LOWER(SUBSTRING_INDEX(email, "@", 1)) = ?', [strtolower($loginInput)])
+            ->orWhereRaw('LOWER(username) = ?', [strtolower($prefix)])
+            ->orWhereRaw('LOWER(SUBSTRING_INDEX(email, "@", 1)) = ?', [strtolower($prefix)])
             ->orWhereRaw('LOWER(name) = ?', [strtolower($loginInput)])
+            ->orWhereRaw('LOWER(name) = ?', [strtolower($prefix)])
             ->first();
 
         // 2. If not found in local DB, attempt real-time sync from company_system
         if (!$user) {
-            $user = $syncService->syncSingleUser($loginInput, $password);
+            $user = $syncService->syncSingleUser($loginInput, $password)
+                ?: $syncService->syncSingleUser($prefix, $password);
         }
 
         if (!$user) {
