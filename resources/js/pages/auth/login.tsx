@@ -11,6 +11,7 @@ import {
     Info,
     Lock,
     LogIn,
+    Mail,
     Shield,
     User,
 } from 'lucide-react';
@@ -80,15 +81,15 @@ export default function Login({ status, currentUser }: Props) {
             <form onSubmit={submit} className="space-y-4">
                 <div className="space-y-1.5">
                     <Label htmlFor="login_input" className="text-xs font-semibold">
-                        Username or Email
+                        Email Address
                     </Label>
                     <div className="relative">
-                        <User className="absolute left-3 top-2.5 h-4 w-4 text-muted-foreground" />
+                        <Mail className="absolute left-3 top-2.5 h-4 w-4 text-muted-foreground" />
                         <Input
                             id="login_input"
                             type="text"
                             autoFocus
-                            placeholder="Enter username or email address..."
+                            placeholder="name@kaldisbunna.et"
                             className="pl-9"
                             value={data.login}
                             onChange={(e) => {
@@ -102,8 +103,8 @@ export default function Login({ status, currentUser }: Props) {
                             required
                         />
                     </div>
-                    {errors.username && (
-                        <p className="text-xs text-destructive">{errors.username}</p>
+                    {(errors.email || errors.username) && (
+                        <p className="text-xs text-destructive">{errors.email || errors.username}</p>
                     )}
                 </div>
 

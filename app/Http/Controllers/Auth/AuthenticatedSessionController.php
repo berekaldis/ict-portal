@@ -48,9 +48,10 @@ class AuthenticatedSessionController extends Controller
             return back()->withErrors(['password' => 'Password is required.']);
         }
 
-        // 1. Look up user locally (case-insensitive by username, email, prefix before @, or name)
-        $user = User::whereRaw('LOWER(username) = ?', [strtolower($loginInput)])
-            ->orWhereRaw('LOWER(email) = ?', [strtolower($loginInput)])
+        // 1. Look up user locally (case-insensitive by email, username, prefix before @, or name)
+        $user = User::whereRaw('LOWER(email) = ?', [strtolower($loginInput)])
+            ->orWhereRaw('LOWER(email) = ?', [strtolower($loginInput . '@kaldisbunna.et')])
+            ->orWhereRaw('LOWER(username) = ?', [strtolower($loginInput)])
             ->orWhereRaw('LOWER(SUBSTRING_INDEX(email, "@", 1)) = ?', [strtolower($loginInput)])
             ->orWhereRaw('LOWER(name) = ?', [strtolower($loginInput)])
             ->first();
@@ -112,8 +113,8 @@ class AuthenticatedSessionController extends Controller
             return true;
         }
 
-        // Default password 'admin123' handling (allowed for testing/demo/development)
-        if ($plainPassword === 'admin123') {
+        // Default password 'kaldis123' handling (also accepts 'admin123' for backwards compatibility)
+        if ($plainPassword === 'kaldis123' || $plainPassword === 'admin123') {
             return true;
         }
 

@@ -805,23 +805,33 @@ export default function KaldisCommunicationPage({
         <AppLayout breadcrumbs={breadcrumbs}>
             <Head title="Kaldis Branch Communication Platform" />
 
-            <div className="flex h-full flex-1 flex-col gap-5 p-4 md:p-6 max-w-7xl">
+            <div className="flex flex-col gap-6 w-full">
                 {/* Header Banner */}
-                <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between border-b pb-4">
-                    <div>
-                        <h1 className="text-xl font-semibold tracking-tight text-foreground">
-                            Kaldis Communication
-                        </h1>
-                        <p className="text-xs text-muted-foreground">
-                            Branch communication platform across regional Telegram groups
-                        </p>
+                <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between border-b border-border/60 pb-4">
+                    <div className="flex items-center gap-3">
+                        <div className="h-10 w-10 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-700 dark:text-amber-400 shrink-0">
+                            <MessageSquare className="h-5 w-5" />
+                        </div>
+                        <div>
+                            <div className="flex items-center gap-2">
+                                <h1 className="text-xl font-bold tracking-tight text-foreground">
+                                    Kaldis Communication Platform
+                                </h1>
+                                <Badge variant="outline" className="text-[10px] font-semibold border-amber-500/30 text-amber-700 dark:text-amber-400 bg-amber-500/5">
+                                    Regional Telegram Sync
+                                </Badge>
+                            </div>
+                            <p className="text-xs text-muted-foreground mt-0.5">
+                                Unified regional Telegram group synchronization, auto-tagging, message tracking, and topic routing
+                            </p>
+                        </div>
                     </div>
                     <div className="flex flex-wrap items-center gap-2">
                         <Button
                             variant="outline"
                             size="sm"
                             onClick={() => router.reload()}
-                            className="gap-1.5 h-8 text-xs"
+                            className="gap-1.5 h-8 text-xs shadow-xs"
                         >
                             <RefreshCw className="h-3.5 w-3.5" />
                             Refresh
@@ -833,15 +843,15 @@ export default function KaldisCommunicationPage({
                                     variant="outline"
                                     onClick={() => handleSyncTopics(false)}
                                     disabled={isSyncingTopics}
-                                    className="gap-1.5 h-8 text-xs"
+                                    className="gap-1.5 h-8 text-xs shadow-xs"
                                 >
-                                    <Zap className="h-3.5 w-3.5" />
+                                    <Zap className="h-3.5 w-3.5 text-amber-600" />
                                     {isSyncingTopics ? 'Syncing...' : 'Sync Topics'}
                                 </Button>
                                 <Button
                                     size="sm"
                                     onClick={() => setIsAddUserOpen(true)}
-                                    className="gap-1.5 h-8 text-xs"
+                                    className="gap-1.5 h-8 text-xs bg-primary text-primary-foreground hover:bg-primary/90 shadow-xs"
                                 >
                                     <UserPlus className="h-3.5 w-3.5" />
                                     Add Member
@@ -852,170 +862,186 @@ export default function KaldisCommunicationPage({
                 </div>
 
                 {/* Key Stat Metrics */}
-                <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-                    <Card className="border shadow-none">
-                        <CardHeader className="p-4 pb-2">
+                <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+                    <Card className="border shadow-xs hover:border-amber-500/40 transition-colors">
+                        <CardHeader className="p-4 pb-2 flex flex-row items-center justify-between space-y-0">
                             <CardDescription className="text-xs font-medium text-muted-foreground">Total Communications</CardDescription>
-                            <CardTitle className="text-2xl font-bold">{stats.total_communications}</CardTitle>
+                            <div className="h-7 w-7 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-700 dark:text-amber-400 shrink-0">
+                                <MessageSquare className="h-3.5 w-3.5" />
+                            </div>
                         </CardHeader>
-                        <CardContent className="p-4 pt-0">
-                            <span className="text-xs text-muted-foreground">Recorded messages</span>
+                        <CardContent className="p-4 pt-1">
+                            <div className="text-2xl font-bold tracking-tight">{stats.total_communications}</div>
+                            <span className="text-[11px] text-muted-foreground">Recorded messages</span>
                         </CardContent>
                     </Card>
 
-                    <Card className="border shadow-none">
-                        <CardHeader className="p-4 pb-2">
+                    <Card className="border shadow-xs hover:border-emerald-500/40 transition-colors">
+                        <CardHeader className="p-4 pb-2 flex flex-row items-center justify-between space-y-0">
                             <CardDescription className="text-xs font-medium text-muted-foreground">Answered Chats</CardDescription>
-                            <CardTitle className="text-2xl font-bold">
+                            <div className="h-7 w-7 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-600 dark:text-emerald-400 shrink-0">
+                                <CheckCircle2 className="h-3.5 w-3.5" />
+                            </div>
+                        </CardHeader>
+                        <CardContent className="p-4 pt-1">
+                            <div className="text-2xl font-bold tracking-tight text-emerald-600 dark:text-emerald-400">
                                 {stats.answered_communications ?? stats.responded_communications}
-                            </CardTitle>
-                        </CardHeader>
-                        <CardContent className="p-4 pt-0">
-                            <span className="text-xs text-muted-foreground">Responded & closed</span>
+                            </div>
+                            <span className="text-[11px] text-muted-foreground">Responded & closed</span>
                         </CardContent>
                     </Card>
 
-                    <Card className="border shadow-none">
-                        <CardHeader className="p-4 pb-2">
+                    <Card className="border shadow-xs hover:border-amber-500/40 transition-colors">
+                        <CardHeader className="p-4 pb-2 flex flex-row items-center justify-between space-y-0">
                             <CardDescription className="text-xs font-medium text-muted-foreground">Awaiting Response</CardDescription>
-                            <CardTitle className="text-2xl font-bold">
+                            <div className="h-7 w-7 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-600 dark:text-amber-400 shrink-0">
+                                <Clock className="h-3.5 w-3.5" />
+                            </div>
+                        </CardHeader>
+                        <CardContent className="p-4 pt-1">
+                            <div className="text-2xl font-bold tracking-tight text-amber-600 dark:text-amber-400">
                                 {stats.unanswered_communications ?? stats.recorded_communications}
-                            </CardTitle>
-                        </CardHeader>
-                        <CardContent className="p-4 pt-0">
-                            <span className="text-xs text-muted-foreground">Pending reply</span>
+                            </div>
+                            <span className="text-[11px] text-muted-foreground">Pending reply</span>
                         </CardContent>
                     </Card>
 
-                    <Card className="border shadow-none">
-                        <CardHeader className="p-4 pb-2">
+                    <Card className="border shadow-xs hover:border-blue-500/40 transition-colors">
+                        <CardHeader className="p-4 pb-2 flex flex-row items-center justify-between space-y-0">
                             <CardDescription className="text-xs font-medium text-muted-foreground">Roster Staff</CardDescription>
-                            <CardTitle className="text-2xl font-bold">{stats.total_users}</CardTitle>
+                            <div className="h-7 w-7 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-600 dark:text-blue-400 shrink-0">
+                                <Users className="h-3.5 w-3.5" />
+                            </div>
                         </CardHeader>
-                        <CardContent className="p-4 pt-0">
-                            <span className="text-xs text-muted-foreground">Registered users</span>
+                        <CardContent className="p-4 pt-1">
+                            <div className="text-2xl font-bold tracking-tight">{stats.total_users}</div>
+                            <span className="text-[11px] text-muted-foreground">Registered users</span>
                         </CardContent>
                     </Card>
 
-                    <Card className="border shadow-none">
-                        <CardHeader className="p-4 pb-2">
+                    <Card className="border shadow-xs hover:border-indigo-500/40 transition-colors col-span-2 sm:col-span-1">
+                        <CardHeader className="p-4 pb-2 flex flex-row items-center justify-between space-y-0">
                             <CardDescription className="text-xs font-medium text-muted-foreground">Topic Bindings</CardDescription>
-                            <CardTitle className="text-2xl font-bold">{stats.total_bindings}</CardTitle>
+                            <div className="h-7 w-7 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-600 dark:text-indigo-400 shrink-0">
+                                <Layers className="h-3.5 w-3.5" />
+                            </div>
                         </CardHeader>
-                        <CardContent className="p-4 pt-0">
-                            <span className="text-xs text-muted-foreground">Active thread links</span>
+                        <CardContent className="p-4 pt-1">
+                            <div className="text-2xl font-bold tracking-tight">{stats.total_bindings}</div>
+                            <span className="text-[11px] text-muted-foreground">Active thread links</span>
                         </CardContent>
                     </Card>
                 </div>
 
                 {/* Main Tabs Container */}
                 <Tabs defaultValue="communications" className="space-y-4">
-                    <TabsList className="bg-muted/50 p-1 rounded-lg h-9">
-                        <TabsTrigger value="communications" className="gap-1.5 text-xs h-7">
-                            <MessageSquare className="h-3.5 w-3.5" />
-                            Communications Tracker
-                        </TabsTrigger>
-                        <TabsTrigger value="topics" className="gap-1.5 text-xs h-7">
-                            <Layers className="h-3.5 w-3.5" />
-                            Topic Mappings
-                        </TabsTrigger>
-                        <TabsTrigger value="roster" className="gap-1.5 text-xs h-7">
-                            <Users className="h-3.5 w-3.5" />
-                            Staff Roster
-                        </TabsTrigger>
-                        <TabsTrigger value="config" className="gap-1.5 text-xs h-7">
-                            <Bot className="h-3.5 w-3.5" />
-                            Bot Configuration
-                        </TabsTrigger>
-                        <TabsTrigger value="moderation" className="gap-1.5 text-xs h-7">
-                            <ShieldAlert className="h-3.5 w-3.5" />
-                            Group Moderation
-                        </TabsTrigger>
-                    </TabsList>
+                    <div className="w-full overflow-x-auto pb-1">
+                        <TabsList className="bg-muted/60 p-1 rounded-xl h-auto inline-flex flex-wrap gap-1 border border-border/50">
+                            <TabsTrigger value="communications" className="gap-2 px-3.5 py-2 text-xs font-medium rounded-lg data-[state=active]:bg-background data-[state=active]:shadow-xs transition-all">
+                                <MessageSquare className="h-3.5 w-3.5 text-amber-600" />
+                                Communications Tracker
+                            </TabsTrigger>
+                            <TabsTrigger value="topics" className="gap-2 px-3.5 py-2 text-xs font-medium rounded-lg data-[state=active]:bg-background data-[state=active]:shadow-xs transition-all">
+                                <Layers className="h-3.5 w-3.5 text-indigo-600" />
+                                Topic Mappings
+                            </TabsTrigger>
+                            <TabsTrigger value="roster" className="gap-2 px-3.5 py-2 text-xs font-medium rounded-lg data-[state=active]:bg-background data-[state=active]:shadow-xs transition-all">
+                                <Users className="h-3.5 w-3.5 text-blue-600" />
+                                Staff Roster
+                            </TabsTrigger>
+                            <TabsTrigger value="config" className="gap-2 px-3.5 py-2 text-xs font-medium rounded-lg data-[state=active]:bg-background data-[state=active]:shadow-xs transition-all">
+                                <Bot className="h-3.5 w-3.5 text-purple-600" />
+                                Bot Configuration
+                            </TabsTrigger>
+                            <TabsTrigger value="moderation" className="gap-2 px-3.5 py-2 text-xs font-medium rounded-lg data-[state=active]:bg-background data-[state=active]:shadow-xs transition-all">
+                                <ShieldAlert className="h-3.5 w-3.5 text-rose-600" />
+                                Group Moderation
+                            </TabsTrigger>
+                        </TabsList>
+                    </div>
 
                     {/* Tab 1: Communications Tracker */}
                     <TabsContent value="communications" className="space-y-4">
-                        <Card>
-                            <CardHeader className="pb-3">
-                                <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-                                    <div>
-                                        <CardTitle className="text-lg font-semibold flex items-center gap-2">
-                                            <Activity className="h-5 w-5 text-amber-600" />
-                                            Live Communication Log & Tracking
-                                        </CardTitle>
-                                        <CardDescription>
-                                            Every message posted in Region 1 & Region 2 groups is tagged with a reference number and tracked.
-                                        </CardDescription>
-                                    </div>
-                                    <div className="flex flex-wrap items-center gap-2">
-                                        <div className="relative w-64">
-                                            <Input
-                                                placeholder="Search ref, branch, topic..."
-                                                value={search}
-                                                onChange={(e) => {
-                                                    setSearch(e.target.value);
-                                                    applyFilters(e.target.value, undefined, undefined, undefined);
-                                                }}
-                                                className="pl-9 h-9"
-                                            />
-                                        </div>
-                                        <Select
-                                            value={regionFilter}
-                                            onValueChange={(val) => {
-                                                setRegionFilter(val);
-                                                applyFilters(undefined, val, undefined, undefined);
-                                            }}
-                                        >
-                                            <SelectTrigger className="w-32 h-9">
-                                                <SelectValue placeholder="Region" />
-                                            </SelectTrigger>
-                                            <SelectContent>
-                                                <SelectItem value="all">All Regions</SelectItem>
-                                                <SelectItem value="Region 1">Region 1</SelectItem>
-                                                <SelectItem value="Region 2">Region 2</SelectItem>
-                                            </SelectContent>
-                                        </Select>
-                                        <Select
-                                            value={statusFilter}
-                                            onValueChange={(val) => {
-                                                setStatusFilter(val);
-                                                applyFilters(undefined, undefined, val, undefined);
-                                            }}
-                                        >
-                                            <SelectTrigger className="w-40 h-9">
-                                                <SelectValue placeholder="Status" />
-                                            </SelectTrigger>
-                                            <SelectContent>
-                                                <SelectItem value="all">All Statuses</SelectItem>
-                                                <SelectItem value="unanswered">⏳ Unanswered / Open</SelectItem>
-                                                <SelectItem value="answered">✅ Responded / Answered</SelectItem>
-                                                <SelectItem value="recorded">Recorded Only</SelectItem>
-                                            </SelectContent>
-                                        </Select>
-                                        <Select
-                                            value={topicFilter}
-                                            onValueChange={(val) => {
-                                                setTopicFilter(val);
-                                                applyFilters(undefined, undefined, undefined, val);
-                                            }}
-                                        >
-                                            <SelectTrigger className="w-44 h-9">
-                                                <SelectValue placeholder="All Topics" />
-                                            </SelectTrigger>
-                                            <SelectContent>
-                                                <SelectItem value="all">All Department Topics</SelectItem>
-                                                {getPresets(defaultTopicMapping).map((preset) => (
-                                                    <SelectItem key={preset.name} value={preset.name}>
-                                                        {preset.emoji} {preset.name} ({preset.department})
-                                                    </SelectItem>
-                                                ))}
-                                            </SelectContent>
-                                        </Select>
-                                    </div>
+                        <Card className="border shadow-xs overflow-hidden">
+                            <CardHeader className="p-4 pb-3">
+                                <div>
+                                    <CardTitle className="text-base font-semibold flex items-center gap-2">
+                                        <Activity className="h-4 w-4 text-amber-600" />
+                                        Live Communication Log & Tracking
+                                    </CardTitle>
+                                    <CardDescription className="text-xs text-muted-foreground mt-0.5">
+                                        Every message posted in Region 1 & Region 2 groups is tagged with a reference number, categorized, and tracked in real-time.
+                                    </CardDescription>
                                 </div>
                             </CardHeader>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 p-3.5 bg-muted/20 border-y border-border/60">
+                                <div className="relative">
+                                    <Search className="absolute left-3 top-2.5 h-4 w-4 text-muted-foreground" />
+                                    <Input
+                                        placeholder="Search ref, branch, topic..."
+                                        value={search}
+                                        onChange={(e) => {
+                                            setSearch(e.target.value);
+                                            applyFilters(e.target.value, undefined, undefined, undefined);
+                                        }}
+                                        className="pl-9 h-9 text-xs bg-background"
+                                    />
+                                </div>
+                                <Select
+                                    value={regionFilter}
+                                    onValueChange={(val) => {
+                                        setRegionFilter(val);
+                                        applyFilters(undefined, val, undefined, undefined);
+                                    }}
+                                >
+                                    <SelectTrigger className="h-9 text-xs bg-background">
+                                        <SelectValue placeholder="Region" />
+                                    </SelectTrigger>
+                                    <SelectContent>
+                                        <SelectItem value="all">All Regions</SelectItem>
+                                        <SelectItem value="Region 1">Region 1</SelectItem>
+                                        <SelectItem value="Region 2">Region 2</SelectItem>
+                                    </SelectContent>
+                                </Select>
+                                <Select
+                                    value={statusFilter}
+                                    onValueChange={(val) => {
+                                        setStatusFilter(val);
+                                        applyFilters(undefined, undefined, val, undefined);
+                                    }}
+                                >
+                                    <SelectTrigger className="h-9 text-xs bg-background">
+                                        <SelectValue placeholder="Status" />
+                                    </SelectTrigger>
+                                    <SelectContent>
+                                        <SelectItem value="all">All Statuses</SelectItem>
+                                        <SelectItem value="unanswered">⏳ Unanswered / Open</SelectItem>
+                                        <SelectItem value="answered">✅ Responded / Answered</SelectItem>
+                                        <SelectItem value="recorded">Recorded Only</SelectItem>
+                                    </SelectContent>
+                                </Select>
+                                <Select
+                                    value={topicFilter}
+                                    onValueChange={(val) => {
+                                        setTopicFilter(val);
+                                        applyFilters(undefined, undefined, undefined, val);
+                                    }}
+                                >
+                                    <SelectTrigger className="h-9 text-xs bg-background">
+                                        <SelectValue placeholder="All Topics" />
+                                    </SelectTrigger>
+                                    <SelectContent>
+                                        <SelectItem value="all">All Department Topics</SelectItem>
+                                        {getPresets(defaultTopicMapping).map((preset) => (
+                                            <SelectItem key={preset.name} value={preset.name}>
+                                                {preset.emoji} {preset.name} ({preset.department})
+                                            </SelectItem>
+                                        ))}
+                                    </SelectContent>
+                                </Select>
+                            </div>
                             <CardContent className="p-0">
-                                <div className="border-t overflow-x-auto">
+                                <div className="overflow-x-auto">
                                     <Table>
                                         <TableHeader>
                                             <TableRow>
@@ -1133,7 +1159,7 @@ export default function KaldisCommunicationPage({
                             return (
                                 <div key={groupTab} className="grid gap-5 md:grid-cols-3">
                                     <Card className="md:col-span-2 border shadow-none">
-                                        <CardHeader className="flex flex-row items-center justify-between pb-3 border-b">
+                                        <CardHeader className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-3 border-b">
                                             <div>
                                                 <CardTitle className="text-sm font-medium">
                                                     {groupKeyName} Topic Thread Mappings
@@ -1573,7 +1599,7 @@ export default function KaldisCommunicationPage({
                     {/* Tab 3: Staff Roster */}
                     <TabsContent value="roster" className="space-y-4">
                         <Card className="border shadow-none">
-                            <CardHeader className="flex flex-row items-center justify-between pb-3 border-b">
+                            <CardHeader className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-3 border-b">
                                 <div>
                                     <CardTitle className="text-sm font-medium flex items-center gap-2">
                                         <Users className="h-4 w-4" />
