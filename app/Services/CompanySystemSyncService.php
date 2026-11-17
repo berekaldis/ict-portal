@@ -215,7 +215,17 @@ class CompanySystemSyncService
                     ->first();
 
                 if ($existing) {
-                    // Already occurred in this database -> skip
+                    // Update active status and latest details from company_system
+                    $existing->update([
+                        'is_active' => (bool)$u->cs_user_active,
+                        'name' => $existing->name ?: $name,
+                        'full_name' => $existing->full_name ?: $name,
+                        'phone_number' => $u->phone ?: $existing->phone_number,
+                        'chat_id' => $u->telegram_chat_id ?: $existing->chat_id,
+                        'branch' => $u->branch_name ?: $existing->branch,
+                        'department' => $roleInfo['department'] ?: $existing->department,
+                    ]);
+                    $updatedCount++;
                     continue;
                 }
 
