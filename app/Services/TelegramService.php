@@ -46,7 +46,7 @@ class TelegramService
     /**
      * Base sender method using a specific bot token.
      */
-    public static function sendMessage(?string $chatId, string $htmlMessage, ?string $token = null): bool
+    public static function sendMessage(?string $chatId, string $htmlMessage, ?string $token = null, ?array $replyMarkup = null): bool
     {
         $botToken = $token ?: self::getToken();
         if (empty($botToken) || empty($chatId)) {
@@ -61,12 +61,18 @@ class TelegramService
                 $http = $http->withoutVerifying();
             }
 
-            $response = $http->post($url, [
+            $payload = [
                 'chat_id' => $chatId,
                 'text' => $htmlMessage,
                 'parse_mode' => 'HTML',
-                'disable_web_page_preview' => true,
-            ]);
+                'disable_web_page_preview' => false,
+            ];
+
+            if (!empty($replyMarkup)) {
+                $payload['reply_markup'] = $replyMarkup;
+            }
+
+            $response = $http->post($url, $payload);
 
             if ($response->successful()) {
                 return true;
@@ -74,11 +80,15 @@ class TelegramService
 
             // Retry as plain text if HTML entity parsing failed
             if ($response->status() === 400 && str_contains($response->body(), "can't parse entities")) {
-                $retry = $http->post($url, [
+                $fallbackPayload = [
                     'chat_id' => $chatId,
                     'text' => strip_tags($htmlMessage),
-                    'disable_web_page_preview' => true,
-                ]);
+                    'disable_web_page_preview' => false,
+                ];
+                if (!empty($replyMarkup)) {
+                    $fallbackPayload['reply_markup'] = $replyMarkup;
+                }
+                $retry = $http->post($url, $fallbackPayload);
                 return $retry->successful();
             }
 
@@ -281,10 +291,23 @@ class TelegramService
             }
         }
 
+        $exactReqId = trim((string)($requestData['request_id'] ?? ''));
+        $targetId = $exactReqId ?: ($requestData['id'] ?? '');
+        $dashboardUrl = 'https://ict-portal.kaldisbunnaet.com/edit-requests/' . rawurlencode((string)$targetId);
+
         $msg .= "<b>Department:</b> " . self::escape($targetDept) . "\n" .
             "<b>Reason:</b> " . self::escape($requestData['reason'] ?? '') . "\n" .
-            "<b>Status:</b> <b>" . self::escape($requestData['status'] ?? $status) . "</b>\n";
+            "<b>Status:</b> <b>" . self::escape($requestData['status'] ?? $status) . "</b>\n\n" .
+            "<b>Dashboard:</b> <a href=\"{$dashboardUrl}\">Open Dashboard</a>\n";
 
-        return self::sendMessage($chatId, $msg, $token);
+        $replyMarkup = [
+            'inline_keyboard' => [
+                [
+                    ['text' => '🌐 Open Dashboard (' . ($exactReqId ?: $targetId) . ')', 'url' => $dashboardUrl],
+                ],
+            ],
+        ];
+
+        return self::sendMessage($chatId, $msg, $token, $replyMarkup);
     }
 }

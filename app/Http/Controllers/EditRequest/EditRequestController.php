@@ -351,9 +351,13 @@ class EditRequestController extends Controller
         return redirect()->route('edit-requests.index')->with('success', "Request {$requestId} submitted successfully!");
     }
 
-    public function show(int $id): Response
+    public function show($id): Response
     {
-        $request = EditRequest::findOrFail($id);
+        $idStr = (string)$id;
+        $request = is_numeric($id)
+            ? (EditRequest::find($id) ?: EditRequest::where('request_id', $idStr)->firstOrFail())
+            : EditRequest::where('request_id', $idStr)->firstOrFail();
+
         $user = auth()->user();
 
         if ($user && !$this->canUserAccessRequest($user, $request)) {
@@ -369,9 +373,13 @@ class EditRequestController extends Controller
         ]);
     }
 
-    public function updateStatus(Request $request, int $id): RedirectResponse
+    public function updateStatus(Request $request, $id): RedirectResponse
     {
-        $editRequest = EditRequest::findOrFail($id);
+        $idStr = (string)$id;
+        $editRequest = is_numeric($id)
+            ? (EditRequest::find($id) ?: EditRequest::where('request_id', $idStr)->firstOrFail())
+            : EditRequest::where('request_id', $idStr)->firstOrFail();
+
         $user = $request->user();
 
         if (!$this->canUserAccessRequest($user, $editRequest)) {
@@ -396,9 +404,13 @@ class EditRequestController extends Controller
         return back()->with('success', "Request {$editRequest->request_id} has been {$validated['status']}.");
     }
 
-    public function markDone(Request $request, int $id): RedirectResponse
+    public function markDone(Request $request, $id): RedirectResponse
     {
-        $editRequest = EditRequest::findOrFail($id);
+        $idStr = (string)$id;
+        $editRequest = is_numeric($id)
+            ? (EditRequest::find($id) ?: EditRequest::where('request_id', $idStr)->firstOrFail())
+            : EditRequest::where('request_id', $idStr)->firstOrFail();
+
         $actor = $request->user()->name ?: $request->user()->username;
 
         $editRequest->status = 'Done';
@@ -444,9 +456,12 @@ class EditRequestController extends Controller
         return back()->with('success', count($authorizedItems) . " requests marked as {$validated['status']}.");
     }
 
-    public function destroy(Request $request, int $id): RedirectResponse
+    public function destroy(Request $request, $id): RedirectResponse
     {
-        $item = EditRequest::findOrFail($id);
+        $idStr = (string)$id;
+        $item = is_numeric($id)
+            ? (EditRequest::find($id) ?: EditRequest::where('request_id', $idStr)->firstOrFail())
+            : EditRequest::where('request_id', $idStr)->firstOrFail();
         $user = $request->user();
 
         if (!$this->canUserAccessRequest($user, $item)) {

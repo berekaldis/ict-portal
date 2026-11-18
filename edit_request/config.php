@@ -512,7 +512,7 @@ function telegramHtmlEscape($text) {
     return str_replace(['&', '<', '>'], ['&amp;', '&lt;', '&gt;'], (string)$text);
 }
 
-function sendTelegram($chatId, $text, $parseMode = 'HTML') {
+function sendTelegram($chatId, $text, $parseMode = 'HTML', $inlineKeyboard = null) {
     if (!TELEGRAM_BOT_TOKEN || empty($chatId)) {
         error_log("Telegram: Missing bot token or chat ID");
         return false;
@@ -525,9 +525,13 @@ function sendTelegram($chatId, $text, $parseMode = 'HTML') {
             'chat_id' => $chatId,
             'text' => $text,
             'parse_mode' => $parseMode,
-            'disable_web_page_preview' => true,
+            'disable_web_page_preview' => false,
             'disable_notification' => false
         ];
+
+        if (!empty($inlineKeyboard)) {
+            $payload['reply_markup'] = $inlineKeyboard;
+        }
         
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_POST, true);
@@ -796,11 +800,22 @@ function sendDetailedNotificationHtml($rowData, $status, $actor = "System") {
         $msg .= "<b>Department:</b> " . $targetDeptDisplay . "\n";
     }
 
+    $rawReqId = trim((string)($rowData['request_id'] ?? ''));
+    $dashboardUrl = 'https://ict-portal.kaldisbunnaet.com/edit-requests/' . rawurlencode($rawReqId);
+
     $msg .= "<b>Reason:</b> " . $reason . "\n" .
         "<b>Status:</b> " . $statusText . "\n\n" .
-        "<a href=\"" . htmlspecialchars($baseUrl, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . "\">Open Dashboard</a>";
+        "<b>Dashboard:</b> <a href=\"" . htmlspecialchars($dashboardUrl, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . "\">Open Dashboard</a>";
 
-    return sendTelegram($targetChatId, $msg, 'HTML');
+    $keyboard = [
+        'inline_keyboard' => [
+            [
+                ['text' => '🌐 Open Dashboard (' . $rawReqId . ')', 'url' => $dashboardUrl]
+            ]
+        ]
+    ];
+
+    return sendTelegram($targetChatId, $msg, 'HTML', $keyboard);
 }
 
 function sendDetailedNotification($rowData, $status, $actor = "System") {
