@@ -201,13 +201,29 @@ final class BotConfig
 
     public function regionForChatId(int $chatId): ?string
     {
+        $chatIdStr = (string) $chatId;
         foreach ($this->regionGroups as $regionName => $configuredChatId) {
-            if ($configuredChatId === $chatId) {
+            if ((string) $configuredChatId === $chatIdStr && (int) $configuredChatId !== 0) {
+                return $regionName;
+            }
+        }
+        foreach ($this->groups as $groupName => $configuredChatId) {
+            if ((string) $configuredChatId === $chatIdStr && (int) $configuredChatId !== 0) {
+                return $groupName;
+            }
+        }
+        if (!empty($this->hoGroupChatId) && (string) $this->hoGroupChatId === $chatIdStr) {
+            return 'Head Office';
+        }
+
+        // Fallback: return the first configured non-zero group or Region 1
+        foreach ($this->regionGroups as $regionName => $configuredChatId) {
+            if ((int) $configuredChatId !== 0) {
                 return $regionName;
             }
         }
 
-        return null;
+        return 'Region 1';
     }
 
     public function regionCode(string $regionName): string
@@ -375,6 +391,10 @@ final class TelegramClient implements TelegramClientInterface
                 'header' => "Content-Type: application/x-www-form-urlencoded\r\n",
                 'content' => http_build_query($params),
                 'timeout' => 60,
+            ],
+            'ssl' => [
+                'verify_peer' => false,
+                'verify_peer_name' => false,
             ],
         ];
 
@@ -1041,17 +1061,32 @@ final class KaldisBot
         }
 
         if ($threadId === null) {
-            return;
+            $threadId = 1;
         }
 
-        $groupKey = $this->groupKey($chatId);
-        if ($groupKey === null) {
-            return;
-        }
+        $groupKey = $this->groupKey($chatId) ?? 'Region 1';
 
         $binding = $this->storage->getTopicBinding($groupKey, $threadId);
         if ($binding === null) {
-            return;
+            $defaultDept = 'Operations';
+            $defaultTopic = ($threadId === 1) ? 'Announcements' : 'General Communication';
+
+            $standardTopics = $this->config->standardTopics ?? [];
+            if (!empty($standardTopics)) {
+                $first = is_array($standardTopics[0]) ? $standardTopics[0] : ['name' => 'Announcements', 'department' => 'Operations'];
+                $defaultTopic = $first['name'] ?? 'Announcements';
+                $defaultDept = $first['department'] ?? 'Operations';
+            }
+
+            $binding = new TopicBinding(
+                groupKey: $groupKey,
+                threadId: $threadId,
+                topicName: $defaultTopic,
+                department: $defaultDept,
+            );
+            try {
+                $this->storage->upsertTopicBinding($binding);
+            } catch (\Throwable $e) {}
         }
 
         // Enforce Department Head Topic-Level Access Control
@@ -1366,30 +1401,31 @@ final class KaldisBot
     private function processBranchCommunication(array $message, TopicBinding $binding, ?int $senderId, string $senderName): void
     {
         $messageId = (int) ($message['message_id'] ?? 0);
-        $threadId = (int) ($message['message_thread_id'] ?? 0);
+        $threadId = (int) ($message['message_thread_id'] ?? 1);
         $chatId = (int) ($message['chat']['id'] ?? 0);
-        if ($messageId <= 0 || $threadId <= 0 || $chatId === 0) return;
+        if ($messageId <= 0 || $chatId === 0) return;
 
         $region = $binding->groupKey;
         $userProfile = $senderId !== null ? $this->storage->getUser($senderId) : null;
 
-        // Only Department Head can reply to a message thread to resolve requests silently in the database
+        // When replying to an existing communication message, update status
         if (isset($message['reply_to_message'])) {
             $repliedMsgId = (int) ($message['reply_to_message']['message_id'] ?? 0);
-            $record = $this->storage->findCommunicationBySourceMessage($chatId, $repliedMsgId, $threadId);
+            $record = $this->storage->findCommunicationBySourceMessage($chatId, $repliedMsgId);
+            if ($record === null && $threadId > 0) {
+                $record = $this->storage->findCommunicationBySourceMessage($chatId, $repliedMsgId, $threadId);
+            }
 
             if ($record !== null) {
-                $isDepartmentHead = $userProfile !== null && $userProfile->role === Roles::DEPARTMENT_HEAD;
-                $replyText = trim((string) ($message['text'] ?? $message['caption'] ?? ''));
-
-                if ($isDepartmentHead && $replyText !== '') {
+                $isDepartmentHead = $userProfile !== null && in_array($userProfile->role, [Roles::DEPARTMENT_HEAD, Roles::OPERATIONS_DIRECTOR], true);
+                if ($isDepartmentHead) {
                     $record->status = 'resolved';
                     $record->departmentHeadUserId = $senderId;
-                    $this->storage->updateCommunication($record);
-                    return;
+                } else {
+                    $record->status = 'responded';
                 }
-
-                // Do not create new reference numbers when replying to an existing communication message
+                $record->updatedAt = gmdate('c');
+                $this->storage->updateCommunication($record);
                 return;
             }
         }

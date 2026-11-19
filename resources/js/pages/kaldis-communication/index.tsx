@@ -5,8 +5,10 @@ import { useMemo, useState } from 'react';
 import { toast } from 'sonner';
 import {
     Activity,
+    AlertTriangle,
     Bot,
     Building2,
+    Check,
     CheckCircle2,
     CheckSquare,
     Clock,
@@ -15,12 +17,15 @@ import {
     EyeOff,
     FileText,
     Filter,
+    Hash,
     Layers,
     Link2Off,
     Lock,
     Megaphone,
     MessageSquare,
+    Play,
     Plus,
+    Radio,
     RefreshCw,
     Save,
     Search,
@@ -281,19 +286,57 @@ export default function KaldisCommunicationPage({
         }
     };
 
+    const [stdTopicSearch, setStdTopicSearch] = useState('');
+    const [stdTopicDeptFilter, setStdTopicDeptFilter] = useState('all');
+
+    const presets = useMemo(() => getPresets(defaultTopicMapping), [defaultTopicMapping]);
+    const filteredStandardTopics = useMemo(() => {
+        return presets.filter((p) => {
+            const matchesSearch = !stdTopicSearch ||
+                p.name.toLowerCase().includes(stdTopicSearch.toLowerCase()) ||
+                p.department.toLowerCase().includes(stdTopicSearch.toLowerCase());
+            const matchesDept = stdTopicDeptFilter === 'all' || p.department === stdTopicDeptFilter;
+            return matchesSearch && matchesDept;
+        });
+    }, [presets, stdTopicSearch, stdTopicDeptFilter]);
+
+    const [isSimulateOpen, setIsSimulateOpen] = useState(false);
+    const simulateForm = useForm({
+        region: 'Region 1',
+        topic_name: 'Operations',
+        department: 'Operations',
+        branch_name: branches[0]?.name || 'Bole Medhanialem',
+        sender_name: 'Branch Manager',
+    });
+
+    const handleSimulateCommunication = (e: React.FormEvent) => {
+        e.preventDefault();
+        router.post(getRouteUrl('kaldis-communication.simulate-test', '/kaldis-communication/simulate-test'), simulateForm.data, {
+            onSuccess: () => {
+                toast.success('Live test communication sent and tracked successfully!');
+                setIsSimulateOpen(false);
+            },
+            onError: (err) => {
+                toast.error(typeof err === 'object' ? Object.values(err)[0] as string : 'Failed to simulate test communication.');
+            },
+        });
+    };
+
     const standardTopicForm = useForm({
         name: '',
         department: departments[0] || 'Operations',
         emoji: '📢',
+        create_in_groups: true,
     });
 
     const handleAddStandardTopic = (e: React.FormEvent) => {
         e.preventDefault();
-        router.post(getRouteUrl('kaldis-communication.update-config', '/kaldis-communication/config'), {
+        router.post(getRouteUrl('kaldis-communication.store-standard-topic', '/kaldis-communication/standard-topics'), {
             action: 'add_standard_topic',
             name: standardTopicForm.data.name,
             department: standardTopicForm.data.department,
             emoji: standardTopicForm.data.emoji,
+            create_in_groups: standardTopicForm.data.create_in_groups,
         }, {
             onSuccess: () => {
                 toast.success(`Standard topic preset '${standardTopicForm.data.name}' added successfully!`);
@@ -306,16 +349,33 @@ export default function KaldisCommunicationPage({
         });
     };
 
+    const [isDeleteStandardTopicOpen, setIsDeleteStandardTopicOpen] = useState(false);
+    const [deleteTopicData, setDeleteTopicData] = useState<{ name: string; delete_from_groups: boolean }>({
+        name: '',
+        delete_from_groups: true,
+    });
+
+    const openDeleteStandardTopic = (name: string) => {
+        setDeleteTopicData({ name, delete_from_groups: true });
+        setIsDeleteStandardTopicOpen(true);
+    };
+
+    const handleConfirmDeleteStandardTopic = () => {
+        router.post(getRouteUrl('kaldis-communication.delete-standard-topic', '/kaldis-communication/standard-topics/delete'), {
+            action: 'delete_standard_topic',
+            name: deleteTopicData.name,
+            delete_from_groups: deleteTopicData.delete_from_groups,
+        }, {
+            onSuccess: () => {
+                toast.success(`Standard topic '${deleteTopicData.name}' removed successfully.`);
+                setIsDeleteStandardTopicOpen(false);
+            },
+            onError: (errors: any) => toast.error(errors.standard_topic || 'Failed to remove standard topic preset.'),
+        });
+    };
+
     const handleDeleteStandardTopic = (name: string) => {
-        if (confirm(`Remove standard topic preset '${name}'?`)) {
-            router.post(getRouteUrl('kaldis-communication.update-config', '/kaldis-communication/config'), {
-                action: 'delete_standard_topic',
-                name,
-            }, {
-                onSuccess: () => toast.success(`Standard topic preset '${name}' removed.`),
-                onError: (errors: any) => toast.error(errors.standard_topic || 'Failed to remove standard topic preset.'),
-            });
-        }
+        openDeleteStandardTopic(name);
     };
 
     const [isEditStandardTopicOpen, setIsEditStandardTopicOpen] = useState(false);
@@ -324,6 +384,7 @@ export default function KaldisCommunicationPage({
         name: '',
         department: departments[0] || 'Operations',
         emoji: '📢',
+        sync_to_telegram: true,
     });
 
     const openEditStandardTopic = (preset: { name: string; department: string; emoji: string }) => {
@@ -332,18 +393,20 @@ export default function KaldisCommunicationPage({
             name: preset.name,
             department: preset.department,
             emoji: preset.emoji || '📢',
+            sync_to_telegram: true,
         });
         setIsEditStandardTopicOpen(true);
     };
 
     const handleUpdateStandardTopic = (e: React.FormEvent) => {
         e.preventDefault();
-        router.post(getRouteUrl('kaldis-communication.update-config', '/kaldis-communication/config'), {
+        router.post(getRouteUrl('kaldis-communication.update-standard-topic', '/kaldis-communication/standard-topics/update'), {
             action: 'update_standard_topic',
             old_name: editStandardTopicForm.data.old_name,
             name: editStandardTopicForm.data.name,
             department: editStandardTopicForm.data.department,
             emoji: editStandardTopicForm.data.emoji,
+            sync_to_telegram: editStandardTopicForm.data.sync_to_telegram,
         }, {
             onSuccess: () => {
                 toast.success(`Standard topic preset '${editStandardTopicForm.data.name}' updated!`);
@@ -945,6 +1008,10 @@ export default function KaldisCommunicationPage({
                                 <Layers className="h-3.5 w-3.5 text-indigo-600" />
                                 Topic Mappings
                             </TabsTrigger>
+                            <TabsTrigger value="standard-topics" className="gap-2 px-3.5 py-2 text-xs font-medium rounded-lg data-[state=active]:bg-background data-[state=active]:shadow-xs transition-all">
+                                <Sparkles className="h-3.5 w-3.5 text-emerald-600" />
+                                Standard Topics Scope
+                            </TabsTrigger>
                             <TabsTrigger value="roster" className="gap-2 px-3.5 py-2 text-xs font-medium rounded-lg data-[state=active]:bg-background data-[state=active]:shadow-xs transition-all">
                                 <Users className="h-3.5 w-3.5 text-blue-600" />
                                 Staff Roster
@@ -963,7 +1030,7 @@ export default function KaldisCommunicationPage({
                     {/* Tab 1: Communications Tracker */}
                     <TabsContent value="communications" className="space-y-4">
                         <Card className="border shadow-xs overflow-hidden">
-                            <CardHeader className="p-4 pb-3">
+                            <CardHeader className="p-4 pb-3 flex flex-row items-center justify-between space-y-0">
                                 <div>
                                     <CardTitle className="text-base font-semibold flex items-center gap-2">
                                         <Activity className="h-4 w-4 text-amber-600" />
@@ -973,7 +1040,29 @@ export default function KaldisCommunicationPage({
                                         Every message posted in Region 1 & Region 2 groups is tagged with a reference number, categorized, and tracked in real-time.
                                     </CardDescription>
                                 </div>
+                                {canManage && (
+                                    <Button
+                                        size="sm"
+                                        variant="outline"
+                                        className="h-8 text-xs gap-1.5 border-amber-300 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30 text-amber-900 dark:text-amber-300 hover:bg-amber-100"
+                                        onClick={() => setIsSimulateOpen(true)}
+                                    >
+                                        <Play className="h-3.5 w-3.5 fill-current" />
+                                        Simulate Test Message
+                                    </Button>
+                                )}
                             </CardHeader>
+                            <div className="flex flex-wrap items-center justify-between gap-3 px-4 py-2 bg-emerald-500/10 border-b border-emerald-500/20 text-xs">
+                                <div className="flex items-center gap-2 text-emerald-800 dark:text-emerald-300 font-medium">
+                                    <span className="flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
+                                    <span>Live Webhook Listener: <code className="px-1.5 py-0.5 rounded bg-background font-mono text-[11px] border border-emerald-500/30">https://ict-portal.kaldisbunnaet.com/api/telegram/kaldis-communication</code></span>
+                                </div>
+                                <div className="flex items-center gap-2">
+                                    <Badge variant="outline" className="bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border-emerald-500/30 text-[10px] uppercase font-bold">
+                                        Active & Tracking
+                                    </Badge>
+                                </div>
+                            </div>
                             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 p-3.5 bg-muted/20 border-y border-border/60">
                                 <div className="relative">
                                     <Search className="absolute left-3 top-2.5 h-4 w-4 text-muted-foreground" />
@@ -1372,6 +1461,172 @@ export default function KaldisCommunicationPage({
                                 </div>
                             );
                         })}
+                    </TabsContent>
+
+                    {/* Tab: Standard Topics Scope */}
+                    <TabsContent value="standard-topics" className="space-y-4">
+                        <Card className="border shadow-xs overflow-hidden">
+                            <CardHeader className="p-4 pb-3 flex flex-row items-center justify-between space-y-0">
+                                <div>
+                                    <CardTitle className="text-base font-semibold flex items-center gap-2">
+                                        <Sparkles className="h-4 w-4 text-emerald-600" />
+                                        Standard Topics Scope Management
+                                    </CardTitle>
+                                    <CardDescription className="text-xs text-muted-foreground mt-0.5">
+                                        Define corporate forum topic presets with official emojis and target Head Office departments. Standard topics automatically categorize messages and route them in the Communication Tracker.
+                                    </CardDescription>
+                                </div>
+                                {canManage && (
+                                    <div className="flex items-center gap-2">
+                                        <Button
+                                            size="sm"
+                                            variant="outline"
+                                            className="h-8 text-xs gap-1.5"
+                                            onClick={handleSyncTopics}
+                                            disabled={isSyncingTopics}
+                                        >
+                                            <RefreshCw className={`h-3.5 w-3.5 text-indigo-600 ${isSyncingTopics ? 'animate-spin' : ''}`} />
+                                            Sync to Groups
+                                        </Button>
+                                        <Button
+                                            size="sm"
+                                            className="h-8 text-xs gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white"
+                                            onClick={() => setIsAddStandardTopicOpen(true)}
+                                        >
+                                            <Plus className="h-3.5 w-3.5" />
+                                            Add Standard Topic
+                                        </Button>
+                                    </div>
+                                )}
+                            </CardHeader>
+
+                            {/* Filters Bar */}
+                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 p-3.5 bg-muted/20 border-y border-border/60">
+                                <div className="relative">
+                                    <Search className="absolute left-3 top-2.5 h-4 w-4 text-muted-foreground" />
+                                    <Input
+                                        placeholder="Search standard topics..."
+                                        value={stdTopicSearch}
+                                        onChange={(e) => setStdTopicSearch(e.target.value)}
+                                        className="pl-9 h-9 text-xs bg-background"
+                                    />
+                                </div>
+                                <Select
+                                    value={stdTopicDeptFilter}
+                                    onValueChange={(val) => setStdTopicDeptFilter(val)}
+                                >
+                                    <SelectTrigger className="h-9 text-xs bg-background">
+                                        <SelectValue placeholder="All Departments" />
+                                    </SelectTrigger>
+                                    <SelectContent>
+                                        <SelectItem value="all">All HO Departments</SelectItem>
+                                        {departments.map((d) => (
+                                            <SelectItem key={d} value={d}>{d}</SelectItem>
+                                        ))}
+                                    </SelectContent>
+                                </Select>
+                                <div className="flex items-center text-xs text-muted-foreground px-2">
+                                    <span>Showing <strong>{filteredStandardTopics.length}</strong> of <strong>{presets.length}</strong> standard topics</span>
+                                </div>
+                            </div>
+
+                            <CardContent className="p-0">
+                                <div className="overflow-x-auto">
+                                    <Table>
+                                        <TableHeader>
+                                            <TableRow>
+                                                <TableHead className="text-xs">Standard Topic</TableHead>
+                                                <TableHead className="text-xs">Target HO Department</TableHead>
+                                                <TableHead className="text-xs">Telegram Slash Command</TableHead>
+                                                <TableHead className="text-xs">Active Group Bindings</TableHead>
+                                                <TableHead className="text-xs text-right">Actions</TableHead>
+                                            </TableRow>
+                                        </TableHeader>
+                                        <TableBody>
+                                            {filteredStandardTopics.length === 0 ? (
+                                                <TableRow>
+                                                    <TableCell colSpan={5} className="h-24 text-center text-muted-foreground">
+                                                        No standard topics found matching your search.
+                                                    </TableCell>
+                                                </TableRow>
+                                            ) : (
+                                                filteredStandardTopics.map((preset) => {
+                                                    const matchingBindings = topicBindings.filter(
+                                                        (b) => b.topic_name.toLowerCase().trim() === preset.name.toLowerCase().trim()
+                                                    );
+                                                    const commandSlug = preset.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+
+                                                    return (
+                                                        <TableRow key={preset.name} className="hover:bg-muted/40">
+                                                            <TableCell>
+                                                                <div className="flex items-center gap-2.5">
+                                                                    <span className="text-2xl p-1 rounded-md bg-muted/60 border border-border/40 inline-flex items-center justify-center w-9 h-9">
+                                                                        {preset.emoji}
+                                                                    </span>
+                                                                    <div>
+                                                                        <div className="font-semibold text-sm">{preset.name}</div>
+                                                                        <div className="text-[11px] text-muted-foreground">Standardized Scope</div>
+                                                                    </div>
+                                                                </div>
+                                                            </TableCell>
+                                                            <TableCell>
+                                                                <Badge variant="outline" className="font-medium bg-background text-indigo-700 dark:text-indigo-400 border-indigo-200 dark:border-indigo-800">
+                                                                    🏢 {preset.department}
+                                                                </Badge>
+                                                            </TableCell>
+                                                            <TableCell>
+                                                                <code className="px-2 py-0.5 rounded bg-muted font-mono text-xs text-foreground font-semibold">
+                                                                    /{commandSlug}
+                                                                </code>
+                                                            </TableCell>
+                                                            <TableCell>
+                                                                {matchingBindings.length === 0 ? (
+                                                                    <span className="text-xs text-muted-foreground italic">Not bound yet</span>
+                                                                ) : (
+                                                                    <div className="flex flex-wrap gap-1">
+                                                                        {matchingBindings.map((b) => (
+                                                                            <Badge key={`${b.group_key}-${b.thread_id}`} variant="secondary" className="text-[11px]">
+                                                                                {b.group_key} (Thread #{b.thread_id})
+                                                                            </Badge>
+                                                                        ))}
+                                                                    </div>
+                                                                )}
+                                                            </TableCell>
+                                                            <TableCell className="text-right">
+                                                                {canManage && (
+                                                                    <div className="flex items-center justify-end gap-1">
+                                                                        <Button
+                                                                            size="sm"
+                                                                            variant="outline"
+                                                                            className="h-8 text-xs gap-1 hover:bg-muted"
+                                                                            title={`Edit or Rename ${preset.name}`}
+                                                                            onClick={() => openEditStandardTopic(preset)}
+                                                                        >
+                                                                            <Edit3 className="h-3.5 w-3.5" />
+                                                                            Edit / Rename
+                                                                        </Button>
+                                                                        <Button
+                                                                            size="sm"
+                                                                            variant="ghost"
+                                                                            className="h-8 text-xs gap-1 text-destructive hover:bg-destructive/10"
+                                                                            title={`Delete ${preset.name}`}
+                                                                            onClick={() => openDeleteStandardTopic(preset.name)}
+                                                                        >
+                                                                            <Trash2 className="h-3.5 w-3.5" />
+                                                                            Delete
+                                                                        </Button>
+                                                                    </div>
+                                                                )}
+                                                            </TableCell>
+                                                        </TableRow>
+                                                    );
+                                                })
+                                            )}
+                                        </TableBody>
+                                    </Table>
+                                </div>
+                            </CardContent>
+                        </Card>
                     </TabsContent>
 
                     {/* Tab 5: Group Moderation */}
@@ -2412,6 +2667,19 @@ export default function KaldisCommunicationPage({
                             </div>
                         </div>
 
+                        <div className="flex items-center space-x-2 pt-1">
+                            <input
+                                type="checkbox"
+                                id="std_create_in_groups"
+                                checked={standardTopicForm.data.create_in_groups}
+                                onChange={(e) => standardTopicForm.setData('create_in_groups', e.target.checked)}
+                                className="h-4 w-4 rounded border-input text-primary focus:ring-primary"
+                            />
+                            <Label htmlFor="std_create_in_groups" className="text-xs cursor-pointer font-normal">
+                                Automatically create live forum topic thread in active Telegram groups
+                            </Label>
+                        </div>
+
                         <DialogFooter className="pt-2">
                             <Button type="button" variant="outline" onClick={() => setIsAddStandardTopicOpen(false)}>
                                 Cancel
@@ -2486,12 +2754,160 @@ export default function KaldisCommunicationPage({
                             </div>
                         </div>
 
+                        <div className="flex items-center space-x-2 pt-1">
+                            <input
+                                type="checkbox"
+                                id="edit_std_sync_to_telegram"
+                                checked={editStandardTopicForm.data.sync_to_telegram}
+                                onChange={(e) => editStandardTopicForm.setData('sync_to_telegram', e.target.checked)}
+                                className="h-4 w-4 rounded border-input text-primary focus:ring-primary"
+                            />
+                            <Label htmlFor="edit_std_sync_to_telegram" className="text-xs cursor-pointer font-normal">
+                                Rename live forum topic in active Telegram groups
+                            </Label>
+                        </div>
+
                         <DialogFooter className="pt-2">
                             <Button type="button" variant="outline" onClick={() => setIsEditStandardTopicOpen(false)}>
                                 Cancel
                             </Button>
                             <Button type="submit" disabled={editStandardTopicForm.processing}>
                                 Save Changes
+                            </Button>
+                        </DialogFooter>
+                    </form>
+                </DialogContent>
+            </Dialog>
+
+            {/* Modal: Delete Standard Topic Preset */}
+            <Dialog open={isDeleteStandardTopicOpen} onOpenChange={setIsDeleteStandardTopicOpen}>
+                <DialogContent className="max-w-md">
+                    <DialogHeader>
+                        <DialogTitle className="flex items-center gap-2 text-destructive">
+                            <AlertTriangle className="h-5 w-5 text-destructive" />
+                            Delete Standard Topic
+                        </DialogTitle>
+                        <DialogDescription>
+                            Are you sure you want to remove <strong>"{deleteTopicData.name}"</strong> from the Standard Topics Scope?
+                        </DialogDescription>
+                    </DialogHeader>
+
+                    <div className="space-y-4 py-2">
+                        <div className="rounded-lg border border-amber-200 bg-amber-50 dark:bg-amber-950/20 p-3 text-xs text-amber-800 dark:text-amber-300">
+                            Removing this topic preset will prevent new branch communications from auto-categorizing under this name. Existing communications will be preserved in history.
+                        </div>
+
+                        <div className="flex items-center space-x-2 pt-1">
+                            <input
+                                type="checkbox"
+                                id="delete_from_groups_cb"
+                                checked={deleteTopicData.delete_from_groups}
+                                onChange={(e) => setDeleteTopicData(prev => ({ ...prev, delete_from_groups: e.target.checked }))}
+                                className="h-4 w-4 rounded border-input text-destructive focus:ring-destructive"
+                            />
+                            <Label htmlFor="delete_from_groups_cb" className="text-xs cursor-pointer font-normal">
+                                Also unbind and close forum topic threads in active Telegram groups
+                            </Label>
+                        </div>
+                    </div>
+
+                    <DialogFooter className="pt-2">
+                        <Button type="button" variant="outline" onClick={() => setIsDeleteStandardTopicOpen(false)}>
+                            Cancel
+                        </Button>
+                        <Button type="button" variant="destructive" onClick={handleConfirmDeleteStandardTopic}>
+                            Delete Topic
+                        </Button>
+                    </DialogFooter>
+                </DialogContent>
+            </Dialog>
+
+            {/* Modal: Simulate Live Test Communication */}
+            <Dialog open={isSimulateOpen} onOpenChange={setIsSimulateOpen}>
+                <DialogContent className="max-w-md">
+                    <DialogHeader>
+                        <DialogTitle className="flex items-center gap-2">
+                            <Play className="h-4 w-4 text-amber-600" />
+                            Simulate & Test Live Communication
+                        </DialogTitle>
+                        <DialogDescription>
+                            Inject a live test communication into the tracking pipeline to verify that Telegram messages, branch routing, and references are working.
+                        </DialogDescription>
+                    </DialogHeader>
+
+                    <form onSubmit={handleSimulateCommunication} className="space-y-4 py-2">
+                        <div className="space-y-2">
+                            <Label htmlFor="sim_region">Regional Group</Label>
+                            <Select
+                                value={simulateForm.data.region}
+                                onValueChange={(val) => simulateForm.setData('region', val)}
+                            >
+                                <SelectTrigger id="sim_region" className="w-full">
+                                    <SelectValue placeholder="Select Region" />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectItem value="Region 1">Region 1</SelectItem>
+                                    <SelectItem value="Region 2">Region 2</SelectItem>
+                                </SelectContent>
+                            </Select>
+                        </div>
+
+                        <div className="space-y-2">
+                            <Label htmlFor="sim_topic">Target Standard Topic</Label>
+                            <Select
+                                value={simulateForm.data.topic_name}
+                                onValueChange={(val) => {
+                                    const preset = presets.find(p => p.name === val);
+                                    simulateForm.setData({
+                                        ...simulateForm.data,
+                                        topic_name: val,
+                                        department: preset?.department || 'Operations',
+                                    });
+                                }}
+                            >
+                                <SelectTrigger id="sim_topic" className="w-full">
+                                    <SelectValue placeholder="Select Topic" />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    {presets.map((preset) => (
+                                        <SelectItem key={preset.name} value={preset.name}>
+                                            {preset.emoji} {preset.name} ({preset.department})
+                                        </SelectItem>
+                                    ))}
+                                </SelectContent>
+                            </Select>
+                        </div>
+
+                        <div className="space-y-2">
+                            <Label htmlFor="sim_branch">Branch Name</Label>
+                            <SearchableSelect
+                                options={branches.map(b => ({ value: b.name, label: b.name }))}
+                                value={simulateForm.data.branch_name}
+                                onValueChange={(val) => simulateForm.setData('branch_name', val)}
+                                placeholder="Select Branch"
+                                searchPlaceholder="Search branch..."
+                                emptyText="No branch found."
+                                className="w-full"
+                            />
+                        </div>
+
+                        <div className="space-y-2">
+                            <Label htmlFor="sim_sender">Sender Name</Label>
+                            <Input
+                                id="sim_sender"
+                                value={simulateForm.data.sender_name}
+                                onChange={(e) => simulateForm.setData('sender_name', e.target.value)}
+                                placeholder="e.g. Branch Supervisor"
+                                required
+                            />
+                        </div>
+
+                        <DialogFooter className="pt-2">
+                            <Button type="button" variant="outline" onClick={() => setIsSimulateOpen(false)}>
+                                Cancel
+                            </Button>
+                            <Button type="submit" disabled={simulateForm.processing} className="bg-amber-600 hover:bg-amber-700 text-white">
+                                Send & Verify Tracking
                             </Button>
                         </DialogFooter>
                     </form>

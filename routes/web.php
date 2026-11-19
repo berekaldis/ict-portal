@@ -254,6 +254,7 @@ Route::middleware('auth')->group(function () {
         Route::post('kaldis-communication/moderation/broadcast', [KaldisCommunicationController::class, 'broadcastChannel'])->name('kaldis-communication.moderation.broadcast');
 
         Route::post('kaldis-communication/set-webhook', [KaldisCommunicationController::class, 'registerWebhook'])->name('kaldis-communication.set-webhook');
+        Route::post('kaldis-communication/simulate-test', [KaldisCommunicationController::class, 'simulateTestCommunication'])->name('kaldis-communication.simulate-test');
         Route::post('kaldis-communication/generate-invite-link', [KaldisCommunicationController::class, 'generateInviteLink'])->name('kaldis-communication.generate-invite-link');
         Route::post('kaldis-communication/purge-unlisted', [KaldisCommunicationController::class, 'purgeUnlistedBindings'])->name('kaldis-communication.purge-unlisted');
         Route::post('kaldis-communication/standard-topics', [KaldisCommunicationController::class, 'storeStandardTopicPreset'])->name('kaldis-communication.store-standard-topic');

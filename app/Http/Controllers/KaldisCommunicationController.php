@@ -149,8 +149,12 @@ class KaldisCommunicationController extends Controller
 
         $reg1 = $data['region_groups']['Region 1'] ?? ($data['groups']['Region 1'] ?? 0);
         $reg2 = $data['region_groups']['Region 2'] ?? ($data['groups']['Region 2'] ?? 0);
+        $botToken = trim($data['bot_token'] ?? '');
+        if (empty($botToken)) {
+            $botToken = config('services.telegram.bot_token', env('TELEGRAM_BOT_TOKEN', '8485030522:AAFQrY-bzz15N1G_Xfen1zsrNPxNrPqf8k8'));
+        }
         return [
-            'bot_token' => $data['bot_token'] ?? '',
+            'bot_token' => $botToken,
             'region_groups' => [
                 'Region 1' => (int) $reg1,
                 'Region 2' => (int) $reg2,
@@ -1702,6 +1706,7 @@ class KaldisCommunicationController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'department' => ['required', 'string', 'max:255'],
             'emoji' => ['required', 'string', 'max:10'],
+            'create_in_groups' => ['nullable', 'boolean'],
         ]);
 
         $topics = $this->getStandardTopicMapping();
@@ -1716,11 +1721,12 @@ class KaldisCommunicationController extends Controller
             }
         }
 
-        $topics[] = [
+        $newTopic = [
             'name' => trim($validated['name']),
             'department' => trim($validated['department']),
             'emoji' => trim($validated['emoji']),
         ];
+        $topics[] = $newTopic;
 
         $configPath = $this->getConfigPath();
         $rawConfig = file_exists($configPath) ? (json_decode(file_get_contents($configPath), true) ?: []) : [];
@@ -1732,15 +1738,52 @@ class KaldisCommunicationController extends Controller
             ]);
         }
 
-        if (!empty($rawConfig['bot_token'])) {
+        $botToken = trim($rawConfig['bot_token'] ?? config('services.telegram.bot_token', env('TELEGRAM_BOT_TOKEN', '')));
+        if (!empty($botToken)) {
             try {
-                $this->registerCommandsToTelegram($rawConfig['bot_token']);
-            } catch (\Throwable $e) {
-                // Ignore telegram error during config save
+                $this->registerCommandsToTelegram($botToken);
+            } catch (\Throwable $e) {}
+        }
+
+        // Auto-create forum topics in active Telegram groups if requested
+        $createdInGroups = 0;
+        $createInGroups = $request->has('create_in_groups') ? $request->boolean('create_in_groups') : true;
+        if ($createInGroups && !empty($botToken)) {
+            $pdo = $this->getPdo();
+            $formattedTopicName = "{$newTopic['emoji']} {$newTopic['name']}";
+            $groups = array_filter(array_merge($rawConfig['region_groups'] ?? [], $rawConfig['groups'] ?? []));
+
+            foreach ($groups as $groupKey => $chatId) {
+                $chatId = (int) $chatId;
+                if ($chatId === 0) continue;
+
+                $checkStmt = $pdo->prepare('SELECT COUNT(*) FROM topic_bindings WHERE group_key = ? AND LOWER(TRIM(topic_name)) = ?');
+                $checkStmt->execute([$groupKey, $normName]);
+                if ((int) $checkStmt->fetchColumn() > 0) continue;
+
+                try {
+                    $resp = \Illuminate\Support\Facades\Http::withoutVerifying()->timeout(10)->post("https://api.telegram.org/bot{$botToken}/createForumTopic", [
+                        'chat_id' => $chatId,
+                        'name' => $formattedTopicName,
+                    ]);
+                    $data = $resp->json();
+                    if (($data['ok'] ?? false) && isset($data['result']['message_thread_id'])) {
+                        $threadId = (int) $data['result']['message_thread_id'];
+                        $now = gmdate('c');
+                        $ins = $pdo->prepare('INSERT INTO topic_bindings (group_key, thread_id, topic_name, department, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?)');
+                        $ins->execute([$groupKey, $threadId, $newTopic['name'], $newTopic['department'], $now, $now]);
+                        $createdInGroups++;
+                    }
+                } catch (\Throwable $e) {}
             }
         }
 
-        return redirect()->back()->with('success', "Standard topic preset '{$validated['name']}' added successfully!");
+        $msg = "Standard topic preset '{$validated['name']}' added successfully!";
+        if ($createdInGroups > 0) {
+            $msg .= " Created forum topic thread in {$createdInGroups} active Telegram group(s).";
+        }
+
+        return redirect()->back()->with('success', $msg);
     }
 
     public function updateStandardTopicPreset(Request $request): RedirectResponse
@@ -1750,20 +1793,24 @@ class KaldisCommunicationController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'department' => ['required', 'string', 'max:255'],
             'emoji' => ['required', 'string', 'max:10'],
+            'sync_to_telegram' => ['nullable', 'boolean'],
         ]);
 
-        $oldName = !empty($validated['old_name']) ? $validated['old_name'] : $validated['name'];
-        $topics = $this->getStandardTopicMapping();
+        $oldName = !empty($validated['old_name']) ? trim($validated['old_name']) : trim($validated['name']);
+        $newName = trim($validated['name']);
+        $newDept = trim($validated['department']);
+        $newEmoji = trim($validated['emoji']);
 
+        $topics = $this->getStandardTopicMapping();
         $oldNorm = $this->normalizeTopicName($oldName);
-        $newNorm = $this->normalizeTopicName($validated['name']);
+        $newNorm = $this->normalizeTopicName($newName);
 
         if ($oldNorm !== $newNorm) {
             foreach ($topics as $t) {
                 $tName = is_array($t) ? ($t['name'] ?? '') : (is_string($t) ? $t : '');
                 if ($this->normalizeTopicName($tName) === $newNorm) {
                     return redirect()->back()->withErrors([
-                        'standard_topic' => "Standard topic preset '{$validated['name']}' already exists!"
+                        'standard_topic' => "Standard topic preset '{$newName}' already exists!"
                     ]);
                 }
             }
@@ -1774,9 +1821,9 @@ class KaldisCommunicationController extends Controller
             $tName = is_array($t) ? ($t['name'] ?? '') : (is_string($t) ? $t : '');
             if ($this->normalizeTopicName($tName) === $oldNorm) {
                 $t = [
-                    'name' => trim($validated['name']),
-                    'department' => trim($validated['department']),
-                    'emoji' => trim($validated['emoji']),
+                    'name' => $newName,
+                    'department' => $newDept,
+                    'emoji' => $newEmoji,
                 ];
                 $updated = true;
                 break;
@@ -1800,27 +1847,77 @@ class KaldisCommunicationController extends Controller
             ]);
         }
 
-        if (!empty($rawConfig['bot_token'])) {
+        // Cascade update in SQLite: topic_bindings and communications tables
+        $pdo = $this->getPdo();
+        $now = gmdate('c');
+
+        // Update topic_bindings where topic matches old name
+        $stmtBindings = $pdo->prepare('UPDATE topic_bindings SET topic_name = ?, department = ?, updated_at = ? WHERE LOWER(TRIM(topic_name)) = ?');
+        $stmtBindings->execute([$newName, $newDept, $now, $oldNorm]);
+
+        // Update communications where topic matches old name
+        $stmtComms = $pdo->prepare('UPDATE communications SET topic_name = ?, department = ?, updated_at = ? WHERE LOWER(TRIM(topic_name)) = ?');
+        $stmtComms->execute([$newName, $newDept, $now, $oldNorm]);
+
+        $botToken = trim($rawConfig['bot_token'] ?? config('services.telegram.bot_token', env('TELEGRAM_BOT_TOKEN', '')));
+
+        if (!empty($botToken)) {
             try {
-                $this->registerCommandsToTelegram($rawConfig['bot_token']);
-            } catch (\Throwable $e) {
-                // Ignore telegram error during config save
+                $this->registerCommandsToTelegram($botToken);
+            } catch (\Throwable $e) {}
+        }
+
+        // Rename the live Telegram forum topics in all groups where this topic is bound
+        $syncToTelegram = $request->has('sync_to_telegram') ? $request->boolean('sync_to_telegram') : true;
+        $renamedTelegramCount = 0;
+        if ($syncToTelegram && !empty($botToken)) {
+            $formattedTopicName = "{$newEmoji} {$newName}";
+            $allBindings = $pdo->prepare('SELECT group_key, thread_id FROM topic_bindings WHERE LOWER(TRIM(topic_name)) = ?');
+            $allBindings->execute([$newNorm]);
+            $bindingsToSync = $allBindings->fetchAll() ?: [];
+
+            $groupMap = array_merge($rawConfig['region_groups'] ?? [], $rawConfig['groups'] ?? []);
+
+            foreach ($bindingsToSync as $b) {
+                $chatId = $groupMap[$b['group_key']] ?? null;
+                $threadId = (int) $b['thread_id'];
+                if (!$chatId || $threadId <= 1) continue;
+
+                try {
+                    $resp = \Illuminate\Support\Facades\Http::withoutVerifying()->timeout(10)->post("https://api.telegram.org/bot{$botToken}/editForumTopic", [
+                        'chat_id' => (int) $chatId,
+                        'message_thread_id' => $threadId,
+                        'name' => $formattedTopicName,
+                    ]);
+                    $data = $resp->json();
+                    if ($data['ok'] ?? false) {
+                        $renamedTelegramCount++;
+                    }
+                } catch (\Throwable $e) {}
             }
         }
 
-        return redirect()->back()->with('success', "Standard topic preset '{$validated['name']}' updated successfully!");
+        $msg = "Standard topic '{$newName}' updated successfully in config and database!";
+        if ($renamedTelegramCount > 0) {
+            $msg .= " Live Telegram forum topic renamed in {$renamedTelegramCount} group(s).";
+        }
+
+        return redirect()->back()->with('success', $msg);
     }
 
     public function deleteStandardTopicPreset(Request $request): RedirectResponse
     {
         $validated = $request->validate([
             'name' => ['required', 'string'],
+            'delete_from_groups' => ['nullable', 'boolean'],
         ]);
 
+        $targetName = trim($validated['name']);
+        $normName = $this->normalizeTopicName($targetName);
         $topics = $this->getStandardTopicMapping();
-        $normName = $this->normalizeTopicName($validated['name']);
 
         $newTopics = [];
+        $found = false;
         foreach ($topics as $t) {
             $tName = is_array($t) ? ($t['name'] ?? '') : (is_string($t) ? $t : '');
             if ($this->normalizeTopicName($tName) !== $normName) {
@@ -1829,7 +1926,15 @@ class KaldisCommunicationController extends Controller
                     'department' => 'Operations',
                     'emoji' => '📌'
                 ];
+            } else {
+                $found = true;
             }
+        }
+
+        if (!$found) {
+            return redirect()->back()->withErrors([
+                'standard_topic' => "Standard topic '{$targetName}' not found."
+            ]);
         }
 
         $configPath = $this->getConfigPath();
@@ -1838,19 +1943,107 @@ class KaldisCommunicationController extends Controller
         
         if (!$this->saveConfig($rawConfig)) {
             return redirect()->back()->withErrors([
-                'standard_topic' => "Failed to save configuration. Please check directory and file write permissions for 'telegramgroup_mgt/config.json' on server."
+                'standard_topic' => "Failed to save configuration. Please check directory write permissions."
             ]);
         }
 
-        if (!empty($rawConfig['bot_token'])) {
+        $botToken = trim($rawConfig['bot_token'] ?? config('services.telegram.bot_token', env('TELEGRAM_BOT_TOKEN', '')));
+
+        if (!empty($botToken)) {
             try {
-                $this->registerCommandsToTelegram($rawConfig['bot_token']);
-            } catch (\Throwable $e) {
-                // Ignore telegram error during config save
-            }
+                $this->registerCommandsToTelegram($botToken);
+            } catch (\Throwable $e) {}
         }
 
-        return redirect()->back()->with('success', "Standard topic preset '{$validated['name']}' removed!");
+        $pdo = $this->getPdo();
+        $deleteFromGroups = $request->boolean('delete_from_groups');
+        $closedCount = 0;
+
+        if ($deleteFromGroups) {
+            $bindingsStmt = $pdo->prepare('SELECT group_key, thread_id FROM topic_bindings WHERE LOWER(TRIM(topic_name)) = ?');
+            $bindingsStmt->execute([$normName]);
+            $bindings = $bindingsStmt->fetchAll() ?: [];
+
+            $groupMap = array_merge($rawConfig['region_groups'] ?? [], $rawConfig['groups'] ?? []);
+
+            foreach ($bindings as $b) {
+                $chatId = $groupMap[$b['group_key']] ?? null;
+                $threadId = (int) $b['thread_id'];
+                if ($chatId && $threadId > 1 && !empty($botToken)) {
+                    try {
+                        \Illuminate\Support\Facades\Http::withoutVerifying()->timeout(10)->post("https://api.telegram.org/bot{$botToken}/closeForumTopic", [
+                            'chat_id' => (int) $chatId,
+                            'message_thread_id' => $threadId,
+                        ]);
+                        $closedCount++;
+                    } catch (\Throwable $e) {}
+                }
+            }
+
+            // Unbind from database
+            $delStmt = $pdo->prepare('DELETE FROM topic_bindings WHERE LOWER(TRIM(topic_name)) = ?');
+            $delStmt->execute([$normName]);
+        }
+
+        $msg = "Standard topic '{$targetName}' removed successfully from scope.";
+        if ($closedCount > 0) {
+            $msg .= " Closed {$closedCount} forum topic thread(s) in Telegram groups.";
+        }
+
+        return redirect()->back()->with('success', $msg);
+    }
+
+    public function simulateTestCommunication(Request $request): RedirectResponse
+    {
+        $validated = $request->validate([
+            'region' => ['nullable', 'string', 'max:50'],
+            'topic_name' => ['nullable', 'string', 'max:100'],
+            'department' => ['nullable', 'string', 'max:100'],
+            'branch_name' => ['nullable', 'string', 'max:100'],
+            'sender_name' => ['nullable', 'string', 'max:100'],
+        ]);
+
+        $region = $validated['region'] ?: 'Region 1';
+        $topicName = $validated['topic_name'] ?: 'Operations';
+        $department = $validated['department'] ?: 'Operations';
+        $branchName = $validated['branch_name'] ?: 'Bole Medhanialem';
+        $senderName = $validated['sender_name'] ?: (auth()->user()?->name ?? 'Portal Admin');
+
+        require_once base_path('telegramgroup_mgt/src/bootstrap.php');
+        $configPath = base_path('telegramgroup_mgt/config.json');
+        $dbPath = base_path('telegramgroup_mgt/kaldis.db');
+
+        $config = \KaldisTelegram\BotConfig::fromFile($configPath);
+        $storage = new \KaldisTelegram\SQLiteStorage($dbPath);
+        $client = new \KaldisTelegram\TelegramClient($config->botToken);
+        $bot = new \KaldisTelegram\KaldisBot($config, $storage, $client);
+
+        $fakeMessageId = rand(100000, 999999);
+        $chatId = $config->regionGroups[$region] ?? -1003724420241;
+
+        $simulatedUpdate = [
+            'update_id' => rand(1000000, 9999999),
+            'message' => [
+                'message_id' => $fakeMessageId,
+                'from' => [
+                    'id' => auth()->id() ?? 999123,
+                    'is_bot' => false,
+                    'first_name' => $senderName,
+                ],
+                'chat' => [
+                    'id' => $chatId,
+                    'title' => "Kaldis {$region} Group",
+                    'type' => 'supergroup',
+                ],
+                'date' => time(),
+                'message_thread_id' => 4,
+                'text' => "[Live Verification Test] Communication tracker verified successfully at {$branchName}.",
+            ],
+        ];
+
+        $bot->handleUpdate($simulatedUpdate);
+
+        return redirect()->back()->with('success', "Live communication tracked successfully for {$region} -> {$topicName}!");
     }
 
     public function standardizeRosterNames(): RedirectResponse
