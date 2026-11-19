@@ -9,6 +9,7 @@ use App\Models\TelecomProvider;
 use App\Models\TelecomTransfer;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Inertia\Inertia;
 use Inertia\Response;
 use Symfony\Component\HttpFoundation\StreamedResponse;
@@ -99,7 +100,14 @@ class TelecomBroadbandController extends Controller
             'contract_expiry_date' => ['nullable', 'date'],
             'status' => ['required', 'string', 'max:50'],
             'notes' => ['nullable', 'string'],
+            'attachment' => ['nullable', 'file', 'max:10240', 'mimes:pdf,jpg,jpeg,png,webp,doc,docx,xls,xlsx'],
         ]);
+
+        if ($request->hasFile('attachment')) {
+            $validated['attachment_path'] = $request->file('attachment')->store('telecom/broadband', 'public');
+        }
+
+        unset($validated['attachment']);
 
         TelecomBroadband::create($validated);
 
@@ -140,7 +148,23 @@ class TelecomBroadbandController extends Controller
             'contract_expiry_date' => ['nullable', 'date'],
             'status' => ['required', 'string', 'max:50'],
             'notes' => ['nullable', 'string'],
+            'attachment' => ['nullable', 'file', 'max:10240', 'mimes:pdf,jpg,jpeg,png,webp,doc,docx,xls,xlsx'],
+            'remove_attachment' => ['nullable', 'boolean'],
         ]);
+
+        if ($request->boolean('remove_attachment')) {
+            if ($broadband->attachment_path && Storage::disk('public')->exists($broadband->attachment_path)) {
+                Storage::disk('public')->delete($broadband->attachment_path);
+            }
+            $validated['attachment_path'] = null;
+        } elseif ($request->hasFile('attachment')) {
+            if ($broadband->attachment_path && Storage::disk('public')->exists($broadband->attachment_path)) {
+                Storage::disk('public')->delete($broadband->attachment_path);
+            }
+            $validated['attachment_path'] = $request->file('attachment')->store('telecom/broadband', 'public');
+        }
+
+        unset($validated['attachment'], $validated['remove_attachment']);
 
         $broadband->update($validated);
 
@@ -150,6 +174,10 @@ class TelecomBroadbandController extends Controller
 
     public function destroy(TelecomBroadband $broadband): RedirectResponse
     {
+        if ($broadband->attachment_path && Storage::disk('public')->exists($broadband->attachment_path)) {
+            Storage::disk('public')->delete($broadband->attachment_path);
+        }
+
         $broadband->delete();
 
         return redirect()->route('telecom.broadbands.index')

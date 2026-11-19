@@ -6,8 +6,8 @@ import { SearchableSelect } from '@/components/ui/searchable-select';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Textarea } from '@/components/ui/textarea';
 import AppLayout from '@/layouts/app-layout';
-import { Head, Link, useForm } from '@inertiajs/react';
-import { ArrowLeft, Calendar, Save } from 'lucide-react';
+import { Head, Link, router, useForm } from '@inertiajs/react';
+import { ArrowLeft, Calendar, ExternalLink, FileText, Paperclip, Save, Trash2, X } from 'lucide-react';
 import { FormEvent, useState } from 'react';
 
 type Option = { id: number; name: string };
@@ -34,6 +34,8 @@ type Broadband = {
     contract_expiry_date?: string | null;
     status: string;
     notes?: string | null;
+    attachment_path?: string | null;
+    attachment_url?: string | null;
 };
 
 type PageProps = {
@@ -67,6 +69,8 @@ export default function BroadbandsEdit({ broadband, providers = [], branches = [
         contract_expiry_date: broadband.contract_expiry_date ?? '',
         status: broadband.status ?? 'Active',
         notes: broadband.notes ?? '',
+        attachment: null as File | null,
+        remove_attachment: false,
     });
 
     const calculateExpiryDate = (startDateStr: string, months: number) => {
@@ -102,7 +106,10 @@ export default function BroadbandsEdit({ broadband, providers = [], branches = [
 
     function handleSubmit(e: FormEvent) {
         e.preventDefault();
-        put(`/telecom/broadbands/${broadband.id}`);
+        router.post(`/telecom/broadbands/${broadband.id}`, {
+            ...data,
+            _method: 'PUT',
+        }, { forceFormData: true });
     }
 
     const formattedBranches = branches.map((b) => ({
@@ -401,6 +408,86 @@ export default function BroadbandsEdit({ broadband, providers = [], branches = [
                                     value={data.notes}
                                     onChange={(e) => setData('notes', e.target.value)}
                                 />
+                            </div>
+
+                            {/* Attachment */}
+                            <div className="space-y-2 p-3.5 rounded-lg border border-border/70 bg-muted/20">
+                                <Label className="text-xs font-semibold flex items-center justify-between">
+                                    <span className="flex items-center gap-1.5">
+                                        <Paperclip className="h-4 w-4 text-primary" />
+                                        Attachment / Contract Agreement (Broadband SLA, Invoice, Form)
+                                    </span>
+                                    <span className="text-[11px] text-muted-foreground font-normal">
+                                        PDF, Images, Word up to 10MB
+                                    </span>
+                                </Label>
+
+                                {broadband.attachment_url && !data.remove_attachment && (
+                                    <div className="flex items-center justify-between p-2.5 rounded-md border border-border bg-background text-xs">
+                                        <div className="flex items-center gap-2 truncate">
+                                            <FileText className="h-4 w-4 text-emerald-600 shrink-0" />
+                                            <span className="font-medium truncate">Current Attachment</span>
+                                            <a
+                                                href={broadband.attachment_url}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                className="text-primary underline hover:text-primary/80 inline-flex items-center gap-1 text-[11px]"
+                                            >
+                                                <ExternalLink className="h-3 w-3" /> View / Download
+                                            </a>
+                                        </div>
+                                        <Button
+                                            type="button"
+                                            variant="ghost"
+                                            size="sm"
+                                            onClick={() => setData('remove_attachment', true)}
+                                            className="h-7 text-xs text-destructive hover:bg-destructive/10"
+                                        >
+                                            <Trash2 className="h-3.5 w-3.5 mr-1" /> Remove
+                                        </Button>
+                                    </div>
+                                )}
+
+                                {data.remove_attachment && (
+                                    <div className="flex items-center justify-between p-2 rounded-md bg-destructive/10 border border-destructive/20 text-xs text-destructive">
+                                        <span>Attachment will be removed upon saving.</span>
+                                        <Button
+                                            type="button"
+                                            variant="ghost"
+                                            size="sm"
+                                            onClick={() => setData('remove_attachment', false)}
+                                            className="h-6 text-xs text-foreground"
+                                        >
+                                            Undo
+                                        </Button>
+                                    </div>
+                                )}
+
+                                <div className="flex items-center gap-2">
+                                    <Input
+                                        id="attachment"
+                                        type="file"
+                                        accept=".pdf,.png,.jpg,.jpeg,.webp,.doc,.docx,.xls,.xlsx"
+                                        onChange={(e) => setData('attachment', e.target.files?.[0] || null)}
+                                        className="cursor-pointer file:cursor-pointer file:font-medium text-xs h-9 bg-background"
+                                    />
+                                    {data.attachment && (
+                                        <Button
+                                            type="button"
+                                            variant="ghost"
+                                            size="sm"
+                                            onClick={() => {
+                                                setData('attachment', null);
+                                                const fileInput = document.getElementById('attachment') as HTMLInputElement;
+                                                if (fileInput) fileInput.value = '';
+                                            }}
+                                            className="h-9 px-2 text-xs text-muted-foreground hover:text-foreground"
+                                        >
+                                            <X className="h-4 w-4" />
+                                        </Button>
+                                    )}
+                                </div>
+                                {errors.attachment && <p className="text-xs text-destructive">{errors.attachment}</p>}
                             </div>
 
                             <div className="flex items-center justify-end gap-2 pt-4">

@@ -293,7 +293,22 @@ export default function InternshipIndex({ internships, branches, jobs, filters }
 
                 {/* Create Modal */}
                 <Dialog open={createOpen} onOpenChange={setCreateOpen}>
-                    <DialogContent className="max-w-lg">
+                    <DialogContent
+                        className="max-w-lg"
+                        onPointerDownOutside={(e) => {
+                            const target = e.target as HTMLElement;
+                            if (
+                                target?.closest('[role="combobox"]') ||
+                                target?.closest('[role="dialog"]') ||
+                                target?.closest('[role="listbox"]') ||
+                                target?.closest('[role="option"]') ||
+                                target?.closest('.popover-content') ||
+                                target?.closest('[data-radix-popper-content-wrapper]')
+                            ) {
+                                e.preventDefault();
+                            }
+                        }}
+                    >
                         <DialogHeader>
                             <DialogTitle className="text-base font-bold flex items-center gap-2">
                                 <GraduationCap className="w-5 h-5 text-amber-600" /> New Internship Request
@@ -338,11 +353,10 @@ export default function InternshipIndex({ internships, branches, jobs, filters }
                                         options={branches}
                                         value={data.to_branch}
                                         onValueChange={(val) => {
-                                            setData((prev) => ({
-                                                ...prev,
-                                                to_branch: val,
-                                                work_branch: prev.work_branch ? prev.work_branch : val,
-                                            }));
+                                            setData('to_branch', val);
+                                            if (!data.work_branch || data.work_branch === branches[0]) {
+                                                setData('work_branch', val);
+                                            }
                                         }}
                                         placeholder="Select To Branch..."
                                         searchPlaceholder="Search branch..."

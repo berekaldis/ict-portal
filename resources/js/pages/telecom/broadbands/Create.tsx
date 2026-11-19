@@ -42,6 +42,7 @@ export default function BroadbandsCreate({ providers = [], branches = [], depart
         contract_expiry_date: '',
         status: 'Active',
         notes: '',
+        attachment: null as File | null,
     });
 
     const calculateExpiryDate = (startDateStr: string, months: number) => {
@@ -383,6 +384,21 @@ export default function BroadbandsCreate({ providers = [], branches = [], depart
                                     value={data.notes}
                                     onChange={(e) => setData('notes', e.target.value)}
                                 />
+                            </div>
+
+                            {/* Attachment */}
+                            <div className="space-y-1.5 p-3 rounded-lg border border-border/70 bg-muted/20">
+                                <Label htmlFor="attachment" className="text-xs font-semibold">
+                                    Attachment (Contract Agreement, SLA, Broadband Form) - max 10MB
+                                </Label>
+                                <Input
+                                    id="attachment"
+                                    type="file"
+                                    accept=".pdf,.png,.jpg,.jpeg,.webp,.doc,.docx,.xls,.xlsx"
+                                    onChange={(e) => setData('attachment', e.target.files?.[0] || null)}
+                                    className="cursor-pointer file:cursor-pointer text-xs h-9 bg-background"
+                                />
+                                {errors.attachment && <p className="text-xs text-destructive">{errors.attachment}</p>}
                             </div>
 
                             <div className="flex items-center justify-end gap-2 pt-4">

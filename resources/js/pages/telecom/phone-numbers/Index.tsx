@@ -13,7 +13,7 @@ import AppLayout from '@/layouts/app-layout';
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Label } from '@/components/ui/label';
 import { Head, Link, router, useForm } from '@inertiajs/react';
-import { ArrowLeftRight, Building, Building2, Download, Edit, Plus, Trash2, User } from 'lucide-react';
+import { ArrowLeftRight, Building, Building2, Download, Edit, Paperclip, Plus, Trash2, User } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 import { toast } from 'sonner';
 
@@ -33,6 +33,8 @@ type PhoneNumber = {
     issue_date?: string | null;
     renewal_date?: string | null;
     notes?: string | null;
+    attachment_path?: string | null;
+    attachment_url?: string | null;
     provider?: { id: number; name: string } | null;
     employee?: { id: number; first_name: string; last_name: string; employee_code: string } | null;
     branch?: { id: number; name: string } | null;
@@ -294,6 +296,17 @@ export default function PhoneNumbersIndex({
                                         <TableCell className="text-xs">{getStatusBadge(item.status)}</TableCell>
                                         <TableCell className="text-right text-xs">
                                             <div className="flex items-center justify-end gap-1">
+                                                {item.attachment_url && (
+                                                    <a
+                                                        href={item.attachment_url}
+                                                        target="_blank"
+                                                        rel="noreferrer"
+                                                        title="View Attached Document"
+                                                        className="h-7 w-7 inline-flex items-center justify-center rounded-md text-emerald-600 hover:text-emerald-700 hover:bg-emerald-500/10 transition-colors"
+                                                    >
+                                                        <Paperclip className="h-3.5 w-3.5" />
+                                                    </a>
+                                                )}
                                                 {can('telecom.phone.transfer') && (
                                                     <Button
                                                         variant="ghost"
@@ -340,6 +353,8 @@ export default function PhoneNumbersIndex({
                                                             issue_date: item.issue_date || '',
                                                             renewal_date: item.renewal_date || '',
                                                             notes: item.notes || '',
+                                                            attachment_path: item.attachment_path || null,
+                                                            attachment_url: item.attachment_url || null,
                                                         })}
                                                     >
                                                         <Edit className="h-3.5 w-3.5" />

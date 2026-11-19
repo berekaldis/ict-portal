@@ -87,7 +87,16 @@ export default function CategorizedPermissionSelector({
     };
 
     const selectAll = () => onChange([...allPermissions]);
-    const clearAll = () => onChange([]);
+    const deselectAll = () => onChange([]);
+
+    const selectCategory = (items: string[]) => {
+        const next = Array.from(new Set([...selectedPermissions, ...items]));
+        onChange(next);
+    };
+
+    const deselectCategory = (items: string[]) => {
+        onChange(selectedPermissions.filter((p) => !items.includes(p)));
+    };
 
     const filteredCategories = useMemo(() => {
         const result: Record<string, string[]> = {};
@@ -109,6 +118,22 @@ export default function CategorizedPermissionSelector({
         return result;
     }, [categories, categoryGroups, search, activeTab]);
 
+    const visibleItems = useMemo(() => {
+        return Object.values(filteredCategories).flat();
+    }, [filteredCategories]);
+
+    const selectVisible = () => {
+        const next = Array.from(new Set([...selectedPermissions, ...visibleItems]));
+        onChange(next);
+    };
+
+    const deselectVisible = () => {
+        const set = new Set(visibleItems);
+        onChange(selectedPermissions.filter((p) => !set.has(p)));
+    };
+
+    const isFiltered = activeTab !== 'ALL' || search.trim() !== '';
+
     return (
         <div className="space-y-4">
             <div className="flex flex-col sm:flex-row gap-3 items-start sm:items-center justify-between">
@@ -122,13 +147,29 @@ export default function CategorizedPermissionSelector({
                         className="pl-9 h-9"
                     />
                 </div>
-                <div className="flex items-center gap-2">
-                    <Button type="button" variant="outline" size="sm" onClick={selectAll} className="text-xs h-8">
-                        <CheckSquare className="h-3.5 w-3.5 mr-1" /> Select All ({allPermissions.length})
-                    </Button>
-                    <Button type="button" variant="ghost" size="sm" onClick={clearAll} className="text-xs h-8 text-destructive">
-                        <Square className="h-3.5 w-3.5 mr-1" /> Clear All
-                    </Button>
+                <div className="flex flex-wrap items-center gap-2">
+                    {isFiltered ? (
+                        <>
+                            <Button type="button" variant="outline" size="sm" onClick={selectVisible} className="text-xs h-8 font-medium">
+                                <CheckSquare className="h-3.5 w-3.5 mr-1 text-primary" /> Select All in View ({visibleItems.length})
+                            </Button>
+                            <Button type="button" variant="outline" size="sm" onClick={deselectVisible} className="text-xs h-8 text-destructive hover:bg-destructive/10 border-destructive/30 font-medium">
+                                <Square className="h-3.5 w-3.5 mr-1" /> Deselect All in View
+                            </Button>
+                            <Button type="button" variant="ghost" size="sm" onClick={deselectAll} className="text-xs h-8 text-muted-foreground hover:text-destructive">
+                                Deselect All ({selectedPermissions.length})
+                            </Button>
+                        </>
+                    ) : (
+                        <>
+                            <Button type="button" variant="outline" size="sm" onClick={selectAll} className="text-xs h-8 font-medium">
+                                <CheckSquare className="h-3.5 w-3.5 mr-1 text-primary" /> Select All ({allPermissions.length})
+                            </Button>
+                            <Button type="button" variant="outline" size="sm" onClick={deselectAll} className="text-xs h-8 text-destructive hover:bg-destructive/10 border-destructive/30 font-medium">
+                                <Square className="h-3.5 w-3.5 mr-1" /> Deselect All
+                            </Button>
+                        </>
+                    )}
                 </div>
             </div>
 
@@ -185,15 +226,26 @@ export default function CategorizedPermissionSelector({
                                             {selectedCount} / {items.length}
                                         </Badge>
                                     </div>
-                                    <div className="flex items-center gap-2">
+                                    <div className="flex items-center gap-1.5">
                                         <Button
                                             type="button"
                                             variant="ghost"
                                             size="sm"
-                                            onClick={() => toggleCategoryAll(cat, items)}
+                                            onClick={() => selectCategory(items)}
+                                            disabled={isAll}
                                             className="h-7 text-xs px-2 text-muted-foreground hover:text-foreground"
                                         >
-                                            {isAll ? 'Deselect Category' : 'Select Category'}
+                                            Select All
+                                        </Button>
+                                        <Button
+                                            type="button"
+                                            variant="ghost"
+                                            size="sm"
+                                            onClick={() => deselectCategory(items)}
+                                            disabled={selectedCount === 0}
+                                            className="h-7 text-xs px-2 text-muted-foreground hover:text-destructive disabled:opacity-30"
+                                        >
+                                            Deselect All
                                         </Button>
                                         <Button
                                             type="button"

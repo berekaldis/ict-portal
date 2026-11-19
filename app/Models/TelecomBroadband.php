@@ -31,6 +31,11 @@ class TelecomBroadband extends Model
         'contract_expiry_date',
         'status',
         'notes',
+        'attachment_path',
+    ];
+
+    protected $appends = [
+        'attachment_url',
     ];
 
     protected $casts = [
@@ -40,6 +45,14 @@ class TelecomBroadband extends Model
         'package_start_date' => 'date',
         'package_expiry_date' => 'date',
     ];
+
+    public function getAttachmentUrlAttribute(): ?string
+    {
+        if ($this->attachment_path) {
+            return asset('storage/' . $this->attachment_path);
+        }
+        return null;
+    }
 
     public function provider(): BelongsTo
     {

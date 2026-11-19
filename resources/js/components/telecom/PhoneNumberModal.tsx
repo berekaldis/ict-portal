@@ -4,8 +4,8 @@ import { Dialog, DialogClose, DialogContent, DialogFooter, DialogHeader, DialogT
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { SearchableSelect } from '@/components/ui/searchable-select';
-import { useForm } from '@inertiajs/react';
-import { Calendar, Loader2, Phone } from 'lucide-react';
+import { router, useForm } from '@inertiajs/react';
+import { Calendar, ExternalLink, FileText, Loader2, Paperclip, Phone, Trash2, X } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 
 export interface OptionItem {
@@ -40,6 +40,8 @@ export interface PhoneNumberRecord {
     issue_date?: string;
     renewal_date?: string;
     notes?: string;
+    attachment_path?: string | null;
+    attachment_url?: string | null;
 }
 
 interface PhoneNumberModalProps {
@@ -66,7 +68,7 @@ export default function PhoneNumberModal({
     const isEdit = !!initialData?.id;
     const [durationMonths, setDurationMonths] = useState<number>(1);
 
-    const { data, setData, post, put, processing, errors, reset } = useForm({
+    const { data, setData, post, processing, errors, reset } = useForm({
         phone_number: '',
         account_number: '',
         sim_card_number: '',
@@ -85,6 +87,8 @@ export default function PhoneNumberModal({
         issue_date: '',
         renewal_date: '',
         notes: '',
+        attachment: null as File | null,
+        remove_attachment: false,
     });
 
     useEffect(() => {
@@ -108,6 +112,8 @@ export default function PhoneNumberModal({
                 issue_date: initialData.issue_date || '',
                 renewal_date: initialData.renewal_date || '',
                 notes: initialData.notes || '',
+                attachment: null,
+                remove_attachment: false,
             } as any);
         } else {
             reset();
@@ -162,6 +168,7 @@ export default function PhoneNumberModal({
         e.preventDefault();
 
         const options = {
+            forceFormData: true,
             onSuccess: () => {
                 onOpenChange(false);
                 reset();
@@ -170,7 +177,10 @@ export default function PhoneNumberModal({
         };
 
         if (isEdit && initialData?.id) {
-            put(`/telecom/phone-numbers/${initialData.id}`, options);
+            router.post(`/telecom/phone-numbers/${initialData.id}`, {
+                ...data,
+                _method: 'PUT',
+            }, options);
         } else {
             post('/telecom/phone-numbers', options);
         }
@@ -433,6 +443,101 @@ export default function PhoneNumberModal({
                                 <InputError message={errors.department_id} />
                             </div>
                         )}
+
+                        {/* Notes */}
+                        <div className="col-span-1 md:col-span-2 space-y-1">
+                            <Label htmlFor="notes" className="text-sm font-semibold">Notes / Remarks</Label>
+                            <Input
+                                id="notes"
+                                value={data.notes}
+                                onChange={(e) => setData('notes', e.target.value)}
+                                placeholder="Additional details, SIM PIN/PUK, serial remarks..."
+                            />
+                            <InputError message={errors.notes} />
+                        </div>
+
+                        {/* Attachment Upload */}
+                        <div className="col-span-1 md:col-span-2 space-y-2 p-3.5 rounded-lg border border-border/70 bg-muted/20">
+                            <Label className="text-sm font-semibold flex items-center justify-between">
+                                <span className="flex items-center gap-1.5">
+                                    <Paperclip className="h-4 w-4 text-primary" />
+                                    Attachment / Document (Contract, SIM Form, ID Copy)
+                                </span>
+                                <span className="text-[11px] text-muted-foreground font-normal">
+                                    PDF, Images, Word up to 10MB
+                                </span>
+                            </Label>
+
+                            {initialData?.attachment_url && !data.remove_attachment && (
+                                <div className="flex items-center justify-between p-2.5 rounded-md border border-border bg-background text-xs">
+                                    <div className="flex items-center gap-2 truncate">
+                                        <FileText className="h-4 w-4 text-emerald-600 shrink-0" />
+                                        <span className="font-medium truncate">Current Attachment</span>
+                                        <a
+                                            href={initialData.attachment_url}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="text-primary underline hover:text-primary/80 inline-flex items-center gap-1 text-[11px]"
+                                        >
+                                            <ExternalLink className="h-3 w-3" /> View / Download
+                                        </a>
+                                    </div>
+                                    <Button
+                                        type="button"
+                                        variant="ghost"
+                                        size="sm"
+                                        onClick={() => setData('remove_attachment', true)}
+                                        className="h-7 text-xs text-destructive hover:bg-destructive/10"
+                                    >
+                                        <Trash2 className="h-3.5 w-3.5 mr-1" /> Remove
+                                    </Button>
+                                </div>
+                            )}
+
+                            {data.remove_attachment && (
+                                <div className="flex items-center justify-between p-2 rounded-md bg-destructive/10 border border-destructive/20 text-xs text-destructive">
+                                    <span>Attachment will be removed upon saving.</span>
+                                    <Button
+                                        type="button"
+                                        variant="ghost"
+                                        size="sm"
+                                        onClick={() => setData('remove_attachment', false)}
+                                        className="h-6 text-xs text-foreground"
+                                    >
+                                        Undo
+                                    </Button>
+                                </div>
+                            )}
+
+                            <div className="flex items-center gap-2">
+                                <Input
+                                    id="sim_attachment"
+                                    type="file"
+                                    accept=".pdf,.png,.jpg,.jpeg,.webp,.doc,.docx,.xls,.xlsx"
+                                    onChange={(e) => {
+                                        const file = e.target.files?.[0] || null;
+                                        setData('attachment', file);
+                                    }}
+                                    className="cursor-pointer file:cursor-pointer file:font-medium text-xs h-9 bg-background"
+                                />
+                                {data.attachment && (
+                                    <Button
+                                        type="button"
+                                        variant="ghost"
+                                        size="sm"
+                                        onClick={() => {
+                                            setData('attachment', null);
+                                            const fileInput = document.getElementById('sim_attachment') as HTMLInputElement;
+                                            if (fileInput) fileInput.value = '';
+                                        }}
+                                        className="h-9 px-2 text-xs text-muted-foreground hover:text-foreground"
+                                    >
+                                        <X className="h-4 w-4" />
+                                    </Button>
+                                )}
+                            </div>
+                            <InputError message={errors.attachment} />
+                        </div>
                     </div>
 
                     <DialogFooter className="pt-6 border-t border-border/60">

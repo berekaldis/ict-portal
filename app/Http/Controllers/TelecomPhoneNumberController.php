@@ -10,6 +10,7 @@ use App\Models\TelecomTransfer;
 use App\Models\User;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Inertia\Inertia;
 use Inertia\Response;
 use Symfony\Component\HttpFoundation\StreamedResponse;
@@ -126,11 +127,18 @@ class TelecomPhoneNumberController extends Controller
             'issue_date' => ['nullable', 'date'],
             'renewal_date' => ['nullable', 'date'],
             'notes' => ['nullable', 'string'],
+            'attachment' => ['nullable', 'file', 'max:10240', 'mimes:pdf,jpg,jpeg,png,webp,doc,docx,xls,xlsx'],
         ]);
 
         if (!empty($validated['employee_id'])) {
             $validated['user_id'] = $validated['employee_id'];
         }
+
+        if ($request->hasFile('attachment')) {
+            $validated['attachment_path'] = $request->file('attachment')->store('telecom/sim', 'public');
+        }
+
+        unset($validated['attachment']);
 
         TelecomPhoneNumber::create($validated);
 
@@ -181,11 +189,27 @@ class TelecomPhoneNumberController extends Controller
             'issue_date' => ['nullable', 'date'],
             'renewal_date' => ['nullable', 'date'],
             'notes' => ['nullable', 'string'],
+            'attachment' => ['nullable', 'file', 'max:10240', 'mimes:pdf,jpg,jpeg,png,webp,doc,docx,xls,xlsx'],
+            'remove_attachment' => ['nullable', 'boolean'],
         ]);
 
         if (!empty($validated['employee_id'])) {
             $validated['user_id'] = $validated['employee_id'];
         }
+
+        if ($request->boolean('remove_attachment')) {
+            if ($phoneNumber->attachment_path && Storage::disk('public')->exists($phoneNumber->attachment_path)) {
+                Storage::disk('public')->delete($phoneNumber->attachment_path);
+            }
+            $validated['attachment_path'] = null;
+        } elseif ($request->hasFile('attachment')) {
+            if ($phoneNumber->attachment_path && Storage::disk('public')->exists($phoneNumber->attachment_path)) {
+                Storage::disk('public')->delete($phoneNumber->attachment_path);
+            }
+            $validated['attachment_path'] = $request->file('attachment')->store('telecom/sim', 'public');
+        }
+
+        unset($validated['attachment'], $validated['remove_attachment']);
 
         $phoneNumber->update($validated);
 
@@ -195,6 +219,10 @@ class TelecomPhoneNumberController extends Controller
 
     public function destroy(TelecomPhoneNumber $phoneNumber): RedirectResponse
     {
+        if ($phoneNumber->attachment_path && Storage::disk('public')->exists($phoneNumber->attachment_path)) {
+            Storage::disk('public')->delete($phoneNumber->attachment_path);
+        }
+
         $phoneNumber->delete();
 
         return redirect()->route('telecom.phone-numbers.index')

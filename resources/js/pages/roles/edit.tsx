@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import AppLayout from '@/layouts/app-layout';
 import { Head, Link, useForm } from '@inertiajs/react';
-import { ArrowLeft, Save, ShieldCheck } from 'lucide-react';
+import { ArrowLeft, CheckSquare, Save, ShieldCheck, Square } from 'lucide-react';
 import React from 'react';
 
 interface Props {
@@ -49,12 +49,32 @@ export default function RoleEdit({ role, permissions, groupedPermissions }: Prop
 
                 <form onSubmit={submit} className="space-y-4">
                     <Card className="border-border/60 shadow-xs">
-                        <CardHeader className="py-4 px-6 border-b border-border/40 flex flex-row items-center justify-between">
+                        <CardHeader className="py-4 px-6 border-b border-border/40 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
                             <div>
                                 <CardTitle className="text-sm font-semibold">Configured Permissions ({data.permissions.length} Selected)</CardTitle>
                                 <CardDescription className="text-xs">
                                     Changes take effect immediately upon saving.
                                 </CardDescription>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <Button
+                                    type="button"
+                                    variant="outline"
+                                    size="sm"
+                                    onClick={() => setData('permissions', [...permissions])}
+                                    className="text-xs h-8 font-medium"
+                                >
+                                    <CheckSquare className="h-3.5 w-3.5 mr-1 text-primary" /> Select All ({permissions.length})
+                                </Button>
+                                <Button
+                                    type="button"
+                                    variant="outline"
+                                    size="sm"
+                                    onClick={() => setData('permissions', [])}
+                                    className="text-xs h-8 text-destructive hover:bg-destructive/10 border-destructive/30 font-medium"
+                                >
+                                    <Square className="h-3.5 w-3.5 mr-1" /> Deselect All
+                                </Button>
                             </div>
                         </CardHeader>
                         <CardContent className="p-6">

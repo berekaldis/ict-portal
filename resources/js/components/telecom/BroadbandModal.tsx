@@ -4,8 +4,8 @@ import { Dialog, DialogClose, DialogContent, DialogFooter, DialogHeader, DialogT
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { SearchableSelect } from '@/components/ui/searchable-select';
-import { useForm } from '@inertiajs/react';
-import { Calendar, Loader2, Wifi } from 'lucide-react';
+import { router, useForm } from '@inertiajs/react';
+import { Calendar, ExternalLink, FileText, Loader2, Paperclip, Trash2, Wifi, X } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 import { OptionItem } from './PhoneNumberModal';
 
@@ -31,6 +31,8 @@ export interface BroadbandRecord {
     contract_start_date?: string;
     contract_expiry_date?: string;
     notes?: string;
+    attachment_path?: string | null;
+    attachment_url?: string | null;
 }
 
 interface BroadbandModalProps {
@@ -53,7 +55,7 @@ export default function BroadbandModal({
     const isEdit = !!initialData?.id;
     const [durationMonths, setDurationMonths] = useState<number>(1);
 
-    const { data, setData, post, put, processing, errors, reset } = useForm({
+    const { data, setData, post, processing, errors, reset } = useForm({
         connection_name: '',
         account_number: '',
         service_number: '',
@@ -74,6 +76,8 @@ export default function BroadbandModal({
         contract_start_date: '',
         contract_expiry_date: '',
         notes: '',
+        attachment: null as File | null,
+        remove_attachment: false,
     });
 
     useEffect(() => {
@@ -99,6 +103,8 @@ export default function BroadbandModal({
                 contract_start_date: initialData.contract_start_date || '',
                 contract_expiry_date: initialData.contract_expiry_date || '',
                 notes: initialData.notes || '',
+                attachment: null,
+                remove_attachment: false,
             } as any);
         } else {
             reset();
@@ -162,6 +168,7 @@ export default function BroadbandModal({
         };
 
         const options = {
+            forceFormData: true,
             onSuccess: () => {
                 onOpenChange(false);
                 reset();
@@ -170,9 +177,12 @@ export default function BroadbandModal({
         };
 
         if (isEdit && initialData?.id) {
-            put(`/telecom/broadbands/${initialData.id}`, options);
+            router.post(`/telecom/broadbands/${initialData.id}`, {
+                ...payload,
+                _method: 'PUT',
+            }, options);
         } else {
-            post('/telecom/broadbands', options);
+            router.post('/telecom/broadbands', payload, options);
         }
     };
 
@@ -406,6 +416,101 @@ export default function BroadbandModal({
                                 onChange={(e) => setData('ip_address', e.target.value)}
                                 className="mt-1 h-10 font-mono text-xs"
                             />
+                        </div>
+
+                        {/* Notes */}
+                        <div className="col-span-1 md:col-span-2 space-y-1">
+                            <Label htmlFor="notes" className="text-sm font-semibold">Notes / Remarks</Label>
+                            <Input
+                                id="notes"
+                                value={data.notes}
+                                onChange={(e) => setData('notes', e.target.value)}
+                                placeholder="Additional details, router credentials, circuit notes..."
+                            />
+                            <InputError message={errors.notes} />
+                        </div>
+
+                        {/* Attachment Upload */}
+                        <div className="col-span-1 md:col-span-2 space-y-2 p-3.5 rounded-lg border border-border/70 bg-muted/20">
+                            <Label className="text-sm font-semibold flex items-center justify-between">
+                                <span className="flex items-center gap-1.5">
+                                    <Paperclip className="h-4 w-4 text-purple-600" />
+                                    Attachment / Contract Agreement (Broadband SLA, Invoice, Form)
+                                </span>
+                                <span className="text-[11px] text-muted-foreground font-normal">
+                                    PDF, Images, Word up to 10MB
+                                </span>
+                            </Label>
+
+                            {initialData?.attachment_url && !data.remove_attachment && (
+                                <div className="flex items-center justify-between p-2.5 rounded-md border border-border bg-background text-xs">
+                                    <div className="flex items-center gap-2 truncate">
+                                        <FileText className="h-4 w-4 text-emerald-600 shrink-0" />
+                                        <span className="font-medium truncate">Current Attachment</span>
+                                        <a
+                                            href={initialData.attachment_url}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="text-purple-600 underline hover:text-purple-700 inline-flex items-center gap-1 text-[11px]"
+                                        >
+                                            <ExternalLink className="h-3 w-3" /> View / Download
+                                        </a>
+                                    </div>
+                                    <Button
+                                        type="button"
+                                        variant="ghost"
+                                        size="sm"
+                                        onClick={() => setData('remove_attachment', true)}
+                                        className="h-7 text-xs text-destructive hover:bg-destructive/10"
+                                    >
+                                        <Trash2 className="h-3.5 w-3.5 mr-1" /> Remove
+                                    </Button>
+                                </div>
+                            )}
+
+                            {data.remove_attachment && (
+                                <div className="flex items-center justify-between p-2 rounded-md bg-destructive/10 border border-destructive/20 text-xs text-destructive">
+                                    <span>Attachment will be removed upon saving.</span>
+                                    <Button
+                                        type="button"
+                                        variant="ghost"
+                                        size="sm"
+                                        onClick={() => setData('remove_attachment', false)}
+                                        className="h-6 text-xs text-foreground"
+                                    >
+                                        Undo
+                                    </Button>
+                                </div>
+                            )}
+
+                            <div className="flex items-center gap-2">
+                                <Input
+                                    id="broadband_attachment"
+                                    type="file"
+                                    accept=".pdf,.png,.jpg,.jpeg,.webp,.doc,.docx,.xls,.xlsx"
+                                    onChange={(e) => {
+                                        const file = e.target.files?.[0] || null;
+                                        setData('attachment', file);
+                                    }}
+                                    className="cursor-pointer file:cursor-pointer file:font-medium text-xs h-9 bg-background"
+                                />
+                                {data.attachment && (
+                                    <Button
+                                        type="button"
+                                        variant="ghost"
+                                        size="sm"
+                                        onClick={() => {
+                                            setData('attachment', null);
+                                            const fileInput = document.getElementById('broadband_attachment') as HTMLInputElement;
+                                            if (fileInput) fileInput.value = '';
+                                        }}
+                                        className="h-9 px-2 text-xs text-muted-foreground hover:text-foreground"
+                                    >
+                                        <X className="h-4 w-4" />
+                                    </Button>
+                                )}
+                            </div>
+                            <InputError message={errors.attachment} />
                         </div>
                     </div>
 

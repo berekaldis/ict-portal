@@ -14,7 +14,7 @@ import { Label } from '@/components/ui/label';
 import { usePermission } from '@/hooks/user-permissions';
 import AppLayout from '@/layouts/app-layout';
 import { Head, Link, router, useForm } from '@inertiajs/react';
-import { ArrowLeftRight, Download, Edit, Plus, Trash2, Wifi } from 'lucide-react';
+import { ArrowLeftRight, Download, Edit, Paperclip, Plus, Trash2, Wifi } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 import { toast } from 'sonner';
 
@@ -37,6 +37,8 @@ type Broadband = {
     contract_expiry_date?: string | null;
     status: string;
     notes?: string | null;
+    attachment_path?: string | null;
+    attachment_url?: string | null;
     provider?: { id: number; name: string } | null;
     branch?: { id: number; name: string } | null;
     department?: { id: number; name: string } | null;
@@ -270,6 +272,17 @@ export default function BroadbandsIndex({ broadbands, providers = [], branches =
                                         <TableCell className="text-xs">{getStatusBadge(item.status)}</TableCell>
                                         <TableCell className="text-right text-xs">
                                             <div className="flex items-center justify-end gap-1">
+                                                {item.attachment_url && (
+                                                    <a
+                                                        href={item.attachment_url}
+                                                        target="_blank"
+                                                        rel="noreferrer"
+                                                        title="View Attached Contract / Document"
+                                                        className="h-7 w-7 inline-flex items-center justify-center rounded-md text-purple-600 hover:text-purple-700 hover:bg-purple-500/10 transition-colors"
+                                                    >
+                                                        <Paperclip className="h-3.5 w-3.5" />
+                                                    </a>
+                                                )}
                                                 {can('telecom.broadband.transfer') && (
                                                     <Button
                                                         variant="ghost"
@@ -315,6 +328,8 @@ export default function BroadbandsIndex({ broadbands, providers = [], branches =
                                                             contract_start_date: item.contract_start_date || '',
                                                             contract_expiry_date: item.contract_expiry_date || '',
                                                             notes: item.notes || '',
+                                                            attachment_path: item.attachment_path || null,
+                                                            attachment_url: item.attachment_url || null,
                                                         })}
                                                     >
                                                         <Edit className="h-3.5 w-3.5" />

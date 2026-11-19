@@ -22,6 +22,7 @@ interface SearchableSelectProps {
     allValue?: string;
     className?: string;
     disabled?: boolean;
+    portalled?: boolean;
     id?: string;
 }
 
@@ -37,10 +38,23 @@ export function SearchableSelect({
     allValue = 'all',
     className = 'w-full',
     disabled = false,
+    portalled = false,
     id,
 }: SearchableSelectProps) {
     const [open, setOpen] = React.useState(false);
     const [search, setSearch] = React.useState('');
+    const inputRef = React.useRef<HTMLInputElement>(null);
+
+    React.useEffect(() => {
+        if (open) {
+            const timer = setTimeout(() => {
+                inputRef.current?.focus();
+            }, 60);
+            return () => clearTimeout(timer);
+        } else {
+            setSearch('');
+        }
+    }, [open]);
 
     const normalizedOptions = React.useMemo(() => {
         return (options || []).map((opt) => {
@@ -105,24 +119,41 @@ export function SearchableSelect({
                 </Button>
             </PopoverTrigger>
             <PopoverContent
+                portalled={portalled}
                 className="w-[var(--radix-popover-trigger-width)] min-w-[260px] p-2 z-[9999] bg-popover shadow-md border rounded-md"
                 align="start"
-                onOpenAutoFocus={(e) => e.preventDefault()}
+                onOpenAutoFocus={(e) => {
+                    e.preventDefault();
+                    inputRef.current?.focus();
+                }}
+                onCloseAutoFocus={(e) => {
+                    e.preventDefault();
+                }}
             >
-                <div className="relative mb-2">
-                    <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
+                <div className="relative mb-2" onClick={(e) => e.stopPropagation()}>
+                    <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground pointer-events-none" />
                     <Input
+                        ref={inputRef}
                         type="text"
                         placeholder={searchPlaceholder}
                         value={search}
                         onChange={(e) => setSearch(e.target.value)}
+                        onKeyDown={(e) => {
+                            e.stopPropagation();
+                            if (e.key === 'Escape') {
+                                setOpen(false);
+                            }
+                        }}
                         className="pl-8 pr-8 h-9 text-sm"
-                        autoFocus
                     />
                     {search && (
                         <button
                             type="button"
-                            onClick={() => setSearch('')}
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                setSearch('');
+                                inputRef.current?.focus();
+                            }}
                             className="absolute right-2.5 top-2.5 text-muted-foreground hover:text-foreground"
                         >
                             <X className="h-4 w-4" />
@@ -132,12 +163,20 @@ export function SearchableSelect({
                 <div className="max-h-[220px] overflow-y-auto space-y-0.5">
                     {allowAll && (
                         <div
+                            role="option"
+                            aria-selected={stringValue === allValue || stringValue === ''}
+                            onClick={(e) => {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                handleSelect(allValue);
+                            }}
                             onMouseDown={(e) => {
                                 e.preventDefault();
+                                e.stopPropagation();
                                 handleSelect(allValue);
                             }}
                             className={cn(
-                                'flex items-center justify-between px-2.5 py-1.5 rounded-sm text-sm cursor-pointer hover:bg-accent hover:text-accent-foreground',
+                                'flex items-center justify-between px-2.5 py-1.5 rounded-sm text-sm cursor-pointer hover:bg-accent hover:text-accent-foreground select-none',
                                 (stringValue === allValue || stringValue === '') && 'bg-accent/50 font-medium'
                             )}
                         >
@@ -155,8 +194,16 @@ export function SearchableSelect({
                                 return (
                                     <div
                                         key={opt.id}
+                                        role="option"
+                                        aria-selected={isSelected}
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                            e.stopPropagation();
+                                            handleSelect(opt.id);
+                                        }}
                                         onMouseDown={(e) => {
                                             e.preventDefault();
+                                            e.stopPropagation();
                                             handleSelect(opt.id);
                                         }}
                                         className={cn(
