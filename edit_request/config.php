@@ -15,6 +15,9 @@ define('DB_PASS', '@IT2026!');
 // Telegram Bot Configuration
 define('TELEGRAM_BOT_TOKEN', '8485030522:AAFQrY-bzz15N1G_Xfen1zsrNPxNrPqf8k8');
 define('TELEGRAM_CHAT_ID_ADMIN', '-1001502645326');
+define('TELEGRAM_CHAT_ID_FINANCE', '-1003609053132');
+define('TELEGRAM_CHAT_ID_FB', '-1003821366530');
+define('TELEGRAM_CHAT_ID_ONHAND_DELETE', '-1002426639974');
 
 // Timezone
 date_default_timezone_set('Africa/Addis_Ababa');
@@ -404,32 +407,35 @@ function syncUsersSchema(PDO $db) {
 // Helper to Get Department Telegram Chat ID
 // ============================================
 function getDeptChatId(PDO $pdo, $deptName) {
-    $deptTable = getTableName($pdo, 'departments');
-    if (tableExists($pdo, $deptTable)) {
-        $stmt = $pdo->prepare("SELECT telegram_chat_id FROM `{$deptTable}` WHERE dept_name = ? OR dept_name LIKE ? LIMIT 1");
-        $stmt->execute([$deptName, $deptName . '%']);
-        $row = $stmt->fetch();
-        if ($row && !empty($row['telegram_chat_id'])) {
-            return $row['telegram_chat_id'];
-        }
+    $clean = strtolower(trim((string)$deptName));
+    if (str_contains($clean, 'finance')) {
+        return TELEGRAM_CHAT_ID_FINANCE;
     }
-    
-    if ($deptName === 'IT') {
-        return '-1001502645326';
+    if (str_contains($clean, 'f&b') || str_contains($clean, 'fb')) {
+        return TELEGRAM_CHAT_ID_FB;
     }
-    
-    if ($deptName === 'Admin') {
-        $userTable = getTableName($pdo, 'users');
-        if (tableExists($pdo, $userTable)) {
-            $uStmt = $pdo->prepare("SELECT chat_id FROM `{$userTable}` WHERE role = 'Admin' AND chat_id != '' AND chat_id IS NOT NULL LIMIT 1");
-            $uStmt->execute();
-            $uRow = $uStmt->fetch();
-            if ($uRow && !empty($uRow['chat_id'])) {
-                return $uRow['chat_id'];
+    if (str_contains($clean, 'onhand') || str_contains($clean, 'on hand')) {
+        return TELEGRAM_CHAT_ID_ONHAND_DELETE;
+    }
+    if ($clean === 'it' || str_contains($clean, 'it')) {
+        return TELEGRAM_CHAT_ID_ADMIN;
+    }
+    if ($clean === 'admin') {
+        return TELEGRAM_CHAT_ID_ADMIN;
+    }
+
+    try {
+        $deptTable = getTableName($pdo, 'departments');
+        if (tableExists($pdo, $deptTable)) {
+            $stmt = $pdo->prepare("SELECT telegram_chat_id FROM `{$deptTable}` WHERE dept_name = ? OR dept_name LIKE ? LIMIT 1");
+            $stmt->execute([$deptName, $deptName . '%']);
+            $row = $stmt->fetch();
+            if ($row && !empty($row['telegram_chat_id'])) {
+                return $row['telegram_chat_id'];
             }
         }
-    }
-    
+    } catch (\Throwable $e) {}
+
     return TELEGRAM_CHAT_ID_ADMIN;
 }
 

@@ -56,10 +56,8 @@ class TelegramService
 
         try {
             $url = "https://api.telegram.org/bot{$botToken}/sendMessage";
-            $http = Http::timeout(10);
-            if (app()->environment('local', 'testing') || config('services.telegram.verify_ssl') === false) {
-                $http = $http->withoutVerifying();
-            }
+            // Ensure cURL SSL verification never blocks delivery in shared hosting / cPanel environments
+            $http = Http::timeout(10)->withoutVerifying();
 
             $payload = [
                 'chat_id' => $chatId,
