@@ -295,6 +295,7 @@ export default function ItSurveyIndex({
         'CMC Branch',
     ];
     const [cctvActiveBranch, setCctvActiveBranch] = useState<string>(CCTV_BRANCHES[0]);
+    const [cctvSubTab, setCctvSubTab] = useState<'checklist' | 'register' | 'incidents' | 'sop'>('checklist');
     const [cctvCheckedItems, setCctvCheckedItems] = useState<Record<string, boolean>>(() => {
         try {
             const saved = localStorage.getItem('kaldis_cctv_checklist_state_v1');
@@ -1255,607 +1256,326 @@ export default function ItSurveyIndex({
                     {/* ==================================================== */}
                     {/* TAB 4: CCTV FULL CHECKLIST & 5-BRANCH AUDIT         */}
                     {/* ==================================================== */}
-                    <TabsContent value="cctv" className="space-y-6 m-0">
-                        {/* CCTV Scope & Header */}
-                        <div className="rounded-xl border border-rose-200/80 bg-gradient-to-r from-rose-50/70 via-amber-50/40 to-slate-50 p-4 sm:p-5 shadow-sm">
-                            <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
-                                <div className="space-y-1">
-                                    <div className="flex items-center gap-2">
-                                        <div className="w-8 h-8 rounded-lg bg-rose-600 text-white flex items-center justify-center shadow-sm">
-                                            <Video className="w-4 h-4" />
-                                        </div>
-                                        <div>
-                                            <h2 className="text-lg font-bold text-slate-900 tracking-tight">
-                                                Kaldi's Coffee – CCTV Full Checklist
-                                            </h2>
-                                            <p className="text-xs font-medium text-slate-600">
-                                                Scope: <span className="font-semibold text-rose-700">5 branches</span> · Dahua cameras &amp; NVRs · Owner: <span className="font-semibold text-slate-800">IT Manager</span> · Standard Date: 2026-11-21
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <p className="text-xs text-slate-600 pl-10 max-w-3xl">
-                                        Standard operating checklist covering one-time hardening, daily remote health, weekly playback tests, monthly on-site physical audits, quarterly lifecycle, and immediate incident escalation flow.
-                                    </p>
+                    <TabsContent value="cctv" className="space-y-4 m-0">
+                        {/* CCTV Clean Navigation Bar */}
+                        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+                            <div className="flex items-center gap-3">
+                                <div className="w-9 h-9 rounded-lg bg-rose-50 text-rose-600 border border-rose-200 flex items-center justify-center flex-shrink-0">
+                                    <Video className="w-4 h-4" />
                                 </div>
-
-                                <div className="flex flex-wrap items-center gap-2 pl-10 lg:pl-0">
-                                    <Button
-                                        size="sm"
-                                        onClick={() => setIsLogIncidentOpen(true)}
-                                        className="h-8 text-xs gap-1.5 bg-rose-600 hover:bg-rose-700 text-white shadow-sm"
-                                    >
-                                        <AlertOctagon className="w-3.5 h-3.5" />
-                                        🚨 Log CCTV Incident
-                                    </Button>
-                                    <Button
-                                        size="sm"
-                                        variant="outline"
-                                        onClick={() => {
-                                            const regEl = document.getElementById('cctv-branch-register-section');
-                                            regEl?.scrollIntoView({ behavior: 'smooth' });
-                                        }}
-                                        className="h-8 text-xs gap-1.5 bg-white text-slate-700 border-slate-300 hover:bg-slate-50"
-                                    >
-                                        <HardDrive className="w-3.5 h-3.5 text-slate-600" />
-                                        5-Branch Register
-                                    </Button>
-                                    <Button
-                                        size="sm"
-                                        variant="outline"
-                                        onClick={() => {
-                                            const escEl = document.getElementById('cctv-escalation-sop-section');
-                                            escEl?.scrollIntoView({ behavior: 'smooth' });
-                                        }}
-                                        className="h-8 text-xs gap-1.5 bg-white text-slate-700 border-slate-300 hover:bg-slate-50"
-                                    >
-                                        <PhoneCall className="w-3.5 h-3.5 text-rose-600" />
-                                        Escalation SOP
-                                    </Button>
-                                    <Button
-                                        size="sm"
-                                        variant="ghost"
-                                        onClick={() => resetBranchChecklist(cctvActiveBranch)}
-                                        className="h-8 text-xs gap-1 text-slate-500 hover:text-slate-800"
-                                        title="Reset checklist progress for the currently selected branch"
-                                    >
-                                        <RefreshCw className="w-3 h-3" />
-                                        Reset Branch
-                                    </Button>
+                                <div>
+                                    <div className="flex items-center gap-2">
+                                        <h2 className="text-sm font-bold text-slate-900">
+                                            Kaldi's Coffee – CCTV Audit
+                                        </h2>
+                                        <Badge variant="outline" className="border-rose-200 text-rose-700 bg-rose-50/70 text-[10px] font-semibold">
+                                            5 Branches · Dahua
+                                        </Badge>
+                                    </div>
+                                    <p className="text-[11px] text-muted-foreground mt-0.5">
+                                        Owner: IT Manager · Scope: 5 Branches · Date: 2026-11-21
+                                    </p>
                                 </div>
                             </div>
 
-                            {/* Branch Selector Switcher */}
-                            <div className="mt-4 pt-3 border-t border-rose-200/60 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-                                <div className="flex items-center gap-1.5">
-                                    <span className="text-xs font-semibold text-slate-700 uppercase tracking-wider">
-                                        Select Branch to Audit:
-                                    </span>
+                            {/* Sub-Tab Navigation Pills */}
+                            <div className="flex flex-wrap items-center gap-1.5">
+                                <div className="inline-flex bg-slate-100 p-0.5 rounded-lg text-xs">
+                                    <button
+                                        type="button"
+                                        onClick={() => setCctvSubTab('checklist')}
+                                        className={`px-3 py-1.5 font-medium rounded-md transition ${
+                                            cctvSubTab === 'checklist'
+                                                ? 'bg-white text-slate-900 shadow-xs'
+                                                : 'text-slate-600 hover:text-slate-900'
+                                        }`}
+                                    >
+                                        📋 Checklist
+                                    </button>
+                                    <button
+                                        type="button"
+                                        onClick={() => setCctvSubTab('register')}
+                                        className={`px-3 py-1.5 font-medium rounded-md transition ${
+                                            cctvSubTab === 'register'
+                                                ? 'bg-white text-slate-900 shadow-xs'
+                                                : 'text-slate-600 hover:text-slate-900'
+                                        }`}
+                                    >
+                                        🏢 Register (5)
+                                    </button>
+                                    <button
+                                        type="button"
+                                        onClick={() => setCctvSubTab('incidents')}
+                                        className={`px-3 py-1.5 font-medium rounded-md transition ${
+                                            cctvSubTab === 'incidents'
+                                                ? 'bg-white text-slate-900 shadow-xs'
+                                                : 'text-slate-600 hover:text-slate-900'
+                                        }`}
+                                    >
+                                        🚨 Incident Log ({cctvIncidents?.length || 0})
+                                    </button>
+                                    <button
+                                        type="button"
+                                        onClick={() => setCctvSubTab('sop')}
+                                        className={`px-3 py-1.5 font-medium rounded-md transition ${
+                                            cctvSubTab === 'sop'
+                                                ? 'bg-white text-slate-900 shadow-xs'
+                                                : 'text-slate-600 hover:text-slate-900'
+                                        }`}
+                                    >
+                                        📖 Escalation SOP
+                                    </button>
                                 </div>
-                                <div className="flex flex-wrap items-center gap-1.5">
-                                    {CCTV_BRANCHES.map((bName, idx) => {
-                                        const isSelected = cctvActiveBranch === bName;
-                                        // Count checked items for this branch
-                                        const checkedCount = Object.keys(cctvCheckedItems).filter(
-                                            (k) => k.startsWith(`${bName}::`) && cctvCheckedItems[k]
+
+                                <Button
+                                    size="sm"
+                                    onClick={() => setIsLogIncidentOpen(true)}
+                                    className="h-8 text-xs gap-1.5 bg-rose-600 hover:bg-rose-700 text-white shadow-xs ml-auto sm:ml-1"
+                                >
+                                    <Plus className="w-3.5 h-3.5" />
+                                    Log Incident
+                                </Button>
+                            </div>
+                        </div>
+
+                        {/* ==================================================== */}
+                        {/* SUB-VIEW 1: CHECKLIST (5 BRANCHES)                  */}
+                        {/* ==================================================== */}
+                        {cctvSubTab === 'checklist' && (
+                            <div className="space-y-4">
+                                {/* Branch Selector Bar */}
+                                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 bg-slate-50 border border-slate-200 p-2.5 rounded-lg">
+                                    <div className="flex flex-wrap items-center gap-1.5">
+                                        <span className="text-xs font-semibold text-slate-600 mr-1">Branch:</span>
+                                        {CCTV_BRANCHES.map((bName, idx) => {
+                                            const isSelected = cctvActiveBranch === bName;
+                                            const checkedCount = Object.keys(cctvCheckedItems).filter(
+                                                (k) => k.startsWith(`${bName}::`) && cctvCheckedItems[k]
+                                            ).length;
+
+                                            return (
+                                                <button
+                                                    key={bName}
+                                                    type="button"
+                                                    onClick={() => setCctvActiveBranch(bName)}
+                                                    className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-medium transition ${
+                                                        isSelected
+                                                            ? 'bg-rose-600 text-white shadow-xs'
+                                                            : 'bg-white text-slate-700 border border-slate-200 hover:bg-slate-100'
+                                                    }`}
+                                                >
+                                                    <span className="font-semibold">{idx + 1}. {bName.replace(' Branch', '').replace(' (Flagship)', '')}</span>
+                                                    <span className={`text-[10px] px-1.5 py-0.2 rounded-full ${
+                                                        isSelected ? 'bg-rose-700 text-rose-100' : 'bg-slate-100 text-slate-500'
+                                                    }`}>
+                                                        {checkedCount}/30
+                                                    </span>
+                                                </button>
+                                            );
+                                        })}
+                                    </div>
+
+                                    <div className="flex items-center gap-3 self-end sm:self-auto">
+                                        <div className="text-xs text-slate-600">
+                                            Status: <span className="font-semibold text-emerald-700">
+                                                {Object.keys(cctvCheckedItems).filter((k) => k.startsWith(`${cctvActiveBranch}::`) && cctvCheckedItems[k]).length} of 30 verified
+                                            </span>
+                                        </div>
+                                        <Button
+                                            variant="ghost"
+                                            size="sm"
+                                            onClick={() => resetBranchChecklist(cctvActiveBranch)}
+                                            className="h-7 text-xs text-slate-500 hover:text-slate-800 px-2"
+                                            title="Clear checkboxes for this branch"
+                                        >
+                                            <RefreshCw className="w-3 h-3 mr-1" />
+                                            Reset
+                                        </Button>
+                                    </div>
+                                </div>
+
+                                {/* 5 Checklist Sections in Clean Cards */}
+                                <div className="grid grid-cols-1 lg:grid-cols-2 gap-3.5">
+                                    {CCTV_CHECKLIST_SECTIONS.map((sec) => {
+                                        const checkedSectionCount = sec.items.filter((_, idx) =>
+                                            cctvCheckedItems[`${cctvActiveBranch}::${sec.key}::${idx}`]
                                         ).length;
+                                        const isComplete = checkedSectionCount === sec.items.length;
 
                                         return (
-                                            <button
-                                                key={bName}
-                                                type="button"
-                                                onClick={() => setCctvActiveBranch(bName)}
-                                                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition ${
-                                                    isSelected
-                                                        ? 'bg-rose-700 text-white shadow-sm ring-2 ring-rose-700/20'
-                                                        : 'bg-white text-slate-700 border border-slate-200 hover:bg-slate-100'
+                                            <Card
+                                                key={sec.key}
+                                                className={`border shadow-none transition ${
+                                                    isComplete ? 'border-emerald-300 bg-emerald-50/20' : 'border-slate-200 bg-white'
                                                 }`}
                                             >
-                                                <span className={`w-4 h-4 rounded-full text-[10px] flex items-center justify-center font-bold ${
-                                                    isSelected ? 'bg-rose-800 text-white' : 'bg-slate-100 text-slate-600'
-                                                }`}>
-                                                    {idx + 1}
-                                                </span>
-                                                {bName}
-                                                <span className={`text-[10px] px-1.5 py-0.2 rounded-full ${
-                                                    isSelected ? 'bg-rose-900/60 text-rose-100' : 'bg-slate-100 text-slate-500'
-                                                }`}>
-                                                    {checkedCount}/30
-                                                </span>
-                                            </button>
+                                                <CardHeader className="p-3.5 pb-2">
+                                                    <div className="flex items-center justify-between gap-2">
+                                                        <CardTitle className="text-xs font-bold text-slate-900">
+                                                            {sec.title}
+                                                        </CardTitle>
+                                                        <Badge
+                                                            variant="outline"
+                                                            className={`text-[10px] ${
+                                                                isComplete
+                                                                    ? 'border-emerald-300 bg-emerald-50 text-emerald-700 font-bold'
+                                                                    : 'border-slate-200 text-slate-600'
+                                                            }`}
+                                                        >
+                                                            {checkedSectionCount}/{sec.items.length} done
+                                                        </Badge>
+                                                    </div>
+                                                </CardHeader>
+
+                                                <CardContent className="p-3.5 pt-0">
+                                                    <div className="divide-y divide-slate-100">
+                                                        {sec.items.map((itemText, idx) => {
+                                                            const isChecked = !!cctvCheckedItems[`${cctvActiveBranch}::${sec.key}::${idx}`];
+
+                                                            return (
+                                                                <div
+                                                                    key={idx}
+                                                                    onClick={() => toggleCctvCheck(cctvActiveBranch, sec.key, idx)}
+                                                                    className={`py-2 px-1.5 flex items-start gap-2.5 rounded cursor-pointer transition select-none hover:bg-slate-50 ${
+                                                                        isChecked ? 'bg-emerald-50/30' : ''
+                                                                    }`}
+                                                                >
+                                                                    <div
+                                                                        className={`w-4 h-4 mt-0.5 rounded border flex items-center justify-center flex-shrink-0 transition ${
+                                                                            isChecked
+                                                                                ? 'bg-emerald-600 border-emerald-600 text-white'
+                                                                                : 'border-slate-300 bg-white'
+                                                                        }`}
+                                                                    >
+                                                                        {isChecked && <Check className="w-3 h-3 stroke-[3]" />}
+                                                                    </div>
+                                                                    <span
+                                                                        className={`text-xs leading-relaxed ${
+                                                                            isChecked
+                                                                                ? 'line-through text-slate-500 font-normal'
+                                                                                : 'text-slate-800'
+                                                                        }`}
+                                                                    >
+                                                                        {itemText}
+                                                                    </span>
+                                                                </div>
+                                                            );
+                                                        })}
+                                                    </div>
+                                                </CardContent>
+                                            </Card>
                                         );
                                     })}
                                 </div>
                             </div>
-                        </div>
+                        )}
 
-                        {/* Interactive Verification Sections 1 to 5 */}
-                        <div className="space-y-4">
-                            <div className="flex items-center justify-between">
-                                <div>
-                                    <h3 className="text-sm font-bold text-slate-800 flex items-center gap-2">
-                                        <CheckSquare className="w-4 h-4 text-emerald-600" />
-                                        Standard Verification Checklists for{' '}
-                                        <span className="text-rose-700 underline underline-offset-4 font-extrabold">
-                                            {cctvActiveBranch}
-                                        </span>
-                                    </h3>
-                                    <p className="text-xs text-muted-foreground mt-0.5">
-                                        Check off items as you perform checks. Progress persists in your local session.
+                        {/* ==================================================== */}
+                        {/* SUB-VIEW 2: BRANCH REGISTER (5 BRANCHES)            */}
+                        {/* ==================================================== */}
+                        {cctvSubTab === 'register' && (
+                            <div className="space-y-3">
+                                <div className="flex items-center justify-between">
+                                    <p className="text-xs text-muted-foreground">
+                                        Hardware models, IP addresses, camera counts, storage retention, firmware, and last health checks.
                                     </p>
                                 </div>
-                                <div className="text-xs font-semibold text-slate-700 bg-white border border-slate-200 px-3 py-1 rounded-full shadow-sm">
-                                    Overall Progress:{' '}
-                                    <span className="text-emerald-700">
-                                        {Object.keys(cctvCheckedItems).filter(
-                                            (k) => k.startsWith(`${cctvActiveBranch}::`) && cctvCheckedItems[k]
-                                        ).length}
-                                    </span>
-                                    /30 Items
-                                </div>
-                            </div>
 
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                                {CCTV_CHECKLIST_SECTIONS.map((sec) => {
-                                    const checkedSectionCount = sec.items.filter((_, idx) =>
-                                        cctvCheckedItems[`${cctvActiveBranch}::${sec.key}::${idx}`]
-                                    ).length;
-                                    const isComplete = checkedSectionCount === sec.items.length;
-
-                                    return (
-                                        <Card
-                                            key={sec.key}
-                                            className={`border shadow-sm flex flex-col justify-between transition ${
-                                                isComplete ? 'border-emerald-300 bg-emerald-50/20' : 'border-slate-200 bg-white'
-                                            }`}
-                                        >
-                                            <CardHeader className="p-4 pb-2">
-                                                <div className="flex items-start justify-between gap-2">
-                                                    <div>
-                                                        <CardTitle className="text-xs font-bold text-slate-900 leading-snug">
-                                                            {sec.title}
-                                                        </CardTitle>
-                                                        <p className="text-[11px] text-muted-foreground mt-1">
-                                                            {sec.description}
-                                                        </p>
-                                                    </div>
-                                                    <Badge
-                                                        variant="outline"
-                                                        className={`text-[10px] whitespace-nowrap flex-shrink-0 ${
-                                                            isComplete
-                                                                ? 'border-emerald-300 bg-emerald-50 text-emerald-700 font-bold'
-                                                                : 'border-slate-200 text-slate-600'
-                                                        }`}
-                                                    >
-                                                        {checkedSectionCount}/{sec.items.length} done
-                                                    </Badge>
-                                                </div>
-                                            </CardHeader>
-
-                                            <CardContent className="p-4 pt-1 space-y-2">
-                                                <div className="divide-y divide-slate-100">
-                                                    {sec.items.map((itemText, idx) => {
-                                                        const isChecked = !!cctvCheckedItems[`${cctvActiveBranch}::${sec.key}::${idx}`];
-
-                                                        return (
-                                                            <div
-                                                                key={idx}
-                                                                onClick={() => toggleCctvCheck(cctvActiveBranch, sec.key, idx)}
-                                                                className={`py-2 px-1 flex items-start gap-2.5 rounded cursor-pointer transition select-none hover:bg-slate-50 ${
-                                                                    isChecked ? 'opacity-80 bg-emerald-50/40' : ''
-                                                                }`}
+                                <Card className="border shadow-none overflow-hidden">
+                                    <Table>
+                                        <TableHeader className="bg-slate-50">
+                                            <TableRow>
+                                                <TableHead className="w-12 text-center text-xs font-bold">#</TableHead>
+                                                <TableHead className="text-xs font-bold">Branch</TableHead>
+                                                <TableHead className="text-xs font-bold">NVR Model / IP</TableHead>
+                                                <TableHead className="text-center text-xs font-bold"># Cameras</TableHead>
+                                                <TableHead className="text-xs font-bold">HDD / Retention</TableHead>
+                                                <TableHead className="text-xs font-bold">Firmware</TableHead>
+                                                <TableHead className="text-xs font-bold">Last Check</TableHead>
+                                                <TableHead className="text-xs font-bold">Status</TableHead>
+                                                <TableHead className="text-xs font-bold">Issues</TableHead>
+                                                <TableHead className="text-right text-xs font-bold">Action</TableHead>
+                                            </TableRow>
+                                        </TableHeader>
+                                        <TableBody>
+                                            {cctvRegisters && cctvRegisters.length > 0 ? (
+                                                cctvRegisters.map((reg) => (
+                                                    <TableRow key={reg.id} className="hover:bg-slate-50/70">
+                                                        <TableCell className="text-center text-xs font-bold text-slate-500">
+                                                            {reg.branch_no}
+                                                        </TableCell>
+                                                        <TableCell className="text-xs font-semibold text-slate-900 whitespace-nowrap">
+                                                            {reg.branch_name}
+                                                        </TableCell>
+                                                        <TableCell className="text-xs font-mono text-slate-700 whitespace-nowrap">
+                                                            {reg.nvr_model_ip}
+                                                        </TableCell>
+                                                        <TableCell className="text-center text-xs font-bold text-slate-800">
+                                                            {reg.camera_count}
+                                                        </TableCell>
+                                                        <TableCell className="text-xs text-slate-700 whitespace-nowrap">
+                                                            {reg.hdd_size_days}
+                                                        </TableCell>
+                                                        <TableCell className="text-xs font-mono text-slate-600">
+                                                            {reg.firmware || '—'}
+                                                        </TableCell>
+                                                        <TableCell className="text-xs text-slate-600 whitespace-nowrap">
+                                                            {reg.last_check || '—'}
+                                                        </TableCell>
+                                                        <TableCell className="text-xs">
+                                                            {reg.status === 'operational' ? (
+                                                                <Badge variant="outline" className="border-emerald-300 text-emerald-700 bg-emerald-50">
+                                                                    Operational
+                                                                </Badge>
+                                                            ) : reg.status === 'warning' ? (
+                                                                <Badge variant="outline" className="border-amber-300 text-amber-700 bg-amber-50">
+                                                                    Warning
+                                                                </Badge>
+                                                            ) : (
+                                                                <Badge variant="outline" className="border-rose-300 text-rose-700 bg-rose-50">
+                                                                    Critical
+                                                                </Badge>
+                                                            )}
+                                                        </TableCell>
+                                                        <TableCell className="text-xs text-slate-600 max-w-xs truncate">
+                                                            {reg.issues || 'None'}
+                                                        </TableCell>
+                                                        <TableCell className="text-right whitespace-nowrap">
+                                                            <Button
+                                                                size="sm"
+                                                                variant="outline"
+                                                                onClick={() => openEditRegisterModal(reg)}
+                                                                className="h-7 text-xs px-2 gap-1 text-slate-700 hover:text-slate-900"
                                                             >
-                                                                <div
-                                                                    className={`w-4 h-4 mt-0.5 rounded border flex items-center justify-center flex-shrink-0 transition ${
-                                                                        isChecked
-                                                                            ? 'bg-emerald-600 border-emerald-600 text-white'
-                                                                            : 'border-slate-300 bg-white'
-                                                                    }`}
-                                                                >
-                                                                    {isChecked && <Check className="w-3 h-3 stroke-[3]" />}
-                                                                </div>
-                                                                <span
-                                                                    className={`text-xs leading-relaxed ${
-                                                                        isChecked
-                                                                            ? 'line-through text-slate-500 font-normal'
-                                                                            : 'text-slate-800 font-medium'
-                                                                    }`}
-                                                                >
-                                                                    {itemText}
-                                                                </span>
-                                                            </div>
-                                                        );
-                                                    })}
-                                                </div>
-                                            </CardContent>
-                                        </Card>
-                                    );
-                                })}
-                            </div>
-                        </div>
-
-                        {/* SECTION 6: INCIDENT ESCALATION SOP */}
-                        <div id="cctv-escalation-sop-section" className="space-y-4 pt-2">
-                            <Card className="border border-rose-200 bg-white shadow-sm overflow-hidden">
-                                <CardHeader className="bg-rose-50/60 border-b border-rose-100 p-4">
-                                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                                        <div className="flex items-center gap-2">
-                                            <div className="w-7 h-7 rounded-md bg-rose-600 text-white flex items-center justify-center">
-                                                <PhoneCall className="w-3.5 h-3.5" />
-                                            </div>
-                                            <div>
-                                                <CardTitle className="text-sm font-bold text-slate-900">
-                                                    6. Incident Escalation Standard Operating Procedure (SOP)
-                                                </CardTitle>
-                                                <p className="text-xs text-rose-800 font-medium">
-                                                    Escalation Flow: Technician / Helpdesk &rarr; IT Manager &rarr; Telegram Management Group
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <Badge variant="outline" className="border-rose-300 text-rose-700 bg-white text-xs font-bold self-start sm:self-auto">
-                                            Strict Protocol
-                                        </Badge>
-                                    </div>
-                                </CardHeader>
-
-                                <CardContent className="p-4 sm:p-5 space-y-6">
-                                    {/* Escalation Visual Flow */}
-                                    <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
-                                        <div className="border border-slate-200 rounded-lg p-3 bg-slate-50/70">
-                                            <div className="text-[11px] font-bold text-rose-700 uppercase tracking-wider">Step 1 (Within 15m)</div>
-                                            <div className="text-xs font-semibold text-slate-900 mt-1">Technician / Helpdesk</div>
-                                            <p className="text-[11px] text-slate-600 mt-0.5">
-                                                Discovers offline/malfunction. Calls or sends Telegram DM to IT Manager immediately.
-                                            </p>
-                                        </div>
-
-                                        <div className="border border-slate-200 rounded-lg p-3 bg-slate-50/70">
-                                            <div className="text-[11px] font-bold text-amber-700 uppercase tracking-wider">Step 2 (Triage)</div>
-                                            <div className="text-xs font-semibold text-slate-900 mt-1">First Checks Protocol</div>
-                                            <p className="text-[11px] text-slate-600 mt-0.5">
-                                                Checks Power/UPS/PoE, cable link light, ping reachability, camera port reboot.
-                                            </p>
-                                        </div>
-
-                                        <div className="border border-slate-200 rounded-lg p-3 bg-slate-50/70">
-                                            <div className="text-[11px] font-bold text-indigo-700 uppercase tracking-wider">Step 3 (Announcement)</div>
-                                            <div className="text-xs font-semibold text-slate-900 mt-1">IT Manager Broadcast</div>
-                                            <p className="text-[11px] text-slate-600 mt-0.5">
-                                                Classifies severity (🔴/🟠/🟡) and posts standard template to Telegram Management Group.
-                                            </p>
-                                        </div>
-
-                                        <div className="border border-slate-200 rounded-lg p-3 bg-slate-50/70">
-                                            <div className="text-[11px] font-bold text-emerald-700 uppercase tracking-wider">Step 4 (Resolution)</div>
-                                            <div className="text-xs font-semibold text-slate-900 mt-1">Close the Loop</div>
-                                            <p className="text-[11px] text-slate-600 mt-0.5">
-                                                Tech confirms playback &rarr; IT Manager posts "✅ Resolved: [Branch] [Issue], [time]".
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    {/* Step 1 & Step 2 Details */}
-                                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                                        {/* Step 1 Report Template */}
-                                        <div className="border border-slate-200 rounded-lg p-3.5 bg-slate-50/50 space-y-2">
-                                            <div className="flex items-center justify-between">
-                                                <span className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
-                                                    <span className="w-4 h-4 rounded-full bg-rose-100 text-rose-700 text-[10px] flex items-center justify-center font-bold">1</span>
-                                                    Technician Report to IT Manager (Within 15 Min)
-                                                </span>
-                                                <Button
-                                                    size="sm"
-                                                    variant="outline"
-                                                    onClick={() => {
-                                                        const tmpl = `🚨 CCTV ISSUE\nBranch: ${cctvActiveBranch}\nDevice: Camera name/# or NVR\nIssue: Offline / No recording / HDD error / Time wrong / Other\nFound at: ${new Date().toISOString().split('T')[0]} ${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}\nImpact: e.g. cashier area not covered, all cameras down\nFirst check done: power / cable / PoE / network\nReported by: `;
-                                                        copySnippet(tmpl, 'step1');
-                                                    }}
-                                                    className="h-7 text-[11px] gap-1 px-2"
-                                                >
-                                                    {copiedSnippet === 'step1' ? <Check className="w-3 h-3 text-emerald-600" /> : <Copy className="w-3 h-3" />}
-                                                    {copiedSnippet === 'step1' ? 'Copied' : 'Copy Template'}
-                                                </Button>
-                                            </div>
-
-                                            <pre className="text-[11px] font-mono bg-slate-900 text-rose-200 p-3 rounded-md overflow-x-auto leading-relaxed">
-{`🚨 CCTV ISSUE
-Branch: ${cctvActiveBranch}
-Device: Camera name/# or NVR
-Issue: Offline / No recording / HDD error / Time wrong / Other
-Found at: ${new Date().toISOString().split('T')[0]} ${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
-Impact: (e.g. cashier area not covered, all cameras down)
-First check done: (power / cable / PoE / network)
-Reported by: `}
-                                            </pre>
-                                        </div>
-
-                                        {/* Step 2 First Checks */}
-                                        <div className="border border-slate-200 rounded-lg p-3.5 bg-slate-50/50 space-y-2.5">
-                                            <span className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
-                                                <span className="w-4 h-4 rounded-full bg-amber-100 text-amber-700 text-[10px] flex items-center justify-center font-bold">2</span>
-                                                Step 2 – First Checks Protocol
-                                            </span>
-                                            <p className="text-xs text-slate-600">
-                                                Technician must verify the following physical and network checks before escalating replacement:
-                                            </p>
-                                            <ul className="space-y-1.5 text-xs text-slate-700">
-                                                <li className="flex items-center gap-2">
-                                                    <CheckCircle2 className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
-                                                    <strong>Power / UPS / PoE on?</strong> Verify UPS input, PoE switch power light and NVR power LED.
-                                                </li>
-                                                <li className="flex items-center gap-2">
-                                                    <CheckCircle2 className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
-                                                    <strong>Cable and link light OK?</strong> Inspect RJ45 connector, patch panel link LED on switch port.
-                                                </li>
-                                                <li className="flex items-center gap-2">
-                                                    <CheckCircle2 className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
-                                                    <strong>NVR reachable by ping?</strong> Ping IP address from local terminal / SmartPSS workstation.
-                                                </li>
-                                                <li className="flex items-center gap-2">
-                                                    <CheckCircle2 className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
-                                                    <strong>Restart camera port:</strong> Power-cycle PoE port on switch or reboot camera if safe.
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    {/* Step 3: Classification Matrix & Telegram Management Group Template */}
-                                    <div className="space-y-3">
-                                        <div className="flex items-center justify-between">
-                                            <span className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
-                                                <span className="w-4 h-4 rounded-full bg-indigo-100 text-indigo-700 text-[10px] flex items-center justify-center font-bold">3</span>
-                                                Step 3 – IT Manager Classifies &amp; Announces
-                                            </span>
-                                            <Button
-                                                size="sm"
-                                                variant="outline"
-                                                onClick={() => {
-                                                    const tmpl = `📹 CCTV Update – ${cctvActiveBranch}\nStatus: 🔴/🟠/🟡\nIssue: \nArea not covered: \nCause (if known): \nAction / ETA: \nNext update: \n— IT Manager`;
-                                                    copySnippet(tmpl, 'step3');
-                                                }}
-                                                className="h-7 text-[11px] gap-1 px-2"
-                                            >
-                                                {copiedSnippet === 'step3' ? <Check className="w-3 h-3 text-emerald-600" /> : <Copy className="w-3 h-3" />}
-                                                {copiedSnippet === 'step3' ? 'Copied' : 'Copy Telegram Template'}
-                                            </Button>
-                                        </div>
-
-                                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                                            {/* Classification Matrix */}
-                                            <div className="border border-slate-200 rounded-lg overflow-hidden">
-                                                <Table>
-                                                    <TableHeader className="bg-slate-50">
-                                                        <TableRow>
-                                                            <TableHead className="text-[11px] font-bold text-slate-700">Severity Level</TableHead>
-                                                            <TableHead className="text-[11px] font-bold text-slate-700">Example Fault</TableHead>
-                                                            <TableHead className="text-[11px] font-bold text-slate-700">Announcement Window</TableHead>
-                                                        </TableRow>
-                                                    </TableHeader>
-                                                    <TableBody>
-                                                        <TableRow className="bg-rose-50/30">
-                                                            <TableCell className="text-xs font-bold text-rose-700 whitespace-nowrap">
-                                                                🔴 Critical
-                                                            </TableCell>
-                                                            <TableCell className="text-xs text-slate-800">
-                                                                NVR down, no recording, all cameras offline, HDD failure
-                                                            </TableCell>
-                                                            <TableCell className="text-xs font-bold text-rose-700 whitespace-nowrap">
-                                                                Immediately
-                                                            </TableCell>
-                                                        </TableRow>
-                                                        <TableRow className="bg-amber-50/30">
-                                                            <TableCell className="text-xs font-bold text-amber-700 whitespace-nowrap">
-                                                                🟠 Major
-                                                            </TableCell>
-                                                            <TableCell className="text-xs text-slate-800">
-                                                                Key-area camera offline (cashier, store, entrance)
-                                                            </TableCell>
-                                                            <TableCell className="text-xs font-bold text-amber-700 whitespace-nowrap">
-                                                                Within 1 hour
-                                                            </TableCell>
-                                                        </TableRow>
-                                                        <TableRow className="bg-yellow-50/30">
-                                                            <TableCell className="text-xs font-bold text-yellow-800 whitespace-nowrap">
-                                                                🟡 Minor
-                                                            </TableCell>
-                                                            <TableCell className="text-xs text-slate-800">
-                                                                One camera blurry or angle moved
-                                                            </TableCell>
-                                                            <TableCell className="text-xs font-semibold text-slate-600 whitespace-nowrap">
-                                                                Daily summary
-                                                            </TableCell>
-                                                        </TableRow>
-                                                    </TableBody>
-                                                </Table>
-                                            </div>
-
-                                            {/* Telegram Management Group Template */}
-                                            <div className="border border-sky-200 rounded-lg p-3 bg-sky-50/30 space-y-1.5">
-                                                <div className="flex items-center justify-between">
-                                                    <div className="text-[11px] font-bold text-sky-800 flex items-center gap-1">
-                                                        <Send className="w-3 h-3 text-sky-600" />
-                                                        Telegram Management Group Announcement Template
-                                                    </div>
-                                                </div>
-                                                <pre className="text-[11px] font-mono bg-slate-900 text-sky-200 p-3 rounded-md overflow-x-auto leading-relaxed">
-{`📹 CCTV Update – ${cctvActiveBranch}
-Status: 🔴/🟠/🟡
-Issue: 
-Area not covered: 
-Cause (if known): 
-Action / ETA: 
-Next update: 
-— IT Manager`}
-                                                </pre>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    {/* Step 4: Close the Loop & Operating Rules */}
-                                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 pt-1">
-                                        <div className="border border-emerald-200 bg-emerald-50/40 rounded-lg p-3.5 space-y-2">
-                                            <div className="flex items-center justify-between">
-                                                <span className="text-xs font-bold text-emerald-900 flex items-center gap-1.5">
-                                                    <span className="w-4 h-4 rounded-full bg-emerald-200 text-emerald-800 text-[10px] flex items-center justify-center font-bold">4</span>
-                                                    Step 4 – Close the Loop
-                                                </span>
-                                                <Button
-                                                    size="sm"
-                                                    variant="outline"
-                                                    onClick={() => {
-                                                        const tmpl = `✅ Resolved: [${cctvActiveBranch}] [Issue], [${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}]`;
-                                                        copySnippet(tmpl, 'step4');
-                                                    }}
-                                                    className="h-7 text-[11px] gap-1 px-2 border-emerald-300"
-                                                >
-                                                    {copiedSnippet === 'step4' ? <Check className="w-3 h-3 text-emerald-600" /> : <Copy className="w-3 h-3" />}
-                                                    {copiedSnippet === 'step4' ? 'Copied' : 'Copy Format'}
-                                                </Button>
-                                            </div>
-                                            <p className="text-xs text-emerald-800">
-                                                Technician confirms fix with a <strong>playback test</strong> &rarr; IT Manager posts resolution announcement to the Management Group:
-                                            </p>
-                                            <div className="p-2.5 rounded bg-white border border-emerald-200 font-mono text-xs text-emerald-900 font-semibold">
-                                                ✅ Resolved: [{cctvActiveBranch}] [Issue Description], [{new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}]
-                                            </div>
-                                        </div>
-
-                                        <div className="border border-rose-200 bg-rose-50/30 rounded-lg p-3.5 space-y-2">
-                                            <span className="text-xs font-bold text-rose-900 flex items-center gap-1.5">
-                                                <ShieldAlert className="w-3.5 h-3.5 text-rose-600" />
-                                                Mandatory CCTV Rules
-                                            </span>
-                                            <ul className="space-y-1 text-xs text-rose-950 font-medium">
-                                                <li className="flex items-start gap-1.5">
-                                                    <span className="text-rose-600 font-bold">•</span>
-                                                    <span><strong>Technicians report only to the IT Manager</strong>, not directly to the Management Group.</span>
-                                                </li>
-                                                <li className="flex items-start gap-1.5">
-                                                    <span className="text-rose-600 font-bold">•</span>
-                                                    <span><strong>NVR not recording = Critical.</strong> Never leave a recording gap unannounced.</span>
-                                                </li>
-                                                <li className="flex items-start gap-1.5">
-                                                    <span className="text-rose-600 font-bold">•</span>
-                                                    <span><strong>Log every incident</strong> (date, branch, issue, reported time, fixed time).</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        </div>
-
-                        {/* SECTION 7: BRANCH REGISTER (5 BRANCHES) */}
-                        <div id="cctv-branch-register-section" className="space-y-3 pt-2">
-                            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                                <div>
-                                    <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
-                                        <HardDrive className="w-4 h-4 text-slate-700" />
-                                        7. Branch Register (5 Branches Scope)
-                                    </h3>
-                                    <p className="text-xs text-muted-foreground mt-0.5">
-                                        NVR hardware models, IP addresses, camera channel count, HDD capacity/retention, firmware version, and last health check.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <Card className="border shadow-none overflow-hidden">
-                                <Table>
-                                    <TableHeader className="bg-slate-50">
-                                        <TableRow>
-                                            <TableHead className="w-12 text-center text-xs font-bold">#</TableHead>
-                                            <TableHead className="text-xs font-bold">Branch</TableHead>
-                                            <TableHead className="text-xs font-bold">NVR Model / IP</TableHead>
-                                            <TableHead className="text-center text-xs font-bold"># Cameras</TableHead>
-                                            <TableHead className="text-xs font-bold">HDD Size / Days Kept</TableHead>
-                                            <TableHead className="text-xs font-bold">Firmware</TableHead>
-                                            <TableHead className="text-xs font-bold">Last Check</TableHead>
-                                            <TableHead className="text-xs font-bold">Status</TableHead>
-                                            <TableHead className="text-xs font-bold">Issues / Remarks</TableHead>
-                                            <TableHead className="text-right text-xs font-bold">Actions</TableHead>
-                                        </TableRow>
-                                    </TableHeader>
-                                    <TableBody>
-                                        {cctvRegisters && cctvRegisters.length > 0 ? (
-                                            cctvRegisters.map((reg) => (
-                                                <TableRow key={reg.id} className="hover:bg-slate-50/70">
-                                                    <TableCell className="text-center text-xs font-bold text-slate-500">
-                                                        {reg.branch_no}
-                                                    </TableCell>
-                                                    <TableCell className="text-xs font-semibold text-slate-900 whitespace-nowrap">
-                                                        {reg.branch_name}
-                                                    </TableCell>
-                                                    <TableCell className="text-xs font-mono text-slate-700 whitespace-nowrap">
-                                                        {reg.nvr_model_ip}
-                                                    </TableCell>
-                                                    <TableCell className="text-center text-xs font-bold text-slate-800">
-                                                        {reg.camera_count}
-                                                    </TableCell>
-                                                    <TableCell className="text-xs text-slate-700 whitespace-nowrap">
-                                                        {reg.hdd_size_days}
-                                                    </TableCell>
-                                                    <TableCell className="text-xs font-mono text-slate-600">
-                                                        {reg.firmware || '—'}
-                                                    </TableCell>
-                                                    <TableCell className="text-xs text-slate-600 whitespace-nowrap">
-                                                        {reg.last_check || '—'}
-                                                    </TableCell>
-                                                    <TableCell className="text-xs">
-                                                        {reg.status === 'operational' ? (
-                                                            <Badge variant="outline" className="border-emerald-300 text-emerald-700 bg-emerald-50">
-                                                                Operational
-                                                            </Badge>
-                                                        ) : reg.status === 'warning' ? (
-                                                            <Badge variant="outline" className="border-amber-300 text-amber-700 bg-amber-50">
-                                                                Warning
-                                                            </Badge>
-                                                        ) : (
-                                                            <Badge variant="outline" className="border-rose-300 text-rose-700 bg-rose-50">
-                                                                Critical
-                                                            </Badge>
-                                                        )}
-                                                    </TableCell>
-                                                    <TableCell className="text-xs text-slate-600 max-w-xs truncate">
-                                                        {reg.issues || 'None'}
-                                                    </TableCell>
-                                                    <TableCell className="text-right whitespace-nowrap">
-                                                        <Button
-                                                            size="sm"
-                                                            variant="ghost"
-                                                            onClick={() => openEditRegisterModal(reg)}
-                                                            className="h-7 text-xs px-2 gap-1 text-slate-700 hover:text-slate-900"
-                                                        >
-                                                            <Edit2 className="w-3 h-3" />
-                                                            Edit
-                                                        </Button>
+                                                                <Edit2 className="w-3 h-3" />
+                                                                Edit
+                                                            </Button>
+                                                        </TableCell>
+                                                    </TableRow>
+                                                ))
+                                            ) : (
+                                                <TableRow>
+                                                    <TableCell colSpan={10} className="text-center py-6 text-xs text-muted-foreground italic">
+                                                        No branch register data available.
                                                     </TableCell>
                                                 </TableRow>
-                                            ))
-                                        ) : (
-                                            <TableRow>
-                                                <TableCell colSpan={10} className="text-center py-6 text-xs text-muted-foreground italic">
-                                                    No branch register data available.
-                                                </TableCell>
-                                            </TableRow>
-                                        )}
-                                    </TableBody>
-                                </Table>
-                            </Card>
-                        </div>
+                                            )}
+                                        </TableBody>
+                                    </Table>
+                                </Card>
+                            </div>
+                        )}
 
-                        {/* SECTION 8: INCIDENT LOG */}
-                        <div id="cctv-incident-log-section" className="space-y-3 pt-2">
-                            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                                <div>
-                                    <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
-                                        <AlertTriangle className="w-4 h-4 text-rose-600" />
-                                        8. CCTV Incident Log
-                                    </h3>
-                                    <p className="text-xs text-muted-foreground mt-0.5">
-                                        Continuous record of CCTV offline events, camera faults, NVR recording issues, severity triage, and verified resolutions.
+                        {/* ==================================================== */}
+                        {/* SUB-VIEW 3: INCIDENT LOG                             */}
+                        {/* ==================================================== */}
+                        {cctvSubTab === 'incidents' && (
+                            <div className="space-y-3">
+                                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                                    <p className="text-xs text-muted-foreground">
+                                        Track CCTV offline events, camera faults, severity triage, and verified resolutions.
                                     </p>
-                                </div>
 
-                                <div className="flex items-center gap-2">
                                     <Select value={cctvIncidentFilter} onValueChange={setCctvIncidentFilter}>
                                         <SelectTrigger className="h-8 text-xs w-36">
                                             <SelectValue placeholder="Filter status" />
@@ -1867,130 +1587,330 @@ Next update:
                                             <SelectItem value="critical">Critical Severity</SelectItem>
                                         </SelectContent>
                                     </Select>
+                                </div>
 
-                                    <Button
-                                        size="sm"
-                                        onClick={() => setIsLogIncidentOpen(true)}
-                                        className="h-8 text-xs gap-1.5 bg-rose-600 hover:bg-rose-700 text-white"
-                                    >
-                                        <Plus className="w-3.5 h-3.5" />
-                                        Log Incident
-                                    </Button>
+                                <Card className="border shadow-none overflow-hidden">
+                                    <Table>
+                                        <TableHeader className="bg-slate-50">
+                                            <TableRow>
+                                                <TableHead className="text-xs font-bold">Incident # / Date</TableHead>
+                                                <TableHead className="text-xs font-bold">Branch &amp; Device</TableHead>
+                                                <TableHead className="text-xs font-bold">Issue &amp; Severity</TableHead>
+                                                <TableHead className="text-xs font-bold">Impact &amp; First Checks</TableHead>
+                                                <TableHead className="text-xs font-bold">Reported By / Time</TableHead>
+                                                <TableHead className="text-xs font-bold">Resolution &amp; Time</TableHead>
+                                                <TableHead className="text-xs font-bold">Status</TableHead>
+                                                <TableHead className="text-right text-xs font-bold">Actions</TableHead>
+                                            </TableRow>
+                                        </TableHeader>
+                                        <TableBody>
+                                            {cctvIncidents && cctvIncidents.length > 0 ? (
+                                                cctvIncidents
+                                                    .filter((inc) => {
+                                                        if (cctvIncidentFilter === 'open') return inc.status !== 'resolved';
+                                                        if (cctvIncidentFilter === 'resolved') return inc.status === 'resolved';
+                                                        if (cctvIncidentFilter === 'critical') return inc.severity === 'critical';
+                                                        return true;
+                                                    })
+                                                    .map((inc) => (
+                                                        <TableRow key={inc.id} className="hover:bg-slate-50/70">
+                                                            <TableCell className="text-xs whitespace-nowrap">
+                                                                <div className="font-mono font-bold text-slate-800">{inc.incident_number}</div>
+                                                                <div className="text-[11px] text-muted-foreground">{inc.incident_date}</div>
+                                                            </TableCell>
+                                                            <TableCell className="text-xs">
+                                                                <div className="font-semibold text-slate-900">{inc.branch_name}</div>
+                                                                <div className="text-[11px] text-slate-600 font-mono">{inc.device_name}</div>
+                                                            </TableCell>
+                                                            <TableCell className="text-xs">
+                                                                <div className="font-medium text-slate-900">{inc.issue_type}</div>
+                                                                <div className="mt-0.5">{getCctvSeverityBadge(inc.severity)}</div>
+                                                            </TableCell>
+                                                            <TableCell className="text-xs max-w-xs">
+                                                                <div className="text-slate-800 font-medium truncate" title={inc.impact || ''}>
+                                                                    {inc.impact || 'Not specified'}
+                                                                </div>
+                                                                <div className="text-[11px] text-slate-500 truncate" title={inc.first_check_done || ''}>
+                                                                    Check: {inc.first_check_done || 'None'}
+                                                                </div>
+                                                            </TableCell>
+                                                            <TableCell className="text-xs whitespace-nowrap">
+                                                                <div className="text-slate-800 font-medium">{inc.reported_by}</div>
+                                                                <div className="text-[11px] text-muted-foreground">{inc.reported_at}</div>
+                                                            </TableCell>
+                                                            <TableCell className="text-xs max-w-xs">
+                                                                {inc.status === 'resolved' ? (
+                                                                    <div>
+                                                                        <div className="text-emerald-700 font-medium text-[11px]">
+                                                                            Fixed at {inc.fixed_at || 'Confirmed'}
+                                                                        </div>
+                                                                        <div className="text-[11px] text-slate-600 truncate" title={inc.action_taken || ''}>
+                                                                            {inc.action_taken || 'Playback confirmed.'}
+                                                                        </div>
+                                                                    </div>
+                                                                ) : (
+                                                                    <span className="text-xs text-amber-700 italic">Pending resolution</span>
+                                                                )}
+                                                            </TableCell>
+                                                            <TableCell className="text-xs">
+                                                                {getCctvStatusBadge(inc.status)}
+                                                            </TableCell>
+                                                            <TableCell className="text-right whitespace-nowrap space-x-1">
+                                                                {inc.status !== 'resolved' ? (
+                                                                    <Button
+                                                                        size="sm"
+                                                                        variant="outline"
+                                                                        onClick={() => openResolveModal(inc)}
+                                                                        className="h-7 text-xs px-2 gap-1 border-emerald-300 text-emerald-700 hover:bg-emerald-50"
+                                                                    >
+                                                                        <Check className="w-3 h-3" />
+                                                                        Resolve
+                                                                    </Button>
+                                                                ) : (
+                                                                    <Button
+                                                                        size="sm"
+                                                                        variant="ghost"
+                                                                        onClick={() => openResolveModal(inc)}
+                                                                        className="h-7 text-xs px-2 gap-1 text-slate-600"
+                                                                    >
+                                                                        <Edit2 className="w-3 h-3" />
+                                                                        Edit
+                                                                    </Button>
+                                                                )}
+                                                                {can('it_survey.delete') && (
+                                                                    <Button
+                                                                        size="sm"
+                                                                        variant="ghost"
+                                                                        onClick={() => setDeletingCctvIncident(inc)}
+                                                                        className="h-7 text-xs px-1.5 text-rose-600 hover:text-rose-700 hover:bg-rose-50"
+                                                                    >
+                                                                        <Trash2 className="w-3 h-3" />
+                                                                    </Button>
+                                                                )}
+                                                            </TableCell>
+                                                        </TableRow>
+                                                    ))
+                                            ) : (
+                                                <TableRow>
+                                                    <TableCell colSpan={8} className="text-center py-6 text-xs text-muted-foreground italic">
+                                                        No CCTV incidents logged yet.
+                                                    </TableCell>
+                                                </TableRow>
+                                            )}
+                                        </TableBody>
+                                    </Table>
+                                </Card>
+                            </div>
+                        )}
+
+                        {/* ==================================================== */}
+                        {/* SUB-VIEW 4: ESCALATION SOP                           */}
+                        {/* ==================================================== */}
+                        {cctvSubTab === 'sop' && (
+                            <div className="space-y-4">
+                                {/* Flow Summary Banner */}
+                                <div className="p-3 bg-rose-50/70 border border-rose-200 rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                                    <div className="flex items-center gap-2">
+                                        <PhoneCall className="w-4 h-4 text-rose-600 flex-shrink-0" />
+                                        <span className="text-xs font-bold text-slate-900">
+                                            Escalation Flow: Technician / Helpdesk &rarr; IT Manager &rarr; Telegram Management Group
+                                        </span>
+                                    </div>
+                                    <Badge variant="outline" className="border-rose-300 text-rose-700 bg-white text-[10px] font-bold">
+                                        Mandatory Protocol
+                                    </Badge>
+                                </div>
+
+                                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                                    {/* Step 1: Emergency Report Format */}
+                                    <Card className="border border-slate-200 shadow-none">
+                                        <CardHeader className="p-3.5 pb-2">
+                                            <div className="flex items-center justify-between">
+                                                <CardTitle className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                                                    <span className="w-4 h-4 rounded-full bg-rose-100 text-rose-700 text-[10px] flex items-center justify-center font-bold">1</span>
+                                                    Technician Report to IT Manager (&le; 15 min)
+                                                </CardTitle>
+                                                <Button
+                                                    size="sm"
+                                                    variant="outline"
+                                                    onClick={() => {
+                                                        const tmpl = `🚨 CCTV ISSUE\nBranch: ${cctvActiveBranch}\nDevice: Camera name/# or NVR\nIssue: Offline / No recording / HDD error / Time wrong / Other\nFound at: ${new Date().toISOString().split('T')[0]} ${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}\nImpact: e.g. cashier area not covered, all cameras down\nFirst check done: power / cable / PoE / network\nReported by: `;
+                                                        copySnippet(tmpl, 'step1');
+                                                    }}
+                                                    className="h-6 text-[11px] gap-1 px-2"
+                                                >
+                                                    {copiedSnippet === 'step1' ? <Check className="w-3 h-3 text-emerald-600" /> : <Copy className="w-3 h-3" />}
+                                                    {copiedSnippet === 'step1' ? 'Copied' : 'Copy'}
+                                                </Button>
+                                            </div>
+                                        </CardHeader>
+                                        <CardContent className="p-3.5 pt-0">
+                                            <div className="bg-slate-50 border border-slate-200 rounded p-2.5 font-mono text-[11px] text-slate-800 leading-relaxed whitespace-pre-wrap">
+{`🚨 CCTV ISSUE
+Branch: ${cctvActiveBranch}
+Device: Camera name/# or NVR
+Issue: Offline / No recording / HDD error / Time wrong / Other
+Found at: ${new Date().toISOString().split('T')[0]} ${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+Impact: (e.g. cashier area not covered, all cameras down)
+First check done: (power / cable / PoE / network)
+Reported by: `}
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+
+                                    {/* Step 2: First Checks Protocol */}
+                                    <Card className="border border-slate-200 shadow-none">
+                                        <CardHeader className="p-3.5 pb-2">
+                                            <CardTitle className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                                                <span className="w-4 h-4 rounded-full bg-amber-100 text-amber-700 text-[10px] flex items-center justify-center font-bold">2</span>
+                                                Step 2 – First Checks Protocol
+                                            </CardTitle>
+                                        </CardHeader>
+                                        <CardContent className="p-3.5 pt-0 space-y-2 text-xs text-slate-700">
+                                            <p className="text-[11px] text-muted-foreground">Verify before reporting hardware replacement:</p>
+                                            <div className="space-y-1.5">
+                                                <div className="flex items-center gap-2">
+                                                    <CheckCircle2 className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
+                                                    <span><strong>Power/UPS/PoE:</strong> On and green indicators verified.</span>
+                                                </div>
+                                                <div className="flex items-center gap-2">
+                                                    <CheckCircle2 className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
+                                                    <span><strong>Cable &amp; link light:</strong> RJ45 seated, switch port light active.</span>
+                                                </div>
+                                                <div className="flex items-center gap-2">
+                                                    <CheckCircle2 className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
+                                                    <span><strong>Ping reachable:</strong> NVR responds to local IP ping.</span>
+                                                </div>
+                                                <div className="flex items-center gap-2">
+                                                    <CheckCircle2 className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
+                                                    <span><strong>Port restart:</strong> Power-cycle PoE port / reboot camera if safe.</span>
+                                                </div>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                </div>
+
+                                {/* Step 3: Severity & Announcement */}
+                                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                                    <Card className="border border-slate-200 shadow-none">
+                                        <CardHeader className="p-3.5 pb-2">
+                                            <CardTitle className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                                                <span className="w-4 h-4 rounded-full bg-indigo-100 text-indigo-700 text-[10px] flex items-center justify-center font-bold">3</span>
+                                                Severity Classification
+                                            </CardTitle>
+                                        </CardHeader>
+                                        <CardContent className="p-3.5 pt-0">
+                                            <div className="border border-slate-200 rounded overflow-hidden">
+                                                <Table>
+                                                    <TableHeader className="bg-slate-50">
+                                                        <TableRow>
+                                                            <TableHead className="text-[11px] font-bold">Level</TableHead>
+                                                            <TableHead className="text-[11px] font-bold">Example Fault</TableHead>
+                                                            <TableHead className="text-[11px] font-bold">Announce</TableHead>
+                                                        </TableRow>
+                                                    </TableHeader>
+                                                    <TableBody>
+                                                        <TableRow>
+                                                            <TableCell className="text-xs font-bold text-rose-700">🔴 Critical</TableCell>
+                                                            <TableCell className="text-xs">NVR down, no recording, all cams offline, HDD fail</TableCell>
+                                                            <TableCell className="text-xs font-bold text-rose-700">Immediately</TableCell>
+                                                        </TableRow>
+                                                        <TableRow>
+                                                            <TableCell className="text-xs font-bold text-amber-700">🟠 Major</TableCell>
+                                                            <TableCell className="text-xs">Key area offline (cashier, store, entrance)</TableCell>
+                                                            <TableCell className="text-xs font-bold text-amber-700">&le; 1 hour</TableCell>
+                                                        </TableRow>
+                                                        <TableRow>
+                                                            <TableCell className="text-xs font-bold text-yellow-800">🟡 Minor</TableCell>
+                                                            <TableCell className="text-xs">One camera blurry or angle moved</TableCell>
+                                                            <TableCell className="text-xs text-slate-600">Daily summary</TableCell>
+                                                        </TableRow>
+                                                    </TableBody>
+                                                </Table>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+
+                                    {/* Telegram Announcement Template */}
+                                    <Card className="border border-slate-200 shadow-none">
+                                        <CardHeader className="p-3.5 pb-2">
+                                            <div className="flex items-center justify-between">
+                                                <CardTitle className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                                                    <Send className="w-3.5 h-3.5 text-sky-600" />
+                                                    Telegram Management Group Template
+                                                </CardTitle>
+                                                <Button
+                                                    size="sm"
+                                                    variant="outline"
+                                                    onClick={() => {
+                                                        const tmpl = `📹 CCTV Update – ${cctvActiveBranch}\nStatus: 🔴/🟠/🟡\nIssue: \nArea not covered: \nCause (if known): \nAction / ETA: \nNext update: \n— IT Manager`;
+                                                        copySnippet(tmpl, 'step3');
+                                                    }}
+                                                    className="h-6 text-[11px] gap-1 px-2"
+                                                >
+                                                    {copiedSnippet === 'step3' ? <Check className="w-3 h-3 text-emerald-600" /> : <Copy className="w-3 h-3" />}
+                                                    {copiedSnippet === 'step3' ? 'Copied' : 'Copy'}
+                                                </Button>
+                                            </div>
+                                        </CardHeader>
+                                        <CardContent className="p-3.5 pt-0">
+                                            <div className="bg-sky-50/50 border border-sky-100 rounded p-2.5 font-mono text-[11px] text-sky-950 leading-relaxed whitespace-pre-wrap">
+{`📹 CCTV Update – ${cctvActiveBranch}
+Status: 🔴/🟠/🟡
+Issue: 
+Area not covered: 
+Cause (if known): 
+Action / ETA: 
+Next update: 
+— IT Manager`}
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                </div>
+
+                                {/* Step 4: Resolution & Mandatory Rules */}
+                                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                                    <div className="border border-emerald-200 bg-emerald-50/30 rounded-lg p-3 space-y-2">
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xs font-bold text-emerald-950 flex items-center gap-1.5">
+                                                <span className="w-4 h-4 rounded-full bg-emerald-200 text-emerald-800 text-[10px] flex items-center justify-center font-bold">4</span>
+                                                Step 4 – Close the Loop (Playback Confirmed)
+                                            </span>
+                                            <Button
+                                                size="sm"
+                                                variant="outline"
+                                                onClick={() => {
+                                                    const tmpl = `✅ Resolved: [${cctvActiveBranch}] [Issue], [${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}]`;
+                                                    copySnippet(tmpl, 'step4');
+                                                }}
+                                                className="h-6 text-[11px] gap-1 px-2 border-emerald-300"
+                                            >
+                                                {copiedSnippet === 'step4' ? <Check className="w-3 h-3 text-emerald-600" /> : <Copy className="w-3 h-3" />}
+                                                {copiedSnippet === 'step4' ? 'Copied' : 'Copy'}
+                                            </Button>
+                                        </div>
+                                        <p className="text-xs text-emerald-900">
+                                            Technician confirms fix with a playback test &rarr; IT Manager posts:
+                                        </p>
+                                        <div className="p-2 rounded bg-white border border-emerald-200 font-mono text-xs text-emerald-900 font-semibold">
+                                            ✅ Resolved: [{cctvActiveBranch}] [Issue], [{new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}]
+                                        </div>
+                                    </div>
+
+                                    <div className="border border-slate-200 bg-slate-50 rounded-lg p-3 space-y-1.5 text-xs text-slate-800">
+                                        <span className="font-bold flex items-center gap-1.5 text-slate-900">
+                                            <ShieldAlert className="w-3.5 h-3.5 text-rose-600" />
+                                            Operating Rules
+                                        </span>
+                                        <ul className="space-y-1 text-[11px] text-slate-700">
+                                            <li>• Technicians report only to the IT Manager, not directly to the Management Group.</li>
+                                            <li>• NVR not recording = Critical. Never leave a recording gap unannounced.</li>
+                                            <li>• Log every incident (date, branch, issue, reported time, fixed time).</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-
-                            <Card className="border shadow-none overflow-hidden">
-                                <Table>
-                                    <TableHeader className="bg-slate-50">
-                                        <TableRow>
-                                            <TableHead className="text-xs font-bold">Incident # / Date</TableHead>
-                                            <TableHead className="text-xs font-bold">Branch &amp; Device</TableHead>
-                                            <TableHead className="text-xs font-bold">Issue &amp; Severity</TableHead>
-                                            <TableHead className="text-xs font-bold">Impact &amp; First Checks</TableHead>
-                                            <TableHead className="text-xs font-bold">Reported By / Time</TableHead>
-                                            <TableHead className="text-xs font-bold">Resolution &amp; Time</TableHead>
-                                            <TableHead className="text-xs font-bold">Status</TableHead>
-                                            <TableHead className="text-right text-xs font-bold">Actions</TableHead>
-                                        </TableRow>
-                                    </TableHeader>
-                                    <TableBody>
-                                        {cctvIncidents && cctvIncidents.length > 0 ? (
-                                            cctvIncidents
-                                                .filter((inc) => {
-                                                    if (cctvIncidentFilter === 'open') return inc.status !== 'resolved';
-                                                    if (cctvIncidentFilter === 'resolved') return inc.status === 'resolved';
-                                                    if (cctvIncidentFilter === 'critical') return inc.severity === 'critical';
-                                                    return true;
-                                                })
-                                                .map((inc) => (
-                                                    <TableRow key={inc.id} className="hover:bg-slate-50/70">
-                                                        <TableCell className="text-xs whitespace-nowrap">
-                                                            <div className="font-mono font-bold text-slate-800">{inc.incident_number}</div>
-                                                            <div className="text-[11px] text-muted-foreground">{inc.incident_date}</div>
-                                                        </TableCell>
-                                                        <TableCell className="text-xs">
-                                                            <div className="font-semibold text-slate-900">{inc.branch_name}</div>
-                                                            <div className="text-[11px] text-slate-600 font-mono">{inc.device_name}</div>
-                                                        </TableCell>
-                                                        <TableCell className="text-xs">
-                                                            <div className="font-medium text-slate-900">{inc.issue_type}</div>
-                                                            <div className="mt-0.5">{getCctvSeverityBadge(inc.severity)}</div>
-                                                        </TableCell>
-                                                        <TableCell className="text-xs max-w-xs">
-                                                            <div className="text-slate-800 font-medium truncate" title={inc.impact || ''}>
-                                                                Area: {inc.impact || 'Not specified'}
-                                                            </div>
-                                                            <div className="text-[11px] text-slate-500 truncate" title={inc.first_check_done || ''}>
-                                                                Check: {inc.first_check_done || 'None'}
-                                                            </div>
-                                                        </TableCell>
-                                                        <TableCell className="text-xs whitespace-nowrap">
-                                                            <div className="text-slate-800 font-medium">{inc.reported_by}</div>
-                                                            <div className="text-[11px] text-muted-foreground">{inc.reported_at}</div>
-                                                        </TableCell>
-                                                        <TableCell className="text-xs max-w-xs">
-                                                            {inc.status === 'resolved' ? (
-                                                                <div>
-                                                                    <div className="text-emerald-700 font-medium text-[11px]">
-                                                                        Fixed at {inc.fixed_at || 'Confirmed'}
-                                                                    </div>
-                                                                    <div className="text-[11px] text-slate-600 truncate" title={inc.action_taken || ''}>
-                                                                        {inc.action_taken || 'Playback confirmed.'}
-                                                                    </div>
-                                                                </div>
-                                                            ) : (
-                                                                <span className="text-xs text-amber-700 italic">Pending resolution</span>
-                                                            )}
-                                                        </TableCell>
-                                                        <TableCell className="text-xs">
-                                                            {getCctvStatusBadge(inc.status)}
-                                                        </TableCell>
-                                                        <TableCell className="text-right whitespace-nowrap space-x-1">
-                                                            {inc.status !== 'resolved' ? (
-                                                                <Button
-                                                                    size="sm"
-                                                                    variant="outline"
-                                                                    onClick={() => openResolveModal(inc)}
-                                                                    className="h-7 text-xs px-2 gap-1 border-emerald-300 text-emerald-700 hover:bg-emerald-50"
-                                                                >
-                                                                    <Check className="w-3 h-3" />
-                                                                    Resolve
-                                                                </Button>
-                                                            ) : (
-                                                                <Button
-                                                                    size="sm"
-                                                                    variant="ghost"
-                                                                    onClick={() => openResolveModal(inc)}
-                                                                    className="h-7 text-xs px-2 gap-1 text-slate-600"
-                                                                >
-                                                                    <Edit2 className="w-3 h-3" />
-                                                                    Edit
-                                                                </Button>
-                                                            )}
-                                                            {can('it_survey.delete') && (
-                                                                <Button
-                                                                    size="sm"
-                                                                    variant="ghost"
-                                                                    onClick={() => setDeletingCctvIncident(inc)}
-                                                                    className="h-7 text-xs px-1.5 text-rose-600 hover:text-rose-700 hover:bg-rose-50"
-                                                                >
-                                                                    <Trash2 className="w-3 h-3" />
-                                                                </Button>
-                                                            )}
-                                                        </TableCell>
-                                                    </TableRow>
-                                                ))
-                                        ) : (
-                                            <TableRow>
-                                                <TableCell colSpan={8} className="text-center py-6 text-xs text-muted-foreground italic">
-                                                    No CCTV incidents logged yet.
-                                                </TableCell>
-                                            </TableRow>
-                                        )}
-                                    </TableBody>
-                                </Table>
-                            </Card>
-                        </div>
+                        )}
                     </TabsContent>
                 </Tabs>
             </div>
