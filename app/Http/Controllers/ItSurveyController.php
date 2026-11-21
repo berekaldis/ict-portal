@@ -320,7 +320,7 @@ class ItSurveyController extends Controller
             'branch_id' => 'nullable|integer',
             'technician_name' => 'required|string|max:150',
             'branch_manager' => 'required|string|max:150',
-            'type' => 'required|in:hardware,software,cctv',
+            'type' => 'required|in:hardware,software,cctv,cctv_setup,cctv_daily',
             'checklist_data' => 'required|array',
             'issues_summary' => 'nullable|string',
             'actions_taken' => 'nullable|string',
@@ -404,9 +404,17 @@ class ItSurveyController extends Controller
         // Send Telegram alert if bot is configured
         try {
             $statusEmoji = $healthScore >= 85 ? '🟢' : ($healthScore >= 60 ? '🟡' : '🔴');
+            $typeLabel = match($report->type) {
+                'hardware' => 'Hardware Audit',
+                'software' => 'Software Audit',
+                'cctv_setup' => 'CCTV 1. One-Time Setup',
+                'cctv_daily' => 'CCTV 2. Daily Check',
+                'cctv' => 'CCTV Audit',
+                default => ucfirst($report->type) . ' Survey',
+            };
             $msg = "<b>☕ Kaldis IT Branch Inspection (Mini App)</b>\n\n" .
                 "<b>🏢 Branch:</b> " . htmlspecialchars($report->branch_name) . "\n" .
-                "<b>💻 Audit Type:</b> " . ucfirst($report->type) . " Survey\n" .
+                "<b>💻 Audit Type:</b> " . $typeLabel . "\n" .
                 "<b>{$statusEmoji} Health Score:</b> <b>{$report->health_score}%</b> ({$report->health_status})\n" .
                 "<b>📊 Results:</b> {$passedItems} OK • {$failedItems} Issues • {$skippedItems} Skipped\n" .
                 "<b>👨‍🔧 Inspector:</b> " . htmlspecialchars($report->technician_name) . "\n" .

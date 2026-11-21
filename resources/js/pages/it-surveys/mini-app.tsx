@@ -6,9 +6,11 @@ import {
     Camera,
     Check,
     CheckCircle2,
+    Clock,
     HardDrive,
     Laptop,
     Send,
+    ShieldAlert,
     SkipForward,
     Video,
     X,
@@ -25,7 +27,7 @@ interface Category {
     id: number;
     name: string;
     icon: string;
-    type: 'hardware' | 'software' | 'cctv';
+    type: string;
     has_photo: boolean;
     description: string | null;
     items: ChecklistItem[];
@@ -41,8 +43,10 @@ interface User {
     name: string;
 }
 
+export type SurveyType = 'hardware' | 'software' | 'cctv_setup' | 'cctv_daily';
+
 interface Props {
-    type: 'hardware' | 'software' | 'cctv';
+    type?: string;
     categories: Category[];
     branches: Branch[];
     technicians: User[];
@@ -62,7 +66,15 @@ export default function ItSurveyMiniApp({
     technicians,
     initialBranch = '',
 }: Props) {
-    const [surveyType, setSurveyType] = useState<'hardware' | 'software' | 'cctv'>(type);
+    const getInitialType = (t: string): SurveyType => {
+        if (t === 'cctv_setup' || t === 'cctv_onetime' || t === 'setup') return 'cctv_setup';
+        if (t === 'cctv_daily' || t === 'daily') return 'cctv_daily';
+        if (t === 'cctv') return 'cctv_setup';
+        if (t === 'software') return 'software';
+        return 'hardware';
+    };
+
+    const [surveyType, setSurveyType] = useState<SurveyType>(() => getInitialType(type));
     const [selectedBranch, setSelectedBranch] = useState(
         initialBranch || branches[0]?.name || 'Bole Medhanialem'
     );
@@ -80,11 +92,21 @@ export default function ItSurveyMiniApp({
 
     // Filter categories dynamically by selected audit type
     const activeCategories = useMemo(() => {
+        if (surveyType === 'cctv_setup') {
+            return categories.filter(
+                (cat) => cat.type === 'cctv_setup' || (cat.type === 'cctv' && cat.name.toLowerCase().includes('one-time'))
+            );
+        }
+        if (surveyType === 'cctv_daily') {
+            return categories.filter(
+                (cat) => cat.type === 'cctv_daily' || (cat.type === 'cctv' && cat.name.toLowerCase().includes('daily'))
+            );
+        }
         return categories.filter((cat) => (cat.type || 'hardware') === surveyType);
     }, [categories, surveyType]);
 
     // Switch survey type and sync URL param
-    const handleTypeSwitch = (newType: 'hardware' | 'software' | 'cctv') => {
+    const handleTypeSwitch = (newType: SurveyType) => {
         setSurveyType(newType);
         try {
             const url = new URL(window.location.href);
@@ -390,43 +412,55 @@ export default function ItSurveyMiniApp({
                     </div>
                 ) : (
                     <form onSubmit={handleSubmit} className="space-y-4">
-                        {/* Hardware vs Software vs CCTV 3-Way Toggle */}
-                        <div className="grid grid-cols-3 gap-1.5 bg-slate-200/70 p-1 rounded-xl">
+                        {/* Audit Type Selector - 4 Separated Types */}
+                        <div className="grid grid-cols-2 gap-1.5 bg-slate-200/70 p-1.5 rounded-2xl">
                             <button
                                 type="button"
                                 onClick={() => handleTypeSwitch('hardware')}
-                                className={`flex items-center justify-center gap-1 py-2 text-xs font-semibold rounded-lg transition ${
+                                className={`flex items-center justify-center gap-1.5 py-2.5 px-2 text-xs font-bold rounded-xl transition ${
                                     surveyType === 'hardware'
-                                        ? 'bg-white text-indigo-700 shadow-sm'
+                                        ? 'bg-white text-indigo-700 shadow-xs'
                                         : 'text-slate-600 hover:text-slate-900'
                                 }`}
                             >
                                 <HardDrive className="w-3.5 h-3.5" />
-                                Hardware
+                                Hardware Audit
                             </button>
                             <button
                                 type="button"
                                 onClick={() => handleTypeSwitch('software')}
-                                className={`flex items-center justify-center gap-1 py-2 text-xs font-semibold rounded-lg transition ${
+                                className={`flex items-center justify-center gap-1.5 py-2.5 px-2 text-xs font-bold rounded-xl transition ${
                                     surveyType === 'software'
-                                        ? 'bg-white text-cyan-700 shadow-sm'
+                                        ? 'bg-white text-cyan-700 shadow-xs'
                                         : 'text-slate-600 hover:text-slate-900'
                                 }`}
                             >
                                 <Laptop className="w-3.5 h-3.5" />
-                                Software
+                                Software Audit
                             </button>
                             <button
                                 type="button"
-                                onClick={() => handleTypeSwitch('cctv')}
-                                className={`flex items-center justify-center gap-1 py-2 text-xs font-semibold rounded-lg transition ${
-                                    surveyType === 'cctv'
-                                        ? 'bg-white text-rose-700 shadow-sm'
+                                onClick={() => handleTypeSwitch('cctv_setup')}
+                                className={`flex items-center justify-center gap-1.5 py-2.5 px-2 text-xs font-bold rounded-xl transition ${
+                                    surveyType === 'cctv_setup'
+                                        ? 'bg-white text-rose-700 shadow-xs'
                                         : 'text-slate-600 hover:text-slate-900'
                                 }`}
                             >
-                                <Video className="w-3.5 h-3.5" />
-                                CCTV Audit
+                                <ShieldAlert className="w-3.5 h-3.5" />
+                                CCTV 1. One-Time
+                            </button>
+                            <button
+                                type="button"
+                                onClick={() => handleTypeSwitch('cctv_daily')}
+                                className={`flex items-center justify-center gap-1.5 py-2.5 px-2 text-xs font-bold rounded-xl transition ${
+                                    surveyType === 'cctv_daily'
+                                        ? 'bg-white text-emerald-700 shadow-xs'
+                                        : 'text-slate-600 hover:text-slate-900'
+                                }`}
+                            >
+                                <Clock className="w-3.5 h-3.5" />
+                                CCTV 2. Daily
                             </button>
                         </div>
 

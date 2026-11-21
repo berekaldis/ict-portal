@@ -267,6 +267,14 @@ export default function ItSurveyIndex({
         return CCTV_CHECKLIST_SECTIONS.reduce((acc, sec) => acc + sec.items.length, 0);
     }, []);
 
+    const [cctvChecklistScope, setCctvChecklistScope] = useState<'all' | 'one_time' | 'daily'>('all');
+
+    const activeScopeTotal = useMemo(() => {
+        return CCTV_CHECKLIST_SECTIONS
+            .filter((sec) => cctvChecklistScope === 'all' || sec.key === cctvChecklistScope)
+            .reduce((acc, sec) => acc + sec.items.length, 0);
+    }, [cctvChecklistScope]);
+
     const [cctvSubTab, setCctvSubTab] = useState<'checklist' | 'register' | 'incidents' | 'sop'>('checklist');
     const [cctvCheckedItems, setCctvCheckedItems] = useState<Record<string, boolean>>(() => {
         try {
@@ -1210,13 +1218,21 @@ export default function ItSurveyIndex({
                                             <CardTitle className="text-sm font-semibold text-slate-900 flex items-center gap-2">
                                                 {cat.type === 'hardware' ? (
                                                     <HardDrive className="w-4 h-4 text-indigo-600" />
-                                                ) : (
+                                                ) : cat.type === 'software' ? (
                                                     <Laptop className="w-4 h-4 text-cyan-600" />
+                                                ) : cat.type === 'cctv_daily' ? (
+                                                    <Clock className="w-4 h-4 text-emerald-600" />
+                                                ) : (
+                                                    <ShieldAlert className="w-4 h-4 text-rose-600" />
                                                 )}
                                                 {cat.name}
                                             </CardTitle>
                                             <Badge variant="outline" className="capitalize text-[10px]">
-                                                {cat.type}
+                                                {cat.type === 'cctv_setup'
+                                                    ? 'CCTV Setup'
+                                                    : cat.type === 'cctv_daily'
+                                                    ? 'CCTV Daily'
+                                                    : cat.type}
                                             </Badge>
                                         </div>
                                         {cat.description && (
@@ -1382,16 +1398,66 @@ export default function ItSurveyIndex({
                                     )}
                                 </div>
                             ) : (
-                                <div className="space-y-4">
+                                <div className="space-y-3">
+                                    {/* Section Switcher: All vs 1. One-Time Setup vs 2. Daily Check */}
+                                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 bg-slate-50 border border-slate-200 p-2 rounded-lg">
+                                        <div className="flex flex-wrap items-center gap-1.5">
+                                            <span className="text-xs font-semibold text-slate-700 mr-1">Checklist Section:</span>
+                                            <div className="inline-flex bg-slate-200/80 p-0.5 rounded-lg text-xs font-medium">
+                                                <button
+                                                    type="button"
+                                                    onClick={() => setCctvChecklistScope('all')}
+                                                    className={`px-3 py-1 rounded-md transition ${
+                                                        cctvChecklistScope === 'all'
+                                                            ? 'bg-white text-slate-900 shadow-xs font-semibold'
+                                                            : 'text-slate-600 hover:text-slate-900'
+                                                    }`}
+                                                >
+                                                    All Checks (15)
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    onClick={() => setCctvChecklistScope('one_time')}
+                                                    className={`px-3 py-1 rounded-md transition ${
+                                                        cctvChecklistScope === 'one_time'
+                                                            ? 'bg-rose-600 text-white shadow-xs font-semibold'
+                                                            : 'text-slate-600 hover:text-slate-900'
+                                                    }`}
+                                                >
+                                                    1. One-Time Setup (11)
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    onClick={() => setCctvChecklistScope('daily')}
+                                                    className={`px-3 py-1 rounded-md transition ${
+                                                        cctvChecklistScope === 'daily'
+                                                            ? 'bg-emerald-600 text-white shadow-xs font-semibold'
+                                                            : 'text-slate-600 hover:text-slate-900'
+                                                    }`}
+                                                >
+                                                    2. Daily Check (4)
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div className="text-[11px] text-slate-500 font-medium">
+                                            {cctvChecklistScope === 'one_time' && 'Hardware baseline & security hardening per branch'}
+                                            {cctvChecklistScope === 'daily' && 'Quick 5-minute morning remote inspection'}
+                                            {cctvChecklistScope === 'all' && 'Full branch CCTV audit (15 verification points)'}
+                                        </div>
+                                    </div>
+
                                     {/* Branch Selector Bar */}
                                     <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 bg-slate-50 border border-slate-200 p-2.5 rounded-lg">
                                         <div className="flex flex-wrap items-center gap-1.5">
                                             <span className="text-xs font-semibold text-slate-600 mr-1">Branch:</span>
                                             {cctvBranches.map((bName, idx) => {
                                                 const isSelected = cctvActiveBranch === bName;
-                                                const checkedCount = Object.keys(cctvCheckedItems).filter(
-                                                    (k) => k.startsWith(`${bName}::`) && cctvCheckedItems[k]
-                                                ).length;
+                                                const checkedCount = CCTV_CHECKLIST_SECTIONS
+                                                    .filter((sec) => cctvChecklistScope === 'all' || sec.key === cctvChecklistScope)
+                                                    .reduce((acc, sec) => {
+                                                        return acc + sec.items.filter((_, itemIdx) => cctvCheckedItems[`${bName}::${sec.key}::${itemIdx}`]).length;
+                                                    }, 0);
 
                                                 return (
                                                     <button
@@ -1408,7 +1474,7 @@ export default function ItSurveyIndex({
                                                         <span className={`text-[10px] px-1.5 py-0.2 rounded-full ${
                                                             isSelected ? 'bg-rose-700 text-rose-100' : 'bg-slate-100 text-slate-500'
                                                         }`}>
-                                                            {checkedCount}/{totalCctvItems}
+                                                            {checkedCount}/{activeScopeTotal}
                                                         </span>
                                                     </button>
                                                 );
@@ -1418,7 +1484,11 @@ export default function ItSurveyIndex({
                                         <div className="flex items-center gap-3 self-end sm:self-auto">
                                             <div className="text-xs text-slate-600">
                                                 Status: <span className="font-semibold text-emerald-700">
-                                                    {Object.keys(cctvCheckedItems).filter((k) => k.startsWith(`${cctvActiveBranch}::`) && cctvCheckedItems[k]).length} of {totalCctvItems} verified
+                                                    {CCTV_CHECKLIST_SECTIONS
+                                                        .filter((sec) => cctvChecklistScope === 'all' || sec.key === cctvChecklistScope)
+                                                        .reduce((acc, sec) => {
+                                                            return acc + sec.items.filter((_, itemIdx) => cctvCheckedItems[`${cctvActiveBranch}::${sec.key}::${itemIdx}`]).length;
+                                                        }, 0)} of {activeScopeTotal} verified
                                                 </span>
                                             </div>
                                             <Button
@@ -1434,9 +1504,11 @@ export default function ItSurveyIndex({
                                         </div>
                                     </div>
 
-                                    {/* 2 Checklist Sections in Clean Cards */}
-                                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-3.5">
-                                        {CCTV_CHECKLIST_SECTIONS.map((sec) => {
+                                    {/* Checklist Sections in Clean Cards */}
+                                    <div className={`grid gap-3.5 ${cctvChecklistScope === 'all' ? 'grid-cols-1 lg:grid-cols-2' : 'grid-cols-1'}`}>
+                                        {CCTV_CHECKLIST_SECTIONS
+                                            .filter((sec) => cctvChecklistScope === 'all' || sec.key === cctvChecklistScope)
+                                            .map((sec) => {
                                             const checkedSectionCount = sec.items.filter((_, idx) =>
                                                 cctvCheckedItems[`${cctvActiveBranch}::${sec.key}::${idx}`]
                                             ).length;
