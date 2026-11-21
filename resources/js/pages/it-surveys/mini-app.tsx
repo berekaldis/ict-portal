@@ -80,6 +80,9 @@ export default function ItSurveyMiniApp({
     );
     const [technicianName, setTechnicianName] = useState('');
     const [branchManager, setBranchManager] = useState('');
+    const [cameraInstallReason, setCameraInstallReason] = useState('New Camera Installed');
+    const [newCameraCount, setNewCameraCount] = useState<number>(1);
+    const [cameraLocation, setCameraLocation] = useState('');
     const [issuesSummary, setIssuesSummary] = useState('');
     const [actionsTaken, setActionsTaken] = useState('');
     const [recommendations, setRecommendations] = useState('');
@@ -288,9 +291,14 @@ export default function ItSurveyMiniApp({
                     technician_name: technicianName,
                     branch_manager: branchManager,
                     type: surveyType,
+                    camera_install_reason: surveyType === 'cctv_setup' ? cameraInstallReason : null,
+                    new_camera_count: surveyType === 'cctv_setup' ? newCameraCount : null,
+                    camera_location: surveyType === 'cctv_setup' ? cameraLocation : null,
                     checklist_data: formattedChecklist,
                     issues_summary: issuesSummary,
-                    actions_taken: actionsTaken,
+                    actions_taken: surveyType === 'cctv_setup'
+                        ? `[Camera Installation: ${cameraInstallReason} (${newCameraCount} camera(s) at ${cameraLocation || 'Not specified'})] ${actionsTaken}`.trim()
+                        : actionsTaken,
                     recommendations: recommendations,
                     photos: Object.values(photos),
                 }),
@@ -545,6 +553,66 @@ export default function ItSurveyMiniApp({
                                 />
                             </div>
                         </div>
+
+                        {/* New Camera Installation Context (Only for One-Time CCTV Setup) */}
+                        {surveyType === 'cctv_setup' && (
+                            <div className="bg-gradient-to-br from-rose-50/90 to-amber-50/60 border border-rose-200 rounded-2xl p-4 shadow-sm space-y-3">
+                                <div className="flex items-center justify-between">
+                                    <div className="flex items-center gap-2">
+                                        <div className="w-7 h-7 rounded-lg bg-rose-100 text-rose-600 flex items-center justify-center flex-shrink-0">
+                                            <Video className="w-4 h-4" />
+                                        </div>
+                                        <div>
+                                            <h4 className="text-xs font-bold text-slate-900">New Camera Installation Details</h4>
+                                            <p className="text-[11px] text-slate-500">Record camera details installed at {selectedBranch}</p>
+                                        </div>
+                                    </div>
+                                    <span className="text-[10px] bg-rose-100/90 text-rose-700 font-bold px-2 py-0.5 rounded-full border border-rose-200">
+                                        Setup Audit
+                                    </span>
+                                </div>
+
+                                <div className="grid grid-cols-2 gap-2.5 pt-1">
+                                    <div className="space-y-1">
+                                        <label className="text-[11px] font-semibold text-slate-700">Installation Reason</label>
+                                        <select
+                                            value={cameraInstallReason}
+                                            onChange={(e) => setCameraInstallReason(e.target.value)}
+                                            className="w-full px-2.5 py-2 text-xs border border-rose-200 rounded-xl bg-white focus:outline-none focus:ring-2 focus:ring-rose-500 font-medium"
+                                        >
+                                            <option value="New Camera Installed">New Camera Installed</option>
+                                            <option value="Camera Replacement">Camera Replacement</option>
+                                            <option value="New Branch Setup">New Branch Setup</option>
+                                            <option value="Routine Hardening">Routine Hardening</option>
+                                        </select>
+                                    </div>
+
+                                    <div className="space-y-1">
+                                        <label className="text-[11px] font-semibold text-slate-700"># Cameras Installed</label>
+                                        <input
+                                            type="number"
+                                            min="1"
+                                            max="32"
+                                            value={newCameraCount}
+                                            onChange={(e) => setNewCameraCount(parseInt(e.target.value) || 1)}
+                                            className="w-full px-2.5 py-2 text-xs border border-rose-200 rounded-xl bg-white font-bold text-center focus:outline-none focus:ring-2 focus:ring-rose-500"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+
+                                <div className="space-y-1">
+                                    <label className="text-[11px] font-semibold text-slate-700">Camera Location / Area Covered</label>
+                                    <input
+                                        type="text"
+                                        value={cameraLocation}
+                                        onChange={(e) => setCameraLocation(e.target.value)}
+                                        placeholder="e.g. Cashier Counter 1, Store Room, Entrance Gate, Espresso Bar"
+                                        className="w-full px-3 py-2 text-xs border border-rose-200 rounded-xl bg-white focus:outline-none focus:ring-2 focus:ring-rose-500 placeholder:text-slate-400"
+                                    />
+                                </div>
+                            </div>
+                        )}
 
                         {/* Checklist Categories & Questions */}
                         <div className="space-y-3">

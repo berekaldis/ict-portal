@@ -162,9 +162,9 @@ export interface CctvIncident {
 export const CCTV_CHECKLIST_SECTIONS = [
     {
         key: 'one_time',
-        title: '1. One-time setup (verify per branch)',
-        badge: 'Setup / Hardening',
-        description: 'Verify one-time security, networking and baseline storage configuration per branch.',
+        title: '1. One-time Setup & New Camera Installation',
+        badge: 'New Camera / Setup',
+        description: 'Verify one-time security, networking and baseline storage configuration when commissioning a branch or installing a new camera.',
         items: [
             'Default passwords changed on NVR and all cameras (unique strong password per branch)',
             'Admin accounts limited; one account per person; ex-staff removed',
@@ -181,8 +181,8 @@ export const CCTV_CHECKLIST_SECTIONS = [
     },
     {
         key: 'daily',
-        title: '2. Daily (5 min – Helpdesk, remote)',
-        badge: 'Helpdesk Remote',
+        title: '2. Daily Health Check (5 min – Helpdesk, remote)',
+        badge: 'Daily Remote Check',
         description: 'Quick 5-minute morning verification via SmartPSS / DMSS / NVR web portal.',
         items: [
             'All cameras online (SmartPSS / DMSS / NVR web)',
@@ -1424,7 +1424,7 @@ export default function ItSurveyIndex({
                                                             : 'text-slate-600 hover:text-slate-900'
                                                     }`}
                                                 >
-                                                    1. One-Time Setup (11)
+                                                    1. One-Time / New Camera (11)
                                                 </button>
                                                 <button
                                                     type="button"
@@ -1441,7 +1441,7 @@ export default function ItSurveyIndex({
                                         </div>
 
                                         <div className="text-[11px] text-slate-500 font-medium">
-                                            {cctvChecklistScope === 'one_time' && 'Hardware baseline & security hardening per branch'}
+                                            {cctvChecklistScope === 'one_time' && 'Baseline setup & security verification when a branch is commissioned or a new camera is installed'}
                                             {cctvChecklistScope === 'daily' && 'Quick 5-minute morning remote inspection'}
                                             {cctvChecklistScope === 'all' && 'Full branch CCTV audit (15 verification points)'}
                                         </div>

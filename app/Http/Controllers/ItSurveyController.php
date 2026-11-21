@@ -401,6 +401,26 @@ class ItSurveyController extends Controller
             'submitted_at' => now(),
         ]);
 
+        // If CCTV One-time setup was conducted with new camera installation, update register
+        $cameraReason = $request->input('camera_install_reason');
+        $newCameras = (int) $request->input('new_camera_count', 0);
+        $cameraLoc = $request->input('camera_location');
+
+        if ($validated['type'] === 'cctv_setup' && !empty($cameraReason)) {
+            try {
+                $reg = CctvBranchRegister::where('branch_name', $validated['branch_name'])->first();
+                if ($reg) {
+                    if ($cameraReason === 'New Camera Installed' && $newCameras > 0) {
+                        $reg->increment('camera_count', $newCameras);
+                    }
+                    $reg->update([
+                        'last_check' => now()->toDateString(),
+                        'status' => 'operational',
+                    ]);
+                }
+            } catch (\Throwable $e) {}
+        }
+
         // Send Telegram alert if bot is configured
         try {
             $statusEmoji = $healthScore >= 85 ? '🟢' : ($healthScore >= 60 ? '🟡' : '🔴');
@@ -419,6 +439,12 @@ class ItSurveyController extends Controller
                 "<b>📊 Results:</b> {$passedItems} OK • {$failedItems} Issues • {$skippedItems} Skipped\n" .
                 "<b>👨‍🔧 Inspector:</b> " . htmlspecialchars($report->technician_name) . "\n" .
                 "<b>📋 Manager:</b> " . htmlspecialchars($report->branch_manager) . "\n";
+
+            if ($validated['type'] === 'cctv_setup' && !empty($cameraReason)) {
+                $msg .= "<b>📹 Installation:</b> " . htmlspecialchars($cameraReason) .
+                    ($newCameras > 0 ? " ({$newCameras} added)" : "") .
+                    ($cameraLoc ? " at " . htmlspecialchars($cameraLoc) : "") . "\n";
+            }
 
             if (!empty($report->issues_summary)) {
                 $msg .= "<b>⚠️ Issues:</b> " . htmlspecialchars(substr($report->issues_summary, 0, 200)) . "\n";
