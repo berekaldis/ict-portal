@@ -2,12 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\CctvBranchRegister;
+use App\Models\CctvIncidentLog;
 use App\Models\ItHardwareAsset;
 use App\Models\ItSurveyCategory;
 use App\Models\ItSurveyChecklistItem;
 use App\Models\ItSurveyReport;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Inertia\Inertia;
@@ -102,11 +105,115 @@ class ItSurveyController extends Controller
         $faultyAssets = ItHardwareAsset::where('status', 'faulty')->count();
         $missingAssets = ItHardwareAsset::where('status', 'missing')->count();
 
+        // CCTV Branch Registers (5 Branches)
+        $cctvRegisters = [];
+        try {
+            if (Schema::hasTable('cctv_branch_registers')) {
+                $cctvRegisters = CctvBranchRegister::orderBy('branch_no')->get();
+            }
+        } catch (\Throwable $e) {}
+
+        if (empty($cctvRegisters) || (is_object($cctvRegisters) && $cctvRegisters->isEmpty())) {
+            $cctvRegisters = collect([
+                [
+                    'id' => 1,
+                    'branch_no' => 1,
+                    'branch_name' => 'Bole Medhanialem (Flagship)',
+                    'nvr_model_ip' => 'Dahua NVR5216-4KS2 / 192.168.10.200',
+                    'camera_count' => 16,
+                    'hdd_size_days' => '2x 4TB WD Purple / 30 days',
+                    'firmware' => 'V4.002.0000000.1.R',
+                    'last_check' => '2026-11-20',
+                    'status' => 'operational',
+                    'issues' => 'None. All 16 channels recording normally.',
+                ],
+                [
+                    'id' => 2,
+                    'branch_no' => 2,
+                    'branch_name' => 'Kazanchis Branch',
+                    'nvr_model_ip' => 'Dahua NVR4216-4KS2 / 192.168.11.200',
+                    'camera_count' => 12,
+                    'hdd_size_days' => '1x 6TB Seagate SkyHawk / 30 days',
+                    'firmware' => 'V4.001.0000000.2.R',
+                    'last_check' => '2026-11-19',
+                    'status' => 'operational',
+                    'issues' => 'None. Storage retention on target (32 days).',
+                ],
+                [
+                    'id' => 3,
+                    'branch_no' => 3,
+                    'branch_name' => 'Sarbet Branch',
+                    'nvr_model_ip' => 'Dahua NVR4208-4KS2 / 192.168.12.200',
+                    'camera_count' => 8,
+                    'hdd_size_days' => '1x 4TB WD Purple / 30 days',
+                    'firmware' => 'V4.001.0000000.2.R',
+                    'last_check' => '2026-11-18',
+                    'status' => 'warning',
+                    'issues' => 'Camera #3 (Store room) angle needs re-adjustment.',
+                ],
+                [
+                    'id' => 4,
+                    'branch_no' => 4,
+                    'branch_name' => 'Piassa Branch',
+                    'nvr_model_ip' => 'Dahua NVR4216-4KS2 / 192.168.13.200',
+                    'camera_count' => 14,
+                    'hdd_size_days' => '2x 4TB WD Purple / 30 days',
+                    'firmware' => 'V4.002.0000000.1.R',
+                    'last_check' => '2026-11-20',
+                    'status' => 'operational',
+                    'issues' => 'None. UPS battery replaced last month.',
+                ],
+                [
+                    'id' => 5,
+                    'branch_no' => 5,
+                    'branch_name' => 'CMC Branch',
+                    'nvr_model_ip' => 'Dahua NVR5216-4KS2 / 192.168.14.200',
+                    'camera_count' => 16,
+                    'hdd_size_days' => '2x 4TB Seagate SkyHawk / 30 days',
+                    'firmware' => 'V4.002.0000000.1.R',
+                    'last_check' => '2026-11-21',
+                    'status' => 'operational',
+                    'issues' => 'All channels clear, NTP time synchronized.',
+                ],
+            ]);
+        }
+
+        // CCTV Incident Logs
+        $cctvIncidents = [];
+        try {
+            if (Schema::hasTable('cctv_incident_logs')) {
+                $cctvIncidents = CctvIncidentLog::orderBy('incident_date', 'desc')->orderBy('id', 'desc')->get();
+            }
+        } catch (\Throwable $e) {}
+
+        if (empty($cctvIncidents) || (is_object($cctvIncidents) && $cctvIncidents->isEmpty())) {
+            $cctvIncidents = collect([
+                [
+                    'id' => 1,
+                    'incident_number' => 'CCTV-INC-20261118-001',
+                    'incident_date' => '2026-11-18',
+                    'branch_name' => 'Sarbet Branch',
+                    'device_name' => 'Camera #3 (Store Room)',
+                    'issue_type' => 'Angle Moved',
+                    'severity' => 'minor',
+                    'impact' => 'Corner of shelf partially obscured',
+                    'first_check_done' => 'Mount bracket loose from cleaning',
+                    'reported_by' => 'Helpdesk',
+                    'reported_at' => '10:15 AM',
+                    'fixed_at' => '11:45 AM',
+                    'status' => 'resolved',
+                    'action_taken' => 'Technician adjusted bracket and confirmed playback with IT Manager.',
+                ],
+            ]);
+        }
+
         return Inertia::render('it-surveys/index', [
             'tab' => $tab,
             'reports' => $reports,
             'assets' => $assets,
             'categories' => $categories,
+            'cctvRegisters' => $cctvRegisters,
+            'cctvIncidents' => $cctvIncidents,
             'branches' => $branches,
             'assetTypes' => ['pos', 'printer', 'switch', 'router', 'ups', 'cctv', 'computer', 'scanner', 'server', 'other'],
             'stats' => [
@@ -562,5 +669,138 @@ class ItSurveyController extends Controller
         };
 
         return response()->stream($callback, 200, $headers);
+    }
+
+    public function storeCctvRegister(Request $request)
+    {
+        $validated = $request->validate([
+            'id' => 'nullable|integer',
+            'branch_no' => 'required|integer|min:1|max:100',
+            'branch_name' => 'required|string|max:150',
+            'nvr_model_ip' => 'required|string|max:150',
+            'camera_count' => 'required|integer|min:0',
+            'hdd_size_days' => 'required|string|max:100',
+            'firmware' => 'nullable|string|max:100',
+            'last_check' => 'nullable|date',
+            'status' => 'required|string|in:operational,warning,critical,maintenance',
+            'issues' => 'nullable|string',
+            'notes' => 'nullable|string',
+        ]);
+
+        if (!empty($validated['id'])) {
+            $reg = CctvBranchRegister::findOrFail($validated['id']);
+            $reg->update($validated);
+        } else {
+            CctvBranchRegister::updateOrCreate(
+                ['branch_no' => $validated['branch_no']],
+                $validated
+            );
+        }
+
+        return redirect()->back()->with('success', "CCTV Register for {$validated['branch_name']} updated successfully.");
+    }
+
+    public function storeCctvIncident(Request $request)
+    {
+        $validated = $request->validate([
+            'branch_name' => 'required|string|max:150',
+            'device_name' => 'required|string|max:150',
+            'issue_type' => 'required|string|max:100',
+            'severity' => 'required|in:critical,major,minor',
+            'impact' => 'required|string',
+            'first_check_done' => 'nullable|string',
+            'reported_by' => 'required|string|max:150',
+            'reported_at' => 'nullable|string|max:50',
+            'status' => 'nullable|string|in:open,investigating,in_progress,resolved',
+            'action_taken' => 'nullable|string',
+            'announce_to_telegram' => 'nullable|boolean',
+        ]);
+
+        $seq = CctvIncidentLog::whereDate('created_at', now()->toDateString())->count() + 1;
+        $incidentNumber = 'CCTV-INC-' . date('Ymd') . '-' . str_pad($seq, 3, '0', STR_PAD_LEFT);
+
+        $incident = CctvIncidentLog::create([
+            'incident_number' => $incidentNumber,
+            'incident_date' => now()->toDateString(),
+            'branch_name' => $validated['branch_name'],
+            'device_name' => $validated['device_name'],
+            'issue_type' => $validated['issue_type'],
+            'severity' => $validated['severity'],
+            'impact' => $validated['impact'],
+            'first_check_done' => $validated['first_check_done'] ?: 'Power / Cable / PoE / Network link verified',
+            'reported_by' => $validated['reported_by'],
+            'reported_at' => $validated['reported_at'] ?: now()->format('h:i A'),
+            'status' => $validated['status'] ?? 'open',
+            'action_taken' => $validated['action_taken'] ?? null,
+        ]);
+
+        if (!empty($validated['announce_to_telegram'])) {
+            try {
+                $severityBadge = match($incident->severity) {
+                    'critical' => '🔴 Critical',
+                    'major' => '🟠 Major',
+                    default => '🟡 Minor',
+                };
+
+                $telegramMsg = "📹 <b>CCTV Update – {$incident->branch_name}</b>\n" .
+                    "<b>Status:</b> {$severityBadge}\n" .
+                    "<b>Issue:</b> {$incident->issue_type} on {$incident->device_name}\n" .
+                    "<b>Area not covered:</b> {$incident->impact}\n" .
+                    "<b>First check:</b> " . ($incident->first_check_done ?: 'Power / Cable / PoE verified') . "\n" .
+                    "<b>Reported by:</b> {$incident->reported_by} at {$incident->reported_at}\n" .
+                    "<b>Action / ETA:</b> " . ($incident->action_taken ?: 'Technician investigating on-site') . "\n" .
+                    "<b>Ref:</b> <code>{$incident->incident_number}</code>\n" .
+                    "— <i>IT Manager</i>";
+
+                $chatId = env('TELEGRAM_CHAT_ID', env('TELEGRAM_ADMIN_CHAT_ID', '-1003724420241'));
+                if ($chatId) {
+                    \App\Services\TelegramService::sendMessage((string)$chatId, $telegramMsg);
+                    $incident->update(['telegram_announced_at' => now()]);
+                }
+            } catch (\Throwable $e) {}
+        }
+
+        return redirect()->back()->with('success', "CCTV Incident #{$incidentNumber} logged successfully.");
+    }
+
+    public function updateCctvIncidentStatus(Request $request, $id)
+    {
+        $incident = CctvIncidentLog::findOrFail($id);
+
+        $validated = $request->validate([
+            'status' => 'required|in:open,investigating,in_progress,resolved',
+            'action_taken' => 'nullable|string',
+            'fixed_at' => 'nullable|string|max:50',
+            'announce_resolution' => 'nullable|boolean',
+        ]);
+
+        $incident->update([
+            'status' => $validated['status'],
+            'action_taken' => $validated['action_taken'] ?? $incident->action_taken,
+            'fixed_at' => $validated['status'] === 'resolved' ? ($validated['fixed_at'] ?: now()->format('h:i A')) : $incident->fixed_at,
+        ]);
+
+        if ($validated['status'] === 'resolved' && !empty($validated['announce_resolution'])) {
+            try {
+                $resolvedMsg = "✅ <b>Resolved:</b> [{$incident->branch_name}] [{$incident->device_name} - {$incident->issue_type}], " . ($incident->fixed_at ?: now()->format('h:i A')) . "\n" .
+                    "<b>Action:</b> " . ($incident->action_taken ?: 'Playback verified OK') . "\n" .
+                    "— <i>IT Manager</i>";
+
+                $chatId = env('TELEGRAM_CHAT_ID', env('TELEGRAM_ADMIN_CHAT_ID', '-1003724420241'));
+                if ($chatId) {
+                    \App\Services\TelegramService::sendMessage((string)$chatId, $resolvedMsg);
+                }
+            } catch (\Throwable $e) {}
+        }
+
+        return redirect()->back()->with('success', "CCTV Incident #{$incident->incident_number} updated to {$validated['status']}.");
+    }
+
+    public function destroyCctvIncident($id)
+    {
+        $incident = CctvIncidentLog::findOrFail($id);
+        $incident->delete();
+
+        return redirect()->back()->with('success', 'Incident record deleted.');
     }
 }

@@ -37,6 +37,7 @@ import {
     TrendingUp,
     UserCheck,
     Users,
+    Video,
     Wifi,
 } from 'lucide-react';
 
@@ -179,6 +180,12 @@ const sections: NavSection[] = [
                 title: 'Audit Reports & Health',
                 href: '/it-surveys',
                 icon: BarChart3,
+                permission: 'it_survey.view',
+            },
+            {
+                title: 'CCTV Audit & Checklist',
+                href: '/it-surveys?tab=cctv',
+                icon: Video,
                 permission: 'it_survey.view',
             },
             {

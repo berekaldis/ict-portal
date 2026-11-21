@@ -129,6 +129,10 @@ Route::middleware('auth')->group(function () {
         Route::delete('/hardware/{id}', [ItSurveyController::class, 'hardwareDestroy'])->name('hardware.destroy')->middleware('can:it_survey.manage');
         Route::get('/export/reports', [ItSurveyController::class, 'exportReports'])->name('export.reports');
         Route::get('/export/hardware', [ItSurveyController::class, 'exportHardware'])->name('export.hardware');
+        Route::post('/cctv/register', [ItSurveyController::class, 'storeCctvRegister'])->name('cctv.register.store');
+        Route::post('/cctv/incidents', [ItSurveyController::class, 'storeCctvIncident'])->name('cctv.incident.store');
+        Route::put('/cctv/incidents/{id}', [ItSurveyController::class, 'updateCctvIncidentStatus'])->name('cctv.incident.update');
+        Route::delete('/cctv/incidents/{id}', [ItSurveyController::class, 'destroyCctvIncident'])->name('cctv.incident.destroy');
         Route::get('/{id}', [ItSurveyController::class, 'show'])->name('show');
         Route::delete('/{id}', [ItSurveyController::class, 'destroy'])->name('destroy')->middleware('can:it_survey.manage');
     });
