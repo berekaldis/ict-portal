@@ -26,7 +26,7 @@ export function getPermissionCategory(perm: string): string {
         return 'Telecom Management';
     }
 
-    if (p.startsWith('it_survey.') || p.includes('survey')) {
+    if (p.startsWith('it_survey.') || p.startsWith('cctv_audit.') || p.includes('survey') || p.includes('cctv')) {
         return 'IT Survey & Audit';
     }
 

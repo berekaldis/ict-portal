@@ -52,19 +52,51 @@ interface Props {
  * Prevents prefix collision (e.g. /edit-requests falsely matching /edit-requests/reports).
  */
 export function isRouteActive(itemHref: string, currentUrl: string): boolean {
-    const currentPath = currentUrl.split('?')[0].replace(/\/+$/, '') || '/';
-    const targetPath = itemHref.split('?')[0].replace(/\/+$/, '') || '/';
+    const [currentPathRaw, currentQueryRaw = ''] = currentUrl.split('?');
+    const [targetPathRaw, targetQueryRaw = ''] = itemHref.split('?');
 
-    // 1. Exact match
-    if (currentPath === targetPath) return true;
+    const currentPath = currentPathRaw.replace(/\/+$/, '') || '/';
+    const targetPath = targetPathRaw.replace(/\/+$/, '') || '/';
 
-    // 2. Both represent dashboard / root home
+    // If itemHref has query parameters (e.g. ?tab=cctv or ?tab=hardware)
+    if (targetQueryRaw) {
+        if (currentPath !== targetPath) return false;
+        const currentParams = new URLSearchParams(currentQueryRaw);
+        const targetParams = new URLSearchParams(targetQueryRaw);
+        for (const [key, val] of targetParams.entries()) {
+            if (currentParams.get(key) !== val) return false;
+        }
+        return true;
+    }
+
+    // If target has NO query parameters, but currentUrl has a specific tab query param (e.g. ?tab=cctv)
+    // and target is /it-surveys, it should NOT match unless the tab is 'reports' or empty.
+    if (currentQueryRaw && targetPath === '/it-surveys') {
+        const currentParams = new URLSearchParams(currentQueryRaw);
+        const tab = currentParams.get('tab');
+        if (tab && tab !== 'reports') {
+            return false;
+        }
+    }
+
+    // 1. Both represent dashboard / root home
     if ((currentPath === '/' || currentPath === '/dashboard') && (targetPath === '/' || targetPath === '/dashboard')) {
         return true;
     }
 
-    // 3. Prevent dashboard or home from matching other routes
+    // 2. Prevent dashboard or home from matching other routes
     if (targetPath === '/' || targetPath === '/dashboard') return false;
+
+    // 3. Disallow /it-surveys from matching /it-surveys/create or /it-surveys/hardware or /it-surveys/mini-app
+    if (targetPath === '/it-surveys') {
+        if (
+            currentPath.startsWith('/it-surveys/create') ||
+            currentPath.startsWith('/it-surveys/hardware') ||
+            currentPath.startsWith('/it-surveys/mini-app')
+        ) {
+            return false;
+        }
+    }
 
     // 4. Disallow /edit-requests from matching /edit-requests/reports or /edit-requests/create
     if (targetPath === '/edit-requests') {
@@ -96,7 +128,10 @@ export function isRouteActive(itemHref: string, currentUrl: string): boolean {
         }
     }
 
-    // 7. Match sub-resource detail or edit routes (e.g. /edit-requests/41 or /cases/12)
+    // 7. Exact path match
+    if (currentPath === targetPath) return true;
+
+    // 8. Match sub-resource detail or edit routes (e.g. /edit-requests/41 or /cases/12)
     return currentPath.startsWith(targetPath + '/');
 }
 

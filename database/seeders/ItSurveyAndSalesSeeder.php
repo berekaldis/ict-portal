@@ -16,6 +16,8 @@ class ItSurveyAndSalesSeeder extends Seeder
             'it_survey.view',
             'it_survey.create',
             'it_survey.manage',
+            'cctv_audit.view',
+            'cctv_audit.manage',
             'sales_case.view',
             'sales_case.create',
             'sales_case.manage',

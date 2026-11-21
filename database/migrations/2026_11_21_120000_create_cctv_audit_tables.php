@@ -26,76 +26,6 @@ return new class extends Migration
                 $table->text('notes')->nullable();
                 $table->timestamps();
             });
-
-            // Seed initial 5 branches
-            $defaultBranches = [
-                [
-                    'branch_no' => 1,
-                    'branch_name' => 'Bole Medhanialem (Flagship)',
-                    'nvr_model_ip' => 'Dahua NVR5216-4KS2 / 192.168.10.200',
-                    'camera_count' => 16,
-                    'hdd_size_days' => '2x 4TB WD Purple / 30 days',
-                    'firmware' => 'V4.002.0000000.1.R',
-                    'last_check' => '2026-11-20',
-                    'status' => 'operational',
-                    'issues' => 'None. All 16 channels recording normally.',
-                    'created_at' => now(),
-                    'updated_at' => now(),
-                ],
-                [
-                    'branch_no' => 2,
-                    'branch_name' => 'Kazanchis Branch',
-                    'nvr_model_ip' => 'Dahua NVR4216-4KS2 / 192.168.11.200',
-                    'camera_count' => 12,
-                    'hdd_size_days' => '1x 6TB Seagate SkyHawk / 30 days',
-                    'firmware' => 'V4.001.0000000.2.R',
-                    'last_check' => '2026-11-19',
-                    'status' => 'operational',
-                    'issues' => 'None. Storage retention on target (32 days).',
-                    'created_at' => now(),
-                    'updated_at' => now(),
-                ],
-                [
-                    'branch_no' => 3,
-                    'branch_name' => 'Sarbet Branch',
-                    'nvr_model_ip' => 'Dahua NVR4208-4KS2 / 192.168.12.200',
-                    'camera_count' => 8,
-                    'hdd_size_days' => '1x 4TB WD Purple / 30 days',
-                    'firmware' => 'V4.001.0000000.2.R',
-                    'last_check' => '2026-11-18',
-                    'status' => 'warning',
-                    'issues' => 'Camera #3 (Store room) angle needs re-adjustment.',
-                    'created_at' => now(),
-                    'updated_at' => now(),
-                ],
-                [
-                    'branch_no' => 4,
-                    'branch_name' => 'Piassa Branch',
-                    'nvr_model_ip' => 'Dahua NVR4216-4KS2 / 192.168.13.200',
-                    'camera_count' => 14,
-                    'hdd_size_days' => '2x 4TB WD Purple / 30 days',
-                    'firmware' => 'V4.002.0000000.1.R',
-                    'last_check' => '2026-11-20',
-                    'status' => 'operational',
-                    'issues' => 'None. UPS battery replaced last month.',
-                    'created_at' => now(),
-                    'updated_at' => now(),
-                ],
-                [
-                    'branch_no' => 5,
-                    'branch_name' => 'CMC Branch',
-                    'nvr_model_ip' => 'Dahua NVR5216-4KS2 / 192.168.14.200',
-                    'camera_count' => 16,
-                    'hdd_size_days' => '2x 4TB Seagate SkyHawk / 30 days',
-                    'firmware' => 'V4.002.0000000.1.R',
-                    'last_check' => '2026-11-21',
-                    'status' => 'operational',
-                    'issues' => 'All channels clear, NTP time synchronized.',
-                    'created_at' => now(),
-                    'updated_at' => now(),
-                ],
-            ];
-            DB::table('cctv_branch_registers')->insert($defaultBranches);
         }
 
         // 2. CCTV Incident Logs
@@ -119,27 +49,6 @@ return new class extends Migration
                 $table->timestamp('telegram_announced_at')->nullable();
                 $table->timestamps();
             });
-
-            // Seed sample recent resolved incident
-            DB::table('cctv_incident_logs')->insert([
-                [
-                    'incident_number' => 'CCTV-INC-20261118-001',
-                    'incident_date' => '2026-11-18',
-                    'branch_name' => 'Sarbet Branch',
-                    'device_name' => 'Camera #3 (Store Room)',
-                    'issue_type' => 'Angle Moved',
-                    'severity' => 'minor',
-                    'impact' => 'Corner of shelf partially obscured',
-                    'first_check_done' => 'Mount bracket loose from cleaning',
-                    'reported_by' => 'Helpdesk',
-                    'reported_at' => '10:15 AM',
-                    'fixed_at' => '11:45 AM',
-                    'status' => 'resolved',
-                    'action_taken' => 'Technician adjusted bracket and confirmed playback with IT Manager.',
-                    'created_at' => now(),
-                    'updated_at' => now(),
-                ],
-            ]);
         }
 
         // 3. Seed the full CCTV Checklist items into it_survey_categories & checklist items

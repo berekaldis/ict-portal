@@ -10,6 +10,7 @@ import {
     Laptop,
     Send,
     SkipForward,
+    Video,
     X,
     XCircle,
 } from 'lucide-react';
@@ -24,7 +25,7 @@ interface Category {
     id: number;
     name: string;
     icon: string;
-    type: 'hardware' | 'software';
+    type: 'hardware' | 'software' | 'cctv';
     has_photo: boolean;
     description: string | null;
     items: ChecklistItem[];
@@ -41,7 +42,7 @@ interface User {
 }
 
 interface Props {
-    type: 'hardware' | 'software';
+    type: 'hardware' | 'software' | 'cctv';
     categories: Category[];
     branches: Branch[];
     technicians: User[];
@@ -61,7 +62,7 @@ export default function ItSurveyMiniApp({
     technicians,
     initialBranch = '',
 }: Props) {
-    const [surveyType, setSurveyType] = useState<'hardware' | 'software'>(type);
+    const [surveyType, setSurveyType] = useState<'hardware' | 'software' | 'cctv'>(type);
     const [selectedBranch, setSelectedBranch] = useState(
         initialBranch || branches[0]?.name || 'Bole Medhanialem'
     );
@@ -76,6 +77,21 @@ export default function ItSurveyMiniApp({
         score: number;
         status: string;
     } | null>(null);
+
+    // Filter categories dynamically by selected audit type
+    const activeCategories = useMemo(() => {
+        return categories.filter((cat) => (cat.type || 'hardware') === surveyType);
+    }, [categories, surveyType]);
+
+    // Switch survey type and sync URL param
+    const handleTypeSwitch = (newType: 'hardware' | 'software' | 'cctv') => {
+        setSurveyType(newType);
+        try {
+            const url = new URL(window.location.href);
+            url.searchParams.set('type', newType);
+            window.history.replaceState({}, '', url.toString());
+        } catch {}
+    };
 
     // Initial state for checklist items
     const [checklistState, setChecklistState] = useState<Record<number, ItemState>>(() => {
@@ -170,18 +186,21 @@ export default function ItSurveyMiniApp({
         });
     };
 
-    // Real-time Health Score
+    // Real-time Health Score computed specifically for activeCategories
     const { healthScore, passedCount, issueCount, skipCount, totalCount, healthStatus } = useMemo(() => {
         let passed = 0;
         let issue = 0;
         let skip = 0;
         let total = 0;
 
-        Object.values(checklistState).forEach((item) => {
-            total++;
-            if (item.status === 'OK') passed++;
-            else if (item.status === 'Issue') issue++;
-            else if (item.status === 'Skip') skip++;
+        activeCategories.forEach((cat) => {
+            cat.items.forEach((item) => {
+                total++;
+                const itemSt = checklistState[item.id]?.status || 'OK';
+                if (itemSt === 'OK') passed++;
+                else if (itemSt === 'Issue') issue++;
+                else if (itemSt === 'Skip') skip++;
+            });
         });
 
         const evaluated = passed + issue;
@@ -199,7 +218,7 @@ export default function ItSurveyMiniApp({
             totalCount: total,
             healthStatus: status,
         };
-    }, [checklistState]);
+    }, [activeCategories, checklistState]);
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -219,7 +238,7 @@ export default function ItSurveyMiniApp({
 
         setIsSubmitting(true);
 
-        const formattedChecklist = categories.flatMap((cat) =>
+        const formattedChecklist = activeCategories.flatMap((cat) =>
             cat.items.map((item) => {
                 const st = checklistState[item.id] || { status: 'OK', detail: '', skipReason: '' };
                 return {
@@ -371,31 +390,43 @@ export default function ItSurveyMiniApp({
                     </div>
                 ) : (
                     <form onSubmit={handleSubmit} className="space-y-4">
-                        {/* Hardware vs Software Toggle */}
-                        <div className="grid grid-cols-2 gap-2 bg-slate-200/70 p-1 rounded-xl">
+                        {/* Hardware vs Software vs CCTV 3-Way Toggle */}
+                        <div className="grid grid-cols-3 gap-1.5 bg-slate-200/70 p-1 rounded-xl">
                             <button
                                 type="button"
-                                onClick={() => setSurveyType('hardware')}
-                                className={`flex items-center justify-center gap-1.5 py-2 text-xs font-semibold rounded-lg transition ${
+                                onClick={() => handleTypeSwitch('hardware')}
+                                className={`flex items-center justify-center gap-1 py-2 text-xs font-semibold rounded-lg transition ${
                                     surveyType === 'hardware'
                                         ? 'bg-white text-indigo-700 shadow-sm'
                                         : 'text-slate-600 hover:text-slate-900'
                                 }`}
                             >
                                 <HardDrive className="w-3.5 h-3.5" />
-                                Hardware Audit
+                                Hardware
                             </button>
                             <button
                                 type="button"
-                                onClick={() => setSurveyType('software')}
-                                className={`flex items-center justify-center gap-1.5 py-2 text-xs font-semibold rounded-lg transition ${
+                                onClick={() => handleTypeSwitch('software')}
+                                className={`flex items-center justify-center gap-1 py-2 text-xs font-semibold rounded-lg transition ${
                                     surveyType === 'software'
                                         ? 'bg-white text-cyan-700 shadow-sm'
                                         : 'text-slate-600 hover:text-slate-900'
                                 }`}
                             >
                                 <Laptop className="w-3.5 h-3.5" />
-                                Software Audit
+                                Software
+                            </button>
+                            <button
+                                type="button"
+                                onClick={() => handleTypeSwitch('cctv')}
+                                className={`flex items-center justify-center gap-1 py-2 text-xs font-semibold rounded-lg transition ${
+                                    surveyType === 'cctv'
+                                        ? 'bg-white text-rose-700 shadow-sm'
+                                        : 'text-slate-600 hover:text-slate-900'
+                                }`}
+                            >
+                                <Video className="w-3.5 h-3.5" />
+                                CCTV Audit
                             </button>
                         </div>
 
@@ -483,7 +514,8 @@ export default function ItSurveyMiniApp({
 
                         {/* Checklist Categories & Questions */}
                         <div className="space-y-3">
-                            {categories.map((cat, catIdx) => (
+                            {activeCategories.length > 0 ? (
+                                activeCategories.map((cat, catIdx) => (
                                 <div key={cat.id} className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
                                     <div className="p-3 bg-slate-50/80 border-b border-slate-200 flex items-center justify-between">
                                         <div className="flex items-center gap-2">
@@ -604,7 +636,12 @@ export default function ItSurveyMiniApp({
                                         })}
                                     </div>
                                 </div>
-                            ))}
+                            ))
+                        ) : (
+                            <div className="bg-white rounded-2xl p-6 text-center border border-slate-200 text-xs text-slate-500">
+                                No checklist items found for this audit type.
+                            </div>
+                        )}
                         </div>
 
                         {/* Summary & Recommendations */}

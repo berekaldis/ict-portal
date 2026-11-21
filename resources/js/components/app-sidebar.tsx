@@ -174,7 +174,7 @@ const sections: NavSection[] = [
         label: 'IT Branch Survey & Audit',
         icon: ClipboardCheck,
         itOnly: true,
-        permission: 'it_survey.view|it_survey.create|it_survey.manage',
+        permission: 'it_survey.view|it_survey.create|it_survey.manage|cctv_audit.view',
         items: [
             {
                 title: 'Audit Reports & Health',
@@ -186,7 +186,7 @@ const sections: NavSection[] = [
                 title: 'CCTV Audit & Checklist',
                 href: '/it-surveys?tab=cctv',
                 icon: Video,
-                permission: 'it_survey.view',
+                permission: 'cctv_audit.view',
             },
             {
                 title: 'New Branch Inspection',
@@ -196,9 +196,15 @@ const sections: NavSection[] = [
             },
             {
                 title: 'Hardware Asset Inventory',
-                href: '/it-surveys/hardware',
+                href: '/it-surveys?tab=hardware',
                 icon: HardDrive,
                 permission: 'it_survey.view',
+            },
+            {
+                title: 'Telegram Mini App',
+                href: '/it-surveys/mini-app',
+                icon: Send,
+                permission: 'it_survey.view|cctv_audit.view',
             },
         ],
     },

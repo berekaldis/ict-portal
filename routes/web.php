@@ -120,20 +120,21 @@ Route::middleware('auth')->group(function () {
     // ============================================================
     // IT BRANCH INFRASTRUCTURE & HARDWARE AUDIT MODULE
     // ============================================================
-    Route::prefix('it-surveys')->name('it-surveys.')->middleware('can:it_survey.view')->group(function () {
-        Route::get('/', [ItSurveyController::class, 'index'])->name('index');
+    Route::prefix('it-surveys')->name('it-surveys.')->group(function () {
+        Route::get('/', [ItSurveyController::class, 'index'])->name('index')->middleware('can:it_survey.view|cctv_audit.view');
         Route::get('/create', [ItSurveyController::class, 'create'])->name('create')->middleware('can:it_survey.create');
         Route::post('/', [ItSurveyController::class, 'store'])->name('store')->middleware('can:it_survey.create');
-        Route::get('/hardware', [ItSurveyController::class, 'hardwareIndex'])->name('hardware');
+        Route::get('/hardware', [ItSurveyController::class, 'hardwareIndex'])->name('hardware')->middleware('can:it_survey.view');
         Route::post('/hardware', [ItSurveyController::class, 'hardwareStore'])->name('hardware.store')->middleware('can:it_survey.manage');
         Route::delete('/hardware/{id}', [ItSurveyController::class, 'hardwareDestroy'])->name('hardware.destroy')->middleware('can:it_survey.manage');
-        Route::get('/export/reports', [ItSurveyController::class, 'exportReports'])->name('export.reports');
-        Route::get('/export/hardware', [ItSurveyController::class, 'exportHardware'])->name('export.hardware');
-        Route::post('/cctv/register', [ItSurveyController::class, 'storeCctvRegister'])->name('cctv.register.store');
-        Route::post('/cctv/incidents', [ItSurveyController::class, 'storeCctvIncident'])->name('cctv.incident.store');
-        Route::put('/cctv/incidents/{id}', [ItSurveyController::class, 'updateCctvIncidentStatus'])->name('cctv.incident.update');
-        Route::delete('/cctv/incidents/{id}', [ItSurveyController::class, 'destroyCctvIncident'])->name('cctv.incident.destroy');
-        Route::get('/{id}', [ItSurveyController::class, 'show'])->name('show');
+        Route::get('/export/reports', [ItSurveyController::class, 'exportReports'])->name('export.reports')->middleware('can:it_survey.view');
+        Route::get('/export/hardware', [ItSurveyController::class, 'exportHardware'])->name('export.hardware')->middleware('can:it_survey.view');
+        Route::post('/cctv/register', [ItSurveyController::class, 'storeCctvRegister'])->name('cctv.register.store')->middleware('can:cctv_audit.manage');
+        Route::delete('/cctv/register/{id}', [ItSurveyController::class, 'destroyCctvRegister'])->name('cctv.register.destroy')->middleware('can:cctv_audit.manage');
+        Route::post('/cctv/incidents', [ItSurveyController::class, 'storeCctvIncident'])->name('cctv.incident.store')->middleware('can:cctv_audit.manage');
+        Route::put('/cctv/incidents/{id}', [ItSurveyController::class, 'updateCctvIncidentStatus'])->name('cctv.incident.update')->middleware('can:cctv_audit.manage');
+        Route::delete('/cctv/incidents/{id}', [ItSurveyController::class, 'destroyCctvIncident'])->name('cctv.incident.destroy')->middleware('can:cctv_audit.manage');
+        Route::get('/{id}', [ItSurveyController::class, 'show'])->name('show')->middleware('can:it_survey.view');
         Route::delete('/{id}', [ItSurveyController::class, 'destroy'])->name('destroy')->middleware('can:it_survey.manage');
     });
 

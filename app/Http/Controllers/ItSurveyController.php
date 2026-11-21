@@ -107,105 +107,21 @@ class ItSurveyController extends Controller
 
         // CCTV Branch Registers (5 Branches)
         $cctvRegisters = [];
+        // CCTV Branch Registers (User-defined branches)
+        $cctvRegisters = collect([]);
         try {
             if (Schema::hasTable('cctv_branch_registers')) {
                 $cctvRegisters = CctvBranchRegister::orderBy('branch_no')->get();
             }
         } catch (\Throwable $e) {}
 
-        if (empty($cctvRegisters) || (is_object($cctvRegisters) && $cctvRegisters->isEmpty())) {
-            $cctvRegisters = collect([
-                [
-                    'id' => 1,
-                    'branch_no' => 1,
-                    'branch_name' => 'Bole Medhanialem (Flagship)',
-                    'nvr_model_ip' => 'Dahua NVR5216-4KS2 / 192.168.10.200',
-                    'camera_count' => 16,
-                    'hdd_size_days' => '2x 4TB WD Purple / 30 days',
-                    'firmware' => 'V4.002.0000000.1.R',
-                    'last_check' => '2026-11-20',
-                    'status' => 'operational',
-                    'issues' => 'None. All 16 channels recording normally.',
-                ],
-                [
-                    'id' => 2,
-                    'branch_no' => 2,
-                    'branch_name' => 'Kazanchis Branch',
-                    'nvr_model_ip' => 'Dahua NVR4216-4KS2 / 192.168.11.200',
-                    'camera_count' => 12,
-                    'hdd_size_days' => '1x 6TB Seagate SkyHawk / 30 days',
-                    'firmware' => 'V4.001.0000000.2.R',
-                    'last_check' => '2026-11-19',
-                    'status' => 'operational',
-                    'issues' => 'None. Storage retention on target (32 days).',
-                ],
-                [
-                    'id' => 3,
-                    'branch_no' => 3,
-                    'branch_name' => 'Sarbet Branch',
-                    'nvr_model_ip' => 'Dahua NVR4208-4KS2 / 192.168.12.200',
-                    'camera_count' => 8,
-                    'hdd_size_days' => '1x 4TB WD Purple / 30 days',
-                    'firmware' => 'V4.001.0000000.2.R',
-                    'last_check' => '2026-11-18',
-                    'status' => 'warning',
-                    'issues' => 'Camera #3 (Store room) angle needs re-adjustment.',
-                ],
-                [
-                    'id' => 4,
-                    'branch_no' => 4,
-                    'branch_name' => 'Piassa Branch',
-                    'nvr_model_ip' => 'Dahua NVR4216-4KS2 / 192.168.13.200',
-                    'camera_count' => 14,
-                    'hdd_size_days' => '2x 4TB WD Purple / 30 days',
-                    'firmware' => 'V4.002.0000000.1.R',
-                    'last_check' => '2026-11-20',
-                    'status' => 'operational',
-                    'issues' => 'None. UPS battery replaced last month.',
-                ],
-                [
-                    'id' => 5,
-                    'branch_no' => 5,
-                    'branch_name' => 'CMC Branch',
-                    'nvr_model_ip' => 'Dahua NVR5216-4KS2 / 192.168.14.200',
-                    'camera_count' => 16,
-                    'hdd_size_days' => '2x 4TB Seagate SkyHawk / 30 days',
-                    'firmware' => 'V4.002.0000000.1.R',
-                    'last_check' => '2026-11-21',
-                    'status' => 'operational',
-                    'issues' => 'All channels clear, NTP time synchronized.',
-                ],
-            ]);
-        }
-
         // CCTV Incident Logs
-        $cctvIncidents = [];
+        $cctvIncidents = collect([]);
         try {
             if (Schema::hasTable('cctv_incident_logs')) {
                 $cctvIncidents = CctvIncidentLog::orderBy('incident_date', 'desc')->orderBy('id', 'desc')->get();
             }
         } catch (\Throwable $e) {}
-
-        if (empty($cctvIncidents) || (is_object($cctvIncidents) && $cctvIncidents->isEmpty())) {
-            $cctvIncidents = collect([
-                [
-                    'id' => 1,
-                    'incident_number' => 'CCTV-INC-20261118-001',
-                    'incident_date' => '2026-11-18',
-                    'branch_name' => 'Sarbet Branch',
-                    'device_name' => 'Camera #3 (Store Room)',
-                    'issue_type' => 'Angle Moved',
-                    'severity' => 'minor',
-                    'impact' => 'Corner of shelf partially obscured',
-                    'first_check_done' => 'Mount bracket loose from cleaning',
-                    'reported_by' => 'Helpdesk',
-                    'reported_at' => '10:15 AM',
-                    'fixed_at' => '11:45 AM',
-                    'status' => 'resolved',
-                    'action_taken' => 'Technician adjusted bracket and confirmed playback with IT Manager.',
-                ],
-            ]);
-        }
 
         return Inertia::render('it-surveys/index', [
             'tab' => $tab,
@@ -364,8 +280,8 @@ class ItSurveyController extends Controller
     {
         $type = $request->query('type', 'hardware');
 
-        $categories = ItSurveyCategory::where('type', $type)
-            ->where('is_active', true)
+        // Fetch all active categories so client can switch between Hardware, Software, and CCTV instantly
+        $categories = ItSurveyCategory::where('is_active', true)
             ->with(['items' => function ($q) {
                 $q->where('is_active', true)->orderBy('display_order');
             }])
@@ -404,7 +320,7 @@ class ItSurveyController extends Controller
             'branch_id' => 'nullable|integer',
             'technician_name' => 'required|string|max:150',
             'branch_manager' => 'required|string|max:150',
-            'type' => 'required|in:hardware,software',
+            'type' => 'required|in:hardware,software,cctv',
             'checklist_data' => 'required|array',
             'issues_summary' => 'nullable|string',
             'actions_taken' => 'nullable|string',
@@ -675,7 +591,7 @@ class ItSurveyController extends Controller
     {
         $validated = $request->validate([
             'id' => 'nullable|integer',
-            'branch_no' => 'required|integer|min:1|max:100',
+            'branch_no' => 'nullable|integer|min:1|max:1000',
             'branch_name' => 'required|string|max:150',
             'nvr_model_ip' => 'required|string|max:150',
             'camera_count' => 'required|integer|min:0',
@@ -691,13 +607,21 @@ class ItSurveyController extends Controller
             $reg = CctvBranchRegister::findOrFail($validated['id']);
             $reg->update($validated);
         } else {
-            CctvBranchRegister::updateOrCreate(
-                ['branch_no' => $validated['branch_no']],
-                $validated
-            );
+            $maxNo = (int) (CctvBranchRegister::max('branch_no') ?? 0);
+            $validated['branch_no'] = $maxNo + 1;
+            CctvBranchRegister::create($validated);
         }
 
-        return redirect()->back()->with('success', "CCTV Register for {$validated['branch_name']} updated successfully.");
+        return redirect()->back()->with('success', "CCTV Register for {$validated['branch_name']} saved successfully.");
+    }
+
+    public function destroyCctvRegister($id)
+    {
+        $reg = CctvBranchRegister::findOrFail($id);
+        $name = $reg->branch_name;
+        $reg->delete();
+
+        return redirect()->back()->with('success', "Branch {$name} removed from CCTV Register.");
     }
 
     public function storeCctvIncident(Request $request)

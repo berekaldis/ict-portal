@@ -96,6 +96,8 @@ class PermissionSeeder extends Seeder
         'it_survey.view',
         'it_survey.create',
         'it_survey.manage',
+        'cctv_audit.view',
+        'cctv_audit.manage',
 
         // Sales Discrepancy & Z-Report Reconciliation Module
         'sales_case.view',

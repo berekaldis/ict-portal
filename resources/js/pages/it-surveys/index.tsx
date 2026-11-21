@@ -1,6 +1,6 @@
 import AppLayout from '@/layouts/app-layout';
 import { Head, Link, router } from '@inertiajs/react';
-import React, { useState } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { usePermission } from '@/hooks/user-permissions';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -191,45 +191,6 @@ export const CCTV_CHECKLIST_SECTIONS = [
             'No HDD error or disk-full alert',
         ],
     },
-    {
-        key: 'weekly',
-        title: '3. Weekly (15 min)',
-        badge: 'Weekly Audit',
-        description: '15-minute operational check of recording coverage, storage retention and logs.',
-        items: [
-            'Playback test: 1 random camera per branch from yesterday (day and night)',
-            'Recording days available meet the target',
-            'System log reviewed (reboots, disconnects, failed logins)',
-            'UPS on; no unexpected NVR reboot from power cuts',
-        ],
-    },
-    {
-        key: 'monthly',
-        title: '4. Monthly (Hardware Technician, on-site)',
-        badge: 'On-Site Inspection',
-        description: 'Physical maintenance, optics cleaning, UPS testing and technician review.',
-        items: [
-            'HDD health (SMART), model, power-on hours',
-            'Clean lenses/domes; check IR at night',
-            'Camera angle, mounting, cables and connectors',
-            'PoE switch and NVR ventilation (dust, heat)',
-            'UPS battery and runtime test',
-            'User accounts reviewed',
-        ],
-    },
-    {
-        key: 'quarterly',
-        title: '5. Quarterly',
-        badge: 'Quarterly Lifecycle',
-        description: 'Firmware upgrades, backup drills, and proactive drive lifecycle maintenance.',
-        items: [
-            'Firmware update (official Dahua source only; test on one branch first)',
-            'NVR config backup exported',
-            'Footage export to USB drill',
-            'Replace HDDs older than ~3 years or with bad sectors',
-            'Review repeated incidents; decide on hardware replacement',
-        ],
-    },
 ];
 
 interface Props {
@@ -286,15 +247,26 @@ export default function ItSurveyIndex({
     const { can } = usePermission();
     const [currentTab, setCurrentTab] = useState(filters.tab || tab || 'reports');
 
-    // CCTV 5-Branch Setup
-    const CCTV_BRANCHES = [
-        'Bole Medhanialem (Flagship)',
-        'Kazanchis Branch',
-        'Sarbet Branch',
-        'Piassa Branch',
-        'CMC Branch',
-    ];
-    const [cctvActiveBranch, setCctvActiveBranch] = useState<string>(CCTV_BRANCHES[0]);
+    // CCTV Branches derived dynamically from registered branches
+    const cctvBranches = useMemo(() => {
+        const list = (cctvRegisters || []).map((r) => r.branch_name).filter(Boolean);
+        return Array.from(new Set(list));
+    }, [cctvRegisters]);
+
+    const [cctvActiveBranch, setCctvActiveBranch] = useState<string>(() => cctvBranches[0] || '');
+
+    useEffect(() => {
+        if (!cctvActiveBranch && cctvBranches.length > 0) {
+            setCctvActiveBranch(cctvBranches[0]);
+        } else if (cctvBranches.length > 0 && !cctvBranches.includes(cctvActiveBranch)) {
+            setCctvActiveBranch(cctvBranches[0]);
+        }
+    }, [cctvBranches, cctvActiveBranch]);
+
+    const totalCctvItems = useMemo(() => {
+        return CCTV_CHECKLIST_SECTIONS.reduce((acc, sec) => acc + sec.items.length, 0);
+    }, []);
+
     const [cctvSubTab, setCctvSubTab] = useState<'checklist' | 'register' | 'incidents' | 'sop'>('checklist');
     const [cctvCheckedItems, setCctvCheckedItems] = useState<Record<string, boolean>>(() => {
         try {
@@ -344,19 +316,42 @@ export default function ItSurveyIndex({
     const [isEditRegisterOpen, setIsEditRegisterOpen] = useState(false);
     const [registerForm, setRegisterForm] = useState<Partial<CctvRegister>>({
         branch_no: 1,
-        branch_name: CCTV_BRANCHES[0],
-        nvr_model_ip: 'Dahua NVR5216-4KS2 / 192.168.10.200',
-        camera_count: 16,
-        hdd_size_days: '2x 4TB WD Purple / 30 days',
-        firmware: 'V4.002.0000000.1.R',
+        branch_name: '',
+        nvr_model_ip: '',
+        camera_count: 8,
+        hdd_size_days: 'WD Purple / 30 days',
+        firmware: '',
         last_check: new Date().toISOString().split('T')[0],
         status: 'operational',
         issues: '',
     });
 
+    const openAddRegisterModal = () => {
+        setRegisterForm({
+            branch_no: (cctvRegisters?.length || 0) + 1,
+            branch_name: '',
+            nvr_model_ip: '',
+            camera_count: 8,
+            hdd_size_days: 'WD Purple / 30 days',
+            firmware: '',
+            last_check: new Date().toISOString().split('T')[0],
+            status: 'operational',
+            issues: '',
+        });
+        setIsEditRegisterOpen(true);
+    };
+
     const openEditRegisterModal = (reg: CctvRegister) => {
         setRegisterForm({ ...reg });
         setIsEditRegisterOpen(true);
+    };
+
+    const handleDeleteRegister = (id: number, branchName: string) => {
+        if (confirm(`Are you sure you want to remove "${branchName}" from the CCTV register?`)) {
+            router.delete(`/it-surveys/cctv/register/${id}`, {
+                preserveScroll: true,
+            });
+        }
     };
 
     const handleSaveRegister = (e: React.FormEvent) => {
@@ -370,7 +365,7 @@ export default function ItSurveyIndex({
     // CCTV Incident Log State & Modal
     const [isLogIncidentOpen, setIsLogIncidentOpen] = useState(false);
     const [incidentForm, setIncidentForm] = useState({
-        branch_name: CCTV_BRANCHES[0],
+        branch_name: cctvBranches[0] || (branches && branches[0]) || '',
         device_name: '',
         issue_type: 'Offline',
         severity: 'major' as 'critical' | 'major' | 'minor',
@@ -390,7 +385,7 @@ export default function ItSurveyIndex({
             onSuccess: () => {
                 setIsLogIncidentOpen(false);
                 setIncidentForm({
-                    branch_name: CCTV_BRANCHES[0],
+                    branch_name: cctvActiveBranch || cctvBranches[0] || (branches && branches[0]) || '',
                     device_name: '',
                     issue_type: 'Offline',
                     severity: 'major',
@@ -798,10 +793,12 @@ export default function ItSurveyIndex({
                             <ClipboardCheck className="w-3.5 h-3.5" />
                             Inspection Standards ({categories.length})
                         </TabsTrigger>
-                        <TabsTrigger value="cctv" className="text-xs gap-1.5 font-medium text-slate-800">
-                            <Video className="w-3.5 h-3.5 text-rose-600" />
-                            CCTV Audit &amp; Checklist (5 Branches)
-                        </TabsTrigger>
+                        {can('cctv_audit.view') && (
+                            <TabsTrigger value="cctv" className="text-xs gap-1.5 font-medium text-slate-800">
+                                <Video className="w-3.5 h-3.5 text-rose-600" />
+                                CCTV Audit &amp; Checklist {cctvBranches.length > 0 ? `(${cctvBranches.length} Branches)` : ''}
+                            </TabsTrigger>
+                        )}
                     </TabsList>
 
                     {/* ==================================================== */}
@@ -1254,8 +1251,9 @@ export default function ItSurveyIndex({
                     </TabsContent>
 
                     {/* ==================================================== */}
-                    {/* TAB 4: CCTV FULL CHECKLIST & 5-BRANCH AUDIT         */}
+                    {/* TAB 4: CCTV FULL CHECKLIST & BRANCH AUDIT           */}
                     {/* ==================================================== */}
+                    {can('cctv_audit.view') && (
                     <TabsContent value="cctv" className="space-y-4 m-0">
                         {/* CCTV Clean Navigation Bar */}
                         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
@@ -1269,11 +1267,11 @@ export default function ItSurveyIndex({
                                             Kaldi's Coffee – CCTV Audit
                                         </h2>
                                         <Badge variant="outline" className="border-rose-200 text-rose-700 bg-rose-50/70 text-[10px] font-semibold">
-                                            5 Branches · Dahua
+                                            {cctvBranches.length} {cctvBranches.length === 1 ? 'Branch' : 'Branches'} · Dahua
                                         </Badge>
                                     </div>
                                     <p className="text-[11px] text-muted-foreground mt-0.5">
-                                        Owner: IT Manager · Scope: 5 Branches · Date: 2026-11-21
+                                        Owner: IT Manager · Scope: {cctvBranches.length} Registered {cctvBranches.length === 1 ? 'Branch' : 'Branches'} · Date: 2026-11-21
                                     </p>
                                 </div>
                             </div>
@@ -1301,7 +1299,7 @@ export default function ItSurveyIndex({
                                                 : 'text-slate-600 hover:text-slate-900'
                                         }`}
                                     >
-                                        🏢 Register (5)
+                                        🏢 Register ({cctvRegisters?.length || 0})
                                     </button>
                                     <button
                                         type="button"
@@ -1327,158 +1325,211 @@ export default function ItSurveyIndex({
                                     </button>
                                 </div>
 
-                                <Button
-                                    size="sm"
-                                    onClick={() => setIsLogIncidentOpen(true)}
-                                    className="h-8 text-xs gap-1.5 bg-rose-600 hover:bg-rose-700 text-white shadow-xs ml-auto sm:ml-1"
-                                >
-                                    <Plus className="w-3.5 h-3.5" />
-                                    Log Incident
-                                </Button>
+                                {can('cctv_audit.manage') && (
+                                    <div className="flex items-center gap-1.5 ml-auto sm:ml-1">
+                                        <Button
+                                            size="sm"
+                                            variant="outline"
+                                            onClick={openAddRegisterModal}
+                                            className="h-8 text-xs gap-1.5 border-slate-300 text-slate-700 hover:bg-slate-50"
+                                        >
+                                            <Plus className="w-3.5 h-3.5" />
+                                            Add Branch
+                                        </Button>
+                                        <Button
+                                            size="sm"
+                                            onClick={() => {
+                                                setIncidentForm((prev) => ({
+                                                    ...prev,
+                                                    branch_name: cctvActiveBranch || cctvBranches[0] || (branches && branches[0]) || '',
+                                                }));
+                                                setIsLogIncidentOpen(true);
+                                            }}
+                                            className="h-8 text-xs gap-1.5 bg-rose-600 hover:bg-rose-700 text-white shadow-xs"
+                                        >
+                                            <Plus className="w-3.5 h-3.5" />
+                                            Log Incident
+                                        </Button>
+                                    </div>
+                                )}
                             </div>
                         </div>
 
                         {/* ==================================================== */}
-                        {/* SUB-VIEW 1: CHECKLIST (5 BRANCHES)                  */}
+                        {/* SUB-VIEW 1: CHECKLIST                                */}
                         {/* ==================================================== */}
                         {cctvSubTab === 'checklist' && (
-                            <div className="space-y-4">
-                                {/* Branch Selector Bar */}
-                                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 bg-slate-50 border border-slate-200 p-2.5 rounded-lg">
-                                    <div className="flex flex-wrap items-center gap-1.5">
-                                        <span className="text-xs font-semibold text-slate-600 mr-1">Branch:</span>
-                                        {CCTV_BRANCHES.map((bName, idx) => {
-                                            const isSelected = cctvActiveBranch === bName;
-                                            const checkedCount = Object.keys(cctvCheckedItems).filter(
-                                                (k) => k.startsWith(`${bName}::`) && cctvCheckedItems[k]
+                            cctvBranches.length === 0 ? (
+                                <div className="bg-white border border-slate-200 rounded-xl p-8 text-center space-y-3">
+                                    <div className="w-12 h-12 rounded-full bg-rose-50 text-rose-600 mx-auto flex items-center justify-center">
+                                        <Video className="w-6 h-6" />
+                                    </div>
+                                    <div className="max-w-md mx-auto space-y-1">
+                                        <h3 className="text-sm font-semibold text-slate-900">No CCTV Branches Registered</h3>
+                                        <p className="text-xs text-muted-foreground">
+                                            Register your branches with NVR details and camera counts in the CCTV Register to start auditing.
+                                        </p>
+                                    </div>
+                                    {can('cctv_audit.manage') && (
+                                        <Button
+                                            size="sm"
+                                            onClick={openAddRegisterModal}
+                                            className="h-8 text-xs gap-1.5 bg-rose-600 hover:bg-rose-700 text-white mx-auto"
+                                        >
+                                            <Plus className="w-3.5 h-3.5" />
+                                            Add First Branch
+                                        </Button>
+                                    )}
+                                </div>
+                            ) : (
+                                <div className="space-y-4">
+                                    {/* Branch Selector Bar */}
+                                    <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 bg-slate-50 border border-slate-200 p-2.5 rounded-lg">
+                                        <div className="flex flex-wrap items-center gap-1.5">
+                                            <span className="text-xs font-semibold text-slate-600 mr-1">Branch:</span>
+                                            {cctvBranches.map((bName, idx) => {
+                                                const isSelected = cctvActiveBranch === bName;
+                                                const checkedCount = Object.keys(cctvCheckedItems).filter(
+                                                    (k) => k.startsWith(`${bName}::`) && cctvCheckedItems[k]
+                                                ).length;
+
+                                                return (
+                                                    <button
+                                                        key={bName}
+                                                        type="button"
+                                                        onClick={() => setCctvActiveBranch(bName)}
+                                                        className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-medium transition ${
+                                                            isSelected
+                                                                ? 'bg-rose-600 text-white shadow-xs'
+                                                                : 'bg-white text-slate-700 border border-slate-200 hover:bg-slate-100'
+                                                        }`}
+                                                    >
+                                                        <span className="font-semibold">{idx + 1}. {bName.replace(' Branch', '').replace(' (Flagship)', '')}</span>
+                                                        <span className={`text-[10px] px-1.5 py-0.2 rounded-full ${
+                                                            isSelected ? 'bg-rose-700 text-rose-100' : 'bg-slate-100 text-slate-500'
+                                                        }`}>
+                                                            {checkedCount}/{totalCctvItems}
+                                                        </span>
+                                                    </button>
+                                                );
+                                            })}
+                                        </div>
+
+                                        <div className="flex items-center gap-3 self-end sm:self-auto">
+                                            <div className="text-xs text-slate-600">
+                                                Status: <span className="font-semibold text-emerald-700">
+                                                    {Object.keys(cctvCheckedItems).filter((k) => k.startsWith(`${cctvActiveBranch}::`) && cctvCheckedItems[k]).length} of {totalCctvItems} verified
+                                                </span>
+                                            </div>
+                                            <Button
+                                                variant="ghost"
+                                                size="sm"
+                                                onClick={() => resetBranchChecklist(cctvActiveBranch)}
+                                                className="h-7 text-xs text-slate-500 hover:text-slate-800 px-2"
+                                                title="Clear checkboxes for this branch"
+                                            >
+                                                <RefreshCw className="w-3 h-3 mr-1" />
+                                                Reset
+                                            </Button>
+                                        </div>
+                                    </div>
+
+                                    {/* 2 Checklist Sections in Clean Cards */}
+                                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-3.5">
+                                        {CCTV_CHECKLIST_SECTIONS.map((sec) => {
+                                            const checkedSectionCount = sec.items.filter((_, idx) =>
+                                                cctvCheckedItems[`${cctvActiveBranch}::${sec.key}::${idx}`]
                                             ).length;
+                                            const isComplete = checkedSectionCount === sec.items.length;
 
                                             return (
-                                                <button
-                                                    key={bName}
-                                                    type="button"
-                                                    onClick={() => setCctvActiveBranch(bName)}
-                                                    className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-medium transition ${
-                                                        isSelected
-                                                            ? 'bg-rose-600 text-white shadow-xs'
-                                                            : 'bg-white text-slate-700 border border-slate-200 hover:bg-slate-100'
+                                                <Card
+                                                    key={sec.key}
+                                                    className={`border shadow-none transition ${
+                                                        isComplete ? 'border-emerald-300 bg-emerald-50/20' : 'border-slate-200 bg-white'
                                                     }`}
                                                 >
-                                                    <span className="font-semibold">{idx + 1}. {bName.replace(' Branch', '').replace(' (Flagship)', '')}</span>
-                                                    <span className={`text-[10px] px-1.5 py-0.2 rounded-full ${
-                                                        isSelected ? 'bg-rose-700 text-rose-100' : 'bg-slate-100 text-slate-500'
-                                                    }`}>
-                                                        {checkedCount}/30
-                                                    </span>
-                                                </button>
+                                                    <CardHeader className="p-3.5 pb-2">
+                                                        <div className="flex items-center justify-between gap-2">
+                                                            <CardTitle className="text-xs font-bold text-slate-900">
+                                                                {sec.title}
+                                                            </CardTitle>
+                                                            <Badge
+                                                                variant="outline"
+                                                                className={`text-[10px] ${
+                                                                    isComplete
+                                                                        ? 'border-emerald-300 bg-emerald-50 text-emerald-700 font-bold'
+                                                                        : 'border-slate-200 text-slate-600'
+                                                                }`}
+                                                            >
+                                                                {checkedSectionCount}/{sec.items.length} done
+                                                            </Badge>
+                                                        </div>
+                                                    </CardHeader>
+
+                                                    <CardContent className="p-3.5 pt-0">
+                                                        <div className="divide-y divide-slate-100">
+                                                            {sec.items.map((itemText, idx) => {
+                                                                const isChecked = !!cctvCheckedItems[`${cctvActiveBranch}::${sec.key}::${idx}`];
+
+                                                                return (
+                                                                    <div
+                                                                        key={idx}
+                                                                        onClick={() => toggleCctvCheck(cctvActiveBranch, sec.key, idx)}
+                                                                        className={`py-2 px-1.5 flex items-start gap-2.5 rounded cursor-pointer transition select-none hover:bg-slate-50 ${
+                                                                            isChecked ? 'bg-emerald-50/30' : ''
+                                                                        }`}
+                                                                    >
+                                                                        <div
+                                                                            className={`w-4 h-4 mt-0.5 rounded border flex items-center justify-center flex-shrink-0 transition ${
+                                                                                isChecked
+                                                                                    ? 'bg-emerald-600 border-emerald-600 text-white'
+                                                                                    : 'border-slate-300 bg-white'
+                                                                            }`}
+                                                                        >
+                                                                            {isChecked && <Check className="w-3 h-3 stroke-[3]" />}
+                                                                        </div>
+                                                                        <span
+                                                                            className={`text-xs leading-relaxed ${
+                                                                                isChecked
+                                                                                    ? 'line-through text-slate-500 font-normal'
+                                                                                    : 'text-slate-800'
+                                                                            }`}
+                                                                        >
+                                                                            {itemText}
+                                                                        </span>
+                                                                    </div>
+                                                                );
+                                                            })}
+                                                        </div>
+                                                    </CardContent>
+                                                </Card>
                                             );
                                         })}
                                     </div>
-
-                                    <div className="flex items-center gap-3 self-end sm:self-auto">
-                                        <div className="text-xs text-slate-600">
-                                            Status: <span className="font-semibold text-emerald-700">
-                                                {Object.keys(cctvCheckedItems).filter((k) => k.startsWith(`${cctvActiveBranch}::`) && cctvCheckedItems[k]).length} of 30 verified
-                                            </span>
-                                        </div>
-                                        <Button
-                                            variant="ghost"
-                                            size="sm"
-                                            onClick={() => resetBranchChecklist(cctvActiveBranch)}
-                                            className="h-7 text-xs text-slate-500 hover:text-slate-800 px-2"
-                                            title="Clear checkboxes for this branch"
-                                        >
-                                            <RefreshCw className="w-3 h-3 mr-1" />
-                                            Reset
-                                        </Button>
-                                    </div>
                                 </div>
-
-                                {/* 5 Checklist Sections in Clean Cards */}
-                                <div className="grid grid-cols-1 lg:grid-cols-2 gap-3.5">
-                                    {CCTV_CHECKLIST_SECTIONS.map((sec) => {
-                                        const checkedSectionCount = sec.items.filter((_, idx) =>
-                                            cctvCheckedItems[`${cctvActiveBranch}::${sec.key}::${idx}`]
-                                        ).length;
-                                        const isComplete = checkedSectionCount === sec.items.length;
-
-                                        return (
-                                            <Card
-                                                key={sec.key}
-                                                className={`border shadow-none transition ${
-                                                    isComplete ? 'border-emerald-300 bg-emerald-50/20' : 'border-slate-200 bg-white'
-                                                }`}
-                                            >
-                                                <CardHeader className="p-3.5 pb-2">
-                                                    <div className="flex items-center justify-between gap-2">
-                                                        <CardTitle className="text-xs font-bold text-slate-900">
-                                                            {sec.title}
-                                                        </CardTitle>
-                                                        <Badge
-                                                            variant="outline"
-                                                            className={`text-[10px] ${
-                                                                isComplete
-                                                                    ? 'border-emerald-300 bg-emerald-50 text-emerald-700 font-bold'
-                                                                    : 'border-slate-200 text-slate-600'
-                                                            }`}
-                                                        >
-                                                            {checkedSectionCount}/{sec.items.length} done
-                                                        </Badge>
-                                                    </div>
-                                                </CardHeader>
-
-                                                <CardContent className="p-3.5 pt-0">
-                                                    <div className="divide-y divide-slate-100">
-                                                        {sec.items.map((itemText, idx) => {
-                                                            const isChecked = !!cctvCheckedItems[`${cctvActiveBranch}::${sec.key}::${idx}`];
-
-                                                            return (
-                                                                <div
-                                                                    key={idx}
-                                                                    onClick={() => toggleCctvCheck(cctvActiveBranch, sec.key, idx)}
-                                                                    className={`py-2 px-1.5 flex items-start gap-2.5 rounded cursor-pointer transition select-none hover:bg-slate-50 ${
-                                                                        isChecked ? 'bg-emerald-50/30' : ''
-                                                                    }`}
-                                                                >
-                                                                    <div
-                                                                        className={`w-4 h-4 mt-0.5 rounded border flex items-center justify-center flex-shrink-0 transition ${
-                                                                            isChecked
-                                                                                ? 'bg-emerald-600 border-emerald-600 text-white'
-                                                                                : 'border-slate-300 bg-white'
-                                                                        }`}
-                                                                    >
-                                                                        {isChecked && <Check className="w-3 h-3 stroke-[3]" />}
-                                                                    </div>
-                                                                    <span
-                                                                        className={`text-xs leading-relaxed ${
-                                                                            isChecked
-                                                                                ? 'line-through text-slate-500 font-normal'
-                                                                                : 'text-slate-800'
-                                                                        }`}
-                                                                    >
-                                                                        {itemText}
-                                                                    </span>
-                                                                </div>
-                                                            );
-                                                        })}
-                                                    </div>
-                                                </CardContent>
-                                            </Card>
-                                        );
-                                    })}
-                                </div>
-                            </div>
+                            )
                         )}
 
                         {/* ==================================================== */}
-                        {/* SUB-VIEW 2: BRANCH REGISTER (5 BRANCHES)            */}
+                        {/* SUB-VIEW 2: BRANCH REGISTER                          */}
                         {/* ==================================================== */}
                         {cctvSubTab === 'register' && (
                             <div className="space-y-3">
-                                <div className="flex items-center justify-between">
+                                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                                     <p className="text-xs text-muted-foreground">
                                         Hardware models, IP addresses, camera counts, storage retention, firmware, and last health checks.
                                     </p>
+                                    {can('cctv_audit.manage') && (
+                                        <Button
+                                            size="sm"
+                                            onClick={openAddRegisterModal}
+                                            className="h-7 text-xs gap-1.5 bg-rose-600 hover:bg-rose-700 text-white shadow-xs self-start sm:self-auto"
+                                        >
+                                            <Plus className="w-3.5 h-3.5" />
+                                            Add Branch
+                                        </Button>
+                                    )}
                                 </div>
 
                                 <Card className="border shadow-none overflow-hidden">
@@ -1541,22 +1592,37 @@ export default function ItSurveyIndex({
                                                             {reg.issues || 'None'}
                                                         </TableCell>
                                                         <TableCell className="text-right whitespace-nowrap">
-                                                            <Button
-                                                                size="sm"
-                                                                variant="outline"
-                                                                onClick={() => openEditRegisterModal(reg)}
-                                                                className="h-7 text-xs px-2 gap-1 text-slate-700 hover:text-slate-900"
-                                                            >
-                                                                <Edit2 className="w-3 h-3" />
-                                                                Edit
-                                                            </Button>
+                                                            <div className="flex items-center justify-end gap-1.5">
+                                                                {can('cctv_audit.manage') && (
+                                                                    <>
+                                                                        <Button
+                                                                            size="sm"
+                                                                            variant="outline"
+                                                                            onClick={() => openEditRegisterModal(reg)}
+                                                                            className="h-7 text-xs px-2 gap-1 text-slate-700 hover:text-slate-900"
+                                                                        >
+                                                                            <Edit2 className="w-3 h-3" />
+                                                                            Edit
+                                                                        </Button>
+                                                                        <Button
+                                                                            size="sm"
+                                                                            variant="outline"
+                                                                            onClick={() => handleDeleteRegister(reg.id, reg.branch_name)}
+                                                                            className="h-7 text-xs px-2 gap-1 text-rose-600 hover:text-rose-700 hover:bg-rose-50 border-rose-200"
+                                                                        >
+                                                                            <Trash2 className="w-3 h-3" />
+                                                                            Delete
+                                                                        </Button>
+                                                                    </>
+                                                                )}
+                                                            </div>
                                                         </TableCell>
                                                     </TableRow>
                                                 ))
                                             ) : (
                                                 <TableRow>
                                                     <TableCell colSpan={10} className="text-center py-6 text-xs text-muted-foreground italic">
-                                                        No branch register data available.
+                                                        No branch register data available. Click "+ Add Branch" to add your branches.
                                                     </TableCell>
                                                 </TableRow>
                                             )}
@@ -1912,6 +1978,7 @@ Next update:
                             </div>
                         )}
                     </TabsContent>
+                    )}
                 </Tabs>
             </div>
 
@@ -2262,24 +2329,32 @@ Next update:
                     <DialogHeader>
                         <DialogTitle className="text-base font-semibold flex items-center gap-2">
                             <Video className="w-4 h-4 text-rose-600" />
-                            Edit Branch CCTV Register
+                            {registerForm.id ? 'Edit Branch CCTV Register' : 'Register New Branch for CCTV'}
                         </DialogTitle>
                         <DialogDescription className="text-xs">
-                            Update NVR specifications, camera count, storage retention, and firmware for{' '}
-                            <span className="font-semibold text-slate-800">{registerForm.branch_name}</span>.
+                            {registerForm.id
+                                ? `Update NVR specifications, camera count, storage retention, and firmware for ${registerForm.branch_name}.`
+                                : 'Add a branch with NVR specifications, camera count, storage retention, and firmware.'}
                         </DialogDescription>
                     </DialogHeader>
 
                     <form onSubmit={handleSaveRegister} className="space-y-3 py-1">
                         <div className="grid grid-cols-2 gap-3">
                             <div className="space-y-1">
-                                <Label className="text-xs">Branch Name</Label>
+                                <Label className="text-xs">Branch Name *</Label>
                                 <Input
+                                    list="portal-branches-datalist"
                                     value={registerForm.branch_name || ''}
                                     onChange={(e) => setRegisterForm((p) => ({ ...p, branch_name: e.target.value }))}
+                                    placeholder="e.g. Bole Medhanialem"
                                     className="h-8 text-xs"
                                     required
                                 />
+                                <datalist id="portal-branches-datalist">
+                                    {branches && branches.map((b) => (
+                                        <option key={b} value={b} />
+                                    ))}
+                                </datalist>
                             </div>
 
                             <div className="space-y-1">
@@ -2381,7 +2456,7 @@ Next update:
                                 Cancel
                             </Button>
                             <Button type="submit" size="sm" className="h-8 text-xs bg-rose-600 hover:bg-rose-700 text-white">
-                                Save Register
+                                {registerForm.id ? 'Save Changes' : 'Register Branch'}
                             </Button>
                         </DialogFooter>
                     </form>
@@ -2415,7 +2490,7 @@ Next update:
                                         <SelectValue placeholder="Branch" />
                                     </SelectTrigger>
                                     <SelectContent>
-                                        {CCTV_BRANCHES.map((b) => (
+                                        {(cctvBranches.length > 0 ? cctvBranches : (branches || [])).map((b) => (
                                             <SelectItem key={b} value={b}>{b}</SelectItem>
                                         ))}
                                     </SelectContent>
