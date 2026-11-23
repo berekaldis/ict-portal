@@ -114,6 +114,11 @@ class PermissionSeeder extends Seeder
         'manage kaldis communication',
         'manage communication moderation',
         'send communication broadcast',
+
+        // Password & Credential Vault Module (System Admin & IT)
+        'password_manager.view',
+        'password_manager.manage',
+        'password_manager.reveal',
     ];
 
     public function run(): void
@@ -160,6 +165,7 @@ class PermissionSeeder extends Seeder
                 'view dashboard', 'manage telegram config', 'view system logs',
                 'survey.view', 'survey.manage',
                 'hr.view', 'hr.create', 'hr.manage',
+                'password_manager.view', 'password_manager.manage', 'password_manager.reveal',
             ],
 
             'IT Staff' => [

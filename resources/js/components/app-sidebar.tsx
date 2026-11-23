@@ -21,6 +21,7 @@ import {
     FileText,
     GraduationCap,
     HardDrive,
+    KeyRound,
     LayoutDashboard,
     LayoutGrid,
     Lock,
@@ -283,8 +284,14 @@ const sections: NavSection[] = [
         label: 'System Administration',
         icon: Settings,
         itOnly: true,
-        permission: 'view users|view roles|view permissions|case.settings.manage|hr.manage',
+        permission: 'view users|view roles|view permissions|case.settings.manage|hr.manage|password_manager.view',
         items: [
+            {
+                title: 'Password Manager',
+                href: '/admin/password-manager',
+                icon: KeyRound,
+                permission: 'password_manager.view',
+            },
             {
                 title: 'Users',
                 href: '/users',

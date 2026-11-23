@@ -54,6 +54,10 @@ export function getPermissionCategory(perm: string): string {
         return 'User & Organization';
     }
 
+    if (p.startsWith('password_manager.') || p.includes('password_manager')) {
+        return 'System & General';
+    }
+
     return 'System & General';
 }
 

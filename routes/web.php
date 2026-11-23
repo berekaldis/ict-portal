@@ -27,6 +27,7 @@ use App\Http\Controllers\TelecomPhoneNumberController;
 use App\Http\Controllers\TelecomBroadbandController;
 use App\Http\Controllers\TelecomProviderController;
 use App\Http\Controllers\KaldisCommunicationController;
+use App\Http\Controllers\PasswordManagerController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -282,4 +283,16 @@ Route::middleware('auth')->group(function () {
 
     Route::resource('roles', RoleController::class);
     Route::get('permissions', [PermissionController::class, 'index'])->name('permissions.index');
+
+    // ============================================================
+    // SYSTEM ADMINISTRATION: PASSWORD & CREDENTIAL MANAGER
+    // ============================================================
+    Route::prefix('admin/password-manager')->name('admin.password-manager.')->middleware('can:password_manager.view')->group(function () {
+        Route::get('/', [PasswordManagerController::class, 'index'])->name('index');
+        Route::post('/', [PasswordManagerController::class, 'store'])->name('store')->middleware('can:password_manager.manage');
+        Route::put('/{id}', [PasswordManagerController::class, 'update'])->name('update')->middleware('can:password_manager.manage');
+        Route::delete('/{id}', [PasswordManagerController::class, 'destroy'])->name('destroy')->middleware('can:password_manager.manage');
+        Route::post('/{id}/reveal', [PasswordManagerController::class, 'reveal'])->name('reveal')->middleware('can:password_manager.reveal');
+        Route::get('/export', [PasswordManagerController::class, 'export'])->name('export');
+    });
 });
