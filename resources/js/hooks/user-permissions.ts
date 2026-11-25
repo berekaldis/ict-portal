@@ -32,11 +32,18 @@ export function usePermission() {
     const isItTeam = Boolean(
         props.auth?.isItTeam ?? (
             isSuperAdmin || (
-                (props.auth?.user?.department?.toLowerCase() === 'it' || props.auth?.user?.department?.toLowerCase() === 'ict') &&
                 Array.isArray(roles) && roles.some((r: any) => {
                     const name = (typeof r === 'string' ? r : r?.name || '').toLowerCase();
-                    return name === 'it admin' || name === 'it staff' || name === 'it';
+                    return name === 'it admin' || name === 'it staff' || name === 'it' || name === 'admin';
                 })
+            ) || (
+                (props.auth?.user?.department?.toLowerCase() === 'it' || props.auth?.user?.department?.toLowerCase() === 'ict')
+            ) || (
+                permissions.some((p) => [
+                    'case.view', 'view users', 'view roles', 'view permissions',
+                    'password_manager.view', 'it_survey.view', 'cctv_audit.view',
+                    'view telecom connections', 'telecom.phone.view', 'telecom.broadband.view'
+                ].includes(p))
             )
         )
     );

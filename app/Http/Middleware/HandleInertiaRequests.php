@@ -52,35 +52,23 @@ class HandleInertiaRequests extends Middleware
                     $user->save();
                     $user->load('roles', 'permissions');
                 }
-            } elseif ($deptNorm === 'finance' || str_contains($deptNorm, 'finance')) {
-                if (!$user->hasRole('Finance Manager') || $user->hasRole('Admin') || $user->role !== 'Finance Manager') {
+            } elseif ($user->roles->isEmpty()) {
+                // Only assign default fallback role if user has no assigned roles at all
+                if ($deptNorm === 'finance' || str_contains($deptNorm, 'finance')) {
                     $user->syncRoles(['Finance Manager']);
                     $user->role = 'Finance Manager';
-                    $user->save();
-                    $user->load('roles', 'permissions');
-                }
-            } elseif ($deptNorm === 'f&b' || $deptNorm === 'fb' || str_contains($deptNorm, 'food') || str_contains($deptNorm, 'beverage')) {
-                if (!$user->hasRole('F&B Manager') || $user->hasRole('Admin') || $user->role !== 'F&B Manager') {
+                } elseif ($deptNorm === 'f&b' || $deptNorm === 'fb' || str_contains($deptNorm, 'food') || str_contains($deptNorm, 'beverage')) {
                     $user->syncRoles(['F&B Manager']);
                     $user->role = 'F&B Manager';
-                    $user->save();
-                    $user->load('roles', 'permissions');
-                }
-            } elseif (in_array($deptNorm, ['it', 'ict'])) {
-                if (!$user->hasRole(['IT Admin', 'IT Staff'])) {
-                    $itRole = ($user->role === 'IT Staff') ? 'IT Staff' : 'IT Admin';
-                    $user->syncRoles([$itRole]);
-                    $user->role = $itRole;
-                    $user->save();
-                    $user->load('roles', 'permissions');
-                }
-            } else {
-                if ($user->roles->isEmpty() || $user->hasRole('Admin') || $user->role !== 'Branch User') {
+                } elseif (in_array($deptNorm, ['it', 'ict'])) {
+                    $user->syncRoles(['IT Staff']);
+                    $user->role = 'IT Staff';
+                } else {
                     $user->syncRoles(['Branch User']);
                     $user->role = 'Branch User';
-                    $user->save();
-                    $user->load('roles', 'permissions');
                 }
+                $user->save();
+                $user->load('roles', 'permissions');
             }
         }
 
@@ -94,12 +82,22 @@ class HandleInertiaRequests extends Middleware
         $roles = $user ? $user->roles->pluck('name')->toArray() : [];
         $dept = strtolower(trim((string)$user?->department));
         $isItDept = in_array($dept, ['it', 'ict']);
-        $isItTeam = $isSuperAdmin || (
-            $user &&
-            ($user->can('case.view') || (
-                $isItDept && (in_array('IT Admin', $roles) || in_array('IT Staff', $roles) || in_array('IT', $roles))
-            ))
+
+        $hasItRole = in_array('IT Admin', $roles) || in_array('IT Staff', $roles) || in_array('IT', $roles) || in_array('Admin', $roles) || in_array('admin', $roles);
+        $hasItPermission = $user && (
+            $user->can('case.view') ||
+            $user->can('view users') ||
+            $user->can('view roles') ||
+            $user->can('view permissions') ||
+            $user->can('password_manager.view') ||
+            $user->can('it_survey.view') ||
+            $user->can('cctv_audit.view') ||
+            $user->can('view telecom connections') ||
+            $user->can('telecom.phone.view') ||
+            $user->can('telecom.broadband.view')
         );
+
+        $isItTeam = $isSuperAdmin || $hasItRole || $hasItPermission || ($user && $isItDept && count($roles) > 0);
 
         return [
             ...parent::share($request),

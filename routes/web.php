@@ -277,6 +277,7 @@ Route::middleware('auth')->group(function () {
     // USERS, ROLES & PERMISSIONS MANAGEMENT
     // ============================================================
     Route::post('users/sync-all-users', [UserController::class, 'syncAllUsers'])->name('users.sync-all-users');
+    Route::post('users/{id}/assign-roles', [UserController::class, 'assignRoles'])->name('users.assign-roles');
     Route::resource('users', UserController::class);
     Route::post('users/{id}/toggle-active', [UserController::class, 'toggleActive'])->name('users.toggle-active');
     Route::post('users/{id}/reset-password', [UserController::class, 'resetPassword'])->name('users.reset-password');

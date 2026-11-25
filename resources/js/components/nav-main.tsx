@@ -324,12 +324,18 @@ export function NavMain({ sections }: Props) {
     // Determine which section contains the currently active route
     const getActiveSectionLabel = React.useCallback((): string | null => {
         for (const section of sections) {
-            if (section.itOnly && !isItTeam) continue;
-            if (section.permission && !can(section.permission)) continue;
+            if (section.permission) {
+                if (!can(section.permission)) continue;
+            } else if (section.itOnly && !isItTeam) {
+                continue;
+            }
 
             const hasActiveItem = section.items.some((item) => {
-                if (item.itOnly && !isItTeam) return false;
-                if (item.permission && !can(item.permission)) return false;
+                if (item.permission) {
+                    if (!can(item.permission)) return false;
+                } else if (item.itOnly && !isItTeam) {
+                    return false;
+                }
                 return isRouteActive(item.href, url);
             });
 
@@ -375,18 +381,18 @@ export function NavMain({ sections }: Props) {
         <SidebarGroup className="py-2">
             <SidebarMenu className="space-y-1">
                 {sections.map((section) => {
-                    if (section.itOnly && !isItTeam) {
-                        return null;
-                    }
-
-                    if (section.permission && !can(section.permission)) {
+                    if (section.permission) {
+                        if (!can(section.permission)) return null;
+                    } else if (section.itOnly && !isItTeam) {
                         return null;
                     }
 
                     const visibleItems = section.items.filter((item) => {
+                        if (item.permission) {
+                            return can(item.permission);
+                        }
                         if (item.itOnly && !isItTeam) return false;
-                        if (!item.permission) return true;
-                        return can(item.permission);
+                        return true;
                     });
 
                     if (visibleItems.length === 0) {

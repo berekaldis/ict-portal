@@ -1,0 +1,6 @@
+import{c as o}from"./createLucideIcon-DNs5Btes.js";import{j as e,L as c}from"./app-DrX9J21H.js";import{B as r}from"./app-logo-icon-4KxGRjXR.js";/**
+ * @license lucide-react v0.475.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const d=[["path",{d:"M8 3 4 7l4 4",key:"9rb6wj"}],["path",{d:"M4 7h16",key:"6tx8e3"}],["path",{d:"m16 21 4-4-4-4",key:"siv7j2"}],["path",{d:"M20 17H4",key:"h6l3hr"}]],x=o("ArrowLeftRight",d);function f({links:a=[],total:l,to:i,from:n}){return e.jsxs("div",{className:"flex flex-col items-center justify-between gap-4 border-t bg-white px-8 pt-5 sm:flex-row dark:bg-gray-800",children:[e.jsx("div",{className:"flex items-center justify-between",children:e.jsxs("span",{className:"text-sm text-muted-foreground",children:["Showing ",n??0," to ",i??0," of ",l??0," results"]})}),e.jsx("div",{className:"flex items-center space-x-2",children:a.map((t,s)=>t.url!==null?e.jsx(c,{href:t.url||"#",children:e.jsx(r,{variant:"outline",className:t.active?"bg-blue-500 text-white":"",size:"sm",disabled:!t.url,dangerouslySetInnerHTML:{__html:t.label}})},s):e.jsx(r,{variant:"outline",size:"sm",disabled:!0,dangerouslySetInnerHTML:{__html:t.label}},s))})]})}export{x as A,f as T};

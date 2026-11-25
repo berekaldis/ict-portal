@@ -7,7 +7,7 @@ import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import AppLayout from '@/layouts/app-layout';
 import { Head, Link, useForm } from '@inertiajs/react';
-import { ArrowLeft, KeyRound, UserPlus } from 'lucide-react';
+import { ArrowLeft, Check, KeyRound, UserPlus } from 'lucide-react';
 import React from 'react';
 
 interface Props {
@@ -30,11 +30,11 @@ export default function UserCreate({ roles, branches, allPermissions = [] }: Pro
     });
 
     const toggleRole = (roleName: string) => {
-        if (data.roles.includes(roleName)) {
-            setData('roles', data.roles.filter((r) => r !== roleName));
-        } else {
-            setData('roles', [...data.roles, roleName]);
-        }
+        const isSelected = data.roles.includes(roleName);
+        const nextRoles = isSelected
+            ? data.roles.filter((r) => r !== roleName)
+            : [...data.roles, roleName];
+        setData('roles', nextRoles);
     };
 
     const submit = (e: React.FormEvent) => {
@@ -161,21 +161,44 @@ export default function UserCreate({ roles, branches, allPermissions = [] }: Pro
 
                             {/* Roles Selection */}
                             <div className="space-y-2 pt-2 border-t border-border/40">
-                                <Label>Assign System Roles <span className="text-destructive">*</span></Label>
+                                <div className="flex items-center justify-between">
+                                    <Label className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                                        Assign System Roles <span className="text-destructive">*</span>
+                                    </Label>
+                                    <span className="text-xs text-muted-foreground font-mono">
+                                        {data.roles.length} selected
+                                    </span>
+                                </div>
                                 <div className="grid grid-cols-2 gap-2">
                                     {roles.map((r) => {
                                         const isChecked = data.roles.includes(r);
                                         return (
                                             <div
                                                 key={r}
+                                                role="button"
+                                                tabIndex={0}
                                                 onClick={() => toggleRole(r)}
-                                                className={`flex items-center gap-2 p-2.5 rounded-lg border cursor-pointer text-xs transition-colors ${
+                                                onKeyDown={(e) => {
+                                                    if (e.key === ' ' || e.key === 'Enter') {
+                                                        e.preventDefault();
+                                                        toggleRole(r);
+                                                    }
+                                                }}
+                                                className={`flex items-center gap-2.5 p-2.5 rounded-lg border text-xs cursor-pointer select-none transition-all ${
                                                     isChecked
-                                                        ? 'bg-primary/10 border-primary/40 font-semibold text-foreground'
-                                                        : 'bg-muted/10 border-border/50 text-muted-foreground hover:bg-muted/30'
+                                                        ? 'bg-amber-500/10 border-amber-500/50 font-semibold text-foreground shadow-2xs'
+                                                        : 'bg-background hover:bg-muted/30 border-border/60 text-muted-foreground'
                                                 }`}
                                             >
-                                                <Checkbox checked={isChecked} onCheckedChange={() => toggleRole(r)} />
+                                                <div
+                                                    className={`size-4 shrink-0 rounded-[4px] border flex items-center justify-center transition-all ${
+                                                        isChecked
+                                                            ? 'bg-amber-600 border-amber-600 text-white'
+                                                            : 'border-input bg-background/50 hover:border-amber-500/60'
+                                                    }`}
+                                                >
+                                                    {isChecked && <Check className="size-3 stroke-[3]" />}
+                                                </div>
                                                 <span>{r}</span>
                                             </div>
                                         );

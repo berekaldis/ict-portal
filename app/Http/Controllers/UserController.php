@@ -18,7 +18,7 @@ class UserController extends Controller
 {
     public function index(Request $request): Response
     {
-        $query = User::with('roles');
+        $query = User::with(['roles', 'permissions']);
 
         if ($search = $request->input('search')) {
             $query->where(function ($q) use ($search) {
@@ -49,12 +49,14 @@ class UserController extends Controller
         $users = $query->orderByDesc('id')->paginate(12)->withQueryString();
         $roles = Role::pluck('name')->toArray();
         $branches = Branch::where('is_active', true)->pluck('branch_name')->toArray();
+        $allPermissions = Permission::orderBy('name')->pluck('name')->toArray();
 
         return Inertia::render('users/index', [
             'users' => $users,
             'filters' => $request->only(['search', 'role', 'status']),
             'roles' => $roles,
             'branches' => $branches,
+            'allPermissions' => $allPermissions,
         ]);
     }
 
@@ -81,11 +83,13 @@ class UserController extends Controller
             'department' => 'nullable|string|max:100',
             'branch' => 'nullable|string|max:150',
             'chat_id' => 'nullable|string|max:50',
-            'roles' => 'required|array',
+            'roles' => 'nullable|array',
             'roles.*' => 'string|exists:roles,name',
             'permissions' => 'nullable|array',
             'permissions.*' => 'string|exists:permissions,name',
         ]);
+
+        $roles = !empty($validated['roles']) ? $validated['roles'] : ['Branch User'];
 
         $user = User::create([
             'username' => $validated['username'],
@@ -96,15 +100,18 @@ class UserController extends Controller
             'department' => $validated['department'] ?? null,
             'branch' => $validated['branch'] ?? null,
             'chat_id' => $validated['chat_id'] ?? null,
-            'role' => $validated['roles'][0] ?? 'Branch User',
+            'role' => $roles[0],
             'is_active' => true,
             'must_change_password' => false,
         ]);
 
-        $user->syncRoles($validated['roles']);
+        $user->syncRoles($roles);
         if (!empty($validated['permissions'])) {
             $user->syncPermissions($validated['permissions']);
         }
+
+        app()[\Spatie\Permission\PermissionRegistrar::class]->forgetCachedPermissions();
+        \Illuminate\Support\Facades\Cache::forget('all_permissions_list');
 
         return redirect()->route('users.index')->with('success', "User '{$user->username}' created successfully.");
     }
@@ -147,7 +154,7 @@ class UserController extends Controller
             'chat_id' => 'nullable|string|max:50',
             'is_active' => 'required|boolean',
             'password' => 'nullable|string|min:6',
-            'roles' => 'required|array',
+            'roles' => 'nullable|array',
             'roles.*' => 'string|exists:roles,name',
             'permissions' => 'nullable|array',
             'permissions.*' => 'string|exists:permissions,name',
@@ -165,13 +172,41 @@ class UserController extends Controller
             $user->password = Hash::make($validated['password']);
         }
 
-        $user->role = $validated['roles'][0] ?? $user->role;
+        $roles = !empty($validated['roles']) ? $validated['roles'] : ['Branch User'];
+        $user->role = $roles[0];
         $user->save();
 
-        $user->syncRoles($validated['roles']);
+        $user->syncRoles($roles);
         $user->syncPermissions($validated['permissions'] ?? []);
 
+        app()[\Spatie\Permission\PermissionRegistrar::class]->forgetCachedPermissions();
+        \Illuminate\Support\Facades\Cache::forget('all_permissions_list');
+
         return redirect()->route('users.index')->with('success', "User '{$user->username}' updated successfully.");
+    }
+
+    public function assignRoles(Request $request, int $id): RedirectResponse
+    {
+        $user = User::findOrFail($id);
+
+        $validated = $request->validate([
+            'roles' => 'nullable|array',
+            'roles.*' => 'string|exists:roles,name',
+            'permissions' => 'nullable|array',
+            'permissions.*' => 'string|exists:permissions,name',
+        ]);
+
+        $roles = !empty($validated['roles']) ? $validated['roles'] : ['Branch User'];
+        $user->role = $roles[0];
+        $user->save();
+
+        $user->syncRoles($roles);
+        $user->syncPermissions($validated['permissions'] ?? []);
+
+        app()[\Spatie\Permission\PermissionRegistrar::class]->forgetCachedPermissions();
+        \Illuminate\Support\Facades\Cache::forget('all_permissions_list');
+
+        return back()->with('success', "Roles and access permissions for '{$user->username}' updated successfully.");
     }
 
     public function syncAllUsers(): RedirectResponse
