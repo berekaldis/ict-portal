@@ -149,18 +149,8 @@ class EditRequestController extends Controller
             'Product Transfer Voucher',
         ];
 
-        // Exact Edit Types from edit_request folder
-        $editTypes = [
-            'Date Change',
-            'Quantity and Price',
-            'Quantity Only',
-            'Price Only',
-            'Supplier Name',
-            'Incorrect Store Selection',
-            'Incorrect Item Selection',
-            'FS Number',
-            'Item Only',
-        ];
+        // Dynamic Edit Types managed from System Settings
+        $editTypes = \App\Http\Controllers\Case\CaseSettingController::getEditTypes();
 
         // Target Departments (IT removed as requested: only Finance and F&B)
         $targetDepartments = [
@@ -174,38 +164,8 @@ class EditRequestController extends Controller
             'shft 2',
         ];
 
-        // Store Departments for On Hand Delete requests
-        $defaultStoreDepts = [
-            "Hot Beverage Store",
-            "Bottled Beverage Store",
-            "Pastry Store",
-            "Food Store",
-            "Juice Store",
-            "Stuff Store",
-            "Cup Store",
-            "Ice Cream Store",
-            "Coffee Roasted Store",
-            "Milk Store",
-            "Supply Store",
-            "Stationery Store",
-            "Cleaning Store",
-            "Packing Material Store",
-            "Spare Part Store",
-            "Uniform Store",
-        ];
-
-        $storeDepartments = $defaultStoreDepts;
-        try {
-            $settingVal = DB::table('settings')->where('setting_key', 'store_departments')->value('setting_value');
-            if ($settingVal) {
-                $decoded = json_decode($settingVal, true);
-                if (is_array($decoded) && !empty($decoded)) {
-                    $storeDepartments = array_values(array_unique(array_filter($decoded)));
-                }
-            }
-        } catch (\Throwable $e) {
-            // fallback to default list
-        }
+        // Dynamic Store Departments for On Hand Delete requests managed from System Settings
+        $storeDepartments = \App\Http\Controllers\Case\CaseSettingController::getStoreDepartments();
 
         $currentUser = auth()->user();
         $userBranch = $currentUser?->branch;

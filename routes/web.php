@@ -64,6 +64,10 @@ Route::middleware('auth')->group(function () {
     Route::get('settings', [CaseSettingController::class, 'index'])->name('settings.index')->middleware('can:case.settings.manage');
     Route::post('settings', [CaseSettingController::class, 'update'])->name('settings.update')->middleware('can:case.settings.manage');
     Route::post('settings/test-telegram', [CaseSettingController::class, 'testTelegram'])->name('settings.test-telegram')->middleware('can:case.settings.manage');
+    Route::post('settings/edit-types', [CaseSettingController::class, 'storeEditType'])->name('settings.edit-types.store')->middleware('can:case.settings.manage');
+    Route::delete('settings/edit-types', [CaseSettingController::class, 'destroyEditType'])->name('settings.edit-types.destroy')->middleware('can:case.settings.manage');
+    Route::post('settings/store-departments', [CaseSettingController::class, 'storeStoreDepartment'])->name('settings.store-departments.store')->middleware('can:case.settings.manage');
+    Route::delete('settings/store-departments', [CaseSettingController::class, 'destroyStoreDepartment'])->name('settings.store-departments.destroy')->middleware('can:case.settings.manage');
 
     // System Administration - Branches Management
     Route::prefix('admin')->name('admin.')->middleware('can:view users|case.settings.manage|hr.manage')->group(function () {

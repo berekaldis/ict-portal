@@ -16,19 +16,23 @@ import {
     EyeOff,
     FileEdit,
     Headphones,
+    Layers,
     Mail,
     Phone,
     Plus,
     Radio,
     Save,
+    Search,
     Send,
     Settings2,
     Shield,
+    Store,
     Tag,
     Trash2,
     Users,
+    X,
 } from 'lucide-react';
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 
 interface CaseTypeItem {
     id: number;
@@ -46,12 +50,152 @@ interface Props {
     types: CaseTypeItem[];
     assignees: CaseAssigneeItem[];
     settings: Record<string, string>;
+    editTypes?: string[];
+    storeDepartments?: string[];
 }
 
-export default function SettingsPage({ types, assignees, settings }: Props) {
+interface ListManagerProps {
+    title: string;
+    badgeCount: number;
+    badgeColor?: string;
+    icon: React.ElementType;
+    description: string;
+    placeholder: string;
+    items: { key: string | number; name: string }[];
+    searchValue: string;
+    onSearchChange: (val: string) => void;
+    newValue: string;
+    onNewChange: (val: string) => void;
+    onAdd: (e: React.FormEvent) => void;
+    onDelete: (item: { key: string | number; name: string }) => void;
+    emptyMessage: string;
+    buttonLabel?: string;
+}
+
+function ItemListManager({
+    title,
+    badgeCount,
+    badgeColor = 'bg-primary/10 text-primary border-primary/20',
+    icon: Icon,
+    description,
+    placeholder,
+    items,
+    searchValue,
+    onSearchChange,
+    newValue,
+    onNewChange,
+    onAdd,
+    onDelete,
+    emptyMessage,
+    buttonLabel = 'Add',
+}: ListManagerProps) {
+    const filteredItems = useMemo(() => {
+        if (!searchValue.trim()) return items;
+        const q = searchValue.toLowerCase();
+        return items.filter((item) => item.name.toLowerCase().includes(q));
+    }, [items, searchValue]);
+
+    return (
+        <Card className="border-border/60 shadow-xs flex flex-col h-full">
+            <CardHeader className="py-3 px-5 border-b border-border/40">
+                <div className="flex items-center justify-between gap-2">
+                    <CardTitle className="text-sm font-semibold flex items-center gap-2">
+                        <Icon className="h-4 w-4 text-primary" /> {title}
+                    </CardTitle>
+                    <Badge variant="outline" className={`text-[10px] shrink-0 ${badgeColor}`}>
+                        {badgeCount} items
+                    </Badge>
+                </div>
+                <CardDescription className="text-xs">{description}</CardDescription>
+            </CardHeader>
+
+            <CardContent className="p-4 space-y-3 flex-1 flex flex-col">
+                {/* Add new input */}
+                <form onSubmit={onAdd} className="flex gap-2">
+                    <Input
+                        placeholder={placeholder}
+                        value={newValue}
+                        onChange={(e) => onNewChange(e.target.value)}
+                        className="h-8 text-xs flex-1"
+                    />
+                    <Button type="submit" size="sm" disabled={!newValue.trim()} className="h-8 text-xs shrink-0">
+                        <Plus className="h-3.5 w-3.5 mr-1" /> {buttonLabel}
+                    </Button>
+                </form>
+
+                {/* Search filter */}
+                <div className="relative">
+                    <Search className="absolute left-2.5 top-2.5 h-3.5 w-3.5 text-muted-foreground pointer-events-none" />
+                    <Input
+                        placeholder={`Search ${title.toLowerCase()}...`}
+                        value={searchValue}
+                        onChange={(e) => onSearchChange(e.target.value)}
+                        className="h-8 pl-8 pr-7 text-xs"
+                    />
+                    {searchValue && (
+                        <button
+                            type="button"
+                            onClick={() => onSearchChange('')}
+                            className="absolute right-2 top-2 text-muted-foreground hover:text-foreground p-0.5"
+                        >
+                            <X className="h-3.5 w-3.5" />
+                        </button>
+                    )}
+                </div>
+
+                {/* List items */}
+                <div className="rounded-lg border border-border/50 divide-y divide-border/30 overflow-hidden text-xs flex-1 max-h-72 overflow-y-auto">
+                    {filteredItems.length === 0 ? (
+                        <div className="p-4 text-center text-muted-foreground text-xs">
+                            {searchValue ? 'No results matching search' : emptyMessage}
+                        </div>
+                    ) : (
+                        filteredItems.map((item) => (
+                            <div
+                                key={item.key}
+                                className="p-2.5 flex items-center justify-between gap-2 hover:bg-muted/20 transition-colors"
+                            >
+                                <span className="font-medium text-foreground truncate">{item.name}</span>
+                                <Button
+                                    variant="ghost"
+                                    size="icon"
+                                    type="button"
+                                    onClick={() => onDelete(item)}
+                                    className="h-6 w-6 text-destructive hover:text-destructive hover:bg-destructive/10 shrink-0"
+                                    title="Delete item"
+                                >
+                                    <Trash2 className="h-3.5 w-3.5" />
+                                </Button>
+                            </div>
+                        ))
+                    )}
+                </div>
+            </CardContent>
+        </Card>
+    );
+}
+
+export default function SettingsPage({
+    types = [],
+    assignees = [],
+    settings = {},
+    editTypes = [],
+    storeDepartments = [],
+}: Props) {
+    // Inputs & Search States
     const [newType, setNewType] = useState('');
+    const [caseTypeSearch, setCaseTypeSearch] = useState('');
+
+    const [newEditType, setNewEditType] = useState('');
+    const [editTypeSearch, setEditTypeSearch] = useState('');
+
+    const [newStoreDept, setNewStoreDept] = useState('');
+    const [storeDeptSearch, setStoreDeptSearch] = useState('');
+
     const [newAssigneeName, setNewAssigneeName] = useState('');
     const [newAssigneeTelegram, setNewAssigneeTelegram] = useState('');
+    const [assigneeSearch, setAssigneeSearch] = useState('');
+
     const [testingChannel, setTestingChannel] = useState<string | null>(null);
     const [showEditRequestToken, setShowEditRequestToken] = useState(false);
     const [showCaseToken, setShowCaseToken] = useState(false);
@@ -104,6 +248,7 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
         );
     };
 
+    // Case Types Actions
     const handleAddType = (e: React.FormEvent) => {
         e.preventDefault();
         if (!newType.trim()) return;
@@ -115,12 +260,53 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
         );
     };
 
-    const handleDeleteType = (id: number) => {
-        if (confirm('Delete this case category?')) {
-            router.delete(route('cases.types.destroy', id));
+    const handleDeleteType = (item: { key: string | number; name: string }) => {
+        if (confirm(`Delete case type "${item.name}"?`)) {
+            router.delete(route('cases.types.destroy', item.key));
         }
     };
 
+    // Edit Types Actions
+    const handleAddEditType = (e: React.FormEvent) => {
+        e.preventDefault();
+        if (!newEditType.trim()) return;
+
+        router.post(
+            route('settings.edit-types.store'),
+            { name: newEditType.trim() },
+            { onSuccess: () => setNewEditType('') }
+        );
+    };
+
+    const handleDeleteEditType = (item: { key: string | number; name: string }) => {
+        if (confirm(`Delete edit type "${item.name}"?`)) {
+            router.delete(route('settings.edit-types.destroy'), {
+                data: { name: item.name },
+            });
+        }
+    };
+
+    // Store Departments Actions
+    const handleAddStoreDept = (e: React.FormEvent) => {
+        e.preventDefault();
+        if (!newStoreDept.trim()) return;
+
+        router.post(
+            route('settings.store-departments.store'),
+            { name: newStoreDept.trim() },
+            { onSuccess: () => setNewStoreDept('') }
+        );
+    };
+
+    const handleDeleteStoreDept = (item: { key: string | number; name: string }) => {
+        if (confirm(`Delete department store "${item.name}"?`)) {
+            router.delete(route('settings.store-departments.destroy'), {
+                data: { name: item.name },
+            });
+        }
+    };
+
+    // Assignees Actions
     const handleAddAssignee = (e: React.FormEvent) => {
         e.preventDefault();
         if (!newAssigneeName.trim()) return;
@@ -146,6 +332,24 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
         }
     };
 
+    const filteredAssignees = useMemo(() => {
+        if (!assigneeSearch.trim()) return assignees;
+        const q = assigneeSearch.toLowerCase();
+        return assignees.filter(
+            (a) =>
+                a.name.toLowerCase().includes(q) ||
+                (a.telegram_id && a.telegram_id.toLowerCase().includes(q))
+        );
+    }, [assignees, assigneeSearch]);
+
+    // Data structures for ItemListManager
+    const caseTypeItems = useMemo(() => types.map((t) => ({ key: t.id, name: t.name })), [types]);
+    const editTypeItems = useMemo(() => editTypes.map((t) => ({ key: t, name: t })), [editTypes]);
+    const storeDeptItems = useMemo(
+        () => storeDepartments.map((s) => ({ key: s, name: s })),
+        [storeDepartments]
+    );
+
     return (
         <AppLayout breadcrumbs={[{ title: 'System Configuration', href: '/settings' }, { title: 'Settings' }]}>
             <Head title="System Configuration & Telegram Settings" />
@@ -164,7 +368,7 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                 <Settings2 className="h-5 w-5 text-primary" /> System Configuration & Settings
                             </h1>
                             <p className="text-xs text-muted-foreground">
-                                Manage independent Telegram bots, group routing, support ticket parameters, and portal details
+                                Manage independent Telegram bots, group routing, edit request parameters, and support ticket categories
                             </p>
                         </div>
                     </div>
@@ -178,26 +382,39 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                 {/* Tabs */}
                 <Tabs defaultValue="edit-requests" className="space-y-4">
                     <TabsList className="bg-muted/60 p-1 border border-border/50 grid grid-cols-2 sm:grid-cols-4 h-auto">
-                        <TabsTrigger value="edit-requests" className="text-xs py-2 flex items-center gap-1.5 data-[state=active]:bg-background">
+                        <TabsTrigger
+                            value="edit-requests"
+                            className="text-xs py-2 flex items-center gap-1.5 data-[state=active]:bg-background"
+                        >
                             <FileEdit className="h-3.5 w-3.5 text-blue-500" />
-                            <span>Edit Request Telegram</span>
+                            <span>Edit Request Settings</span>
                         </TabsTrigger>
-                        <TabsTrigger value="cases" className="text-xs py-2 flex items-center gap-1.5 data-[state=active]:bg-background">
+                        <TabsTrigger
+                            value="cases"
+                            className="text-xs py-2 flex items-center gap-1.5 data-[state=active]:bg-background"
+                        >
                             <Headphones className="h-3.5 w-3.5 text-emerald-500" />
                             <span>Case Telegram</span>
                         </TabsTrigger>
-                        <TabsTrigger value="case-module" className="text-xs py-2 flex items-center gap-1.5 data-[state=active]:bg-background">
+                        <TabsTrigger
+                            value="case-module"
+                            className="text-xs py-2 flex items-center gap-1.5 data-[state=active]:bg-background"
+                        >
                             <Tag className="h-3.5 w-3.5 text-amber-500" />
-                            <span>Categories & Assignees</span>
+                            <span>Categories, Types & Stores</span>
                         </TabsTrigger>
-                        <TabsTrigger value="company" className="text-xs py-2 flex items-center gap-1.5 data-[state=active]:bg-background">
+                        <TabsTrigger
+                            value="company"
+                            className="text-xs py-2 flex items-center gap-1.5 data-[state=active]:bg-background"
+                        >
                             <Building2 className="h-3.5 w-3.5 text-purple-500" />
                             <span>Company Profile</span>
                         </TabsTrigger>
                     </TabsList>
 
-                    {/* TAB 1: EDIT & VOID REQUESTS TELEGRAM */}
-                    <TabsContent value="edit-requests" className="space-y-4">
+                    {/* TAB 1: EDIT & VOID REQUESTS */}
+                    <TabsContent value="edit-requests" className="space-y-6">
+                        {/* 1. Telegram Bot Token Card */}
                         <Card className="border-border/60 shadow-xs">
                             <CardHeader className="py-3.5 px-5 border-b border-border/40 bg-blue-500/5">
                                 <div className="flex items-center justify-between">
@@ -206,10 +423,13 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                             <Bot className="h-4 w-4 text-blue-500" /> Edit & Void Requests Bot Token
                                         </CardTitle>
                                         <CardDescription className="text-xs">
-                                            Dedicated bot for Voucher Edits, Void Approvals, and On Hand Deletes (from legacy <code>edit_request/config.php</code>).
+                                            Dedicated bot for Voucher Edits, Void Approvals, and On Hand Deletes.
                                         </CardDescription>
                                     </div>
-                                    <Badge variant="outline" className="text-[10px] bg-blue-500/10 text-blue-600 border-blue-500/30">
+                                    <Badge
+                                        variant="outline"
+                                        className="text-[10px] bg-blue-500/10 text-blue-600 border-blue-500/30"
+                                    >
                                         Edit Module Bot
                                     </Badge>
                                 </div>
@@ -235,45 +455,54 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                             title={showEditRequestToken ? 'Hide token' : 'Show token'}
                                             aria-label={showEditRequestToken ? 'Hide token' : 'Show token'}
                                         >
-                                            {showEditRequestToken ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
+                                            {showEditRequestToken ? (
+                                                <EyeOff className="h-4 w-4" />
+                                            ) : (
+                                                <Eye className="h-4 w-4" />
+                                            )}
                                         </button>
                                     </div>
                                     <p className="text-[11px] text-muted-foreground">
-                                        Used exclusively to send status notifications for voucher edit/void submissions.
+                                        Obtained from @BotFather. This bot delivers notifications to the configured target groups below.
                                     </p>
                                 </div>
                             </CardContent>
                         </Card>
 
-                        {/* Edit Request Department Channel Routing */}
+                        {/* 2. Target Telegram Routing Groups */}
                         <Card className="border-border/60 shadow-xs">
                             <CardHeader className="py-3.5 px-5 border-b border-border/40">
                                 <CardTitle className="text-sm font-semibold flex items-center gap-2">
-                                    <Radio className="h-4 w-4 text-blue-500" /> Edit Request Department Notification Routing
+                                    <Send className="h-4 w-4 text-blue-500" /> Telegram Routing Groups & Channels
                                 </CardTitle>
                                 <CardDescription className="text-xs">
-                                    Target chat and group IDs for Finance, F&B, On-Hand Delete, IT Execution, and Broadcasts.
+                                    Configure distinct chat IDs for voucher workflows. Use the &quot;Test&quot; button to send a verification ping.
                                 </CardDescription>
                             </CardHeader>
                             <CardContent className="p-5">
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    {/* IT Admin / Execution */}
+                                    {/* IT Admin Alert Group */}
                                     <div className="p-3.5 rounded-lg border border-border/50 bg-muted/10 space-y-2">
                                         <div className="flex items-center justify-between">
-                                            <Label className="text-xs font-bold text-foreground flex items-center gap-1.5">
-                                                <Shield className="h-3.5 w-3.5 text-blue-500" /> IT Admin Execution Group
+                                            <Label className="text-xs font-bold text-foreground">
+                                                IT Admin Monitoring Group
                                             </Label>
-                                            <Badge variant="outline" className="text-[10px] bg-blue-500/10 text-blue-600 border-blue-500/20">
-                                                Execution
+                                            <Badge
+                                                variant="outline"
+                                                className="text-[10px] bg-blue-500/10 text-blue-600 border-blue-500/20"
+                                            >
+                                                Admin
                                             </Badge>
                                         </div>
                                         <p className="text-[11px] text-muted-foreground">
-                                            Receives approved requests ready for IT database and CNET execution.
+                                            Receives all edit/void requests, system alerts, and status transitions.
                                         </p>
                                         <div className="flex gap-2">
                                             <Input
                                                 value={data.edit_request_telegram_chat_id_admin}
-                                                onChange={(e) => setData('edit_request_telegram_chat_id_admin', e.target.value)}
+                                                onChange={(e) =>
+                                                    setData('edit_request_telegram_chat_id_admin', e.target.value)
+                                                }
                                                 placeholder="-1001502645326"
                                                 className="font-mono text-xs h-8 flex-1"
                                             />
@@ -281,12 +510,20 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                                 type="button"
                                                 variant="outline"
                                                 size="sm"
-                                                onClick={() => handleSendTestMessage(data.edit_request_telegram_chat_id_admin, 'IT Admin Group', 'edit_request')}
+                                                onClick={() =>
+                                                    handleSendTestMessage(
+                                                        data.edit_request_telegram_chat_id_admin,
+                                                        'IT Admin Group',
+                                                        'edit_request'
+                                                    )
+                                                }
                                                 disabled={testingChannel === 'edit_request_IT Admin Group'}
                                                 className="h-8 text-xs shrink-0"
                                             >
                                                 <Send className="h-3 w-3 mr-1" />
-                                                {testingChannel === 'edit_request_IT Admin Group' ? 'Sending...' : 'Test'}
+                                                {testingChannel === 'edit_request_IT Admin Group'
+                                                    ? 'Sending...'
+                                                    : 'Test'}
                                             </Button>
                                         </div>
                                     </div>
@@ -295,19 +532,24 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                     <div className="p-3.5 rounded-lg border border-border/50 bg-muted/10 space-y-2">
                                         <div className="flex items-center justify-between">
                                             <Label className="text-xs font-bold text-foreground">
-                                                Finance Department Group
+                                                Finance Department Manager Group
                                             </Label>
-                                            <Badge variant="outline" className="text-[10px] bg-emerald-500/10 text-emerald-600 border-emerald-500/20">
+                                            <Badge
+                                                variant="outline"
+                                                className="text-[10px] bg-emerald-500/10 text-emerald-600 border-emerald-500/20"
+                                            >
                                                 Finance
                                             </Badge>
                                         </div>
                                         <p className="text-[11px] text-muted-foreground">
-                                            Target for voucher edit requests (Date Changes, Price, Supplier Name changes).
+                                            Target group for edit requests with target department set to Finance.
                                         </p>
                                         <div className="flex gap-2">
                                             <Input
                                                 value={data.edit_request_telegram_chat_id_finance}
-                                                onChange={(e) => setData('edit_request_telegram_chat_id_finance', e.target.value)}
+                                                onChange={(e) =>
+                                                    setData('edit_request_telegram_chat_id_finance', e.target.value)
+                                                }
                                                 placeholder="-1003609053132"
                                                 className="font-mono text-xs h-8 flex-1"
                                             />
@@ -315,12 +557,20 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                                 type="button"
                                                 variant="outline"
                                                 size="sm"
-                                                onClick={() => handleSendTestMessage(data.edit_request_telegram_chat_id_finance, 'Finance Group', 'edit_request')}
+                                                onClick={() =>
+                                                    handleSendTestMessage(
+                                                        data.edit_request_telegram_chat_id_finance,
+                                                        'Finance Group',
+                                                        'edit_request'
+                                                    )
+                                                }
                                                 disabled={testingChannel === 'edit_request_Finance Group'}
                                                 className="h-8 text-xs shrink-0"
                                             >
                                                 <Send className="h-3 w-3 mr-1" />
-                                                {testingChannel === 'edit_request_Finance Group' ? 'Sending...' : 'Test'}
+                                                {testingChannel === 'edit_request_Finance Group'
+                                                    ? 'Sending...'
+                                                    : 'Test'}
                                             </Button>
                                         </div>
                                     </div>
@@ -331,7 +581,10 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                             <Label className="text-xs font-bold text-foreground">
                                                 F&B Department Manager Group
                                             </Label>
-                                            <Badge variant="outline" className="text-[10px] bg-amber-500/10 text-amber-600 border-amber-500/20">
+                                            <Badge
+                                                variant="outline"
+                                                className="text-[10px] bg-amber-500/10 text-amber-600 border-amber-500/20"
+                                            >
                                                 F&B
                                             </Badge>
                                         </div>
@@ -341,7 +594,9 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                         <div className="flex gap-2">
                                             <Input
                                                 value={data.edit_request_telegram_chat_id_fb}
-                                                onChange={(e) => setData('edit_request_telegram_chat_id_fb', e.target.value)}
+                                                onChange={(e) =>
+                                                    setData('edit_request_telegram_chat_id_fb', e.target.value)
+                                                }
                                                 placeholder="-1003821366530"
                                                 className="font-mono text-xs h-8 flex-1"
                                             />
@@ -349,12 +604,20 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                                 type="button"
                                                 variant="outline"
                                                 size="sm"
-                                                onClick={() => handleSendTestMessage(data.edit_request_telegram_chat_id_fb, 'F&B Group', 'edit_request')}
+                                                onClick={() =>
+                                                    handleSendTestMessage(
+                                                        data.edit_request_telegram_chat_id_fb,
+                                                        'F&B Group',
+                                                        'edit_request'
+                                                    )
+                                                }
                                                 disabled={testingChannel === 'edit_request_F&B Group'}
                                                 className="h-8 text-xs shrink-0"
                                             >
                                                 <Send className="h-3 w-3 mr-1" />
-                                                {testingChannel === 'edit_request_F&B Group' ? 'Sending...' : 'Test'}
+                                                {testingChannel === 'edit_request_F&B Group'
+                                                    ? 'Sending...'
+                                                    : 'Test'}
                                             </Button>
                                         </div>
                                     </div>
@@ -365,7 +628,10 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                             <Label className="text-xs font-bold text-foreground">
                                                 On Hand Delete Finalized Group
                                             </Label>
-                                            <Badge variant="outline" className="text-[10px] bg-purple-500/10 text-purple-600 border-purple-500/20">
+                                            <Badge
+                                                variant="outline"
+                                                className="text-[10px] bg-purple-500/10 text-purple-600 border-purple-500/20"
+                                            >
                                                 Inventory
                                             </Badge>
                                         </div>
@@ -375,7 +641,9 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                         <div className="flex gap-2">
                                             <Input
                                                 value={data.edit_request_telegram_chat_id_onhand_delete}
-                                                onChange={(e) => setData('edit_request_telegram_chat_id_onhand_delete', e.target.value)}
+                                                onChange={(e) =>
+                                                    setData('edit_request_telegram_chat_id_onhand_delete', e.target.value)
+                                                }
                                                 placeholder="-1002426639974"
                                                 className="font-mono text-xs h-8 flex-1"
                                             />
@@ -383,12 +651,20 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                                 type="button"
                                                 variant="outline"
                                                 size="sm"
-                                                onClick={() => handleSendTestMessage(data.edit_request_telegram_chat_id_onhand_delete, 'On Hand Delete Group', 'edit_request')}
+                                                onClick={() =>
+                                                    handleSendTestMessage(
+                                                        data.edit_request_telegram_chat_id_onhand_delete,
+                                                        'On Hand Delete Group',
+                                                        'edit_request'
+                                                    )
+                                                }
                                                 disabled={testingChannel === 'edit_request_On Hand Delete Group'}
                                                 className="h-8 text-xs shrink-0"
                                             >
                                                 <Send className="h-3 w-3 mr-1" />
-                                                {testingChannel === 'edit_request_On Hand Delete Group' ? 'Sending...' : 'Test'}
+                                                {testingChannel === 'edit_request_On Hand Delete Group'
+                                                    ? 'Sending...'
+                                                    : 'Test'}
                                             </Button>
                                         </div>
                                     </div>
@@ -399,7 +675,10 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                             <Label className="text-xs font-bold text-foreground">
                                                 Training & Coordinator Chat ID
                                             </Label>
-                                            <Badge variant="outline" className="text-[10px] bg-zinc-500/10 text-zinc-600 border-zinc-500/20">
+                                            <Badge
+                                                variant="outline"
+                                                className="text-[10px] bg-zinc-500/10 text-zinc-600 border-zinc-500/20"
+                                            >
                                                 Coordinator
                                             </Badge>
                                         </div>
@@ -409,7 +688,9 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                         <div className="flex gap-2">
                                             <Input
                                                 value={data.edit_request_telegram_coordinator_chat_id}
-                                                onChange={(e) => setData('edit_request_telegram_coordinator_chat_id', e.target.value)}
+                                                onChange={(e) =>
+                                                    setData('edit_request_telegram_coordinator_chat_id', e.target.value)
+                                                }
                                                 placeholder="814523272"
                                                 className="font-mono text-xs h-8 flex-1"
                                             />
@@ -417,12 +698,20 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                                 type="button"
                                                 variant="outline"
                                                 size="sm"
-                                                onClick={() => handleSendTestMessage(data.edit_request_telegram_coordinator_chat_id, 'Coordinator Chat', 'edit_request')}
+                                                onClick={() =>
+                                                    handleSendTestMessage(
+                                                        data.edit_request_telegram_coordinator_chat_id,
+                                                        'Coordinator Chat',
+                                                        'edit_request'
+                                                    )
+                                                }
                                                 disabled={testingChannel === 'edit_request_Coordinator Chat'}
                                                 className="h-8 text-xs shrink-0"
                                             >
                                                 <Send className="h-3 w-3 mr-1" />
-                                                {testingChannel === 'edit_request_Coordinator Chat' ? 'Sending...' : 'Test'}
+                                                {testingChannel === 'edit_request_Coordinator Chat'
+                                                    ? 'Sending...'
+                                                    : 'Test'}
                                             </Button>
                                         </div>
                                     </div>
@@ -433,7 +722,10 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                             <Label className="text-xs font-bold text-foreground">
                                                 Branch Managers Broadcast Group
                                             </Label>
-                                            <Badge variant="outline" className="text-[10px] bg-sky-500/10 text-sky-600 border-sky-500/20">
+                                            <Badge
+                                                variant="outline"
+                                                className="text-[10px] bg-sky-500/10 text-sky-600 border-sky-500/20"
+                                            >
                                                 Branches
                                             </Badge>
                                         </div>
@@ -443,7 +735,12 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                         <div className="flex gap-2">
                                             <Input
                                                 value={data.edit_request_telegram_branch_managers_group_chat_id}
-                                                onChange={(e) => setData('edit_request_telegram_branch_managers_group_chat_id', e.target.value)}
+                                                onChange={(e) =>
+                                                    setData(
+                                                        'edit_request_telegram_branch_managers_group_chat_id',
+                                                        e.target.value
+                                                    )
+                                                }
                                                 placeholder="1626288394"
                                                 className="font-mono text-xs h-8 flex-1"
                                             />
@@ -451,18 +748,78 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                                 type="button"
                                                 variant="outline"
                                                 size="sm"
-                                                onClick={() => handleSendTestMessage(data.edit_request_telegram_branch_managers_group_chat_id, 'Branch Managers Group', 'edit_request')}
+                                                onClick={() =>
+                                                    handleSendTestMessage(
+                                                        data.edit_request_telegram_branch_managers_group_chat_id,
+                                                        'Branch Managers Group',
+                                                        'edit_request'
+                                                    )
+                                                }
                                                 disabled={testingChannel === 'edit_request_Branch Managers Group'}
                                                 className="h-8 text-xs shrink-0"
                                             >
                                                 <Send className="h-3 w-3 mr-1" />
-                                                {testingChannel === 'edit_request_Branch Managers Group' ? 'Sending...' : 'Test'}
+                                                {testingChannel === 'edit_request_Branch Managers Group'
+                                                    ? 'Sending...'
+                                                    : 'Test'}
                                             </Button>
                                         </div>
                                     </div>
                                 </div>
                             </CardContent>
                         </Card>
+
+                        {/* 3. Edit Request Parameters & Master Lists (Edit Types & Department Stores) */}
+                        <div className="space-y-3">
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <h2 className="text-base font-semibold tracking-tight text-foreground flex items-center gap-2">
+                                        <Layers className="h-4 w-4 text-blue-500" /> Edit Request Parameters & Master Lists
+                                    </h2>
+                                    <p className="text-xs text-muted-foreground">
+                                        Add, view, and remove Edit Types and Department Stores selectable during ticket creation.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <ItemListManager
+                                    title="Edit Types"
+                                    badgeCount={editTypes.length}
+                                    badgeColor="bg-blue-500/10 text-blue-600 border-blue-500/20"
+                                    icon={FileEdit}
+                                    description="Modification types selectable when creating voucher edit requests"
+                                    placeholder="e.g. Quantity Adjustment, Date Change..."
+                                    items={editTypeItems}
+                                    searchValue={editTypeSearch}
+                                    onSearchChange={setEditTypeSearch}
+                                    newValue={newEditType}
+                                    onNewChange={setNewEditType}
+                                    onAdd={handleAddEditType}
+                                    onDelete={handleDeleteEditType}
+                                    emptyMessage="No edit types configured"
+                                    buttonLabel="Add Type"
+                                />
+
+                                <ItemListManager
+                                    title="Department Stores"
+                                    badgeCount={storeDepartments.length}
+                                    badgeColor="bg-purple-500/10 text-purple-600 border-purple-500/20"
+                                    icon={Store}
+                                    description="Active store & kitchen departments selectable for On Hand Deletions"
+                                    placeholder="e.g. Bakery Store, Main Store..."
+                                    items={storeDeptItems}
+                                    searchValue={storeDeptSearch}
+                                    onSearchChange={setStoreDeptSearch}
+                                    newValue={newStoreDept}
+                                    onNewChange={setNewStoreDept}
+                                    onAdd={handleAddStoreDept}
+                                    onDelete={handleDeleteStoreDept}
+                                    emptyMessage="No department stores configured"
+                                    buttonLabel="Add Store"
+                                />
+                            </div>
+                        </div>
                     </TabsContent>
 
                     {/* TAB 2: CASE MANAGEMENT TELEGRAM */}
@@ -475,10 +832,13 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                             <Bot className="h-4 w-4 text-emerald-500" /> Case Management Bot Token
                                         </CardTitle>
                                         <CardDescription className="text-xs">
-                                            Dedicated bot for IT Support Cases, ticket dispatch, and SLA alerts (from legacy <code>case/case_config.php</code>).
+                                            Dedicated bot for IT Support Cases, ticket dispatch, and SLA alerts.
                                         </CardDescription>
                                     </div>
-                                    <Badge variant="outline" className="text-[10px] bg-emerald-500/10 text-emerald-600 border-emerald-500/30">
+                                    <Badge
+                                        variant="outline"
+                                        className="text-[10px] bg-emerald-500/10 text-emerald-600 border-emerald-500/30"
+                                    >
                                         Case Module Bot
                                     </Badge>
                                 </div>
@@ -504,7 +864,11 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                             title={showCaseToken ? 'Hide token' : 'Show token'}
                                             aria-label={showCaseToken ? 'Hide token' : 'Show token'}
                                         >
-                                            {showCaseToken ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
+                                            {showCaseToken ? (
+                                                <EyeOff className="h-4 w-4" />
+                                            ) : (
+                                                <Eye className="h-4 w-4" />
+                                            )}
                                         </button>
                                     </div>
                                     <p className="text-[11px] text-muted-foreground">
@@ -539,7 +903,13 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                                 type="button"
                                                 variant="outline"
                                                 size="sm"
-                                                onClick={() => handleSendTestMessage(data.case_telegram_group_chat_id, 'Case Alerts Group', 'case')}
+                                                onClick={() =>
+                                                    handleSendTestMessage(
+                                                        data.case_telegram_group_chat_id,
+                                                        'Case Alerts Group',
+                                                        'case'
+                                                    )
+                                                }
                                                 disabled={testingChannel === 'case_Case Alerts Group'}
                                                 className="h-8 text-xs shrink-0"
                                             >
@@ -567,86 +937,112 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                 <CardContent className="p-4 space-y-3">
                                     <div className="flex items-center justify-between p-3 rounded-lg border border-border/50 bg-muted/10">
                                         <div className="space-y-0.5">
-                                            <Label htmlFor="case_notify_assignee_direct" className="text-xs font-semibold cursor-pointer">
+                                            <Label
+                                                htmlFor="case_notify_assignee_direct"
+                                                className="text-xs font-semibold cursor-pointer"
+                                            >
                                                 Notify Assignee Privately
                                             </Label>
                                             <p className="text-[11px] text-muted-foreground">
-                                                Also send a private alert to the assignee's personal Telegram Chat ID.
+                                                Also send a private alert to the assignee&apos;s personal Telegram Chat ID.
                                             </p>
                                         </div>
                                         <Switch
                                             id="case_notify_assignee_direct"
                                             checked={data.case_notify_assignee_direct === '1'}
-                                            onCheckedChange={(checked) => setData('case_notify_assignee_direct', checked ? '1' : '0')}
+                                            onCheckedChange={(checked) =>
+                                                setData('case_notify_assignee_direct', checked ? '1' : '0')
+                                            }
                                         />
                                     </div>
                                     <p className="text-[11px] text-muted-foreground">
-                                        Configure individual Telegram Chat IDs in the <span className="font-semibold text-foreground">Categories & Assignees</span> tab.
+                                        Configure individual Telegram Chat IDs in the{' '}
+                                        <span className="font-semibold text-foreground">Categories &amp; Assignees</span> tab.
                                     </p>
                                 </CardContent>
                             </Card>
                         </div>
                     </TabsContent>
 
-                    {/* TAB 3: CASE CATEGORIES & ASSIGNEES */}
-                    <TabsContent value="case-module" className="space-y-4">
+                    {/* TAB 3: CATEGORIES, TYPES & STORES */}
+                    <TabsContent value="case-module" className="space-y-6">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {/* Case Types Management */}
-                            <Card className="border-border/60 shadow-xs">
-                                <CardHeader className="py-3 px-5 border-b border-border/40">
-                                    <CardTitle className="text-sm font-semibold flex items-center gap-2">
-                                        <Tag className="h-4 w-4 text-amber-500" /> Case Types / Categories
-                                    </CardTitle>
-                                    <CardDescription className="text-xs">
-                                        Classification types selectable when logging a new support ticket
-                                    </CardDescription>
-                                </CardHeader>
-                                <CardContent className="p-4 space-y-3">
-                                    <form onSubmit={handleAddType} className="flex gap-2">
-                                        <Input
-                                            placeholder="e.g. CNET POS & Billing Error..."
-                                            value={newType}
-                                            onChange={(e) => setNewType(e.target.value)}
-                                            className="h-8 text-xs flex-1"
-                                        />
-                                        <Button type="submit" size="sm" className="h-8 text-xs">
-                                            <Plus className="h-3.5 w-3.5 mr-1" /> Add
-                                        </Button>
-                                    </form>
+                            {/* 1. Case Types / Support Categories */}
+                            <ItemListManager
+                                title="Case Types / Categories"
+                                badgeCount={types.length}
+                                badgeColor="bg-amber-500/10 text-amber-600 border-amber-500/20"
+                                icon={Tag}
+                                description="Classification types selectable when logging a new support ticket"
+                                placeholder="e.g. CNET POS & Billing Error..."
+                                items={caseTypeItems}
+                                searchValue={caseTypeSearch}
+                                onSearchChange={setCaseTypeSearch}
+                                newValue={newType}
+                                onNewChange={setNewType}
+                                onAdd={handleAddType}
+                                onDelete={handleDeleteType}
+                                emptyMessage="No case categories configured"
+                                buttonLabel="Add Category"
+                            />
 
-                                    <div className="rounded-lg border border-border/50 divide-y divide-border/30 overflow-hidden text-xs max-h-72 overflow-y-auto">
-                                        {types.length === 0 ? (
-                                            <div className="p-4 text-center text-muted-foreground text-xs">No categories yet</div>
-                                        ) : (
-                                            types.map((t) => (
-                                                <div key={t.id} className="p-2.5 flex items-center justify-between hover:bg-muted/20">
-                                                    <span className="font-medium text-foreground">{t.name}</span>
-                                                    <Button
-                                                        variant="ghost"
-                                                        size="icon"
-                                                        onClick={() => handleDeleteType(t.id)}
-                                                        className="h-6 w-6 text-destructive hover:text-destructive"
-                                                    >
-                                                        <Trash2 className="h-3.5 w-3.5" />
-                                                    </Button>
-                                                </div>
-                                            ))
-                                        )}
+                            {/* 2. Edit Types */}
+                            <ItemListManager
+                                title="Edit Types (Voucher Changes)"
+                                badgeCount={editTypes.length}
+                                badgeColor="bg-blue-500/10 text-blue-600 border-blue-500/20"
+                                icon={FileEdit}
+                                description="Modification types selectable when creating voucher edit requests"
+                                placeholder="e.g. Quantity Adjustment, Date Change..."
+                                items={editTypeItems}
+                                searchValue={editTypeSearch}
+                                onSearchChange={setEditTypeSearch}
+                                newValue={newEditType}
+                                onNewChange={setNewEditType}
+                                onAdd={handleAddEditType}
+                                onDelete={handleDeleteEditType}
+                                emptyMessage="No edit types configured"
+                                buttonLabel="Add Type"
+                            />
+
+                            {/* 3. Department Stores */}
+                            <ItemListManager
+                                title="Department Stores (On Hand Delete)"
+                                badgeCount={storeDepartments.length}
+                                badgeColor="bg-purple-500/10 text-purple-600 border-purple-500/20"
+                                icon={Store}
+                                description="Store and branch inventory departments for on-hand deletion requests"
+                                placeholder="e.g. Pastry Store, Hot Kitchen..."
+                                items={storeDeptItems}
+                                searchValue={storeDeptSearch}
+                                onSearchChange={setStoreDeptSearch}
+                                newValue={newStoreDept}
+                                onNewChange={setNewStoreDept}
+                                onAdd={handleAddStoreDept}
+                                onDelete={handleDeleteStoreDept}
+                                emptyMessage="No department stores configured"
+                                buttonLabel="Add Store"
+                            />
+
+                            {/* 4. Assignees Management with Telegram ID */}
+                            <Card className="border-border/60 shadow-xs flex flex-col h-full">
+                                <CardHeader className="py-3 px-5 border-b border-border/40">
+                                    <div className="flex items-center justify-between gap-2">
+                                        <CardTitle className="text-sm font-semibold flex items-center gap-2">
+                                            <Users className="h-4 w-4 text-emerald-500" /> IT Case Assignees
+                                        </CardTitle>
+                                        <Badge
+                                            variant="outline"
+                                            className="text-[10px] bg-emerald-500/10 text-emerald-600 border-emerald-500/20 shrink-0"
+                                        >
+                                            {assignees.length} assignees
+                                        </Badge>
                                     </div>
-                                </CardContent>
-                            </Card>
-
-                            {/* Assignees Management with Telegram ID */}
-                            <Card className="border-border/60 shadow-xs">
-                                <CardHeader className="py-3 px-5 border-b border-border/40">
-                                    <CardTitle className="text-sm font-semibold flex items-center gap-2">
-                                        <Users className="h-4 w-4 text-amber-500" /> IT Case Assignees & Telegram IDs
-                                    </CardTitle>
                                     <CardDescription className="text-xs">
                                         Staff eligible to be assigned support tickets with individual Telegram routing
                                     </CardDescription>
                                 </CardHeader>
-                                <CardContent className="p-4 space-y-3">
+                                <CardContent className="p-4 space-y-3 flex-1 flex flex-col">
                                     <form onSubmit={handleAddAssignee} className="space-y-2">
                                         <div className="grid grid-cols-2 gap-2">
                                             <Input
@@ -662,33 +1058,70 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                                 className="h-8 text-xs font-mono"
                                             />
                                         </div>
-                                        <Button type="submit" size="sm" className="w-full h-8 text-xs">
+                                        <Button
+                                            type="submit"
+                                            size="sm"
+                                            disabled={!newAssigneeName.trim()}
+                                            className="w-full h-8 text-xs"
+                                        >
                                             <Plus className="h-3.5 w-3.5 mr-1" /> Add Assignee
                                         </Button>
                                     </form>
 
-                                    <div className="rounded-lg border border-border/50 divide-y divide-border/30 overflow-hidden text-xs max-h-72 overflow-y-auto">
-                                        {assignees.length === 0 ? (
-                                            <div className="p-4 text-center text-muted-foreground text-xs">No assignees configured</div>
+                                    {/* Search assignees */}
+                                    <div className="relative">
+                                        <Search className="absolute left-2.5 top-2.5 h-3.5 w-3.5 text-muted-foreground pointer-events-none" />
+                                        <Input
+                                            placeholder="Search assignees..."
+                                            value={assigneeSearch}
+                                            onChange={(e) => setAssigneeSearch(e.target.value)}
+                                            className="h-8 pl-8 pr-7 text-xs"
+                                        />
+                                        {assigneeSearch && (
+                                            <button
+                                                type="button"
+                                                onClick={() => setAssigneeSearch('')}
+                                                className="absolute right-2 top-2 text-muted-foreground hover:text-foreground p-0.5"
+                                            >
+                                                <X className="h-3.5 w-3.5" />
+                                            </button>
+                                        )}
+                                    </div>
+
+                                    <div className="rounded-lg border border-border/50 divide-y divide-border/30 overflow-hidden text-xs flex-1 max-h-72 overflow-y-auto">
+                                        {filteredAssignees.length === 0 ? (
+                                            <div className="p-4 text-center text-muted-foreground text-xs">
+                                                {assigneeSearch ? 'No assignees matching search' : 'No assignees configured'}
+                                            </div>
                                         ) : (
-                                            assignees.map((a) => (
-                                                <div key={a.id} className="p-2.5 flex items-center justify-between hover:bg-muted/20">
-                                                    <div>
-                                                        <span className="font-medium text-foreground">{a.name}</span>
+                                            filteredAssignees.map((a) => (
+                                                <div
+                                                    key={a.id}
+                                                    className="p-2.5 flex items-center justify-between hover:bg-muted/20 transition-colors"
+                                                >
+                                                    <div className="truncate pr-2">
+                                                        <span className="font-medium text-foreground block truncate">
+                                                            {a.name}
+                                                        </span>
                                                         {a.telegram_id ? (
                                                             <span className="block text-[10px] text-muted-foreground font-mono">
                                                                 Chat ID: {a.telegram_id}
                                                             </span>
                                                         ) : (
-                                                            <span className="block text-[10px] text-amber-600">No Telegram ID</span>
+                                                            <span className="block text-[10px] text-amber-600">
+                                                                No Telegram ID
+                                                            </span>
                                                         )}
                                                     </div>
-                                                    <div className="flex items-center gap-1">
+                                                    <div className="flex items-center gap-1 shrink-0">
                                                         {a.telegram_id && (
                                                             <Button
                                                                 variant="ghost"
                                                                 size="sm"
-                                                                onClick={() => handleSendTestMessage(a.telegram_id!, a.name, 'case')}
+                                                                type="button"
+                                                                onClick={() =>
+                                                                    handleSendTestMessage(a.telegram_id!, a.name, 'case')
+                                                                }
                                                                 className="h-6 text-[10px] px-2 text-muted-foreground hover:text-foreground"
                                                             >
                                                                 Test
@@ -697,8 +1130,9 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                                         <Button
                                                             variant="ghost"
                                                             size="icon"
+                                                            type="button"
                                                             onClick={() => handleDeleteAssignee(a.id)}
-                                                            className="h-6 w-6 text-destructive hover:text-destructive"
+                                                            className="h-6 w-6 text-destructive hover:text-destructive hover:bg-destructive/10"
                                                         >
                                                             <Trash2 className="h-3.5 w-3.5" />
                                                         </Button>
@@ -717,7 +1151,7 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                         <Card className="border-border/60 shadow-xs">
                             <CardHeader className="py-3.5 px-5 border-b border-border/40 bg-purple-500/5">
                                 <CardTitle className="text-sm font-semibold flex items-center gap-2">
-                                    <Building2 className="h-4 w-4 text-purple-500" /> Portal Profile & Contact Information
+                                    <Building2 className="h-4 w-4 text-purple-500" /> Portal Profile &amp; Contact Information
                                 </CardTitle>
                                 <CardDescription className="text-xs">
                                     Company metadata embedded in PDF/CSV export documents and alert messages.
@@ -726,7 +1160,9 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                             <CardContent className="p-5 space-y-4">
                                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                                     <div className="space-y-1.5">
-                                        <Label htmlFor="company_name" className="text-xs font-semibold">Company / Entity Name</Label>
+                                        <Label htmlFor="company_name" className="text-xs font-semibold">
+                                            Company / Entity Name
+                                        </Label>
                                         <Input
                                             id="company_name"
                                             value={data.company_name}
@@ -736,7 +1172,10 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                     </div>
 
                                     <div className="space-y-1.5">
-                                        <Label htmlFor="company_phone" className="text-xs font-semibold flex items-center gap-1">
+                                        <Label
+                                            htmlFor="company_phone"
+                                            className="text-xs font-semibold flex items-center gap-1"
+                                        >
                                             <Phone className="h-3 w-3 text-muted-foreground" /> ICT Support Hotline
                                         </Label>
                                         <Input
@@ -748,7 +1187,10 @@ export default function SettingsPage({ types, assignees, settings }: Props) {
                                     </div>
 
                                     <div className="space-y-1.5">
-                                        <Label htmlFor="support_email" className="text-xs font-semibold flex items-center gap-1">
+                                        <Label
+                                            htmlFor="support_email"
+                                            className="text-xs font-semibold flex items-center gap-1"
+                                        >
                                             <Mail className="h-3 w-3 text-muted-foreground" /> Support Email
                                         </Label>
                                         <Input

@@ -9,6 +9,7 @@ use App\Models\CaseType;
 use App\Services\TelegramService;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Inertia\Inertia;
 use Inertia\Response;
 
@@ -70,7 +71,219 @@ class CaseSettingController extends Controller
             'types' => $types,
             'assignees' => $assignees,
             'settings' => $settings,
+            'editTypes' => self::getEditTypes(),
+            'storeDepartments' => self::getStoreDepartments(),
         ]);
+    }
+
+    /**
+     * Get configured Edit Types for edit requests.
+     */
+    public static function getEditTypes(): array
+    {
+        $default = [
+            'Date Change',
+            'Quantity and Price',
+            'Quantity Only',
+            'Price Only',
+            'Supplier Name',
+            'Incorrect Store Selection',
+            'Incorrect Item Selection',
+            'FS Number',
+            'Item Only',
+        ];
+
+        try {
+            $val = DB::table('settings')->where('setting_key', 'edit_types')->value('setting_value')
+                ?? CaseSetting::get('edit_types');
+
+            if ($val) {
+                $decoded = json_decode($val, true);
+                if (is_array($decoded) && !empty($decoded)) {
+                    return array_values(array_unique(array_filter(array_map('trim', $decoded))));
+                }
+            }
+        } catch (\Throwable $e) {
+            // fallback
+        }
+
+        return $default;
+    }
+
+    /**
+     * Get configured Store Departments for On Hand Delete requests.
+     */
+    public static function getStoreDepartments(): array
+    {
+        $default = [
+            'Hot Beverage Store',
+            'Bottled Beverage Store',
+            'Pastry Store',
+            'Food Store',
+            'Juice Store',
+            'Stuff Store',
+            'Cup Store',
+            'Ice Cream Store',
+            'Coffee Roasted Store',
+            'Milk Store',
+            'Supply Store',
+            'Stationery Store',
+            'Cleaning Store',
+            'Packing Material Store',
+            'Spare Part Store',
+            'Uniform Store',
+            'Hot Kitchen',
+            'Bottle & Can Bar',
+            'Pastry',
+            'Juice & Smoothie Bar',
+            'Steward',
+            'Ice Cream & Shake Bar',
+            'Coffee Bar',
+            'Super Market Store',
+            'Staff Canteen',
+        ];
+
+        try {
+            $val = DB::table('settings')->where('setting_key', 'store_departments')->value('setting_value')
+                ?? CaseSetting::get('store_departments');
+
+            if ($val) {
+                $decoded = json_decode($val, true);
+                if (is_array($decoded) && !empty($decoded)) {
+                    return array_values(array_unique(array_filter(array_map('trim', $decoded))));
+                }
+            }
+        } catch (\Throwable $e) {
+            // fallback
+        }
+
+        return $default;
+    }
+
+    /**
+     * Persist Edit Types array to both settings and case_settings tables.
+     */
+    public static function saveEditTypes(array $items): void
+    {
+        $cleaned = array_values(array_unique(array_filter(array_map('trim', $items))));
+        $json = json_encode($cleaned);
+
+        try {
+            DB::table('settings')->updateOrInsert(
+                ['setting_key' => 'edit_types'],
+                ['setting_value' => $json]
+            );
+        } catch (\Throwable $e) {}
+
+        try {
+            CaseSetting::set('edit_types', $json);
+        } catch (\Throwable $e) {}
+    }
+
+    /**
+     * Persist Store Departments array to both settings and case_settings tables.
+     */
+    public static function saveStoreDepartments(array $items): void
+    {
+        $cleaned = array_values(array_unique(array_filter(array_map('trim', $items))));
+        $json = json_encode($cleaned);
+
+        try {
+            DB::table('settings')->updateOrInsert(
+                ['setting_key' => 'store_departments'],
+                ['setting_value' => $json]
+            );
+        } catch (\Throwable $e) {}
+
+        try {
+            CaseSetting::set('store_departments', $json);
+        } catch (\Throwable $e) {}
+    }
+
+    /**
+     * Add a new Edit Type.
+     */
+    public function storeEditType(Request $request): RedirectResponse
+    {
+        $validated = $request->validate([
+            'name' => 'required|string|max:100',
+        ]);
+
+        $name = trim($validated['name']);
+        $current = self::getEditTypes();
+
+        foreach ($current as $item) {
+            if (strcasecmp($item, $name) === 0) {
+                return back()->with('error', "Edit type '{$name}' already exists.");
+            }
+        }
+
+        $current[] = $name;
+        self::saveEditTypes($current);
+
+        return back()->with('success', "Edit type '{$name}' added successfully.");
+    }
+
+    /**
+     * Remove an Edit Type.
+     */
+    public function destroyEditType(Request $request): RedirectResponse
+    {
+        $validated = $request->validate([
+            'name' => 'required|string|max:100',
+        ]);
+
+        $name = trim($validated['name']);
+        $current = self::getEditTypes();
+
+        $filtered = array_values(array_filter($current, fn ($item) => strcasecmp($item, $name) !== 0));
+
+        self::saveEditTypes($filtered);
+
+        return back()->with('success', "Edit type '{$name}' removed.");
+    }
+
+    /**
+     * Add a new Store Department.
+     */
+    public function storeStoreDepartment(Request $request): RedirectResponse
+    {
+        $validated = $request->validate([
+            'name' => 'required|string|max:100',
+        ]);
+
+        $name = trim($validated['name']);
+        $current = self::getStoreDepartments();
+
+        foreach ($current as $item) {
+            if (strcasecmp($item, $name) === 0) {
+                return back()->with('error', "Department store '{$name}' already exists.");
+            }
+        }
+
+        $current[] = $name;
+        self::saveStoreDepartments($current);
+
+        return back()->with('success', "Department store '{$name}' added successfully.");
+    }
+
+    /**
+     * Remove a Store Department.
+     */
+    public function destroyStoreDepartment(Request $request): RedirectResponse
+    {
+        $validated = $request->validate([
+            'name' => 'required|string|max:100',
+        ]);
+
+        $name = trim($validated['name']);
+        $current = self::getStoreDepartments();
+
+        $filtered = array_values(array_filter($current, fn ($item) => strcasecmp($item, $name) !== 0));
+
+        self::saveStoreDepartments($filtered);
+
+        return back()->with('success', "Department store '{$name}' removed.");
     }
 
     public function update(Request $request): RedirectResponse
