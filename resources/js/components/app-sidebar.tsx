@@ -149,6 +149,12 @@ const sections: NavSection[] = [
                 icon: Server,
                 permission: 'telecom.providers.manage|manage telecom connections',
             },
+            {
+                title: 'Telegram Groups',
+                href: '/telecom/telegram-groups',
+                icon: Send,
+                permission: 'telecom.view|view telecom management',
+            },
         ],
     },
     // =========================================================

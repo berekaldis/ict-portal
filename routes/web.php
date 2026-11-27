@@ -26,6 +26,7 @@ use App\Http\Controllers\TelecomDashboardController;
 use App\Http\Controllers\TelecomPhoneNumberController;
 use App\Http\Controllers\TelecomBroadbandController;
 use App\Http\Controllers\TelecomProviderController;
+use App\Http\Controllers\TelecomTelegramGroupController;
 use App\Http\Controllers\KaldisCommunicationController;
 use App\Http\Controllers\PasswordManagerController;
 use App\Http\Controllers\UserController;
@@ -240,6 +241,18 @@ Route::middleware('auth')->group(function () {
             'store' => 'telecom.providers.store',
             'update' => 'telecom.providers.update',
             'destroy' => 'telecom.providers.destroy',
+        ]);
+
+        // Telegram Groups Management
+        Route::post('telegram-groups/{telegramGroup}/generate-link', [TelecomTelegramGroupController::class, 'generateLink'])
+            ->name('telecom.telegram-groups.generate-link');
+        Route::resource('telegram-groups', TelecomTelegramGroupController::class)->names([
+            'index'   => 'telecom.telegram-groups.index',
+            'create'  => 'telecom.telegram-groups.create',
+            'store'   => 'telecom.telegram-groups.store',
+            'edit'    => 'telecom.telegram-groups.edit',
+            'update'  => 'telecom.telegram-groups.update',
+            'destroy' => 'telecom.telegram-groups.destroy',
         ]);
     });
 

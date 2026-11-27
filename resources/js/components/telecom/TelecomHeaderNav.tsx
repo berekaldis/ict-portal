@@ -1,6 +1,6 @@
 import { Badge } from '@/components/ui/badge';
 import { Link, usePage } from '@inertiajs/react';
-import { Building2, LayoutDashboard, Phone, Wifi } from 'lucide-react';
+import { Building2, LayoutDashboard, Phone, Send, Wifi } from 'lucide-react';
 import React from 'react';
 
 interface TelecomHeaderNavProps {
@@ -42,6 +42,12 @@ export default function TelecomHeaderNav({
             href: '/telecom/providers',
             icon: Building2,
             active: url.startsWith('/telecom/providers'),
+        },
+        {
+            name: 'Telegram Groups',
+            href: '/telecom/telegram-groups',
+            icon: Send,
+            active: url.startsWith('/telecom/telegram-groups'),
         },
     ];
 
