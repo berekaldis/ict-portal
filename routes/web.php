@@ -66,6 +66,8 @@ Route::middleware('auth')->group(function () {
     Route::post('settings/test-telegram', [CaseSettingController::class, 'testTelegram'])->name('settings.test-telegram')->middleware('can:case.settings.manage');
     Route::post('settings/edit-types', [CaseSettingController::class, 'storeEditType'])->name('settings.edit-types.store')->middleware('can:case.settings.manage');
     Route::delete('settings/edit-types', [CaseSettingController::class, 'destroyEditType'])->name('settings.edit-types.destroy')->middleware('can:case.settings.manage');
+    Route::post('settings/voucher-types', [CaseSettingController::class, 'storeVoucherType'])->name('settings.voucher-types.store')->middleware('can:case.settings.manage');
+    Route::delete('settings/voucher-types', [CaseSettingController::class, 'destroyVoucherType'])->name('settings.voucher-types.destroy')->middleware('can:case.settings.manage');
     Route::post('settings/store-departments', [CaseSettingController::class, 'storeStoreDepartment'])->name('settings.store-departments.store')->middleware('can:case.settings.manage');
     Route::delete('settings/store-departments', [CaseSettingController::class, 'destroyStoreDepartment'])->name('settings.store-departments.destroy')->middleware('can:case.settings.manage');
 

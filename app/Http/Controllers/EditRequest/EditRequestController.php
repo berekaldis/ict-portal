@@ -131,23 +131,8 @@ class EditRequestController extends Controller
             }
         }
 
-        // Exact Voucher Types from edit_request folder
-        $voucherTypes = [
-            'Store Issue Voucher',
-            'Fresh Bazar Voucher',
-            'Item Consumption Voucher',
-            'Damage Return Voucher',
-            'Cash Good Receiving Voucher',
-            'Bank Deposit Voucher',
-            'Branch Department Transfer Voucher',
-            'Credit Good Receiving Voucher',
-            'Internal Store Transfer Voucher',
-            'Store Transfer Voucher',
-            'Cash Sales Adjustment Voucher',
-            'Motivation Voucher',
-            'Customer Complaint Voucher',
-            'Product Transfer Voucher',
-        ];
+        // Dynamic Voucher Types managed from System Settings
+        $voucherTypes = \App\Http\Controllers\Case\CaseSettingController::getVoucherTypes();
 
         // Dynamic Edit Types managed from System Settings
         $editTypes = \App\Http\Controllers\Case\CaseSettingController::getEditTypes();

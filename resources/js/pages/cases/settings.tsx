@@ -21,6 +21,7 @@ import {
     Phone,
     Plus,
     Radio,
+    Receipt,
     Save,
     Search,
     Send,
@@ -51,6 +52,7 @@ interface Props {
     assignees: CaseAssigneeItem[];
     settings: Record<string, string>;
     editTypes?: string[];
+    voucherTypes?: string[];
     storeDepartments?: string[];
 }
 
@@ -180,11 +182,15 @@ export default function SettingsPage({
     assignees = [],
     settings = {},
     editTypes = [],
+    voucherTypes = [],
     storeDepartments = [],
 }: Props) {
     // Inputs & Search States
     const [newType, setNewType] = useState('');
     const [caseTypeSearch, setCaseTypeSearch] = useState('');
+
+    const [newVoucherType, setNewVoucherType] = useState('');
+    const [voucherTypeSearch, setVoucherTypeSearch] = useState('');
 
     const [newEditType, setNewEditType] = useState('');
     const [editTypeSearch, setEditTypeSearch] = useState('');
@@ -266,6 +272,26 @@ export default function SettingsPage({
         }
     };
 
+    // Voucher Types Actions
+    const handleAddVoucherType = (e: React.FormEvent) => {
+        e.preventDefault();
+        if (!newVoucherType.trim()) return;
+
+        router.post(
+            route('settings.voucher-types.store'),
+            { name: newVoucherType.trim() },
+            { onSuccess: () => setNewVoucherType('') }
+        );
+    };
+
+    const handleDeleteVoucherType = (item: { key: string | number; name: string }) => {
+        if (confirm(`Delete voucher type "${item.name}"?`)) {
+            router.delete(route('settings.voucher-types.destroy'), {
+                data: { name: item.name },
+            });
+        }
+    };
+
     // Edit Types Actions
     const handleAddEditType = (e: React.FormEvent) => {
         e.preventDefault();
@@ -344,6 +370,10 @@ export default function SettingsPage({
 
     // Data structures for ItemListManager
     const caseTypeItems = useMemo(() => types.map((t) => ({ key: t.id, name: t.name })), [types]);
+    const voucherTypeItems = useMemo(
+        () => voucherTypes.map((v) => ({ key: v, name: v })),
+        [voucherTypes]
+    );
     const editTypeItems = useMemo(() => editTypes.map((t) => ({ key: t, name: t })), [editTypes]);
     const storeDeptItems = useMemo(
         () => storeDepartments.map((s) => ({ key: s, name: s })),
@@ -769,7 +799,7 @@ export default function SettingsPage({
                             </CardContent>
                         </Card>
 
-                        {/* 3. Edit Request Parameters & Master Lists (Edit Types & Department Stores) */}
+                        {/* 3. Edit Request Parameters & Master Lists (Voucher Types, Edit Types & Department Stores) */}
                         <div className="space-y-3">
                             <div className="flex items-center justify-between">
                                 <div>
@@ -777,12 +807,30 @@ export default function SettingsPage({
                                         <Layers className="h-4 w-4 text-blue-500" /> Edit Request Parameters & Master Lists
                                     </h2>
                                     <p className="text-xs text-muted-foreground">
-                                        Add, view, and remove Edit Types and Department Stores selectable during ticket creation.
+                                        Define, add, search, and remove Voucher Types, Edit Types, and Department Stores selectable during ticket creation.
                                     </p>
                                 </div>
                             </div>
 
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                <ItemListManager
+                                    title="Voucher Types"
+                                    badgeCount={voucherTypes.length}
+                                    badgeColor="bg-emerald-500/10 text-emerald-600 border-emerald-500/20"
+                                    icon={Receipt}
+                                    description="Voucher categories selectable when creating edit or void requests"
+                                    placeholder="e.g. Store Issue Voucher, Bank Deposit..."
+                                    items={voucherTypeItems}
+                                    searchValue={voucherTypeSearch}
+                                    onSearchChange={setVoucherTypeSearch}
+                                    newValue={newVoucherType}
+                                    onNewChange={setNewVoucherType}
+                                    onAdd={handleAddVoucherType}
+                                    onDelete={handleDeleteVoucherType}
+                                    emptyMessage="No voucher types configured"
+                                    buttonLabel="Add Voucher"
+                                />
+
                                 <ItemListManager
                                     title="Edit Types"
                                     badgeCount={editTypes.length}
@@ -986,7 +1034,26 @@ export default function SettingsPage({
                                 buttonLabel="Add Category"
                             />
 
-                            {/* 2. Edit Types */}
+                            {/* 2. Voucher Types */}
+                            <ItemListManager
+                                title="Voucher Types (Issue, Transfer, Receipt...)"
+                                badgeCount={voucherTypes.length}
+                                badgeColor="bg-emerald-500/10 text-emerald-600 border-emerald-500/20"
+                                icon={Receipt}
+                                description="Voucher categories selectable when creating edit or void requests"
+                                placeholder="e.g. Store Issue Voucher, Bank Deposit..."
+                                items={voucherTypeItems}
+                                searchValue={voucherTypeSearch}
+                                onSearchChange={setVoucherTypeSearch}
+                                newValue={newVoucherType}
+                                onNewChange={setNewVoucherType}
+                                onAdd={handleAddVoucherType}
+                                onDelete={handleDeleteVoucherType}
+                                emptyMessage="No voucher types configured"
+                                buttonLabel="Add Voucher"
+                            />
+
+                            {/* 3. Edit Types */}
                             <ItemListManager
                                 title="Edit Types (Voucher Changes)"
                                 badgeCount={editTypes.length}
@@ -1005,7 +1072,7 @@ export default function SettingsPage({
                                 buttonLabel="Add Type"
                             />
 
-                            {/* 3. Department Stores */}
+                            {/* 4. Department Stores */}
                             <ItemListManager
                                 title="Department Stores (On Hand Delete)"
                                 badgeCount={storeDepartments.length}
@@ -1024,8 +1091,8 @@ export default function SettingsPage({
                                 buttonLabel="Add Store"
                             />
 
-                            {/* 4. Assignees Management with Telegram ID */}
-                            <Card className="border-border/60 shadow-xs flex flex-col h-full">
+                            {/* 5. Assignees Management with Telegram ID */}
+                            <Card className="md:col-span-2 border-border/60 shadow-xs flex flex-col h-full">
                                 <CardHeader className="py-3 px-5 border-b border-border/40">
                                     <div className="flex items-center justify-between gap-2">
                                         <CardTitle className="text-sm font-semibold flex items-center gap-2">

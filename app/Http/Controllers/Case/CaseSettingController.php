@@ -72,8 +72,68 @@ class CaseSettingController extends Controller
             'assignees' => $assignees,
             'settings' => $settings,
             'editTypes' => self::getEditTypes(),
+            'voucherTypes' => self::getVoucherTypes(),
             'storeDepartments' => self::getStoreDepartments(),
         ]);
+    }
+
+    /**
+     * Get configured Voucher Types for edit requests.
+     */
+    public static function getVoucherTypes(): array
+    {
+        $default = [
+            'Store Issue Voucher',
+            'Fresh Bazar Voucher',
+            'Item Consumption Voucher',
+            'Damage Return Voucher',
+            'Cash Good Receiving Voucher',
+            'Bank Deposit Voucher',
+            'Branch Department Transfer Voucher',
+            'Credit Good Receiving Voucher',
+            'Internal Store Transfer Voucher',
+            'Store Transfer Voucher',
+            'Cash Sales Adjustment Voucher',
+            'Motivation Voucher',
+            'Customer Complaint Voucher',
+            'Product Transfer Voucher',
+        ];
+
+        try {
+            $val = DB::table('settings')->where('setting_key', 'voucher_types')->value('setting_value')
+                ?? CaseSetting::get('voucher_types');
+
+            if ($val) {
+                $decoded = json_decode($val, true);
+                if (is_array($decoded) && !empty($decoded)) {
+                    return array_values(array_unique(array_filter(array_map('trim', $decoded))));
+                }
+            }
+        } catch (\Throwable $e) {
+            // fallback
+        }
+
+        return $default;
+    }
+
+    /**
+     * Persist Voucher Types array to both settings and case_settings tables.
+     */
+    public static function saveVoucherTypes(array $items): void
+    {
+        $cleaned = array_values(array_unique(array_filter(array_map('trim', $items))));
+        $json = json_encode($cleaned);
+
+        try {
+            DB::table('settings')->updateOrInsert(
+                ['setting_key' => 'voucher_types'],
+                ['setting_value' => $json]
+            );
+        } catch (\Throwable $e) {}
+
+        try {
+            CaseSetting::set('voucher_types', $json);
+        } catch (\Throwable $e) {}
     }
 
     /**
@@ -241,6 +301,49 @@ class CaseSettingController extends Controller
         self::saveEditTypes($filtered);
 
         return back()->with('success', "Edit type '{$name}' removed.");
+    }
+
+    /**
+     * Add a new Voucher Type.
+     */
+    public function storeVoucherType(Request $request): RedirectResponse
+    {
+        $validated = $request->validate([
+            'name' => 'required|string|max:100',
+        ]);
+
+        $name = trim($validated['name']);
+        $current = self::getVoucherTypes();
+
+        foreach ($current as $item) {
+            if (strcasecmp($item, $name) === 0) {
+                return back()->with('error', "Voucher type '{$name}' already exists.");
+            }
+        }
+
+        $current[] = $name;
+        self::saveVoucherTypes($current);
+
+        return back()->with('success', "Voucher type '{$name}' added successfully.");
+    }
+
+    /**
+     * Remove a Voucher Type.
+     */
+    public function destroyVoucherType(Request $request): RedirectResponse
+    {
+        $validated = $request->validate([
+            'name' => 'required|string|max:100',
+        ]);
+
+        $name = trim($validated['name']);
+        $current = self::getVoucherTypes();
+
+        $filtered = array_values(array_filter($current, fn ($item) => strcasecmp($item, $name) !== 0));
+
+        self::saveVoucherTypes($filtered);
+
+        return back()->with('success', "Voucher type '{$name}' removed.");
     }
 
     /**
